@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-17T12:09:47.910Z",
+  "gerado_em": "2026-07-17T14:01:21.370Z",
   "visto_ate": "2026-07-17T00:20:21+00:00",
   "fontes": [
     {
@@ -10,8 +10,8 @@
     },
     {
       "nome": "google-explore",
-      "destinos": 90,
-      "status": "ok"
+      "destinos": 0,
+      "status": "nao_rodou"
     }
   ],
   "funil": {
@@ -19,21 +19,21 @@
     "materias_lidas": 0,
     "extracoes_falhas": 0,
     "ofertas_extraidas": 0,
-    "explore_destinos": 90,
-    "explore_status": "ok",
+    "explore_destinos": 0,
+    "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 24,
+    "ineditas": 0,
     "rotas_no_historico": 72,
     "com_baseline": 0,
     "por_perfil": {
       "ale-andreia": {
         "total_avaliadas": 126,
         "casam_no_perfil": 41,
-        "dessas_ja_alertadas_antes": 32,
-        "novas_para_alertar": 9,
-        "alertados": 5,
-        "cortadas_pelo_teto": 4,
+        "dessas_ja_alertadas_antes": 41,
+        "novas_para_alertar": 0,
+        "alertados": 0,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "domestico": 3,
           "origem": 7,
