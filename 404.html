@@ -10,13 +10,18 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Caçador" />
     <link rel="apple-touch-icon" href="/cacador/apple-touch-icon.png" />
+    <!-- Manifest à mão de propósito: o injectRegister do vite-pwa NÃO injetou
+         este link no build estático, e sem ele o iPhone não oferece "Adicionar
+         à Tela de Início" como app — abriria como atalho de navegador. Foi
+         pego só testando o site publicado; no localhost passava. -->
+    <link rel="manifest" href="/cacador/manifest.webmanifest" />
     <title>Caçador</title>
-    <link href="/cacador/_app/immutable/entry/start.DxeB27Il.js" rel="modulepreload">
-		<link href="/cacador/_app/immutable/chunks/BzsYzgsU.js" rel="modulepreload">
+    <link href="/cacador/_app/immutable/entry/start.DoncRlT8.js" rel="modulepreload">
+		<link href="/cacador/_app/immutable/chunks/vbPZ0AX8.js" rel="modulepreload">
 		<link href="/cacador/_app/immutable/chunks/apClzP-t.js" rel="modulepreload">
-		<link href="/cacador/_app/immutable/chunks/Di8OsdDM.js" rel="modulepreload">
+		<link href="/cacador/_app/immutable/chunks/DiQc5PBe.js" rel="modulepreload">
 		<link href="/cacador/_app/immutable/chunks/Ctd4seuu.js" rel="modulepreload">
-		<link href="/cacador/_app/immutable/entry/app.CH2pH2qA.js" rel="modulepreload">
+		<link href="/cacador/_app/immutable/entry/app.JaUh8UUQ.js" rel="modulepreload">
 		<link href="/cacador/_app/immutable/chunks/5w4a61Bj.js" rel="modulepreload">
 		<link href="/cacador/_app/immutable/chunks/DZgEFyND.js" rel="modulepreload">
 		<link href="/cacador/_app/immutable/chunks/CekUwei2.js" rel="modulepreload">
@@ -29,7 +34,7 @@
     <div style="display: contents">
 			<script>
 				{
-					__sveltekit_87874p = {
+					__sveltekit_1lxx8lt = {
 						base: "/cacador",
 						assets: "/cacador"
 					};
@@ -37,8 +42,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/cacador/_app/immutable/entry/start.DxeB27Il.js"),
-						import("/cacador/_app/immutable/entry/app.CH2pH2qA.js")
+						import("/cacador/_app/immutable/entry/start.DoncRlT8.js"),
+						import("/cacador/_app/immutable/entry/app.JaUh8UUQ.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
