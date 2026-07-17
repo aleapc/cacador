@@ -67,12 +67,21 @@ jobs:
       - name: Build do PWA
         run: BASE_PATH=/cacador npm run build
 
-      # Trava: nunca publicar build sem base path — CSS e JS quebrariam no
-      # GitHub Pages e o app abriria em branco.
-      - name: Conferir base path
+      # Travas de publicação. As duas já pegaram bug de verdade:
+      #  - sem base path, CSS/JS quebram no Pages e o app abre em branco;
+      #  - sem rel="manifest", o iPhone não oferece "Adicionar à Tela de
+      #    Início" como app — vira atalho de navegador. Esse passava no
+      #    localhost e só apareceu no site publicado.
+      - name: Conferir build antes de publicar
         run: |
           grep -q '/cacador/_app' build/index.html || {
-            echo "ABORTADO: build/index.html sem o base path /cacador"; exit 1; }
+            echo "::error::build/index.html sem o base path /cacador"; exit 1; }
+          grep -q 'rel="manifest"' build/index.html || {
+            echo "::error::build/index.html sem rel=manifest — o PWA não instalaria"; exit 1; }
+          test -f build/manifest.webmanifest || {
+            echo "::error::manifest.webmanifest não foi gerado"; exit 1; }
+          test -f build/icon-512.png || { echo "::error::icone 512 faltando"; exit 1; }
+          echo "build ok: base path, manifest e ícones presentes"
           touch build/.nojekyll
 
       - name: Commitar dados (só com build verde)

@@ -142,10 +142,18 @@ export function casaPerfil(oferta, perfil) {
       return `posicionamento_magro:${oferta.posicionamento.economia_grupo}`
   }
 
-  // O Google Explore devolve Rio, Salvador, Fortaleza. Destino doméstico não é
-  // "oportunidade de viagem" pra quem mora em São Paulo e quer 7-14 noites
-  // fora. Sai por padrão; é opção do perfil.
-  if (perfil.excluir_domestico !== false && /^brasil$/i.test(oferta.pais_texto || '')) return 'domestico'
+  // Destino doméstico não é "oportunidade de viagem" pra quem mora em São
+  // Paulo e quer 7-14 noites fora. Sai por padrão; é opção do perfil.
+  //
+  // Checa AS DUAS formas de dizer "Brasil": o Explore devolve pais_texto
+  // ("Brasil"), o extrator do blog devolve pais_iso2 ("BR"). Checar só um
+  // deixava "Natal saindo de Campinas" passar como oportunidade — e passar
+  // marcado como `casa`, porque Campinas normaliza para a área metropolitana
+  // de São Paulo. Duas fontes, dois vocabulários: aceitar um só é bug.
+  if (perfil.excluir_domestico !== false) {
+    const brasil = /^brasil$/i.test(oferta.pais_texto || '') || /^BR$/i.test(oferta.pais_iso2 || '')
+    if (brasil) return 'domestico'
+  }
 
   // A janela mais barata que o Google acha pode ser de 6 noites — não serve
   // pra quem quer 7-14. Só filtra quando a oferta DECLARA a janela: matéria de
