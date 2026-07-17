@@ -1,0 +1,114 @@
+# Caçada de hora em hora + publicação do PWA.
+#
+# Duas velocidades por rodada:
+#  - Melhores Destinos: TODA hora (promoção relâmpago é evento de hora)
+#  - Google Explore: 1x/dia (custa cota — 250/mês no SerpApi — e o preço não
+#    muda de hora em hora). A rodada das 09h17 UTC é a que traz os 90 destinos
+#    e alimenta a série histórica.
+#
+# Tarifa errada (bug fare) NÃO cabe aqui: dura 30min-2h, o cron do GitHub
+# atrasa, e os portais monetizados não publicam bug porque não paga comissão.
+# Ver README.
+#
+# Ordem importa: BUILD antes do commit. Se o build quebrar, main e gh-pages
+# ficam como estavam — avançam juntos ou nenhum avança.
+
+name: cacar
+
+on:
+  schedule:
+    - cron: '17 * * * *' # 17 min depois da hora: evita o pico do minuto 0
+  workflow_dispatch:
+    inputs:
+      com_explore:
+        description: 'Rodar o Google Explore (gasta 1 da cota de 250/mês)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cacar
+  cancel-in-progress: false
+
+jobs:
+  cacar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # 09h17 UTC = 06h17 em São Paulo: a série do dia é registrada antes de
+      # você acordar, e o Explore roda uma vez só.
+      - name: Decidir se roda o Explore
+        id: modo
+        run: |
+          if [ "${{ github.event.inputs.com_explore }}" = "true" ] || [ "$(date -u +%H)" = "09" ]; then
+            echo "flag=--explore" >> $GITHUB_OUTPUT
+          else
+            echo "flag=" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Caçar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node scripts/cacar/run.mjs ${{ steps.modo.outputs.flag }}
+
+      - name: Build do PWA
+        run: BASE_PATH=/cacador npm run build
+
+      # Trava: nunca publicar build sem base path — CSS e JS quebrariam no
+      # GitHub Pages e o app abriria em branco.
+      - name: Conferir base path
+        run: |
+          grep -q '/cacador/_app' build/index.html || {
+            echo "ABORTADO: build/index.html sem o base path /cacador"; exit 1; }
+          touch build/.nojekyll
+
+      - name: Commitar dados (só com build verde)
+        run: |
+          git config user.name "cacador-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add static/data/ofertas.json static/data/historico.json
+          git diff --cached --quiet || git commit -m "dados: caçada $(date -u +%FT%H:%MZ)"
+          git push
+
+      - name: Publicar no GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+
+      - name: Relatório como artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ofertas-${{ github.run_number }}
+          path: static/data/ofertas.json
+          retention-days: 30
+
+      # Falha barulhenta DEPOIS de publicar: um funil que não fecha ou uma
+      # fonte morta tem que avermelhar a Action (e-mail do GitHub) sem impedir
+      # a edição de ir ao ar. O silêncio é o que custou duas edições do
+      # Estado do Silício.
+      - name: Health check
+        run: |
+          node -e '
+            const d = require("./static/data/ofertas.json");
+            const mortas = (d.fontes||[]).filter(s => s.status !== "ok" && s.status !== "nao_rodou");
+            for (const s of mortas) console.log(`::warning title=Fonte ${s.status}::${s.nome}`);
+            for (const a of (d.avisos||[])) console.log(`::warning title=Funil suspeito::${a}`);
+            const p = Object.values(d.funil?.por_perfil || {})[0];
+            console.log(`${d.ofertas.length} ofertas | ${p?.casam_no_perfil ?? "?"} casam | ${p?.alertados ?? 0} alertadas`);
+            if (!d.ofertas.length) { console.log("::error::ZERO ofertas — coletor quebrado"); process.exit(1); }
+          '
