@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-19T06:41:51.698Z",
+  "gerado_em": "2026-07-19T09:16:42.336Z",
   "visto_ate": "2026-07-18T17:47:11+00:00",
   "fontes": [
     {
@@ -11,7 +11,7 @@
     {
       "nome": "google-explore",
       "destinos": 0,
-      "status": "nao_rodou"
+      "status": "sem_chave"
     }
   ],
   "funil": {
@@ -20,7 +20,7 @@
     "extracoes_falhas": 0,
     "ofertas_extraidas": 0,
     "explore_destinos": 0,
-    "explore_status": "nao_rodou",
+    "explore_status": "sem_chave",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
     "ineditas": 0,
