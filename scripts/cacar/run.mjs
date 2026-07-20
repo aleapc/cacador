@@ -16,10 +16,8 @@ import { registrar, marcarBaseline } from './baseline.mjs'
 import { alertar } from './alertar.mjs'
 
 const SECO = process.argv.includes('--seco')
-// O Explore custa cota (250/mês) e o preço não muda de hora em hora — roda só
-// uma vez por dia. O Melhores Destinos roda toda hora porque promoção
-// relâmpago é evento de hora.
-const COM_EXPLORE = process.argv.includes('--explore')
+const FORCA_EXPLORE = process.argv.includes('--explore')
+const NAO_EXPLORE = process.argv.includes('--sem-explore')
 const DADOS = 'static/data'
 const OFERTAS = `${DADOS}/ofertas.json`
 const HISTORICO = `${DADOS}/historico.json`
@@ -51,8 +49,18 @@ async function main() {
   const perfis = (await ler('data/perfis.json', { perfis: [] })).perfis.filter((p) => p.ativo)
   const estado = await ler(OFERTAS, { ofertas: [], visto_ate: null })
   const jaVistos = new Set(estado.ofertas.map((o) => o.id))
+  const hojeStr = new Date().toISOString().slice(0, 10)
 
-  console.log(`Caçando desde ${estado.visto_ate || '(primeira rodada)'} · ${perfis.length} perfil(is) ativo(s)`)
+  // O Explore custa cota (250/mês) e o preço não muda de hora em hora — roda uma
+  // vez por dia. Mas NÃO amarrado a um horário de cron: o GitHub atrasa e pula
+  // slots (foi assim que a série ficou congelada 3 dias). A regra é auto-curável:
+  // roda na PRIMEIRA execução de cada dia que ainda não rodou o Explore. Assim
+  // qualquer hora que o GitHub honrar serve, e a série nunca mais congela.
+  const jaRodouHoje = estado.ultimo_explore === hojeStr
+  const COM_EXPLORE = !NAO_EXPLORE && (FORCA_EXPLORE || (!!process.env.SERPAPI_KEY && !jaRodouHoje))
+
+  console.log(`Caçando desde ${estado.visto_ate || '(primeira rodada)'} · ${perfis.length} perfil(is) ativo(s)` +
+    ` · Explore: ${COM_EXPLORE ? 'SIM' : (jaRodouHoje ? 'já rodou hoje' : 'não')}`)
 
   const { nome, candidatos, artigos } = await coletar({
     desde: estado.visto_ate,
@@ -102,7 +110,6 @@ async function main() {
   console.log(`\n${inéditas.length} oferta(s) inédita(s) de ${todas.length} conhecidas`)
 
   // Registra a série ANTES de avaliar: o preço de hoje faz parte da história.
-  const hojeStr = new Date().toISOString().slice(0, 10)
   historico = registrar(historico, [...novas, ...doExplore.ofertas], hojeStr)
   // Avalia TODAS, não só as inéditas: baseline e veredito de perfil são
   // computação pura, sem custo de API, e uma oferta sem veredito no JSON vira
@@ -210,6 +217,10 @@ async function main() {
       {
         gerado_em: new Date().toISOString(),
         visto_ate: artigos[0]?.publicado_em || estado.visto_ate,
+        // Carimba o dia SÓ se o Explore realmente trouxe dado. Se falhou (cota,
+        // rede), não marca — assim a próxima execução tenta de novo em vez de
+        // achar que já rodou. É a diferença entre "rodou" e "rodou com sucesso".
+        ultimo_explore: doExplore.ofertas.length ? hojeStr : (estado.ultimo_explore ?? null),
         fontes: [
           { nome, candidatos, lidas: artigos.length, status: artigos.length ? 'ok' : 'vazio' },
           { nome: doExplore.nome, destinos: doExplore.destinos, status: doExplore.status },

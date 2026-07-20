@@ -45,24 +45,17 @@ jobs:
 
       - run: npm ci
 
-      # 09h17 UTC = 06h17 em São Paulo: a série do dia é registrada antes de
-      # você acordar, e o Explore roda uma vez só.
-      - name: Decidir se roda o Explore
-        id: modo
-        run: |
-          if [ "${{ github.event.inputs.com_explore }}" = "true" ] || [ "$(date -u +%H)" = "09" ]; then
-            echo "flag=--explore" >> $GITHUB_OUTPUT
-          else
-            echo "flag=" >> $GITHUB_OUTPUT
-          fi
-
+      # O Explore NÃO é amarrado a um horário: o próprio script decide, rodando
+      # na primeira execução de cada dia que ainda não rodou (via ultimo_explore
+      # no ofertas.json). O cron do GitHub atrasa e pula slots — foi assim que a
+      # série do baseline ficou 3 dias congelada. Só o forçamos via botão manual.
       - name: Caçar
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: node scripts/cacar/run.mjs ${{ steps.modo.outputs.flag }}
+        run: node scripts/cacar/run.mjs ${{ github.event.inputs.com_explore == 'true' && '--explore' || '' }}
 
       - name: Build do PWA
         run: BASE_PATH=/cacador npm run build
@@ -89,8 +82,20 @@ jobs:
           git config user.name "cacador-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add static/data/ofertas.json static/data/historico.json
-          git diff --cached --quiet || git commit -m "dados: caçada $(date -u +%FT%H:%MZ)"
-          git push
+          git diff --cached --quiet && { echo "nada mudou nos dados"; exit 0; }
+          git commit -m "dados: caçada $(date -u +%FT%H:%MZ)"
+          # Push com rebase e retry. main recebe commit toda hora; se o remoto
+          # avançou entre o checkout e o push (foi o que gerou o e-mail de
+          # falha), rebasa e tenta de novo em vez de morrer. Os dados são
+          # regenerados a cada rodada, então um rebase raramente conflita; se
+          # conflitar, falha alto e a próxima hora regenera do remoto fresco.
+          for tentativa in 1 2 3 4 5; do
+            if git push; then echo "push ok na tentativa $tentativa"; exit 0; fi
+            echo "push rejeitado — rebasando (tentativa $tentativa)"
+            git pull --rebase origin main || { echo "::error::conflito no rebase"; exit 1; }
+            sleep $((RANDOM % 8 + 2))
+          done
+          echo "::error::push falhou após 5 tentativas"; exit 1
 
       - name: Publicar no GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
