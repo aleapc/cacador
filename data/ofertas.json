@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-20T18:18:15.778Z",
-  "visto_ate": "2026-07-20T02:54:29+00:00",
+  "gerado_em": "2026-07-20T20:40:11.551Z",
+  "visto_ate": "2026-07-20T13:26:35+00:00",
   "ultimo_explore": "2026-07-20",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 2,
+      "lidas": 2,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,29 +16,29 @@
     }
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 2,
+    "materias_lidas": 2,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 7,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
-    "rotas_no_historico": 74,
+    "ineditas": 6,
+    "rotas_no_historico": 80,
     "com_baseline": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 190,
+        "total_avaliadas": 196,
         "casam_no_perfil": 63,
         "dessas_ja_alertadas_antes": 63,
         "novas_para_alertar": 0,
         "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
+          "posicionamento_desligado": 11,
           "domestico": 5,
-          "origem": 7,
-          "posicionamento_desligado": 6,
+          "origem": 8,
           "janela_curta": 40,
           "acima_do_teto": 69
         }
@@ -54,6 +54,135 @@
     }
   ],
   "ofertas": [
+    {
+      "id": "b24cc0f99216",
+      "origem_texto": "Vitória",
+      "origem_metro": "VIX",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 361,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-19-07-26",
+          "titulo": "Mega Promo Latam! Passagens aéreas para o Rio de Janeiro a partir de R$ 361 ida e volta!"
+        }
+      ],
+      "descoberto_em": "2026-07-20T13:26:35+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Vitória",
+        "praca_metro": "VIX",
+        "base_de_casa": 486,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 125,
+        "economia_grupo": 250,
+        "trecho_domestico": "SAO->VIX"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_250"
+      }
+    },
+    {
+      "id": "3532e0971153",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 468,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-19-07-26",
+          "titulo": "Mega Promo Latam! Passagens aéreas para o Rio de Janeiro a partir de R$ 361 ida e volta!"
+        }
+      ],
+      "descoberto_em": "2026-07-20T13:26:35+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Brasília",
+        "praca_metro": "BSB",
+        "base_de_casa": 486,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 18,
+        "economia_grupo": 36,
+        "trecho_domestico": "SAO->BSB"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_36"
+      }
+    },
+    {
+      "id": "50d4e8f1a3a2",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 480,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-19-07-26",
+          "titulo": "Mega Promo Latam! Passagens aéreas para o Rio de Janeiro a partir de R$ 361 ida e volta!"
+        }
+      ],
+      "descoberto_em": "2026-07-20T13:26:35+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Curitiba",
+        "praca_metro": "CWB",
+        "base_de_casa": 486,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 6,
+        "economia_grupo": 12,
+        "trecho_domestico": "SAO->CWB"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_12"
+      }
+    },
     {
       "id": "18b18c28853b",
       "origem_texto": "São Paulo",
@@ -2841,6 +2970,49 @@
       }
     },
     {
+      "id": "269c04caa493",
+      "origem_texto": "Fortaleza",
+      "origem_metro": "FOR",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 3455,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-mega-promo-latam-europa-18-07-26",
+          "titulo": "Mega promo Europa! Latam tem voos para Portugal, Espanha, Itália e mais destinos a partir de R$ 3.544 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-20T12:27:33+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Fortaleza",
+        "praca_metro": "FOR",
+        "base_de_casa": 3610,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 155,
+        "economia_grupo": 310,
+        "trecho_domestico": "SAO->FOR"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_310"
+      }
+    },
+    {
       "id": "bf0fb32fc6bb",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -3471,6 +3643,49 @@
       }
     },
     {
+      "id": "a824b4f7f030",
+      "origem_texto": "Salvador",
+      "origem_metro": "SSA",
+      "destino_texto": "Barcelona",
+      "destino_metro": "BCN",
+      "pais_iso2": "ES",
+      "preco_brl": 3671,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-mega-promo-latam-europa-18-07-26",
+          "titulo": "Mega promo Europa! Latam tem voos para Portugal, Espanha, Itália e mais destinos a partir de R$ 3.544 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-20T12:27:33+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Salvador",
+        "praca_metro": "SSA",
+        "base_de_casa": 3672,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 1,
+        "economia_grupo": 2,
+        "trecho_domestico": "SAO->SSA"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_2"
+      }
+    },
+    {
       "id": "8f27a16485c4",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -3634,6 +3849,11 @@
       "flags": [],
       "fontes": [
         {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-mega-promo-latam-europa-18-07-26",
+          "titulo": "Mega promo Europa! Latam tem voos para Portugal, Espanha, Itália e mais destinos a partir de R$ 3.544 ida e volta"
+        },
+        {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDR1JVGhUSCjIwMjYtMTEtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
           "titulo": "Madrid — Google Flights"
@@ -3688,6 +3908,40 @@
       },
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "b076a00a78a0",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 3796,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-mega-promo-latam-europa-18-07-26",
+          "titulo": "Mega promo Europa! Latam tem voos para Portugal, Espanha, Itália e mais destinos a partir de R$ 3.544 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-20T12:27:33+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "origem:BSB"
       }
     },
     {
