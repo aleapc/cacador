@@ -1,26 +1,27 @@
 {
-  "gerado_em": "2026-07-20T11:12:19.131Z",
+  "gerado_em": "2026-07-20T12:54:15.655Z",
   "visto_ate": "2026-07-20T02:54:29+00:00",
+  "ultimo_explore": null,
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 6,
-      "lidas": 6,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
       "destinos": 0,
-      "status": "nao_rodou"
+      "status": "sem_chave"
     }
   ],
   "funil": {
-    "candidatos_do_slug": 6,
-    "materias_lidas": 6,
-    "extracoes_falhas": 6,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
+    "extracoes_falhas": 0,
     "ofertas_extraidas": 0,
     "explore_destinos": 0,
-    "explore_status": "nao_rodou",
+    "explore_status": "sem_chave",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
     "ineditas": 0,
@@ -44,9 +45,7 @@
       }
     }
   },
-  "avisos": [
-    "leu matéria e extraiu ZERO oferta — extrator ou prompt quebrado?"
-  ],
+  "avisos": [],
   "perfis": [
     {
       "id": "ale-andreia",
