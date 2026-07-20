@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-20T20:40:11.551Z",
+  "gerado_em": "2026-07-20T22:12:25.242Z",
   "visto_ate": "2026-07-20T13:26:35+00:00",
   "ultimo_explore": "2026-07-20",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 2,
-      "lidas": 2,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -16,15 +16,15 @@
     }
   ],
   "funil": {
-    "candidatos_do_slug": 2,
-    "materias_lidas": 2,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 7,
+    "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 6,
+    "ineditas": 0,
     "rotas_no_historico": 80,
     "com_baseline": 0,
     "por_perfil": {
