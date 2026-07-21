@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-07-20T23:13:46.729Z",
+  "gerado_em": "2026-07-21T00:09:07.203Z",
   "visto_ate": "2026-07-20T13:26:35+00:00",
-  "ultimo_explore": "2026-07-20",
+  "ultimo_explore": "2026-07-21",
   "fontes": [
     {
       "nome": "melhores-destinos",
@@ -11,8 +11,8 @@
     },
     {
       "nome": "google-explore",
-      "destinos": 0,
-      "status": "nao_rodou"
+      "destinos": 90,
+      "status": "ok"
     }
   ],
   "funil": {
@@ -20,27 +20,27 @@
     "materias_lidas": 0,
     "extracoes_falhas": 0,
     "ofertas_extraidas": 0,
-    "explore_destinos": 0,
-    "explore_status": "nao_rodou",
+    "explore_destinos": 90,
+    "explore_status": "ok",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 64,
     "rotas_no_historico": 80,
     "com_baseline": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 196,
-        "casam_no_perfil": 63,
+        "total_avaliadas": 260,
+        "casam_no_perfil": 85,
         "dessas_ja_alertadas_antes": 63,
-        "novas_para_alertar": 0,
-        "alertados": 0,
-        "cortadas_pelo_teto": 0,
+        "novas_para_alertar": 22,
+        "alertados": 5,
+        "cortadas_pelo_teto": 17,
         "rejeitados": {
           "posicionamento_desligado": 11,
-          "domestico": 5,
+          "domestico": 7,
           "origem": 8,
-          "janela_curta": 40,
-          "acima_do_teto": 69
+          "janela_curta": 55,
+          "acima_do_teto": 94
         }
       }
     }
@@ -87,14 +87,55 @@
       "posicionamento": {
         "praca": "Vitória",
         "praca_metro": "VIX",
-        "base_de_casa": 486,
+        "base_de_casa": 442,
         "base_origem": "São Paulo",
-        "economia_por_pessoa": 125,
-        "economia_grupo": 250,
+        "economia_por_pessoa": 81,
+        "economia_grupo": 162,
         "trecho_domestico": "SAO->VIX"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_250"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_162"
+      }
+    },
+    {
+      "id": "8e4fe09d0e8d",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_texto": "Brasil",
+      "pais_iso2": "",
+      "preco_brl": 442,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol",
+      "janela": "2026-08-17 a 2026-08-25",
+      "janela_inicio": "2026-08-17",
+      "janela_fim": "2026-08-25",
+      "noites": 8,
+      "escalas": 0,
+      "duracao_min": 65,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE3agcIARIDR1JVGhUSCjIwMjYtMDgtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
+          "titulo": "Rio de Janeiro — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "domestico"
       }
     },
     {
@@ -217,7 +258,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -273,7 +314,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -308,6 +349,47 @@
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "ba3775f4362e",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Salvador",
+      "destino_metro": "SSA",
+      "pais_texto": "Brasil",
+      "pais_iso2": "",
+      "preco_brl": 625,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-09-24 a 2026-09-30",
+      "janela_inicio": "2026-09-24",
+      "janela_fim": "2026-09-30",
+      "noites": 6,
+      "escalas": 0,
+      "duracao_min": 140,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI0agcIARIDR1JVGhUSCjIwMjYtMDktMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA5d3dsag",
+          "titulo": "Salvador — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -382,7 +464,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -472,7 +554,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -672,11 +754,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "4f7ce934c29c",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "BUE",
+      "pais_texto": "Argentina",
+      "pais_iso2": "",
+      "preco_brl": 1228,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-08-24 a 2026-08-31",
+      "janela_inicio": "2026-08-24",
+      "janela_fim": "2026-08-31",
+      "noites": 7,
+      "escalas": 0,
+      "duracao_min": 185,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI0agcIARIDR1JVGhUSCjIwMjYtMDgtMzFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxbHk1bQ",
+          "titulo": "Buenos Aires — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
       }
     },
     {
@@ -713,7 +836,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -827,7 +950,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -904,7 +1027,48 @@
       "descoberto_em": "2026-07-16T00:19:03+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "865484302428",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Cancún",
+      "destino_metro": "CUN",
+      "pais_texto": "México",
+      "pais_iso2": "",
+      "preco_brl": 1750,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-10-04 a 2026-10-12",
+      "janela_inicio": "2026-10-04",
+      "janela_fim": "2026-10-12",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 684,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTA0agcIARIDR1JVGhUSCjIwMjYtMTAtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
+          "titulo": "Cancún — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -945,7 +1109,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1025,7 +1189,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1066,7 +1230,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1117,7 +1281,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1206,11 +1370,57 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "8ded7536cfde",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 2051,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-10-04 a 2026-10-12",
+      "janela_inicio": "2026-10-04",
+      "janela_fim": "2026-10-12",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 684,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTA0agcIARIDR1JVGhUSCjIwMjYtMTAtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmMnYw",
+          "titulo": "Miami — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTA0agcIARIDR1JVGhUSCjIwMjYtMTAtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzByajB6",
+          "titulo": "Fort Lauderdale — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
       }
     },
     {
@@ -1250,6 +1460,88 @@
         }
       ],
       "descoberto_em": "2026-07-20",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "15287ad4e98c",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Machu Picchu",
+      "destino_metro": "CUZ",
+      "pais_texto": "Peru",
+      "pais_iso2": "",
+      "preco_brl": 2074,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-08-06 a 2026-08-12",
+      "janela_inicio": "2026-08-06",
+      "janela_fim": "2026-08-12",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 515,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBrcmZ5",
+          "titulo": "Machu Picchu — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "13220f510323",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Orlando",
+      "destino_metro": "SFB",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 2094,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-08-23 a 2026-09-01",
+      "janela_inicio": "2026-08-23",
+      "janela_fim": "2026-09-01",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 687,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIzagcIARIDR1JVGhUSCjIwMjYtMDktMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
+          "titulo": "Orlando — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": false,
         "amostras": 2,
@@ -1411,7 +1703,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1479,7 +1771,7 @@
       "descoberto_em": "2026-07-11T14:31:23+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "perfis": {
@@ -1525,7 +1817,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "perfis": {
@@ -1601,7 +1893,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1657,7 +1949,48 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "ae638ea33257",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Parque Nacional Torres del Paine",
+      "destino_metro": "PNT",
+      "pais_texto": "Chile",
+      "pais_iso2": "",
+      "preco_brl": 2524,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-09-26 a 2026-10-03",
+      "janela_inicio": "2026-09-26",
+      "janela_fim": "2026-10-03",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 778,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI2agcIARIDR1JVGhUSCjIwMjYtMTAtMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAycDkyc3Q",
+          "titulo": "Parque Nacional Torres del Paine — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1698,7 +2031,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1754,7 +2087,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1800,7 +2133,48 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "3c33ce054de1",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Ushuaia",
+      "destino_metro": "USH",
+      "pais_texto": "Argentina",
+      "pais_iso2": "",
+      "preco_brl": 2606,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Aerolineas Argentinas",
+      "janela": "2026-09-14 a 2026-09-21",
+      "janela_inicio": "2026-09-14",
+      "janela_fim": "2026-09-21",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 670,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE0agcIARIDR1JVGhUSCjIwMjYtMDktMjFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxemRucw",
+          "titulo": "Ushuaia — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1856,7 +2230,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1933,7 +2307,48 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "18c2f55c62de",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Nova Iorque",
+      "destino_metro": "NYC",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 2751,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-09-24 a 2026-10-01",
+      "janela_inicio": "2026-09-24",
+      "janela_fim": "2026-10-01",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 760,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI0agcIARIDR1JVGhUSCjIwMjYtMTAtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAyXzI4Ng",
+          "titulo": "Nova Iorque — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -1974,7 +2389,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2079,6 +2494,47 @@
       }
     },
     {
+      "id": "414f7a4702b3",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Cidade do Cabo",
+      "destino_metro": "CPT",
+      "pais_texto": "África do Sul",
+      "pais_iso2": "",
+      "preco_brl": 2804,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-08-09 a 2026-08-17",
+      "janela_inicio": "2026-08-09",
+      "janela_fim": "2026-08-17",
+      "noites": 8,
+      "escalas": 0,
+      "duracao_min": 430,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA5agcIARIDR1JVGhUSCjIwMjYtMDgtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxeWoy",
+          "titulo": "Cidade do Cabo — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "144c190c2939",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -2146,7 +2602,7 @@
       "descoberto_em": "2026-07-16T13:18:58+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2187,7 +2643,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "perfis": {
@@ -2228,7 +2684,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2269,7 +2725,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2320,11 +2776,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "a87d13220d4b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Chicago",
+      "destino_metro": "ORD",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 3057,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-10-01 a 2026-10-09",
+      "janela_inicio": "2026-10-01",
+      "janela_fim": "2026-10-09",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 830,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTAxagcIARIDR1JVGhUSCjIwMjYtMTAtMDlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxX2Q0",
+          "titulo": "Chicago — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
       }
     },
     {
@@ -2371,6 +2868,88 @@
       }
     },
     {
+      "id": "50479c63dc37",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Walt Disney World Resort",
+      "destino_metro": "MCO",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 3092,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "American",
+      "janela": "2026-12-03 a 2026-12-09",
+      "janela_inicio": "2026-12-03",
+      "janela_fim": "2026-12-09",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 726,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTAzagcIARIDR1JVGhUSCjIwMjYtMTItMDlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5YjFr",
+          "titulo": "Walt Disney World Resort — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "9334305a2bb7",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Montreal",
+      "destino_metro": "YUL",
+      "pais_texto": "Canadá",
+      "pais_iso2": "",
+      "preco_brl": 3155,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Canada e Arajet",
+      "janela": "2026-11-05 a 2026-11-12",
+      "janela_inicio": "2026-11-05",
+      "janela_fim": "2026-11-12",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 855,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA1agcIARIDR1JVGhUSCjIwMjYtMTEtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1MnA3",
+          "titulo": "Montreal — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "969e7c44487b",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -2404,7 +2983,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2450,7 +3029,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2491,7 +3070,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2532,7 +3111,48 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "a87a0525ddf6",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Los Angeles",
+      "destino_metro": "LAX",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 3268,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-08-20 a 2026-08-27",
+      "janela_inicio": "2026-08-20",
+      "janela_fim": "2026-08-27",
+      "noites": 7,
+      "escalas": 0,
+      "duracao_min": 745,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
+          "titulo": "Los Angeles — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2573,7 +3193,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2682,7 +3302,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2799,7 +3419,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2850,7 +3470,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2906,7 +3526,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -2962,7 +3582,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3051,7 +3671,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3092,7 +3712,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3133,7 +3753,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3242,7 +3862,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3283,7 +3903,48 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "046c76daf287",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Vancouver",
+      "destino_metro": "YVR",
+      "pais_texto": "Canadá",
+      "pais_iso2": "",
+      "preco_brl": 3598,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Canada",
+      "janela": "2026-11-01 a 2026-11-08",
+      "janela_inicio": "2026-11-01",
+      "janela_fim": "2026-11-08",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 1115,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTAxagcIARIDR1JVGhUSCjIwMjYtMTEtMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA4MGgy",
+          "titulo": "Vancouver — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3339,7 +4000,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3390,7 +4051,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3441,7 +4102,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3497,11 +4158,93 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "c03f580c949a",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Washington, D.C.",
+      "destino_metro": "IAD",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 3617,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Avianca",
+      "janela": "2026-07-30 a 2026-08-07",
+      "janela_inicio": "2026-07-30",
+      "janela_fim": "2026-08-07",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 775,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTMwagcIARIDR1JVGhUSCjIwMjYtMDgtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzByaDZr",
+          "titulo": "Washington, D.C. — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "4c2ff4939b25",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "San Diego",
+      "destino_metro": "SAN",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 3639,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "COPA",
+      "janela": "2026-10-22 a 2026-10-29",
+      "janela_inicio": "2026-10-22",
+      "janela_fim": "2026-10-29",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 1063,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MXZy",
+          "titulo": "San Diego — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
       }
     },
     {
@@ -3538,11 +4281,52 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "53154cf9260c",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Boston",
+      "destino_metro": "BOS",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 3647,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Avianca",
+      "janela": "2026-09-25 a 2026-10-01",
+      "janela_inicio": "2026-09-25",
+      "janela_fim": "2026-10-01",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 875,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxY3hf",
+          "titulo": "Boston — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
       }
     },
     {
@@ -3579,7 +4363,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3635,7 +4419,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3719,7 +4503,48 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "ddbcd96465ec",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Las Vegas",
+      "destino_metro": "LAS",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 3696,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "COPA",
+      "janela": "2026-09-03 a 2026-09-09",
+      "janela_inicio": "2026-09-03",
+      "janela_fim": "2026-09-09",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 920,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTAzagcIARIDR1JVGhUSCjIwMjYtMDktMDlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBjdjN3",
+          "titulo": "Las Vegas — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3760,7 +4585,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3816,7 +4641,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3862,7 +4687,48 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "ba9e8822fe24",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Quebec",
+      "destino_metro": "YQB",
+      "pais_texto": "Canadá",
+      "pais_iso2": "",
+      "preco_brl": 3776,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "American e Air Canada",
+      "janela": "2026-11-13 a 2026-11-22",
+      "janela_inicio": "2026-11-13",
+      "janela_fim": "2026-11-22",
+      "noites": 9,
+      "escalas": 2,
+      "duracao_min": 2326,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTEzagcIARIDR1JVGhUSCjIwMjYtMTEtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbXAy",
+          "titulo": "Quebec — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3903,7 +4769,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -3978,7 +4844,48 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "2397216ec057",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Paris",
+      "destino_metro": "PAR",
+      "pais_texto": "França",
+      "pais_iso2": "",
+      "preco_brl": 3857,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Avianca",
+      "janela": "2026-09-28 a 2026-10-07",
+      "janela_inicio": "2026-09-28",
+      "janela_fim": "2026-10-07",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1100,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI4agcIARIDR1JVGhUSCjIwMjYtMTAtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq",
+          "titulo": "Paris — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4019,7 +4926,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4060,7 +4967,48 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "32784e92f6c8",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_texto": "Portugal",
+      "pais_iso2": "",
+      "preco_brl": 3890,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "British Airways",
+      "janela": "2026-11-19 a 2026-11-26",
+      "janela_inicio": "2026-11-19",
+      "janela_fim": "2026-11-26",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 1020,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDR1JVGhUSCjIwMjYtMTEtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi",
+          "titulo": "Lisboa — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4111,7 +5059,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4157,7 +5105,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4208,7 +5156,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4264,7 +5212,48 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "36ddcc823e23",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Dubai",
+      "destino_metro": "SHJ",
+      "pais_texto": "Emirados Árabes Unidos",
+      "pais_iso2": "",
+      "preco_brl": 3924,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Ethiopian",
+      "janela": "2026-08-10 a 2026-08-18",
+      "janela_inicio": "2026-08-10",
+      "janela_fim": "2026-08-18",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 1120,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDR1JVGhUSCjIwMjYtMDgtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxZjA4cg",
+          "titulo": "Dubai — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4305,7 +5294,48 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "4d78aba48617",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "São Francisco",
+      "destino_metro": "SFO",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 3934,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Canada",
+      "janela": "2026-10-25 a 2026-11-01",
+      "janela_inicio": "2026-10-25",
+      "janela_fim": "2026-11-01",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 1060,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI1agcIARIDR1JVGhUSCjIwMjYtMTEtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkNmxw",
+          "titulo": "São Francisco — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4356,7 +5386,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4397,7 +5427,48 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "53088aebea5c",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Veneza",
+      "destino_metro": "VCE",
+      "pais_texto": "Itália",
+      "pais_iso2": "",
+      "preco_brl": 3951,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Europa",
+      "janela": "2026-11-09 a 2026-11-18",
+      "janela_inicio": "2026-11-09",
+      "janela_fim": "2026-11-18",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 860,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3X3Bm",
+          "titulo": "Veneza — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4448,7 +5519,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4504,7 +5575,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4550,7 +5621,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4591,7 +5662,48 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "caf94ef0332e",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Madrid",
+      "destino_metro": "MAD",
+      "pais_texto": "Espanha",
+      "pais_iso2": "",
+      "preco_brl": 3989,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Europa",
+      "janela": "2026-10-30 a 2026-11-08",
+      "janela_inicio": "2026-10-30",
+      "janela_fim": "2026-11-08",
+      "noites": 9,
+      "escalas": 0,
+      "duracao_min": 610,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTMwagcIARIDR1JVGhUSCjIwMjYtMTEtMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
+          "titulo": "Madrid — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4632,7 +5744,48 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "28163c83b87e",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Roma",
+      "destino_metro": "FCO",
+      "pais_texto": "Itália",
+      "pais_iso2": "",
+      "preco_brl": 4000,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Europa",
+      "janela": "2026-11-09 a 2026-11-18",
+      "janela_inicio": "2026-11-09",
+      "janela_fim": "2026-11-18",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 865,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
+          "titulo": "Roma — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4673,7 +5826,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4714,7 +5867,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4755,11 +5908,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:4024>4000"
+      }
+    },
+    {
+      "id": "8bcef2f74785",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Amsterdã",
+      "destino_metro": "AMS",
+      "pais_texto": "Países Baixos",
+      "pais_iso2": "",
+      "preco_brl": 4035,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "ITA",
+      "janela": "2026-11-23 a 2026-12-02",
+      "janela_inicio": "2026-11-23",
+      "janela_fim": "2026-12-02",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 920,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIzagcIARIDR1JVGhUSCjIwMjYtMTItMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBrM3A",
+          "titulo": "Amsterdã — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4035>4000"
       }
     },
     {
@@ -4796,11 +5990,52 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:4127>4000"
+      }
+    },
+    {
+      "id": "d6be963fdbfb",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Barcelona",
+      "destino_metro": "BCN",
+      "pais_texto": "Espanha",
+      "pais_iso2": "",
+      "preco_brl": 4132,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Europa",
+      "janela": "2026-11-09 a 2026-11-18",
+      "janela_inicio": "2026-11-09",
+      "janela_fim": "2026-11-18",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 830,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy",
+          "titulo": "Barcelona — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4132>4000"
       }
     },
     {
@@ -4837,7 +6072,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4893,7 +6128,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4939,7 +6174,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -4990,7 +6225,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5031,11 +6266,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:4163>4000"
+      }
+    },
+    {
+      "id": "2c5e05e5fff8",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Londres",
+      "destino_metro": "LON",
+      "pais_texto": "Reino Unido",
+      "pais_iso2": "",
+      "preco_brl": 4177,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Tap Air Portugal",
+      "janela": "2026-11-19 a 2026-11-25",
+      "janela_inicio": "2026-11-19",
+      "janela_fim": "2026-11-25",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 1065,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDR1JVGhUSCjIwMjYtMTEtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0anBs",
+          "titulo": "Londres — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
       }
     },
     {
@@ -5072,7 +6348,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5128,11 +6404,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:4221>4000"
+      }
+    },
+    {
+      "id": "f00ffb8bb2a3",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Viena",
+      "destino_metro": "VIE",
+      "pais_texto": "Áustria",
+      "pais_iso2": "",
+      "preco_brl": 4232,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Iberia",
+      "janela": "2026-11-09 a 2026-11-18",
+      "janela_inicio": "2026-11-09",
+      "janela_fim": "2026-11-18",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1115,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmaHA5",
+          "titulo": "Viena — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4232>4000"
       }
     },
     {
@@ -5174,7 +6491,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5215,7 +6532,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5261,11 +6578,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:4335>4000"
+      }
+    },
+    {
+      "id": "dac4094e5688",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Florença",
+      "destino_metro": "FLR",
+      "pais_texto": "Itália",
+      "pais_iso2": "",
+      "preco_brl": 4348,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Tap Air Portugal",
+      "janela": "2026-11-14 a 2026-11-22",
+      "janela_inicio": "2026-11-14",
+      "janela_fim": "2026-11-22",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 915,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDR1JVGhUSCjIwMjYtMTEtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzMXky",
+          "titulo": "Florença — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4348>4000"
       }
     },
     {
@@ -5302,7 +6660,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5358,11 +6716,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:4387>4000"
+      }
+    },
+    {
+      "id": "0b9798c72c11",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Malta",
+      "destino_metro": "MLA",
+      "pais_texto": "Malta",
+      "pais_iso2": "",
+      "preco_brl": 4402,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air France, Gol, KLM e KM Malta Airlines",
+      "janela": "2026-08-02 a 2026-08-11",
+      "janela_inicio": "2026-08-02",
+      "janela_fim": "2026-08-11",
+      "noites": 9,
+      "escalas": 2,
+      "duracao_min": 1195,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTAyagcIARIDR1JVGhUSCjIwMjYtMDgtMTFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0djNx",
+          "titulo": "Malta — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4402>4000"
       }
     },
     {
@@ -5399,7 +6798,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5440,11 +6839,175 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:4425>4000"
+      }
+    },
+    {
+      "id": "d2cc7e7bb09b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Seattle",
+      "destino_metro": "SEA",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 4444,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "American",
+      "janela": "2026-07-27 a 2026-08-05",
+      "janela_inicio": "2026-07-27",
+      "janela_fim": "2026-08-05",
+      "noites": 9,
+      "escalas": 2,
+      "duracao_min": 1555,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTI3agcIARIDR1JVGhUSCjIwMjYtMDgtMDVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkOWpy",
+          "titulo": "Seattle — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4444>4000"
+      }
+    },
+    {
+      "id": "6de3b4301c1c",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Atenas",
+      "destino_metro": "ATH",
+      "pais_texto": "Grécia",
+      "pais_iso2": "",
+      "preco_brl": 4484,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Iberia",
+      "janela": "2026-08-09 a 2026-08-18",
+      "janela_inicio": "2026-08-09",
+      "janela_fim": "2026-08-18",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1120,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA5agcIARIDR1JVGhUSCjIwMjYtMDgtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBuMno",
+          "titulo": "Atenas — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4484>4000"
+      }
+    },
+    {
+      "id": "d0a3223a7256",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Honolulu",
+      "destino_metro": "HNL",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 4582,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Canada",
+      "janela": "2026-11-07 a 2026-11-16",
+      "janela_inicio": "2026-11-07",
+      "janela_fim": "2026-11-16",
+      "noites": 9,
+      "escalas": 2,
+      "duracao_min": 1855,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA3agcIARIDR1JVGhUSCjIwMjYtMTEtMTZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAyaHJoMF8",
+          "titulo": "Honolulu — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4582>4000"
+      }
+    },
+    {
+      "id": "5abf94a79f85",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Maui",
+      "destino_metro": "OGG",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 4587,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Canada",
+      "janela": "2026-10-26 a 2026-11-02",
+      "janela_inicio": "2026-10-26",
+      "janela_fim": "2026-11-02",
+      "noites": 7,
+      "escalas": 2,
+      "duracao_min": 1782,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI2agcIARIDR1JVGhUSCjIwMjYtMTEtMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBqYnM1",
+          "titulo": "Maui — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4587>4000"
       }
     },
     {
@@ -5496,11 +7059,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:4599>4000"
+      }
+    },
+    {
+      "id": "98fecfab1386",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Berlim",
+      "destino_metro": "BER",
+      "pais_texto": "Alemanha",
+      "pais_iso2": "",
+      "preco_brl": 4605,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Tap Air Portugal",
+      "janela": "2026-11-09 a 2026-11-18",
+      "janela_inicio": "2026-11-09",
+      "janela_fim": "2026-11-18",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1195,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxNTZx",
+          "titulo": "Berlim — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4605>4000"
       }
     },
     {
@@ -5537,7 +7141,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5583,7 +7187,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5639,7 +7243,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5680,11 +7284,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:4671>4000"
+      }
+    },
+    {
+      "id": "ed4a24023e35",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Ilha de Páscoa",
+      "destino_metro": "IPC",
+      "pais_texto": "Chile",
+      "pais_iso2": "",
+      "preco_brl": 4687,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2027-01-07 a 2027-01-13",
+      "janela_inicio": "2027-01-07",
+      "janela_fim": "2027-01-13",
+      "noites": 6,
+      "escalas": 3,
+      "duracao_min": 1820,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI3LTAxLTA3agcIARIDR1JVGhUSCjIwMjctMDEtMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkX3p6",
+          "titulo": "Ilha de Páscoa — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
       }
     },
     {
@@ -5721,7 +7366,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5767,7 +7412,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5823,7 +7468,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5879,7 +7524,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -5920,11 +7565,52 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:4898>4000"
+      }
+    },
+    {
+      "id": "95d9cd4f0892",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Edimburgo",
+      "destino_metro": "EDI",
+      "pais_texto": "Reino Unido",
+      "pais_iso2": "",
+      "preco_brl": 4900,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air France e Gol",
+      "janela": "2026-08-09 a 2026-08-17",
+      "janela_inicio": "2026-08-09",
+      "janela_fim": "2026-08-17",
+      "noites": 8,
+      "escalas": 2,
+      "duracao_min": 1355,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA5agcIARIDR1JVGhUSCjIwMjYtMDgtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAybTc3",
+          "titulo": "Edimburgo — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4900>4000"
       }
     },
     {
@@ -5961,11 +7647,52 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:4913>4000"
+      }
+    },
+    {
+      "id": "be29cdda8f08",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Istambul",
+      "destino_metro": "IST",
+      "pais_texto": "Turquia",
+      "pais_iso2": "",
+      "preco_brl": 4923,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "British Airways",
+      "janela": "2026-11-14 a 2026-11-22",
+      "janela_inicio": "2026-11-14",
+      "janela_fim": "2026-11-22",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 1330,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDR1JVGhUSCjIwMjYtMTEtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA5OTQ5bQ",
+          "titulo": "Istambul — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4923>4000"
       }
     },
     {
@@ -6017,11 +7744,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "f6b23645cfda",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Praga",
+      "destino_metro": "PRG",
+      "pais_texto": "Tchéquia",
+      "pais_iso2": "",
+      "preco_brl": 5090,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Iberia e LATAM",
+      "janela": "2026-11-09 a 2026-11-18",
+      "janela_inicio": "2026-11-09",
+      "janela_fim": "2026-11-18",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 920,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn",
+          "titulo": "Praga — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5090>4000"
       }
     },
     {
@@ -6058,11 +7826,52 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:5090>4000"
+      }
+    },
+    {
+      "id": "6bedd54e0d8b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Budapeste",
+      "destino_metro": "BUD",
+      "pais_texto": "Hungria",
+      "pais_iso2": "",
+      "preco_brl": 5137,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "British Airways",
+      "janela": "2026-11-15 a 2026-11-24",
+      "janela_inicio": "2026-11-15",
+      "janela_fim": "2026-11-24",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 910,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDR1JVGhUSCjIwMjYtMTEtMjRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NXdf",
+          "titulo": "Budapeste — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5137>4000"
       }
     },
     {
@@ -6099,7 +7908,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6140,7 +7949,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6196,7 +8005,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6237,11 +8046,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:5477>4000"
+      }
+    },
+    {
+      "id": "18c11ef5f72d",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Santorini",
+      "destino_metro": "JTR",
+      "pais_texto": "Grécia",
+      "pais_iso2": "",
+      "preco_brl": 5495,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air France",
+      "janela": "2026-08-10 a 2026-08-18",
+      "janela_inicio": "2026-08-10",
+      "janela_fim": "2026-08-18",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 970,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDR1JVGhUSCjIwMjYtMDgtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MHQ5",
+          "titulo": "Santorini — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5495>4000"
       }
     },
     {
@@ -6283,7 +8133,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6324,7 +8174,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6365,7 +8215,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6406,7 +8256,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6447,7 +8297,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6493,7 +8343,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6585,11 +8435,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "c4b3bdfc46ae",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Mumbai",
+      "destino_metro": "BOM",
+      "pais_texto": "Índia",
+      "pais_iso2": "",
+      "preco_brl": 6118,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "American, Etihad e Akasa Air",
+      "janela": "2026-11-22 a 2026-11-30",
+      "janela_inicio": "2026-11-22",
+      "janela_fim": "2026-11-30",
+      "noites": 8,
+      "escalas": 2,
+      "duracao_min": 2155,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIyagcIARIDR1JVGhUSCjIwMjYtMTEtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0dm1w",
+          "titulo": "Mumbai — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:6118>4000"
       }
     },
     {
@@ -6626,11 +8517,93 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:6118>4000"
+      }
+    },
+    {
+      "id": "8c2aeee65d4a",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Parque Nacional Kruger",
+      "destino_metro": "HDS",
+      "pais_texto": "África do Sul",
+      "pais_iso2": "",
+      "preco_brl": 6215,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "CemAir Pty e South African",
+      "janela": "2026-08-08 a 2026-08-14",
+      "janela_inicio": "2026-08-08",
+      "janela_fim": "2026-08-14",
+      "noites": 6,
+      "escalas": 2,
+      "duracao_min": 2210,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA4agcIARIDR1JVGhUSCjIwMjYtMDgtMTRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxc24xeg",
+          "titulo": "Parque Nacional Kruger — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "1a48a1230a26",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Melbourne",
+      "destino_metro": "MEL",
+      "pais_texto": "Austrália",
+      "pais_iso2": "",
+      "preco_brl": 6236,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-08-03 a 2026-08-09",
+      "janela_inicio": "2026-08-03",
+      "janela_fim": "2026-08-09",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 1235,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTAzagcIARIDR1JVGhUSCjIwMjYtMDgtMDlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzBjaGd6bQ",
+          "titulo": "Melbourne — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
       }
     },
     {
@@ -6667,7 +8640,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6723,11 +8696,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:6337>4000"
+      }
+    },
+    {
+      "id": "6d464297b2b8",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Tóquio",
+      "destino_metro": "TYO",
+      "pais_texto": "Japão",
+      "pais_iso2": "",
+      "preco_brl": 6392,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-11-30 a 2026-12-08",
+      "janela_inicio": "2026-11-30",
+      "janela_fim": "2026-12-08",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 1655,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTMwagcIARIDR1JVGhUSCjIwMjYtMTItMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3ZGZr",
+          "titulo": "Tóquio — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:6392>4000"
       }
     },
     {
@@ -6764,7 +8778,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6820,11 +8834,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:6408>4000"
+      }
+    },
+    {
+      "id": "7ce3181ff20f",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Sydney",
+      "destino_metro": "SYD",
+      "pais_texto": "Austrália",
+      "pais_iso2": "",
+      "preco_brl": 6436,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-08-07 a 2026-08-13",
+      "janela_inicio": "2026-08-07",
+      "janela_fim": "2026-08-13",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 1305,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA3agcIARIDR1JVGhUSCjIwMjYtMDgtMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2eTU3",
+          "titulo": "Sydney — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
       }
     },
     {
@@ -6861,7 +8916,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -6917,11 +8972,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:6438>4000"
+      }
+    },
+    {
+      "id": "d10b84939ec4",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Bangkok",
+      "destino_metro": "BKK",
+      "pais_texto": "Tailândia",
+      "pais_iso2": "",
+      "preco_brl": 6462,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Etihad, Iberia, Malaysia Airlines e Qatar Airways",
+      "janela": "2026-10-19 a 2026-10-25",
+      "janela_inicio": "2026-10-19",
+      "janela_fim": "2026-10-25",
+      "noites": 6,
+      "escalas": 2,
+      "duracao_min": 1845,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE5agcIARIDR1JVGhUSCjIwMjYtMTAtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmbjJn",
+          "titulo": "Bangkok — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
       }
     },
     {
@@ -6958,11 +9054,57 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "672064237a7f",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Queenstown",
+      "destino_metro": "ZQN",
+      "pais_texto": "Nova Zelândia",
+      "pais_iso2": "",
+      "preco_brl": 6486,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM e Qantas",
+      "janela": "2026-09-17 a 2026-09-24",
+      "janela_inicio": "2026-09-17",
+      "janela_fim": "2026-09-24",
+      "noites": 7,
+      "escalas": 2,
+      "duracao_min": 2185,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE3agcIARIDR1JVGhUSCjIwMjYtMDktMjRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxN2NmNw",
+          "titulo": "Queenstown — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE3agcIARIDR1JVGhUSCjIwMjYtMDktMjRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAyZjNwZw",
+          "titulo": "Fiordland National Park — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:6486>4000"
       }
     },
     {
@@ -7014,7 +9156,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "perfis": {
@@ -7060,7 +9202,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7162,7 +9304,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7208,7 +9350,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7264,11 +9406,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:6835>4000"
+      }
+    },
+    {
+      "id": "eb1a59b5b5cd",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Hong Kong",
+      "destino_metro": "HKG",
+      "pais_texto": "Hong Kong",
+      "pais_iso2": "",
+      "preco_brl": 6871,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Ethiopian",
+      "janela": "2026-08-09 a 2026-08-18",
+      "janela_inicio": "2026-08-09",
+      "janela_fim": "2026-08-18",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1570,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA5agcIARIDR1JVGhUSCjIwMjYtMDgtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzaDY0",
+          "titulo": "Hong Kong — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:6871>4000"
       }
     },
     {
@@ -7305,7 +9488,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7361,7 +9544,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7427,7 +9610,140 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "2fe0d2ae60da",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Quioto",
+      "destino_metro": "KIX",
+      "pais_texto": "Japão",
+      "pais_iso2": "",
+      "preco_brl": 7084,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-12-05 a 2026-12-13",
+      "janela_inicio": "2026-12-05",
+      "janela_fim": "2026-12-13",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 1605,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTA1agcIARIDR1JVGhUSCjIwMjYtMTItMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZDRf",
+          "titulo": "Quioto — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTA1agcIARIDR1JVGhUSCjIwMjYtMTItMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkcXl3",
+          "titulo": "Osaka — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:7084>4000"
+      }
+    },
+    {
+      "id": "747988981a70",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Anchorage",
+      "destino_metro": "ANC",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 7084,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "United",
+      "janela": "2026-08-17 a 2026-08-23",
+      "janela_inicio": "2026-08-17",
+      "janela_fim": "2026-08-23",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 1184,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE3agcIARIDR1JVGhUSCjIwMjYtMDgtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzBnX3duMg",
+          "titulo": "Anchorage — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "506dfd6a5895",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Parque Nacional e Reserva de Denali",
+      "destino_metro": "FAI",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "",
+      "preco_brl": 7084,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "United",
+      "janela": "2026-08-17 a 2026-08-23",
+      "janela_inicio": "2026-08-17",
+      "janela_fim": "2026-08-23",
+      "noites": 6,
+      "escalas": 2,
+      "duracao_min": 1779,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE3agcIARIDR1JVGhUSCjIwMjYtMDgtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxbmI2cA",
+          "titulo": "Parque Nacional e Reserva de Denali — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE3agcIARIDR1JVGhUSCjIwMjYtMDgtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBxZjVw",
+          "titulo": "Fairbanks — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7468,7 +9784,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7514,7 +9830,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7560,7 +9876,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7616,7 +9932,48 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "4884e4792029",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Singapura",
+      "destino_metro": "SIN",
+      "pais_texto": "Singapura",
+      "pais_iso2": "",
+      "preco_brl": 7317,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-10-22 a 2026-10-28",
+      "janela_inicio": "2026-10-22",
+      "janela_fim": "2026-10-28",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 1605,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2dDJ0",
+          "titulo": "Singapura — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7657,7 +10014,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7703,7 +10060,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7769,11 +10126,57 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:7609>4000"
+      }
+    },
+    {
+      "id": "ef04398021a7",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Bali",
+      "destino_metro": "DPS",
+      "pais_texto": "Indonésia",
+      "pais_iso2": "",
+      "preco_brl": 7676,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-10-16 a 2026-10-25",
+      "janela_inicio": "2026-10-16",
+      "janela_fim": "2026-10-25",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1725,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE2agcIARIDR1JVGhUSCjIwMjYtMTAtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBESoPCAMSCy9nLzEyMWh4aDFq",
+          "titulo": "Bali — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE2agcIARIDR1JVGhUSCjIwMjYtMTAtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA0bjA5OQ",
+          "titulo": "Ubud — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:7676>4000"
       }
     },
     {
@@ -7815,7 +10218,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7856,7 +10259,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7912,7 +10315,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -7978,7 +10381,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8024,7 +10427,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8080,11 +10483,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:8116>4000"
+      }
+    },
+    {
+      "id": "95dd8e333c16",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Ilha Maurícia",
+      "destino_metro": "MRU",
+      "pais_texto": "Maurício",
+      "pais_iso2": "",
+      "preco_brl": 8188,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-09-17 a 2026-09-24",
+      "janela_inicio": "2026-09-17",
+      "janela_fim": "2026-09-24",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 1535,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE3agcIARIDR1JVGhUSCjIwMjYtMDktMjRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBEioQCAMSDC9nLzExMnlmZHQxbQ",
+          "titulo": "Ilha Maurícia — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:8188>4000"
       }
     },
     {
@@ -8121,7 +10565,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8162,7 +10606,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8208,7 +10652,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8254,11 +10698,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:9151>4000"
+      }
+    },
+    {
+      "id": "ccfe0e0216f2",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Perth",
+      "destino_metro": "PER",
+      "pais_texto": "Austrália",
+      "pais_iso2": "",
+      "preco_brl": 9281,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM e Qantas",
+      "janela": "2026-08-14 a 2026-08-23",
+      "janela_inicio": "2026-08-14",
+      "janela_fim": "2026-08-23",
+      "noites": 9,
+      "escalas": 2,
+      "duracao_min": 1690,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE0agcIARIDR1JVGhUSCjIwMjYtMDgtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2MnFn",
+          "titulo": "Perth — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:9281>4000"
       }
     },
     {
@@ -8305,7 +10790,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8361,7 +10846,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8417,11 +10902,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:9735>4000"
+      }
+    },
+    {
+      "id": "f2a7e81c2097",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Astana",
+      "destino_metro": "NQZ",
+      "pais_texto": "Cazaquistão",
+      "pais_iso2": "",
+      "preco_brl": 9760,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-08-13 a 2026-08-19",
+      "janela_inicio": "2026-08-13",
+      "janela_fim": "2026-08-19",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 1220,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDR1JVGhUSCjIwMjYtMDgtMTlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmbjA4",
+          "titulo": "Astana — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
       }
     },
     {
@@ -8458,7 +10984,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8504,11 +11030,52 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:10661>4000"
+      }
+    },
+    {
+      "id": "15ca05d60be0",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Cazã",
+      "destino_metro": "KZN",
+      "pais_texto": "Rússia",
+      "pais_iso2": "",
+      "preco_brl": 10677,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Emirates e flydubai",
+      "janela": "2026-09-17 a 2026-09-23",
+      "janela_inicio": "2026-09-17",
+      "janela_fim": "2026-09-23",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 2465,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE3agcIARIDR1JVGhUSCjIwMjYtMDktMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxY3IyOA",
+          "titulo": "Cazã — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
       }
     },
     {
@@ -8545,7 +11112,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8586,7 +11153,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8645,6 +11212,47 @@
       }
     },
     {
+      "id": "5f0e2bb04b7d",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Taiti",
+      "destino_metro": "PPT",
+      "pais_texto": "Polinésia Francesa",
+      "pais_iso2": "",
+      "preco_brl": 11020,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "COPA e Air Tahiti Nui",
+      "janela": "2026-08-29 a 2026-09-07",
+      "janela_inicio": "2026-08-29",
+      "janela_fim": "2026-09-07",
+      "noites": 9,
+      "escalas": 2,
+      "duracao_min": 1990,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI5agcIARIDR1JVGhUSCjIwMjYtMDktMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoYjZn",
+          "titulo": "Taiti — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:11020>4000"
+      }
+    },
+    {
       "id": "4fd01f499285",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -8693,7 +11301,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8749,7 +11357,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8790,7 +11398,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -8989,6 +11597,47 @@
       },
       "perfis": {
         "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "d266a24547cf",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Ulan Bator",
+      "destino_metro": "UBN",
+      "pais_texto": "Mongólia",
+      "pais_iso2": "",
+      "preco_brl": 14311,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-08-27 a 2026-09-03",
+      "janela_inicio": "2026-08-27",
+      "janela_fim": "2026-09-03",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 2410,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI3agcIARIDR1JVGhUSCjIwMjYtMDktMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBocWtn",
+          "titulo": "Ulan Bator — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:14311>4000"
       }
     }
   ]
