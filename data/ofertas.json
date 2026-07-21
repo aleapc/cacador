@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-21T22:11:30.015Z",
-  "visto_ate": "2026-07-20T21:45:18+00:00",
+  "gerado_em": "2026-07-21T23:11:25.086Z",
+  "visto_ate": "2026-07-21T19:10:51+00:00",
   "ultimo_explore": "2026-07-21",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 4,
+      "lidas": 4,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,31 +16,31 @@
     }
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 4,
+    "materias_lidas": 4,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 25,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
-    "rotas_no_historico": 81,
+    "ineditas": 24,
+    "rotas_no_historico": 95,
     "com_baseline": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 265,
-        "casam_no_perfil": 85,
+        "total_avaliadas": 289,
+        "casam_no_perfil": 87,
         "dessas_ja_alertadas_antes": 85,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 2,
+        "alertados": 2,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "posicionamento_desligado": 11,
-          "domestico": 7,
-          "origem": 10,
+          "posicionamento_desligado": 22,
+          "domestico": 9,
+          "origem": 17,
           "janela_curta": 55,
-          "acima_do_teto": 97
+          "acima_do_teto": 99
         }
       }
     }
@@ -54,6 +54,169 @@
     }
   ],
   "ofertas": [
+    {
+      "id": "98fed3f6d550",
+      "origem_texto": "Vitória",
+      "origem_metro": "VIX",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "",
+      "pais_iso2": "BR",
+      "preco_brl": 273,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "menores preços entre agosto e outubro",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/mega-promo-rio-passagens-rio-de-janeiro-273",
+          "titulo": "Mega Promo Rio! Passagens aéreas para o Rio de Janeiro a partir de R$ 273, em até 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-21T15:57:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Vitória",
+        "praca_metro": "VIX",
+        "base_de_casa": 1307,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 1034,
+        "economia_grupo": 2068,
+        "trecho_domestico": "SAO->VIX"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_2068"
+      }
+    },
+    {
+      "id": "a2d8d4e0c6e3",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "",
+      "pais_iso2": "BR",
+      "preco_brl": 338,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "menores preços entre agosto e outubro",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/mega-promo-rio-passagens-rio-de-janeiro-273",
+          "titulo": "Mega Promo Rio! Passagens aéreas para o Rio de Janeiro a partir de R$ 273, em até 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-21T15:57:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Curitiba",
+        "praca_metro": "CWB",
+        "base_de_casa": 1307,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 969,
+        "economia_grupo": 1938,
+        "trecho_domestico": "SAO->CWB"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1938"
+      }
+    },
+    {
+      "id": "a3607f5ef657",
+      "origem_texto": "Parnaíba",
+      "origem_metro": "PHB",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 352,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "2026",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-mega-promo-latam-617",
+          "titulo": "Voos para Fortaleza! Mega Promo Latam tem passagens para o Ceará a partir de R$ 617 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T19:10:51+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Parnaíba",
+        "praca_metro": "PHB",
+        "base_de_casa": 868,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 516,
+        "economia_grupo": 1032,
+        "trecho_domestico": "SAO->PHB"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1032"
+      }
+    },
+    {
+      "id": "2e6caba1aeb2",
+      "origem_texto": "São Paulo (Congonhas)",
+      "origem_metro": "SAO",
+      "destino_texto": "Rio (Santos Dumont)",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 354,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "menores preços entre agosto e outubro",
+      "observacao": "ponte aérea",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/mega-promo-rio-passagens-rio-de-janeiro-273",
+          "titulo": "Mega Promo Rio! Passagens aéreas para o Rio de Janeiro a partir de R$ 273, em até 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-21T15:57:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
     {
       "id": "b24cc0f99216",
       "origem_texto": "Vitória",
@@ -98,6 +261,49 @@
       }
     },
     {
+      "id": "127b59fde2d7",
+      "origem_texto": "Ribeirão Preto",
+      "origem_metro": "RAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "",
+      "pais_iso2": "BR",
+      "preco_brl": 372,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "menores preços entre agosto e outubro",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/mega-promo-rio-passagens-rio-de-janeiro-273",
+          "titulo": "Mega Promo Rio! Passagens aéreas para o Rio de Janeiro a partir de R$ 273, em até 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-21T15:57:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Ribeirão Preto",
+        "praca_metro": "RAO",
+        "base_de_casa": 1307,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 935,
+        "economia_grupo": 1870,
+        "trecho_domestico": "SAO->RAO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1870"
+      }
+    },
+    {
       "id": "8e4fe09d0e8d",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -136,6 +342,49 @@
       },
       "perfis": {
         "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "f64eb2e44431",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "",
+      "pais_iso2": "BR",
+      "preco_brl": 451,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "menores preços entre agosto e outubro",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/mega-promo-rio-passagens-rio-de-janeiro-273",
+          "titulo": "Mega Promo Rio! Passagens aéreas para o Rio de Janeiro a partir de R$ 273, em até 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-21T15:57:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Brasília",
+        "praca_metro": "BSB",
+        "base_de_casa": 1307,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 856,
+        "economia_grupo": 1712,
+        "trecho_domestico": "SAO->BSB"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1712"
       }
     },
     {
@@ -322,6 +571,49 @@
       }
     },
     {
+      "id": "b3ccf5874284",
+      "origem_texto": "Teresina",
+      "origem_metro": "THE",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 549,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "2026",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-mega-promo-latam-617",
+          "titulo": "Voos para Fortaleza! Mega Promo Latam tem passagens para o Ceará a partir de R$ 617 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T19:10:51+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Teresina",
+        "praca_metro": "THE",
+        "base_de_casa": 868,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 319,
+        "economia_grupo": 638,
+        "trecho_domestico": "SAO->THE"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_638"
+      }
+    },
+    {
       "id": "a4a879817825",
       "origem_texto": "Campinas",
       "origem_metro": "SAO",
@@ -353,6 +645,49 @@
       },
       "perfis": {
         "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "1b353b34d9b0",
+      "origem_texto": "Belém",
+      "origem_metro": "BEL",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 617,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "2026",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-mega-promo-latam-617",
+          "titulo": "Voos para Fortaleza! Mega Promo Latam tem passagens para o Ceará a partir de R$ 617 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T19:10:51+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Belém",
+        "praca_metro": "BEL",
+        "base_de_casa": 868,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 251,
+        "economia_grupo": 502,
+        "trecho_domestico": "SAO->BEL"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_502"
       }
     },
     {
@@ -397,6 +732,92 @@
       }
     },
     {
+      "id": "7f6c0f72b67f",
+      "origem_texto": "São Luís",
+      "origem_metro": "SLZ",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 642,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "2026",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-mega-promo-latam-617",
+          "titulo": "Voos para Fortaleza! Mega Promo Latam tem passagens para o Ceará a partir de R$ 617 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T19:10:51+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "São Luís",
+        "praca_metro": "SLZ",
+        "base_de_casa": 868,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 226,
+        "economia_grupo": 452,
+        "trecho_domestico": "SAO->SLZ"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_452"
+      }
+    },
+    {
+      "id": "1dd18d0ba214",
+      "origem_texto": "Recife",
+      "origem_metro": "REC",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 643,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "2026",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-mega-promo-latam-617",
+          "titulo": "Voos para Fortaleza! Mega Promo Latam tem passagens para o Ceará a partir de R$ 617 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T19:10:51+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Recife",
+        "praca_metro": "REC",
+        "base_de_casa": 868,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 225,
+        "economia_grupo": 450,
+        "trecho_domestico": "SAO->REC"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_450"
+      }
+    },
+    {
       "id": "f5bc383a43ed",
       "origem_texto": "Curitiba",
       "origem_metro": "CWB",
@@ -428,6 +849,49 @@
       },
       "perfis": {
         "ale-andreia": "origem:CWB"
+      }
+    },
+    {
+      "id": "f6bad3901816",
+      "origem_texto": "Ribeirão Preto",
+      "origem_metro": "RAO",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 669,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "2026",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-mega-promo-latam-617",
+          "titulo": "Voos para Fortaleza! Mega Promo Latam tem passagens para o Ceará a partir de R$ 617 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T19:10:51+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Ribeirão Preto",
+        "praca_metro": "RAO",
+        "base_de_casa": 868,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 199,
+        "economia_grupo": 398,
+        "trecho_domestico": "SAO->RAO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_398"
       }
     },
     {
@@ -503,6 +967,117 @@
       },
       "perfis": {
         "ale-andreia": "origem:BSB"
+      }
+    },
+    {
+      "id": "357134b7daf9",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 848,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "2026",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-mega-promo-latam-617",
+          "titulo": "Voos para Fortaleza! Mega Promo Latam tem passagens para o Ceará a partir de R$ 617 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T19:10:51+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "posicionamento": {
+        "praca": "Rio de Janeiro",
+        "praca_metro": "RIO",
+        "base_de_casa": 868,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 20,
+        "economia_grupo": 40,
+        "trecho_domestico": "SAO->RIO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_40"
+      }
+    },
+    {
+      "id": "741dec49d998",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 868,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "2026",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-mega-promo-latam-617",
+          "titulo": "Voos para Fortaleza! Mega Promo Latam tem passagens para o Ceará a partir de R$ 617 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T19:10:51+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "origem:CWB"
+      }
+    },
+    {
+      "id": "5e70314c0e68",
+      "origem_texto": "Campinas",
+      "origem_metro": "SAO",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 868,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "2026",
+      "observacao": "a partir de; também Belo Horizonte, Vitória e mais cidades",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-mega-promo-latam-617",
+          "titulo": "Voos para Fortaleza! Mega Promo Latam tem passagens para o Ceará a partir de R$ 617 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T19:10:51+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "domestico"
       }
     },
     {
@@ -912,6 +1487,45 @@
       }
     },
     {
+      "id": "e7a0f1721888",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Lima",
+      "destino_metro": "LIM",
+      "pais_iso2": "PE",
+      "preco_brl": 1516,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "em até 10x sem juros",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/peru-em-oferta-passagens-latam-lima-custo-1516",
+          "titulo": "Peru em oferta! Passagens da Latam para Lima ou Cusco a partir de R$ 1.516, em 10x sem juros"
+        },
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/peru-em-oferta-passagens-latam-lima-custo-1516",
+          "titulo": "Peru em oferta! Passagens da Latam para Lima ou Cusco a partir de R$ 1.516, em 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-21T13:26:13+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "ff146ea4520f",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -1148,6 +1762,40 @@
       },
       "perfis": {
         "ale-andreia": "origem:BSB"
+      }
+    },
+    {
+      "id": "07f78c4192dd",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Cusco",
+      "destino_metro": "CUZ",
+      "pais_iso2": "PE",
+      "preco_brl": 1827,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/peru-em-oferta-passagens-latam-lima-custo-1516",
+          "titulo": "Peru em oferta! Passagens da Latam para Lima ou Cusco a partir de R$ 1.516, em 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-21T13:26:13+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
       }
     },
     {
@@ -1586,6 +2234,40 @@
       }
     },
     {
+      "id": "55932ea8d916",
+      "origem_texto": "Porto Alegre",
+      "origem_metro": "POA",
+      "destino_texto": "Cusco",
+      "destino_metro": "CUZ",
+      "pais_iso2": "PE",
+      "preco_brl": 2125,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/peru-em-oferta-passagens-latam-lima-custo-1516",
+          "titulo": "Peru em oferta! Passagens da Latam para Lima ou Cusco a partir de R$ 1.516, em 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-21T13:26:13+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "origem:POA"
+      }
+    },
+    {
       "id": "dbf4c7c8c4b0",
       "origem_texto": "",
       "origem_metro": "",
@@ -1665,6 +2347,40 @@
       }
     },
     {
+      "id": "f56230719cdf",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "Cusco",
+      "destino_metro": "CUZ",
+      "pais_iso2": "PE",
+      "preco_brl": 2164,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/peru-em-oferta-passagens-latam-lima-custo-1516",
+          "titulo": "Peru em oferta! Passagens da Latam para Lima ou Cusco a partir de R$ 1.516, em 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-21T13:26:13+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "origem:CWB"
+      }
+    },
+    {
       "id": "5cdfbe7ef857",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -1708,6 +2424,74 @@
       },
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "b3d01abbe59f",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Lima",
+      "destino_metro": "LIM",
+      "pais_iso2": "PE",
+      "preco_brl": 2227,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/peru-em-oferta-passagens-latam-lima-custo-1516",
+          "titulo": "Peru em oferta! Passagens da Latam para Lima ou Cusco a partir de R$ 1.516, em 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-21T13:26:13+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "origem:RIO"
+      }
+    },
+    {
+      "id": "c44bfa0077dd",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "Cusco",
+      "destino_metro": "CUZ",
+      "pais_iso2": "PE",
+      "preco_brl": 2239,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/peru-em-oferta-passagens-latam-lima-custo-1516",
+          "titulo": "Peru em oferta! Passagens da Latam para Lima ou Cusco a partir de R$ 1.516, em 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-21T13:26:13+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "origem:BSB"
       }
     },
     {
@@ -5752,47 +6536,6 @@
       }
     },
     {
-      "id": "a44e5665d479",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Roma",
-      "destino_metro": "FCO",
-      "pais_texto": "Itália",
-      "pais_iso2": "",
-      "preco_brl": 4000,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-11-09 a 2026-11-18",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-18",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 1190,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
-          "titulo": "Roma — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 3,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
       "id": "28163c83b87e",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -5824,6 +6567,47 @@
         }
       ],
       "descoberto_em": "2026-07-21",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "a44e5665d479",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Roma",
+      "destino_metro": "FCO",
+      "pais_texto": "Itália",
+      "pais_iso2": "",
+      "preco_brl": 4000,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Europa",
+      "janela": "2026-11-09 a 2026-11-18",
+      "janela_inicio": "2026-11-09",
+      "janela_fim": "2026-11-18",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1190,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
+          "titulo": "Roma — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
         "amostras": 3,
@@ -10839,6 +11623,40 @@
       }
     },
     {
+      "id": "464a146c8901",
+      "origem_texto": "Fortaleza",
+      "origem_metro": "FOR",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 9546,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "Latam",
+      "validade": "Prorrogado até 21/7",
+      "observacao": "Menor valor, voo direto, classe executiva",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-classe-executiva-latam",
+          "titulo": "Última chamada! Mega Promo tem classe executiva da Latam para Europa a partir de R$ 9.546 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T12:56:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "origem:FOR"
+      }
+    },
+    {
       "id": "4a727e7a71be",
       "origem_texto": "Fortaleza",
       "origem_metro": "FOR",
@@ -11069,6 +11887,40 @@
       },
       "perfis": {
         "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "0b71ba111798",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 10017,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "Latam",
+      "validade": "Prorrogado até 21/7",
+      "observacao": "Voo direto, executiva",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-classe-executiva-latam",
+          "titulo": "Última chamada! Mega Promo tem classe executiva da Latam para Europa a partir de R$ 9.546 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T12:56:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:10017>4000"
       }
     },
     {
@@ -11447,6 +12299,74 @@
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:11043>4000"
+      }
+    },
+    {
+      "id": "954247a3f936",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Roma",
+      "destino_metro": "FCO",
+      "pais_iso2": "IT",
+      "preco_brl": 11048,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "Latam",
+      "validade": "Prorrogado até 21/7",
+      "observacao": "Executiva",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-classe-executiva-latam",
+          "titulo": "Última chamada! Mega Promo tem classe executiva da Latam para Europa a partir de R$ 9.546 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T12:56:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:11048>4000"
+      }
+    },
+    {
+      "id": "385f678e4176",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Frankfurt",
+      "destino_metro": "FRA",
+      "pais_iso2": "DE",
+      "preco_brl": 11307,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "Latam",
+      "validade": "Prorrogado até 21/7",
+      "observacao": "Executiva",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-classe-executiva-latam",
+          "titulo": "Última chamada! Mega Promo tem classe executiva da Latam para Europa a partir de R$ 9.546 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-21T12:56:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "origem:RIO"
       }
     },
     {
