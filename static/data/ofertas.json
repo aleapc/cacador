@@ -1,46 +1,46 @@
 {
-  "gerado_em": "2026-07-21T00:09:07.203Z",
-  "visto_ate": "2026-07-20T13:26:35+00:00",
+  "gerado_em": "2026-07-21T03:43:23.860Z",
+  "visto_ate": "2026-07-20T21:45:18+00:00",
   "ultimo_explore": "2026-07-21",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 3,
+      "lidas": 3,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
-      "destinos": 90,
-      "status": "ok"
+      "destinos": 0,
+      "status": "nao_rodou"
     }
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 3,
+    "materias_lidas": 3,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
-    "explore_destinos": 90,
-    "explore_status": "ok",
+    "ofertas_extraidas": 10,
+    "explore_destinos": 0,
+    "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 64,
-    "rotas_no_historico": 80,
+    "ineditas": 5,
+    "rotas_no_historico": 81,
     "com_baseline": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 260,
+        "total_avaliadas": 265,
         "casam_no_perfil": 85,
-        "dessas_ja_alertadas_antes": 63,
-        "novas_para_alertar": 22,
-        "alertados": 5,
-        "cortadas_pelo_teto": 17,
+        "dessas_ja_alertadas_antes": 85,
+        "novas_para_alertar": 0,
+        "alertados": 0,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "posicionamento_desligado": 11,
           "domestico": 7,
-          "origem": 8,
+          "origem": 10,
           "janela_curta": 55,
-          "acima_do_teto": 94
+          "acima_do_teto": 97
         }
       }
     }
@@ -3616,7 +3616,7 @@
       "descoberto_em": "2026-07-20T12:27:33+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "posicionamento": {
@@ -5670,47 +5670,6 @@
       }
     },
     {
-      "id": "caf94ef0332e",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Madrid",
-      "destino_metro": "MAD",
-      "pais_texto": "Espanha",
-      "pais_iso2": "",
-      "preco_brl": 3989,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-10-30 a 2026-11-08",
-      "janela_inicio": "2026-10-30",
-      "janela_fim": "2026-11-08",
-      "noites": 9,
-      "escalas": 0,
-      "duracao_min": 610,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTMwagcIARIDR1JVGhUSCjIwMjYtMTEtMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
-          "titulo": "Madrid — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 3,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
       "id": "6bf617e79742",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -5752,34 +5711,34 @@
       }
     },
     {
-      "id": "28163c83b87e",
+      "id": "caf94ef0332e",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
-      "destino_texto": "Roma",
-      "destino_metro": "FCO",
-      "pais_texto": "Itália",
+      "destino_texto": "Madrid",
+      "destino_metro": "MAD",
+      "pais_texto": "Espanha",
       "pais_iso2": "",
-      "preco_brl": 4000,
+      "preco_brl": 3989,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
       "companhia": "Air Europa",
-      "janela": "2026-11-09 a 2026-11-18",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-18",
+      "janela": "2026-10-30 a 2026-11-08",
+      "janela_inicio": "2026-10-30",
+      "janela_fim": "2026-11-08",
       "noites": 9,
-      "escalas": 1,
-      "duracao_min": 865,
+      "escalas": 0,
+      "duracao_min": 610,
       "validade": "",
       "observacao": "",
       "flags": [],
       "fontes": [
         {
           "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
-          "titulo": "Roma — Google Flights"
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTMwagcIARIDR1JVGhUSCjIwMjYtMTEtMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
+          "titulo": "Madrid — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-21",
@@ -5824,6 +5783,47 @@
         }
       ],
       "descoberto_em": "2026-07-20",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "28163c83b87e",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Roma",
+      "destino_metro": "FCO",
+      "pais_texto": "Itália",
+      "pais_iso2": "",
+      "preco_brl": 4000,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Europa",
+      "janela": "2026-11-09 a 2026-11-18",
+      "janela_inicio": "2026-11-09",
+      "janela_fim": "2026-11-18",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 865,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
+          "titulo": "Roma — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": false,
         "amostras": 3,
@@ -8704,6 +8704,47 @@
       }
     },
     {
+      "id": "e2f74e2fa7ff",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Tóquio",
+      "destino_metro": "",
+      "pais_iso2": "JP",
+      "preco_brl": 6391,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "Latam / Japan Airlines",
+      "validade": "compra só até hoje (20)",
+      "observacao": "Conexão nos EUA, necessário visto americano",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/japao-mega-promo-latam-passagens-tokyo-osaka-6413",
+          "titulo": "Japão na Mega Promo! Passagens da Latam + Japan Airlines para Tokyo ou Osaka a partir de R$ 6.391, em até 10x sem juros"
+        },
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/japao-mega-promo-latam-passagens-tokyo-osaka-6413",
+          "titulo": "Japão na Mega Promo! Passagens da Latam + Japan Airlines para Tokyo ou Osaka a partir de R$ 6.391, em até 10x sem juros"
+        }
+      ],
+      "descoberto_em": "2026-07-20T21:36:37+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:6391>4000"
+      }
+    },
+    {
       "id": "6d464297b2b8",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -10798,6 +10839,45 @@
       }
     },
     {
+      "id": "4a727e7a71be",
+      "origem_texto": "Fortaleza",
+      "origem_metro": "FOR",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 9546,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "Latam",
+      "validade": "últimas horas / último dia",
+      "observacao": "Voo direto, classe executiva, menor valor",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-classe-executiva-latam",
+          "titulo": "Última chamada! Mega Promo tem classe executiva da Latam para Europa a partir de R$ 9.546 ida e volta"
+        },
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-classe-executiva-latam-europa-18-07-26",
+          "titulo": "Europa de Executiva! Voos na Premium Business Latam para Portugal, Itália e mais destinos a partir de R$ 9.546 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-20T21:45:18+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "origem:FOR"
+      }
+    },
+    {
       "id": "9a98b9f14a6c",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -10992,6 +11072,45 @@
       }
     },
     {
+      "id": "7d22a4636cb7",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 10017,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "Latam",
+      "validade": "últimas horas / último dia",
+      "observacao": "Voo direto, classe executiva",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-classe-executiva-latam",
+          "titulo": "Última chamada! Mega Promo tem classe executiva da Latam para Europa a partir de R$ 9.546 ida e volta"
+        },
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-classe-executiva-latam-europa-18-07-26",
+          "titulo": "Europa de Executiva! Voos na Premium Business Latam para Portugal, Itália e mais destinos a partir de R$ 9.546 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-20T21:45:18+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:10017>4000"
+      }
+    },
+    {
       "id": "69033043baba",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -11117,6 +11236,45 @@
       },
       "perfis": {
         "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "85845309e304",
+      "origem_texto": "Rio",
+      "origem_metro": "RIO",
+      "destino_texto": "Frankfurt",
+      "destino_metro": "FRA",
+      "pais_iso2": "DE",
+      "preco_brl": 10785,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "Classe executiva",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-classe-executiva-latam",
+          "titulo": "Última chamada! Mega Promo tem classe executiva da Latam para Europa a partir de R$ 9.546 ida e volta"
+        },
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-classe-executiva-latam-europa-18-07-26",
+          "titulo": "Europa de Executiva! Voos na Premium Business Latam para Portugal, Itália e mais destinos a partir de R$ 9.546 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-20T21:17:06+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "origem:RIO"
       }
     },
     {
@@ -11250,6 +11408,45 @@
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:11020>4000"
+      }
+    },
+    {
+      "id": "a37ee80dc09e",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Roma",
+      "destino_metro": "FCO",
+      "pais_iso2": "IT",
+      "preco_brl": 11043,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "Classe executiva",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-classe-executiva-latam",
+          "titulo": "Última chamada! Mega Promo tem classe executiva da Latam para Europa a partir de R$ 9.546 ida e volta"
+        },
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-classe-executiva-latam-europa-18-07-26",
+          "titulo": "Europa de Executiva! Voos na Premium Business Latam para Portugal, Itália e mais destinos a partir de R$ 9.546 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-20T21:17:06+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "perfis": {
+        "ale-andreia": "acima_do_teto:11043>4000"
       }
     },
     {
