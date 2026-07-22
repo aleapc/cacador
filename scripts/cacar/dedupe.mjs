@@ -116,7 +116,12 @@ export function deduplicar(ofertas) {
     }
     for (const c of clusters) {
       const vencedor = c.reduce((a, b) => (a.preco_brl <= b.preco_brl ? a : b))
-      saida.push({ ...vencedor, fontes: c.flatMap((x) => x.fontes) })
+      // Dedup fontes por nome: "4 fontes viram isso" só vale se forem 4 fontes
+      // DISTINTAS (blog + 2 canais + Google), não 4 registros do mesmo Google.
+      // Mantém o 1º link de cada fonte.
+      const porFonte = new Map()
+      for (const x of c) for (const f of x.fontes) if (!porFonte.has(f.nome)) porFonte.set(f.nome, f)
+      saida.push({ ...vencedor, fontes: [...porFonte.values()] })
     }
   }
   return saida.sort((a, b) => a.preco_brl - b.preco_brl)
