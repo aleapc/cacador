@@ -85,7 +85,9 @@ export function normalizar(extraido, artigo) {
         validade: extraido.validade || '',
         observacao: o.observacao || '',
         flags,
-        fontes: [{ nome: 'melhores-destinos', link: artigo.link, titulo: artigo.titulo }],
+        // A fonte vem do artigo: Telegram traz .canal, o blog não. Rotular
+        // errado mandaria você pro lugar que o texto não prometeu.
+        fontes: [{ nome: artigo.canal ? `tg:${artigo.canal}` : 'melhores-destinos', link: artigo.link, titulo: artigo.titulo }],
         descoberto_em: artigo.publicado_em,
       }
     })

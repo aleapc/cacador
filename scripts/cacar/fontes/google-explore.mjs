@@ -46,6 +46,10 @@ export async function coletar({ origem = 'GRU' } = {}) {
         origem_metro: metro(origem),
         destino_texto: d.name,
         destino_metro: metro(d.destination_airport.code),
+        // Guarda o IATA real do aeroporto (metro perde JFK→NYC): o price_insights
+        // do SerpApi precisa do aeroporto, não da área metropolitana.
+        destino_iata: d.destination_airport.code,
+        origem_iata: origem,
         pais_texto: d.country || '',
         pais_iso2: '', // o Explore dá o país por nome; o iso2 vem do casamento com vistos.json
         preco_brl: d.flight_price,

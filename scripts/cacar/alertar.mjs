@@ -11,6 +11,16 @@ const brl = (n) => `R$ ${n.toLocaleString('pt-BR', { maximumFractionDigits: 0 })
 
 const BAGAGEM = { inclui: ' · com bagagem', nao_inclui: ' · SEM bagagem', nao_dito: '' }
 
+const FONTE_NOME = {
+  'melhores-destinos': 'Melhores Destinos',
+  'google-explore': 'Google Flights',
+  'tg:melhoresdestinos': 'Melhores Destinos (Telegram)',
+  'tg:passageirodeprimeira': 'Passageiro de Primeira (Telegram)',
+  'tg:canalpontospravoar': 'Pontos pra Voar (Telegram)',
+  'tg:promopassagens': 'PromoPassagens (Telegram)',
+}
+const nomeFonte = (n) => FONTE_NOME[n] || (n?.startsWith('tg:') ? `${n.slice(3)} (Telegram)` : n || 'fonte')
+
 const TIPO_EMOJI = {
   praia: '🏖', montanha: '⛰️', cultural: '🏛️', gastronomico: '🍽️', natureza: '🌿',
   esportes_inverno: '🎿', esportes_verao: '🏄', cidade_grande: '🌃', descanso: '🧘', aventura: '🎢',
@@ -46,10 +56,16 @@ function formatar(oferta, perfil) {
   // O selo que separa caçador de buscador. Só aparece com série real —
   // dizer "30% abaixo da média" com 2 amostras seria inventar autoridade.
   const b = oferta.baseline
+  const ins = oferta.insight
   if (b?.tem_baseline) {
     const sinal = b.desvio_pct < 0 ? `${Math.abs(b.desvio_pct)}% ABAIXO` : `${b.desvio_pct}% acima`
     linhas.push(`\n📊 ${sinal} da mediana de 90 dias (${brl(b.mediana)}, ${b.amostras} amostras)` +
       (b.raro ? ` · 🔥 *raro*: só 1 em cada 10 dias esteve tão barato` : ''))
+  } else if (ins) {
+    // Baseline do próprio Google enquanto a série caseira não enche.
+    const nivel = { low: '🟢 preço BAIXO', typical: '🟡 preço típico', high: '🔴 preço alto' }[ins.nivel] || ins.nivel
+    linhas.push(`\n📊 ${nivel} segundo o Google` +
+      (ins.faixa?.length === 2 ? ` (faixa usual ${brl(ins.faixa[0])}–${brl(ins.faixa[1])})` : ''))
   } else if (b) {
     linhas.push(`\n📊 sem baseline ainda (${b.amostras}/${b.precisa} dias de série)`)
   }
@@ -70,8 +86,8 @@ function formatar(oferta, perfil) {
   // Explore vai pro Google Flights. Rotular errado seria mandar você pro
   // lugar que o texto não prometeu.
   const f = oferta.fontes[0]
-  const rotulo = f.nome === 'google-explore' ? 'Ver no Google Flights' : 'Ver no Melhores Destinos'
-  linhas.push(`\n[${rotulo}](${f.link})`)
+  linhas.push(`\n[Ver em ${nomeFonte(f.nome)}](${f.link})` +
+    (oferta.fontes.length > 1 ? ` · ${oferta.fontes.length} fontes viram isso` : ''))
   return linhas.join('\n')
 }
 

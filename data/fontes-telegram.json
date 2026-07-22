@@ -1,0 +1,10 @@
+{
+  "versao": 1,
+  "_comentario": "Canais públicos de Telegram lidos via t.me/s/ (sem token). Só posts novos (rastreio por link) viram extração — não paga LLM duas vezes. promopassagens é AGREGADOR dos outros três (redundante); mantido porque a deduplicação de ofertas colapsa duplicatas e o fontes[] vira sinal de confiança (2+ canais postaram = mais provável real). Desligue-o se o custo incomodar.",
+  "canais": [
+    { "canal": "melhoresdestinos", "nome": "Melhores Destinos", "ativo": true },
+    { "canal": "passageirodeprimeira", "nome": "Passageiro de Primeira", "ativo": true, "_nota": "o SITE bloqueia ClaudeBot por nome; o Telegram contorna" },
+    { "canal": "canalpontospravoar", "nome": "Pontos pra Voar", "ativo": true, "_nota": "foco milhas/pontos" },
+    { "canal": "promopassagens", "nome": "PromoPassagens", "ativo": true, "_nota": "agregador dos outros; redundante" }
+  ]
+}

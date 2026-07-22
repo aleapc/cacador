@@ -3,6 +3,13 @@
   import { carregar, brl, quando, janelaCurta, lerEstado, gravarEstado } from '$lib/dados.js';
   import { TIPOS, TIPO_LABEL, CONTINENTES, CONT_LABEL, flag } from '$lib/filtros.js';
 
+  const FONTE_NOME = {
+    'melhores-destinos': 'Melhores Destinos', 'google-explore': 'Google Flights',
+    'tg:melhoresdestinos': 'Melhores Destinos', 'tg:passageirodeprimeira': 'Passageiro de Primeira',
+    'tg:canalpontospravoar': 'Pontos pra Voar', 'tg:promopassagens': 'PromoPassagens',
+  };
+  const nomeFonte = (n) => FONTE_NOME[n] || (n?.startsWith('tg:') ? n.slice(3) : n || 'fonte');
+
   let estado = $state({ carregando: true, erro: null, dados: null });
   let local = $state({ favoritos: [], descartados: [] });
 
@@ -40,7 +47,9 @@
   function passa(o) {
     if (local.descartados.includes(o.id)) return false;
     if (o.origem_metro && o.origem_metro !== 'SAO') return false; // só o que sai de SP
-    if (/^BR$/i.test(o.pais_iso2 || '')) return false; // doméstico fora
+    // Doméstico fora — checa as DUAS formas de dizer Brasil (iso2 pode vir
+    // vazio se a taxonomia não casou; o pais_texto do Explore ainda diz).
+    if (/^BR$/i.test(o.pais_iso2 || '') || /^brasil$/i.test(o.pais_texto || '')) return false;
     if (o.preco_brl > precoMax) return false;
     if (pessoa !== 'nos' && !curte(o, pessoa)) return false;
     if (tipos.size && !(o.tipos || []).some((t) => tipos.has(t))) return false;
@@ -49,12 +58,15 @@
     if (extra.visto && o.sem_visto !== true) return false;
     if (extra.match && !o.match) return false;
     if (extra.direto && o.escalas !== 0) return false;
-    if (extra.deal && !(o.baseline?.raro || (o.baseline?.tem_baseline && o.baseline.desvio_pct < 0))) return false;
+    if (extra.deal && !(o.baseline?.raro || (o.baseline?.tem_baseline && o.baseline.desvio_pct < 0) || o.insight?.nivel === 'low')) return false;
     return true;
   }
 
   const pontos = (o) =>
-    (o.match ? 5000 : 0) + (o.baseline?.raro ? 1000 : 0) - (o.baseline?.desvio_pct ?? 0);
+    (o.match ? 5000 : 0) +
+    (o.baseline?.raro ? 1000 : 0) +
+    (o.insight?.nivel === 'low' ? 800 : 0) -
+    (o.baseline?.desvio_pct ?? o.insight?.desvio_pct ?? 0);
 
   let ofertas = $derived.by(() => {
     let ds = (estado.dados?.ofertas ?? []).filter(passa);
@@ -212,6 +224,10 @@
             {o.baseline.desvio_pct < 0 ? `${Math.abs(o.baseline.desvio_pct)}% abaixo` : `${o.baseline.desvio_pct}% acima`}
             da média de 90 dias
           </p>
+        {:else if o.insight}
+          <p class="base {o.insight.nivel === 'low' ? 'low' : 'mid'}">
+            📊 {o.insight.nivel === 'low' ? '🟢 preço baixo' : o.insight.nivel === 'high' ? '🔴 preço alto' : '🟡 preço típico'} segundo o Google
+          </p>
         {:else}
           <p class="base dim">📊 sem baseline ainda ({o.baseline?.amostras ?? 0}/{o.baseline?.precisa ?? 7} dias)</p>
         {/if}
@@ -227,7 +243,7 @@
 
         <div class="actions">
           <a class="src" href={o.fontes[0].link} target="_blank" rel="noopener">
-            {o.fontes[0].nome === 'google-explore' ? 'Google Flights' : 'Melhores Destinos'} ↗
+            {nomeFonte(o.fontes[0].nome)} ↗{#if o.fontes.length > 1} · {o.fontes.length} fontes{/if}
           </a>
           <button class="fav" class:on={local.favoritos.includes(o.id)} onclick={() => favoritar(o.id)}>★</button>
           <button class="hide" onclick={() => descartar(o.id)}>ocultar</button>

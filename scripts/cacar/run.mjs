@@ -9,11 +9,13 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { coletar } from './fontes/melhores-destinos.mjs'
 import * as explore from './fontes/google-explore.mjs'
+import * as telegram from './fontes/telegram.mjs'
 import { extrair } from './extrair.mjs'
 import { normalizar, deduplicar, casaPerfil } from './dedupe.mjs'
 import { marcarPosicionamento } from './posicionamento.mjs'
 import { registrar, marcarBaseline } from './baseline.mjs'
 import { carregarTaxonomia, carregarVistos, enriquecer, avaliarGosto } from './taxonomia.mjs'
+import { enriquecerInsights } from './insights.mjs'
 import { alertar } from './alertar.mjs'
 
 const SECO = process.argv.includes('--seco')
@@ -73,20 +75,42 @@ async function main() {
   const descartes = []
   const erros = []
   let tokens = { entrada: 0, saida: 0 }
-  for (const a of artigos) {
-    try {
-      const e = await extrair(a)
-      tokens.entrada += e._uso.entrada
-      tokens.saida += e._uso.saida
-      const r = normalizar(e, a)
-      console.log(`  [${e.categoria}] ${a.titulo.slice(0, 62)} -> ${r.ofertas.length} oferta(s)`)
-      for (const d of r.descartes) console.log(`      descartado (${d.motivo}): ${d.detalhe}`)
-      novas.push(...r.ofertas)
-      descartes.push(...r.descartes)
-    } catch (err) {
-      console.warn(`  ! extração falhou (${a.link}): ${err.message}`)
-      erros.push({ link: a.link, erro: err.message })
+
+  // Extrai um lote de itens {titulo, texto, link, publicado_em} — serve blog e
+  // Telegram, que têm a mesma forma. O extrator não sabe de onde veio.
+  async function extrairLote(itens, prefixo) {
+    for (const a of itens) {
+      try {
+        const e = await extrair(a)
+        tokens.entrada += e._uso.entrada
+        tokens.saida += e._uso.saida
+        const r = normalizar(e, a)
+        console.log(`  ${prefixo}[${e.categoria}] ${a.titulo.slice(0, 58)} -> ${r.ofertas.length} oferta(s)`)
+        for (const d of r.descartes) if (d.motivo !== 'categoria') console.log(`      descartado (${d.motivo}): ${d.detalhe}`)
+        novas.push(...r.ofertas)
+        descartes.push(...r.descartes)
+      } catch (err) {
+        console.warn(`  ! extração falhou (${a.link}): ${err.message}`)
+        erros.push({ link: a.link, erro: err.message })
+      }
     }
+  }
+
+  await extrairLote(artigos, '')
+
+  // Canais de Telegram: t.me/s/ público, sem token. Só posts NOVOS (rastreio
+  // por link em telegram_vistos) viram extração — não paga LLM duas vezes.
+  const tgVistos = new Set(estado.telegram_vistos || [])
+  const tgLinksNovos = []
+  const cfgTg = (await ler('data/fontes-telegram.json', { canais: [] })).canais.filter((c) => c.ativo)
+  const tgFontes = []
+  for (const c of cfgTg) {
+    const r = await telegram.coletar({ canal: c.canal, maxPosts: SECO ? 3 : 40 })
+    const novos = r.posts.filter((p) => !tgVistos.has(p.link))
+    console.log(`tg:${c.canal}: ${r.posts.length} de voo, ${novos.length} novos [${r.status}]`)
+    tgFontes.push({ nome: `tg:${c.canal}`, novos: novos.length, status: r.status })
+    await extrairLote(novos, `tg:${c.canal} `)
+    for (const p of novos) tgLinksNovos.push(p.link)
   }
 
   // Google Explore: 1 chamada = ~90 destinos de GRU. Descoberta e baseline no
@@ -130,6 +154,20 @@ async function main() {
   const semTag = comBaseline.filter((o) => !o.tem_tag).length
   const matches = comBaseline.filter((o) => o.match).length
   console.log(`taxonomia: ${comBaseline.length - semTag} taggeados, ${semTag} sem tag · ${matches} agradam os dois`)
+
+  // Baseline instantâneo do Google (price_insights) pros melhores candidatos
+  // que ainda NÃO têm série própria de 7 dias. Só na rodada diária (custa cota),
+  // bounded. A série caseira segue como fonte primária de graça.
+  let insightsUsados = 0
+  if (COM_EXPLORE) {
+    const candidatos = comBaseline
+      .filter((o) => !o.baseline?.tem_baseline && o.janela_inicio && (o.destino_iata || o.destino_metro) &&
+        o.origem_metro === 'SAO' && o.preco_brl <= 5000 && !/^BR$/i.test(o.pais_iso2 || ''))
+      .sort((a, b) => (b.match ? 1 : 0) - (a.match ? 1 : 0) || a.preco_brl - b.preco_brl)
+      .slice(0, 8)
+    insightsUsados = await enriquecerInsights(candidatos, { max: 6 })
+    console.log(`price-insights: ${insightsUsados} rota(s) com baseline do Google`)
+  }
   if (comBaseline.length && semTag / comBaseline.length > 0.4)
     console.log(`::warning title=Muitos destinos sem tag::${semTag}/${comBaseline.length} — rodar o tagger`)
 
@@ -242,7 +280,11 @@ async function main() {
         fontes: [
           { nome, candidatos, lidas: artigos.length, status: artigos.length ? 'ok' : 'vazio' },
           { nome: doExplore.nome, destinos: doExplore.destinos, status: doExplore.status },
+          ...tgFontes,
         ],
+        // Posts de Telegram já vistos: só os novos viram extração. Cap em 1500
+        // (uns 40/dia por canal × 4 canais × ~9 dias) pra não inchar o arquivo.
+        telegram_vistos: [...tgLinksNovos, ...(estado.telegram_vistos || [])].slice(0, 1500),
         // O funil fica no arquivo, não só no log: log de Action expira em 90
         // dias, e é justamente a série histórica dele que diz se um filtro
         // apertou com o tempo. Sem isso, redescobrir custa um diagnóstico.
