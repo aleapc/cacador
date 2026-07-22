@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-22T20:20:43.322Z",
+  "gerado_em": "2026-07-22T22:16:04.586Z",
   "visto_ate": "2026-07-21T19:10:51+00:00",
   "ultimo_explore": "2026-07-22",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 3,
+      "novos": 0,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,13 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/passageirodeprimeira/27779",
+    "https://t.me/promopassagens/110089",
     "https://t.me/melhoresdestinos/18632",
     "https://t.me/melhoresdestinos/18631",
     "https://t.me/melhoresdestinos/18630",
@@ -60,30 +62,30 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 3,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 3,
+    "ineditas": 1,
     "rotas_no_historico": 105,
     "com_baseline": 0,
     "sem_tag": 26,
-    "agradam_os_dois": 166,
+    "agradam_os_dois": 165,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 403,
+        "total_avaliadas": 401,
         "casam_no_perfil": 117,
-        "dessas_ja_alertadas_antes": 115,
-        "novas_para_alertar": 2,
-        "alertados": 2,
+        "dessas_ja_alertadas_antes": 117,
+        "novas_para_alertar": 0,
+        "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 2,
+          "tipo": 3,
           "posicionamento_desligado": 22,
           "domestico": 13,
           "origem": 22,
-          "janela_curta": 83,
+          "janela_curta": 80,
           "acima_do_teto": 144
         }
       }
@@ -1977,6 +1979,67 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "bcffae3aa43e",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Madri",
+      "destino_metro": "MAD",
+      "pais_iso2": "ES",
+      "preco_brl": 1144,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": true,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Azul",
+      "validade": "",
+      "observacao": "Trecho; ou 97 mil pontos Azul + taxas",
+      "flags": [
+        "preco_abaixo_da_faixa",
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/27779",
+          "titulo": "Muito bom! Trecho para Madri a partir de R$ 1.144 ou 97 mil pontos Azul + taxas"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110089",
+          "titulo": "🏝 Muito Bom! Trecho Para Madri A Partir De R$ 1.144 Ou 97 Mil Pontos Azul + Taxas"
+        }
+      ],
+      "descoberto_em": "2026-07-22T20:47:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
       }
     },
     {
@@ -23251,63 +23314,6 @@
         "andreia": true
       },
       "match": false
-    },
-    {
-      "id": "971ecab6f534",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Bora Bora",
-      "destino_metro": "HUH",
-      "destino_iata": "HUH",
-      "origem_iata": "GRU",
-      "pais_texto": "Polinésia Francesa",
-      "pais_iso2": "PF",
-      "preco_brl": 12561,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA, Air Tahiti Nui e Air Tahiti",
-      "janela": "2026-09-04 a 2026-09-11",
-      "janela_inicio": "2026-09-04",
-      "janela_fim": "2026-09-11",
-      "noites": 7,
-      "escalas": 3,
-      "duracao_min": 2250,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTA0agcIARIDR1JVGhUSCjIwMjYtMDktMTFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAyal9rag",
-          "titulo": "Bora Bora — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "natureza"
-      ],
-      "continente": "oceania",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": true
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:12561>4000"
-      }
     }
   ]
 }
