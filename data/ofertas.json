@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-22T18:20:53.821Z",
+  "gerado_em": "2026-07-22T20:20:43.322Z",
   "visto_ate": "2026-07-21T19:10:51+00:00",
   "ultimo_explore": "2026-07-22",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 3,
       "status": "ok"
     },
     {
@@ -31,11 +31,14 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18632",
+    "https://t.me/melhoresdestinos/18631",
+    "https://t.me/melhoresdestinos/18630",
     "https://t.me/promopassagens/110078",
     "https://t.me/melhoresdestinos/18628",
     "https://t.me/melhoresdestinos/18627",
@@ -57,32 +60,30 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "incompleta": 1
-    },
-    "ineditas": 0,
-    "rotas_no_historico": 103,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 3,
+    "rotas_no_historico": 105,
     "com_baseline": 0,
-    "sem_tag": 24,
+    "sem_tag": 26,
     "agradam_os_dois": 166,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 115,
+        "total_avaliadas": 403,
+        "casam_no_perfil": 117,
         "dessas_ja_alertadas_antes": 115,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 2,
+        "alertados": 2,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
+          "tipo": 2,
           "posicionamento_desligado": 22,
           "domestico": 13,
           "origem": 22,
           "janela_curta": 83,
-          "tipo": 1,
           "acima_do_teto": 144
         }
       }
@@ -119,6 +120,50 @@
     }
   ],
   "ofertas": [
+    {
+      "id": "814704df7b1c",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 181,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Azul",
+      "validade": "",
+      "observacao": "ou 15 mil pontos o trecho + taxas",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18631",
+          "titulo": "Recife ☀️"
+        }
+      ],
+      "descoberto_em": "2026-07-22T20:04:44+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
     {
       "id": "98fed3f6d550",
       "origem_texto": "Vitória",
@@ -6177,6 +6222,61 @@
       "match": false
     },
     {
+      "id": "b6f2ddd833aa",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 3064,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol",
+      "validade": "",
+      "observacao": "Novo voo para Lisboa",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18630",
+          "titulo": "Portugal com a Gol 🔥"
+        }
+      ],
+      "descoberto_em": "2026-07-22T19:34:11+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "50479c63dc37",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -9107,6 +9207,50 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "c905d5294dd1",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Helsinque",
+      "destino_metro": "HEL",
+      "pais_iso2": "FI",
+      "preco_brl": 3651,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "",
+      "validade": "época da aurora boreal",
+      "observacao": "na época da aurora boreal",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18632",
+          "titulo": "Finlândia sensacional 🔥"
+        }
+      ],
+      "descoberto_em": "2026-07-22T20:19:38+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "522612ea2cfe",
@@ -23164,181 +23308,6 @@
       "perfis": {
         "ale-andreia": "acima_do_teto:12561>4000"
       }
-    },
-    {
-      "id": "588b15b1de14",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Ilha da Reunião",
-      "destino_metro": "RUN",
-      "pais_texto": "Reunião",
-      "pais_iso2": "RE",
-      "preco_brl": 13933,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air France",
-      "janela": "2026-07-23 a 2026-07-29",
-      "janela_inicio": "2026-07-23",
-      "janela_fim": "2026-07-29",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1455,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTIzagcIARIDR1JVGhUSCjIwMjYtMDctMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBseGhq",
-          "titulo": "Ilha da Reunião — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "praia"
-      ],
-      "continente": "africa",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
-    },
-    {
-      "id": "2009b9e4da1f",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Harbin",
-      "destino_metro": "HRB",
-      "pais_texto": "China",
-      "pais_iso2": "CN",
-      "preco_brl": 14063,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air France, China Southern, KLM e China Eastern",
-      "janela": "2026-07-23 a 2026-07-29",
-      "janela_inicio": "2026-07-23",
-      "janela_fim": "2026-07-29",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 1995,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTIzagcIARIDR1JVGhUSCjIwMjYtMDctMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxMjNncQ",
-          "titulo": "Harbin — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "esportes_inverno",
-        "cultural",
-        "cidade_grande"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 30,
-        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "39f1e1620302",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Harbin",
-      "destino_metro": "HRB",
-      "pais_texto": "China",
-      "pais_iso2": "CN",
-      "preco_brl": 14113,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air France, China Southern, KLM e China Eastern",
-      "janela": "2026-07-23 a 2026-07-29",
-      "janela_inicio": "2026-07-23",
-      "janela_fim": "2026-07-29",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 1995,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTIzagcIARIDR1JVGhUSCjIwMjYtMDctMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxMjNncQ",
-          "titulo": "Harbin — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "esportes_inverno",
-        "cultural",
-        "cidade_grande"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 30,
-        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false
     }
   ]
 }
