@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-22T22:16:04.586Z",
+  "gerado_em": "2026-07-22T23:16:51.397Z",
   "visto_ate": "2026-07-21T19:10:51+00:00",
   "ultimo_explore": "2026-07-22",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,11 +31,12 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18633",
     "https://t.me/passageirodeprimeira/27779",
     "https://t.me/promopassagens/110089",
     "https://t.me/melhoresdestinos/18632",
@@ -62,19 +63,19 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 2,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 1,
+    "ineditas": 0,
     "rotas_no_historico": 105,
     "com_baseline": 0,
     "sem_tag": 26,
     "agradam_os_dois": 165,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
+        "total_avaliadas": 400,
         "casam_no_perfil": 117,
         "dessas_ja_alertadas_antes": 117,
         "novas_para_alertar": 0,
@@ -86,7 +87,7 @@
           "domestico": 13,
           "origem": 22,
           "janela_curta": 80,
-          "acima_do_teto": 144
+          "acima_do_teto": 143
         }
       }
     }
@@ -6299,18 +6300,18 @@
       "bagagem_despachada": "nao_dito",
       "companhia": "Gol",
       "validade": "",
-      "observacao": "Novo voo para Lisboa",
+      "observacao": "saindo de várias cidades",
       "flags": [
         "origem_nao_atribuida"
       ],
       "fontes": [
         {
           "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18630",
+          "link": "https://t.me/melhoresdestinos/18633",
           "titulo": "Portugal com a Gol 🔥"
         }
       ],
-      "descoberto_em": "2026-07-22T19:34:11+00:00",
+      "descoberto_em": "2026-07-22T22:45:22+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
