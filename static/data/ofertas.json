@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-22T17:05:35.641Z",
+  "gerado_em": "2026-07-22T17:48:22.595Z",
   "visto_ate": "2026-07-21T19:10:51+00:00",
   "ultimo_explore": "2026-07-22",
   "fontes": [
@@ -11,38 +11,79 @@
     },
     {
       "nome": "google-explore",
-      "destinos": 0,
-      "status": "nao_rodou"
+      "destinos": 90,
+      "status": "ok"
+    },
+    {
+      "nome": "tg:melhoresdestinos",
+      "novos": 11,
+      "status": "ok"
+    },
+    {
+      "nome": "tg:passageirodeprimeira",
+      "novos": 3,
+      "status": "ok"
+    },
+    {
+      "nome": "tg:canalpontospravoar",
+      "novos": 0,
+      "status": "vazio"
+    },
+    {
+      "nome": "tg:promopassagens",
+      "novos": 1,
+      "status": "ok"
     }
+  ],
+  "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18628",
+    "https://t.me/melhoresdestinos/18627",
+    "https://t.me/melhoresdestinos/18626",
+    "https://t.me/melhoresdestinos/18621",
+    "https://t.me/melhoresdestinos/18616",
+    "https://t.me/melhoresdestinos/18615",
+    "https://t.me/melhoresdestinos/18614",
+    "https://t.me/melhoresdestinos/18613",
+    "https://t.me/melhoresdestinos/18612",
+    "https://t.me/melhoresdestinos/18610",
+    "https://t.me/melhoresdestinos/18609",
+    "https://t.me/passageirodeprimeira/27764",
+    "https://t.me/passageirodeprimeira/27757",
+    "https://t.me/passageirodeprimeira/27756",
+    "https://t.me/promopassagens/110057"
   ],
   "funil": {
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
-    "explore_destinos": 0,
-    "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
-    "rotas_no_historico": 95,
+    "ofertas_extraidas": 16,
+    "explore_destinos": 90,
+    "explore_status": "ok",
+    "descartadas": 4,
+    "por_motivo_de_descarte": {
+      "incompleta": 2,
+      "categoria": 2
+    },
+    "ineditas": 70,
+    "rotas_no_historico": 103,
     "com_baseline": 0,
-    "sem_tag": 14,
-    "agradam_os_dois": 154,
+    "sem_tag": 24,
+    "agradam_os_dois": 168,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 358,
-        "casam_no_perfil": 107,
-        "dessas_ja_alertadas_antes": 107,
-        "novas_para_alertar": 0,
-        "alertados": 0,
-        "cortadas_pelo_teto": 0,
+        "total_avaliadas": 402,
+        "casam_no_perfil": 115,
+        "dessas_ja_alertadas_antes": 100,
+        "novas_para_alertar": 15,
+        "alertados": 5,
+        "cortadas_pelo_teto": 10,
         "rejeitados": {
           "posicionamento_desligado": 22,
-          "domestico": 11,
-          "origem": 17,
-          "janela_curta": 74,
-          "acima_do_teto": 127
+          "domestico": 13,
+          "origem": 22,
+          "janela_curta": 84,
+          "tipo": 1,
+          "acima_do_teto": 145
         }
       }
     }
@@ -1196,6 +1237,64 @@
       "match": false
     },
     {
+      "id": "260135d5823b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "destino_iata": "GIG",
+      "origem_iata": "GRU",
+      "pais_texto": "Brasil",
+      "pais_iso2": "BR",
+      "preco_brl": 645,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-10-22 a 2026-10-30",
+      "janela_inicio": "2026-10-22",
+      "janela_fim": "2026-10-30",
+      "noites": 8,
+      "escalas": 0,
+      "duracao_min": 60,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
+          "titulo": "Rio de Janeiro — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "f5bc383a43ed",
       "origem_texto": "Curitiba",
       "origem_metro": "CWB",
@@ -1541,6 +1640,63 @@
       "match": false
     },
     {
+      "id": "9932af65c7d4",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Salvador",
+      "destino_metro": "SSA",
+      "destino_iata": "SSA",
+      "origem_iata": "GRU",
+      "pais_texto": "Brasil",
+      "pais_iso2": "BR",
+      "preco_brl": 1017,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol",
+      "janela": "2026-11-05 a 2026-11-11",
+      "janela_inicio": "2026-11-05",
+      "janela_fim": "2026-11-11",
+      "noites": 6,
+      "escalas": 0,
+      "duracao_min": 140,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA1agcIARIDR1JVGhUSCjIwMjYtMTEtMTFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA5d3dsag",
+          "titulo": "Salvador — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "ceeb87de621b",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -1660,6 +1816,52 @@
       "match": true
     },
     {
+      "id": "9558a2e84605",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Assunção",
+      "destino_metro": "ASU",
+      "pais_iso2": "PY",
+      "preco_brl": 1082,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "saindo de várias cidades",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18627",
+          "titulo": "Paraguai barato 🇵🇾"
+        }
+      ],
+      "descoberto_em": "2026-07-22T16:19:10+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "1752e3dd6c4f",
       "origem_texto": "Rio de Janeiro",
       "origem_metro": "RIO",
@@ -1715,6 +1917,52 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "cdb9c4c9d35d",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Argentina, Chile, Peru e Colômbia",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1129,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "Últimas horas",
+      "observacao": "Em 10x sem juros",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18615",
+          "titulo": "Mega Promo Am. do Sul 🇦🇷🇨🇱"
+        }
+      ],
+      "descoberto_em": "2026-07-21T23:48:40+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "f4cf0248bb25",
@@ -1881,6 +2129,63 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "b51dab79e9d5",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "BUE",
+      "destino_iata": "EZE",
+      "origem_iata": "GRU",
+      "pais_texto": "Argentina",
+      "pais_iso2": "AR",
+      "preco_brl": 1219,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-08-29 a 2026-09-04",
+      "janela_inicio": "2026-08-29",
+      "janela_fim": "2026-09-04",
+      "noites": 6,
+      "escalas": 0,
+      "duracao_min": 185,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI5agcIARIDR1JVGhUSCjIwMjYtMDktMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxbHk1bQ",
+          "titulo": "Buenos Aires — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "4f7ce934c29c",
@@ -2144,6 +2449,62 @@
       "match": false
     },
     {
+      "id": "8c1e27ead6d9",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 1397,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": true,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "Voo direto; ou 53 mil milhas o trecho mais taxas",
+      "flags": [
+        "preco_abaixo_da_faixa",
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18626",
+          "titulo": "Lisboa com a Latam"
+        }
+      ],
+      "descoberto_em": "2026-07-22T15:47:06+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
       "id": "e7a0f1721888",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -2361,6 +2722,68 @@
         "andreia": true
       },
       "match": false
+    },
+    {
+      "id": "7909666cde53",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Cancún",
+      "destino_metro": "CUN",
+      "destino_iata": "CUN",
+      "origem_iata": "GRU",
+      "pais_texto": "México",
+      "pais_iso2": "MX",
+      "preco_brl": 1748,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-10-04 a 2026-10-12",
+      "janela_inicio": "2026-10-04",
+      "janela_fim": "2026-10-12",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 684,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTA0agcIARIDR1JVGhUSCjIwMjYtMTAtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
+          "titulo": "Cancún — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "AUTORIZACAO_ELETRONICA",
+        "dias": 180,
+        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": true
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "865484302428",
@@ -2638,7 +3061,19 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "insight": {
+        "fonte": "google-price-insights",
+        "nivel": "typical",
+        "tipico": 2650,
+        "faixa": [
+          2350,
+          2950
+        ],
+        "lowest": 2546,
+        "desvio_pct": -4,
+        "pontos_historico": 61
+      }
     },
     {
       "id": "659ae286d6b0",
@@ -2694,7 +3129,19 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "insight": {
+        "fonte": "google-price-insights",
+        "nivel": "typical",
+        "tipico": 2650,
+        "faixa": [
+          2350,
+          2950
+        ],
+        "lowest": 2495,
+        "desvio_pct": -6,
+        "pontos_historico": 61
+      }
     },
     {
       "id": "42a502b69bc3",
@@ -2750,7 +3197,19 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "insight": {
+        "fonte": "google-price-insights",
+        "nivel": "typical",
+        "tipico": 2650,
+        "faixa": [
+          2350,
+          2950
+        ],
+        "lowest": 2546,
+        "desvio_pct": -4,
+        "pontos_historico": 61
+      }
     },
     {
       "id": "8fa44e399e8e",
@@ -3003,7 +3462,19 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "insight": {
+        "fonte": "google-price-insights",
+        "nivel": "typical",
+        "tipico": 2700,
+        "faixa": [
+          2400,
+          3000
+        ],
+        "lowest": 2563,
+        "desvio_pct": -5,
+        "pontos_historico": 61
+      }
     },
     {
       "id": "8ded7536cfde",
@@ -3068,7 +3539,19 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "insight": {
+        "fonte": "google-price-insights",
+        "nivel": "typical",
+        "tipico": 2475,
+        "faixa": [
+          2250,
+          2700
+        ],
+        "lowest": 2584,
+        "desvio_pct": 4,
+        "pontos_historico": 61
+      }
     },
     {
       "id": "a31f62e39864",
@@ -3133,7 +3616,19 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "insight": {
+        "fonte": "google-price-insights",
+        "nivel": "typical",
+        "tipico": 2475,
+        "faixa": [
+          2250,
+          2700
+        ],
+        "lowest": 2584,
+        "desvio_pct": 4,
+        "pontos_historico": 61
+      }
     },
     {
       "id": "15287ad4e98c",
@@ -3462,6 +3957,67 @@
         "andreia": true
       },
       "match": true
+    },
+    {
+      "id": "0de42a12b49b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Orlando",
+      "destino_metro": "SFB",
+      "destino_iata": "SFB",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 2155,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-08-28 a 2026-09-06",
+      "janela_inicio": "2026-08-28",
+      "janela_fim": "2026-09-06",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 800,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI4agcIARIDR1JVGhUSCjIwMjYtMDktMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
+          "titulo": "Orlando — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "f56230719cdf",
@@ -4059,6 +4615,64 @@
       "match": true
     },
     {
+      "id": "99ced50e4af8",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Machu Picchu",
+      "destino_metro": "CUZ",
+      "destino_iata": "CUZ",
+      "origem_iata": "GRU",
+      "pais_texto": "Peru",
+      "pais_iso2": "PE",
+      "preco_brl": 2490,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-11-01 a 2026-11-08",
+      "janela_inicio": "2026-11-01",
+      "janela_fim": "2026-11-08",
+      "noites": 7,
+      "escalas": 2,
+      "duracao_min": 915,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTAxagcIARIDR1JVGhUSCjIwMjYtMTEtMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBrcmZ5",
+          "titulo": "Machu Picchu — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "montanha",
+        "aventura",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "8707aea2356d",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -4083,6 +4697,16 @@
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTA0agcIARIDR1JVGhUSCjIwMjYtMTAtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmMnYw",
+          "titulo": "Miami — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTA0agcIARIDR1JVGhUSCjIwMjYtMTAtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzByajB6",
+          "titulo": "Fort Lauderdale — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTA0agcIARIDR1JVGhUSCjIwMjYtMTAtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmMnYw",
@@ -4304,14 +4928,16 @@
       "match": true
     },
     {
-      "id": "21508e4f7fc0",
+      "id": "89a5edb89b00",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Parque Nacional Torres del Paine",
       "destino_metro": "PNT",
+      "destino_iata": "PNT",
+      "origem_iata": "GRU",
       "pais_texto": "Chile",
       "pais_iso2": "CL",
-      "preco_brl": 2544,
+      "preco_brl": 2538,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
@@ -4332,6 +4958,11 @@
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI2agcIARIDR1JVGhUSCjIwMjYtMTAtMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAycDkyc3Q",
           "titulo": "Parque Nacional Torres del Paine — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI2agcIARIDR1JVGhUSCjIwMjYtMTAtMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAycDkyc3Q",
+          "titulo": "Parque Nacional Torres del Paine — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -4339,9 +4970,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       },
       "tipos": [
         "natureza",
@@ -4356,7 +4984,10 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "5f6bf28bf1da",
@@ -4449,6 +5080,11 @@
       "fontes": [
         {
           "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTEzagcIARIDR1JVGhUSCjIwMjYtMDktMTlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxemRucw",
+          "titulo": "Ushuaia — Google Flights"
+        },
+        {
+          "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTMxagcIARIDR1JVGhUSCjIwMjYtMDktMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxemRucw",
           "titulo": "Ushuaia — Google Flights"
         }
@@ -4533,30 +5169,37 @@
       "match": true
     },
     {
-      "id": "f8fb3558fc1a",
+      "id": "e373667380ca",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Chicago",
       "destino_metro": "ORD",
+      "destino_iata": "ORD",
+      "origem_iata": "GRU",
       "pais_texto": "Estados Unidos",
       "pais_iso2": "US",
-      "preco_brl": 2639,
+      "preco_brl": 2633,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
       "companhia": "Arajet",
-      "janela": "2026-09-24 a 2026-10-02",
-      "janela_inicio": "2026-09-24",
-      "janela_fim": "2026-10-02",
-      "noites": 8,
+      "janela": "2026-09-13 a 2026-09-19",
+      "janela_inicio": "2026-09-13",
+      "janela_fim": "2026-09-19",
+      "noites": 6,
       "escalas": 1,
-      "duracao_min": 830,
+      "duracao_min": 1202,
       "validade": "",
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTEzagcIARIDR1JVGhUSCjIwMjYtMDktMTlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxX2Q0",
+          "titulo": "Chicago — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI0agcIARIDR1JVGhUSCjIwMjYtMTAtMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxX2Q0",
@@ -4568,9 +5211,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
       },
       "tipos": [
         "cidade_grande",
@@ -4590,7 +5230,10 @@
         "ale": true,
         "andreia": false
       },
-      "match": false
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "dee3ae95f080",
@@ -4958,14 +5601,16 @@
       "match": false
     },
     {
-      "id": "53839e6b4a6a",
+      "id": "81a580e60fd4",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Toronto",
       "destino_metro": "YYZ",
+      "destino_iata": "YYZ",
+      "origem_iata": "GRU",
       "pais_texto": "Canadá",
       "pais_iso2": "CA",
-      "preco_brl": 2789,
+      "preco_brl": 2781,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
@@ -4986,6 +5631,11 @@
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTAxagcIARIDR1JVGhUSCjIwMjYtMTAtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoN2g2",
           "titulo": "Toronto — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTAxagcIARIDR1JVGhUSCjIwMjYtMTAtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoN2g2",
+          "titulo": "Toronto — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -4993,9 +5643,6 @@
         "tem_baseline": false,
         "amostras": 3,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       },
       "tipos": [
         "cidade_grande",
@@ -5015,7 +5662,10 @@
         "ale": true,
         "andreia": false
       },
-      "match": false
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "79ae8214d3d1",
@@ -5247,7 +5897,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "perfis": {
@@ -5496,6 +6146,68 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "f40f6802c27f",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Nova Iorque",
+      "destino_metro": "NYC",
+      "destino_iata": "EWR",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 2999,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-09-24 a 2026-10-01",
+      "janela_inicio": "2026-09-24",
+      "janela_fim": "2026-10-01",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 760,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI0agcIARIDR1JVGhUSCjIwMjYtMTAtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAyXzI4Ng",
+          "titulo": "Nova Iorque — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "067627ad95cb",
@@ -5868,6 +6580,68 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "cc37f0dc34ea",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Montreal",
+      "destino_metro": "YUL",
+      "destino_iata": "YUL",
+      "origem_iata": "GRU",
+      "pais_texto": "Canadá",
+      "pais_iso2": "CA",
+      "preco_brl": 3167,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "American e Arajet",
+      "janela": "2026-11-05 a 2026-11-11",
+      "janela_inicio": "2026-11-05",
+      "janela_fim": "2026-11-11",
+      "noites": 6,
+      "escalas": 2,
+      "duracao_min": 855,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA1agcIARIDR1JVGhUSCjIwMjYtMTEtMTFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1MnA3",
+          "titulo": "Montreal — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "DEPENDE",
+        "dias": 180,
+        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "969e7c44487b",
@@ -6892,6 +7666,68 @@
       "match": true
     },
     {
+      "id": "5beab416e9c3",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Los Angeles",
+      "destino_metro": "LAX",
+      "destino_iata": "LAX",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 3444,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "COPA",
+      "janela": "2026-10-29 a 2026-11-04",
+      "janela_inicio": "2026-10-29",
+      "janela_fim": "2026-11-04",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 899,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
+          "titulo": "Los Angeles — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "praia",
+        "cultural"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
       "id": "269c04caa493",
       "origem_texto": "Fortaleza",
       "origem_metro": "FOR",
@@ -6952,6 +7788,57 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "aab8e603a25a",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Europa",
+      "destino_metro": "",
+      "pais_iso2": null,
+      "preco_brl": 3495,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Itália, Portugal, Espanha e mais; 10x sem juros",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18614",
+          "titulo": "Mega Promo Europa 🇪🇺"
+        },
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18610",
+          "titulo": "Portugal em 10x sem juros 🇵🇹"
+        }
+      ],
+      "descoberto_em": "2026-07-21T23:29:08+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "bf0fb32fc6bb",
@@ -7018,6 +7905,72 @@
       "match": false
     },
     {
+      "id": "285dadf4f67a",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Washington, D.C.",
+      "destino_metro": "IAD",
+      "destino_iata": "IAD",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 3503,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Avianca",
+      "janela": "2026-07-31 a 2026-08-09",
+      "janela_inicio": "2026-07-31",
+      "janela_fim": "2026-08-09",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 775,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTMxagcIARIDR1JVGhUSCjIwMjYtMDgtMDlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzByaDZr",
+          "titulo": "Washington, D.C. — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTMwagcIARIDR1JVGhUSCjIwMjYtMDgtMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzByaDZr",
+          "titulo": "Washington, D.C. — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "37045a70c232",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -7076,6 +8029,218 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "024fc74a5bb3",
+      "origem_texto": "Fortaleza",
+      "origem_metro": "FOR",
+      "destino_texto": "Madri",
+      "destino_metro": "MAD",
+      "pais_iso2": "ES",
+      "preco_brl": 3522,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Voo direto",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18628",
+          "titulo": "Madri em voo direto 🇪🇸"
+        }
+      ],
+      "descoberto_em": "2026-07-22T17:42:03+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:FOR"
+      }
+    },
+    {
+      "id": "76d7562f65f2",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Madri",
+      "destino_metro": "MAD",
+      "pais_iso2": "ES",
+      "preco_brl": 3522,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Voo direto",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18628",
+          "titulo": "Madri em voo direto 🇪🇸"
+        }
+      ],
+      "descoberto_em": "2026-07-22T17:42:03+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "19a6f243b218",
+      "origem_texto": "Recife",
+      "origem_metro": "REC",
+      "destino_texto": "Madri",
+      "destino_metro": "MAD",
+      "pais_iso2": "ES",
+      "preco_brl": 3522,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Voo direto",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18628",
+          "titulo": "Madri em voo direto 🇪🇸"
+        }
+      ],
+      "descoberto_em": "2026-07-22T17:42:03+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:REC"
+      }
+    },
+    {
+      "id": "5a2826123869",
+      "origem_texto": "Salvador",
+      "origem_metro": "SSA",
+      "destino_texto": "Madri",
+      "destino_metro": "MAD",
+      "pais_iso2": "ES",
+      "preco_brl": 3522,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Voo direto",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18628",
+          "titulo": "Madri em voo direto 🇪🇸"
+        }
+      ],
+      "descoberto_em": "2026-07-22T17:42:03+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:SSA"
+      }
     },
     {
       "id": "05184e526ffb",
@@ -7303,6 +8468,73 @@
       "match": false
     },
     {
+      "id": "c09744101893",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Quebec",
+      "destino_metro": "YQB",
+      "destino_iata": "YQB",
+      "origem_iata": "GRU",
+      "pais_texto": "Canadá",
+      "pais_iso2": "CA",
+      "preco_brl": 3577,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "American",
+      "janela": "2026-08-06 a 2026-08-12",
+      "janela_inicio": "2026-08-06",
+      "janela_fim": "2026-08-12",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 914,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbXAy",
+          "titulo": "Quebec — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbXAy",
+          "titulo": "Quebec — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "esportes_inverno"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "DEPENDE",
+        "dias": 180,
+        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
       "id": "e4b17df2b52f",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -7327,6 +8559,11 @@
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA3agcIARIDR1JVGhUSCjIwMjYtMTEtMTZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3X3Bm",
+          "titulo": "Veneza — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTAzagcIARIDR1JVGhUSCjIwMjYtMTItMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3X3Bm",
@@ -7354,66 +8591,6 @@
         "exige": "NAO",
         "dias": 90,
         "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "3bff3a4fbde9",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Quebec",
-      "destino_metro": "YQB",
-      "pais_texto": "Canadá",
-      "pais_iso2": "CA",
-      "preco_brl": 3586,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "American",
-      "janela": "2026-08-06 a 2026-08-13",
-      "janela_inicio": "2026-08-06",
-      "janela_fim": "2026-08-13",
-      "noites": 7,
-      "escalas": 2,
-      "duracao_min": 914,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbXAy",
-          "titulo": "Quebec — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "esportes_inverno"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "DEPENDE",
-        "dias": 180,
-        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
@@ -7481,65 +8658,6 @@
         "andreia": true
       },
       "match": true
-    },
-    {
-      "id": "50d30c5ec9f5",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Washington, D.C.",
-      "destino_metro": "IAD",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3598,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-07-30 a 2026-08-08",
-      "janela_inicio": "2026-07-30",
-      "janela_fim": "2026-08-08",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 775,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTMwagcIARIDR1JVGhUSCjIwMjYtMDgtMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzByaDZr",
-          "titulo": "Washington, D.C. — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false
     },
     {
       "id": "046c76daf287",
@@ -7747,6 +8865,73 @@
       "match": false
     },
     {
+      "id": "13073eb61552",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "San Diego",
+      "destino_metro": "SAN",
+      "destino_iata": "SAN",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 3612,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "COPA",
+      "janela": "2026-10-22 a 2026-10-28",
+      "janela_inicio": "2026-10-22",
+      "janela_fim": "2026-10-28",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 1063,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MXZy",
+          "titulo": "San Diego — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MXZy",
+          "titulo": "San Diego — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
       "id": "b3cf2e893205",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -7951,34 +9136,41 @@
       "match": false
     },
     {
-      "id": "ee24b5812ea3",
+      "id": "9677e65b859e",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
-      "destino_texto": "San Diego",
-      "destino_metro": "SAN",
+      "destino_texto": "Boston",
+      "destino_metro": "BOS",
+      "destino_iata": "BOS",
+      "origem_iata": "GRU",
       "pais_texto": "Estados Unidos",
       "pais_iso2": "US",
-      "preco_brl": 3620,
+      "preco_brl": 3619,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-22 a 2026-10-30",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-30",
-      "noites": 8,
+      "companhia": "Avianca",
+      "janela": "2026-09-25 a 2026-10-01",
+      "janela_inicio": "2026-09-25",
+      "janela_fim": "2026-10-01",
+      "noites": 6,
       "escalas": 1,
-      "duracao_min": 1063,
+      "duracao_min": 875,
       "validade": "",
       "observacao": "",
       "flags": [],
       "fontes": [
         {
           "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MXZy",
-          "titulo": "San Diego — Google Flights"
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxY3hf",
+          "titulo": "Boston — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTMwagcIARIDR1JVGhUSCjIwMjYtMTEtMDVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxY3hf",
+          "titulo": "Boston — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -7987,13 +9179,10 @@
         "amostras": 4,
         "precisa": 7
       },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
       "tipos": [
-        "praia",
+        "cultural",
         "cidade_grande",
-        "descanso"
+        "gastronomico"
       ],
       "continente": "america_norte_central",
       "tem_tag": true,
@@ -8006,9 +9195,12 @@
       },
       "gosto": {
         "ale": true,
-        "andreia": true
+        "andreia": false
       },
-      "match": true
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "1056161f5ba1",
@@ -8387,66 +9579,6 @@
       "match": true
     },
     {
-      "id": "72acd5d9f0bc",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Boston",
-      "destino_metro": "BOS",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3670,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-30 a 2026-11-05",
-      "janela_inicio": "2026-10-30",
-      "janela_fim": "2026-11-05",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1117,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTMwagcIARIDR1JVGhUSCjIwMjYtMTEtMDVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxY3hf",
-          "titulo": "Boston — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
       "id": "a824b4f7f030",
       "origem_texto": "Salvador",
       "origem_metro": "SSA",
@@ -8691,6 +9823,122 @@
       "match": true
     },
     {
+      "id": "cb16b85221cf",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Barcelona",
+      "destino_metro": "BCN",
+      "destino_iata": "BCN",
+      "origem_iata": "GRU",
+      "pais_texto": "Espanha",
+      "pais_iso2": "ES",
+      "preco_brl": 3697,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "ITA",
+      "janela": "2026-11-09 a 2026-11-16",
+      "janela_inicio": "2026-11-09",
+      "janela_fim": "2026-11-16",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 905,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMTZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy",
+          "titulo": "Barcelona — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico",
+        "praia"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "a861c568fc58",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Johanesburgo",
+      "destino_metro": "JNB",
+      "destino_iata": "JNB",
+      "origem_iata": "GRU",
+      "pais_texto": "África do Sul",
+      "pais_iso2": null,
+      "preco_brl": 3706,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-10-24 a 2026-11-01",
+      "janela_inicio": "2026-10-24",
+      "janela_fim": "2026-11-01",
+      "noites": 8,
+      "escalas": 0,
+      "duracao_min": 510,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI0agcIARIDR1JVGhUSCjIwMjYtMTEtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBnMjg0",
+          "titulo": "Johanesburgo — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "d7588bd1320e",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -8764,6 +10012,73 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "c51cb92670f2",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Madrid",
+      "destino_metro": "MAD",
+      "destino_iata": "MAD",
+      "origem_iata": "GRU",
+      "pais_texto": "Espanha",
+      "pais_iso2": "ES",
+      "preco_brl": 3725,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "ITA",
+      "janela": "2026-11-14 a 2026-11-23",
+      "janela_inicio": "2026-11-14",
+      "janela_fim": "2026-11-23",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1285,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDR1JVGhUSCjIwMjYtMTEtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
+          "titulo": "Madrid — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
+          "titulo": "Madrid — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "2b7c74441ea8",
@@ -8891,66 +10206,6 @@
       "match": false
     },
     {
-      "id": "6e78ed8fe8e2",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Madrid",
-      "destino_metro": "MAD",
-      "pais_texto": "Espanha",
-      "pais_iso2": "ES",
-      "preco_brl": 3780,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia",
-      "janela": "2026-10-22 a 2026-10-29",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-29",
-      "noites": 7,
-      "escalas": 0,
-      "duracao_min": 625,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
-          "titulo": "Madrid — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
       "id": "186e07bcec16",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -9064,14 +10319,16 @@
       "match": false
     },
     {
-      "id": "91e5cb6d1936",
+      "id": "9efd89c0d242",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Dubai",
       "destino_metro": "SHJ",
+      "destino_iata": "SHJ",
+      "origem_iata": "GRU",
       "pais_texto": "Emirados Árabes Unidos",
       "pais_iso2": "AE",
-      "preco_brl": 3832,
+      "preco_brl": 3823,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
@@ -9092,6 +10349,11 @@
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxZjA4cg",
           "titulo": "Dubai — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxZjA4cg",
+          "titulo": "Dubai — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -9099,9 +10361,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
       },
       "tipos": [
         "cidade_grande",
@@ -9121,7 +10380,10 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "e808fa2ed762",
@@ -9182,6 +10444,73 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "0b913d8393d5",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "destino_iata": "LIS",
+      "origem_iata": "GRU",
+      "pais_texto": "Portugal",
+      "pais_iso2": "PT",
+      "preco_brl": 3847,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "British Airways",
+      "janela": "2026-11-22 a 2026-11-30",
+      "janela_inicio": "2026-11-22",
+      "janela_fim": "2026-11-30",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 1015,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIyagcIARIDR1JVGhUSCjIwMjYtMTEtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi",
+          "titulo": "Lisboa — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA3agcIARIDR1JVGhUSCjIwMjYtMTEtMTVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi",
+          "titulo": "Lisboa — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "704f2762125e",
@@ -10194,6 +11523,68 @@
       "match": false
     },
     {
+      "id": "c4a3652a6df1",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Londres",
+      "destino_metro": "LON",
+      "destino_iata": "LHR",
+      "origem_iata": "GRU",
+      "pais_texto": "Reino Unido",
+      "pais_iso2": "GB",
+      "preco_brl": 3959,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Avianca",
+      "janela": "2026-11-05 a 2026-11-11",
+      "janela_inicio": "2026-11-05",
+      "janela_fim": "2026-11-11",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 1090,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA1agcIARIDR1JVGhUSCjIwMjYtMTEtMTFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0anBs",
+          "titulo": "Londres — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "AUTORIZACAO_ELETRONICA",
+        "dias": 180,
+        "pegadinha": "DESDE 25/02/2026 O ETA E BARRADO NO PORTAO: sem ETA voce nao embarca — a checagem e feita pela COMPANHIA (aerea, ferry ou trem), que responde pelo passageiro. Nao adianta 'resolver na chegada'. Segunda, a que mais pega casal em roteiro Europa: a isencao de ETA por vir da Irlanda so vale para quem e LEGALMENTE RESIDENTE na Irlanda circulando na Common Travel Area. Turista brasileiro passeando em Dublin que resolve cruzar para a Irlanda do Norte (Belfast) PRECISA de ETA — nao ha controle na fronteira terrestre, mas voce fica irregular, e isso aparece depois. Terceira: ETA nao garante entrada — o oficial ainda pode recusar. Quarta: o ETA fica vinculado ao passaporte; passaporte novo = ETA novo.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
       "id": "75e940c9bdae",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -10340,66 +11731,6 @@
       "match": true
     },
     {
-      "id": "d0f735525879",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Lisboa",
-      "destino_metro": "LIS",
-      "pais_texto": "Portugal",
-      "pais_iso2": "PT",
-      "preco_brl": 3970,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-11-07 a 2026-11-15",
-      "janela_inicio": "2026-11-07",
-      "janela_fim": "2026-11-15",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 765,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA3agcIARIDR1JVGhUSCjIwMjYtMTEtMTVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi",
-          "titulo": "Lisboa — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
       "id": "0dc08fd9369c",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -10525,6 +11856,68 @@
       "match": false
     },
     {
+      "id": "425757df729e",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Seattle",
+      "destino_metro": "SEA",
+      "destino_iata": "SEA",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 3979,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "United",
+      "janela": "2026-08-02 a 2026-08-10",
+      "janela_inicio": "2026-08-02",
+      "janela_fim": "2026-08-10",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 1486,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTAyagcIARIDR1JVGhUSCjIwMjYtMDgtMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkOWpy",
+          "titulo": "Seattle — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "natureza",
+        "gastronomico"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "057671e7ba35",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -10549,6 +11942,11 @@
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTAxagcIARIDR1JVGhUSCjIwMjYtMTAtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkNmxw",
+          "titulo": "São Francisco — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMTVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkNmxw",
@@ -10793,6 +12191,11 @@
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE3agcIARIDR1JVGhUSCjIwMjYtMDgtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBjdjN3",
           "titulo": "Las Vegas — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE3agcIARIDR1JVGhUSCjIwMjYtMDgtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBjdjN3",
+          "titulo": "Las Vegas — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -11005,6 +12408,68 @@
       "match": true
     },
     {
+      "id": "64c00d9b368a",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Amsterdã",
+      "destino_metro": "AMS",
+      "destino_iata": "AMS",
+      "origem_iata": "GRU",
+      "pais_texto": "Países Baixos",
+      "pais_iso2": "NL",
+      "preco_brl": 4012,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "ITA",
+      "janela": "2026-11-09 a 2026-11-16",
+      "janela_inicio": "2026-11-09",
+      "janela_fim": "2026-11-16",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 920,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMTZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBrM3A",
+          "titulo": "Amsterdã — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, ausencia de alerta no SIS. Schiphol e um dos maiores hubs de conexao de brasileiros — atencao: conexao que sai da area de transito internacional = ENTRADA no Schengen, entra na conta do 90/180 e no EES. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo).",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4012>4000"
+      }
+    },
+    {
       "id": "5da9cd9fd522",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -11125,6 +12590,68 @@
       "match": false
     },
     {
+      "id": "612717439d02",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Paris",
+      "destino_metro": "PAR",
+      "destino_iata": "CDG",
+      "origem_iata": "GRU",
+      "pais_texto": "França",
+      "pais_iso2": "FR",
+      "preco_brl": 4124,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Avianca",
+      "janela": "2026-09-28 a 2026-10-07",
+      "janela_inicio": "2026-09-28",
+      "janela_fim": "2026-10-07",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1100,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI4agcIARIDR1JVGhUSCjIwMjYtMTAtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq",
+          "titulo": "Paris — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido por +3 MESES alem da saida prevista do Schengen — as duas condicoes no dia da entrada, sem waiver para os 10 anos. Alem disso, art. 6 do CFS: justificar proposito e condicoes da estada e provar meios de subsistencia para a estada E para o retorno, avaliados 'por referencia aos precos medios de alojamento e alimentacao em acomodacao economica multiplicados pelo numero de dias'. Na pratica: passagem de saida, comprovante de hospedagem e dinheiro. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo, overstay automatico).",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4124>4000"
+      }
+    },
+    {
       "id": "92129231a93a",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -11183,6 +12710,68 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "43f11d8e657b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Roma",
+      "destino_metro": "FCO",
+      "destino_iata": "FCO",
+      "origem_iata": "GRU",
+      "pais_texto": "Itália",
+      "pais_iso2": "IT",
+      "preco_brl": 4128,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Iberia",
+      "janela": "2026-12-03 a 2026-12-10",
+      "janela_inicio": "2026-12-03",
+      "janela_fim": "2026-12-10",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 960,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTAzagcIARIDR1JVGhUSCjIwMjYtMTItMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
+          "titulo": "Roma — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4128>4000"
+      }
     },
     {
       "id": "d6be963fdbfb",
@@ -11952,6 +13541,174 @@
       "match": false
     },
     {
+      "id": "42385ace1a11",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Abu Dhabi",
+      "destino_metro": "AUH",
+      "pais_iso2": "AE",
+      "preco_brl": 4223,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam + Etihad",
+      "validade": "",
+      "observacao": "Em 10x sem juros",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18612",
+          "titulo": "Emirados na Mega Promo 🐪"
+        }
+      ],
+      "descoberto_em": "2026-07-21T22:24:57+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A CONTA DOS 90 DIAS É POR 12 MESES, NÃO POR VIAGEM. São 90 dias a cada período de 12 meses contados da PRIMEIRA entrada — sair e voltar não zera o contador. Quem usa Dubai como hub de conexões repetidas ao longo do ano pode estourar a cota sem perceber. Passaporte com 6 meses de validade. O sistema migratório (ICP federal, GDRFA em Dubai) é automatizado e rigoroso, e overstay gera multa diária.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4223>4000"
+      }
+    },
+    {
+      "id": "3d50cb6eb1a1",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Dubai",
+      "destino_metro": "DXB",
+      "pais_iso2": "AE",
+      "preco_brl": 4223,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam + Etihad",
+      "validade": "",
+      "observacao": "Em 10x sem juros",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18612",
+          "titulo": "Emirados na Mega Promo 🐪"
+        }
+      ],
+      "descoberto_em": "2026-07-21T22:24:57+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "praia",
+        "descanso"
+      ],
+      "continente": "asia",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A CONTA DOS 90 DIAS É POR 12 MESES, NÃO POR VIAGEM. São 90 dias a cada período de 12 meses contados da PRIMEIRA entrada — sair e voltar não zera o contador. Quem usa Dubai como hub de conexões repetidas ao longo do ano pode estourar a cota sem perceber. Passaporte com 6 meses de validade. O sistema migratório (ICP federal, GDRFA em Dubai) é automatizado e rigoroso, e overstay gera multa diária.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4223>4000"
+      }
+    },
+    {
+      "id": "500f02b59fb8",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Florença",
+      "destino_metro": "FLR",
+      "destino_iata": "FLR",
+      "origem_iata": "GRU",
+      "pais_texto": "Itália",
+      "pais_iso2": "IT",
+      "preco_brl": 4226,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Iberia e Vueling",
+      "janela": "2026-11-27 a 2026-12-06",
+      "janela_inicio": "2026-11-27",
+      "janela_fim": "2026-12-06",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 980,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDR1JVGhUSCjIwMjYtMTItMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzMXky",
+          "titulo": "Florença — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4226>4000"
+      }
+    },
+    {
       "id": "f00ffb8bb2a3",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -12075,6 +13832,68 @@
         "andreia": true
       },
       "match": true
+    },
+    {
+      "id": "4b9d96b69d62",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Vancouver",
+      "destino_metro": "YVR",
+      "destino_iata": "YVR",
+      "origem_iata": "GRU",
+      "pais_texto": "Canadá",
+      "pais_iso2": "CA",
+      "preco_brl": 4257,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "American e Air Canada",
+      "janela": "2026-11-01 a 2026-11-09",
+      "janela_inicio": "2026-11-01",
+      "janela_fim": "2026-11-09",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 1115,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTAxagcIARIDR1JVGhUSCjIwMjYtMTEtMDlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA4MGgy",
+          "titulo": "Vancouver — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "natureza",
+        "montanha"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "DEPENDE",
+        "dias": 180,
+        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4257>4000"
+      }
     },
     {
       "id": "062c84445155",
@@ -12222,6 +14041,11 @@
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxNTZx",
+          "titulo": "Berlim — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA4agcIARIDR1JVGhUSCjIwMjYtMTEtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxNTZx",
@@ -12868,6 +14692,68 @@
       "match": true
     },
     {
+      "id": "b45065568a04",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Atenas",
+      "destino_metro": "ATH",
+      "destino_iata": "ATH",
+      "origem_iata": "GRU",
+      "pais_texto": "Grécia",
+      "pais_iso2": "GR",
+      "preco_brl": 4451,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Iberia",
+      "janela": "2026-08-09 a 2026-08-18",
+      "janela_inicio": "2026-08-09",
+      "janela_fim": "2026-08-18",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1400,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA5agcIARIDR1JVGhUSCjIwMjYtMDgtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBuMno",
+          "titulo": "Atenas — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, sem alerta no SIS. CHIPRE: se o roteiro incluir Chipre, o tempo la conta SEPARADAMENTE e nao entra nos 90 dias dos demais (Chipre nao e Schengen). Balsa/ferry Grecia>Turquia e fronteira EXTERNA: sai do Schengen, com registro de saida no EES. EES 100% operacional desde 10/04/2026.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4451>4000"
+      }
+    },
+    {
       "id": "6de3b4301c1c",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -12981,6 +14867,69 @@
         "andreia": true
       },
       "match": true
+    },
+    {
+      "id": "9f6096d22003",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Cidade do Cabo",
+      "destino_metro": "CPT",
+      "destino_iata": "CPT",
+      "origem_iata": "GRU",
+      "pais_texto": "África do Sul",
+      "pais_iso2": "ZA",
+      "preco_brl": 4569,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-11-22 a 2026-11-30",
+      "janela_inicio": "2026-11-22",
+      "janela_fim": "2026-11-30",
+      "noites": 8,
+      "escalas": 0,
+      "duracao_min": 440,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIyagcIARIDR1JVGhUSCjIwMjYtMTEtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxeWoy",
+          "titulo": "Cidade do Cabo — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "natureza",
+        "cultural",
+        "praia",
+        "aventura"
+      ],
+      "continente": "africa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "DUPLA PEGADINHA, AMBAS CONFIRMADAS NESTA AUDITORIA. (1) FEBRE AMARELA: o Brasil é país de risco para a África do Sul. Sem o certificado internacional (CIVP) a fonte oficial prevê 'refusal of entry, or quarantine until your certificate becomes valid' — quarentena de até 6 dias. Vacina no mínimo 10 dias antes. (2) DECLARAÇÃO ONLINE: obrigatória desde 01/07/2026 para ENTRADA E SAÍDA, por ar, terra, mar e trilho — inclui o voo de volta, não é só chegada. Em itinerário com escalas, conta-se 24h antes do último trecho com destino direto à África do Sul. Só trânsito aéreo/marítimo sem sair da área de trânsito é isento. Passaporte: 2 páginas em branco e validade de 30 dias além da saída.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4569>4000"
+      }
     },
     {
       "id": "d0a3223a7256",
@@ -13672,6 +15621,68 @@
       "match": false
     },
     {
+      "id": "25fabb3fa32f",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Viena",
+      "destino_metro": "VIE",
+      "destino_iata": "VIE",
+      "origem_iata": "GRU",
+      "pais_texto": "Áustria",
+      "pais_iso2": "AT",
+      "preco_brl": 4788,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Tap Air Portugal",
+      "janela": "2026-10-22 a 2026-10-29",
+      "janela_inicio": "2026-10-22",
+      "janela_fim": "2026-10-29",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 965,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmaHA5",
+          "titulo": "Viena — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — as duas condicoes valem no dia da entrada. Art. 6 do CFS: proposito da viagem, meios de subsistencia para estada e retorno, sem alerta no SIS. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo, overstay automatico).",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4788>4000"
+      }
+    },
+    {
       "id": "f09faeb030cb",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -13696,6 +15707,11 @@
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI2agcIARIDR1JVGhUSCjIwMjYtMTEtMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBqYnM1",
+          "titulo": "Maui — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDR1JVGhUSCjIwMjYtMTEtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBqYnM1",
@@ -13759,6 +15775,11 @@
       "fontes": [
         {
           "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDR1JVGhUSCjIwMjYtMTEtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAyaHJoMF8",
+          "titulo": "Honolulu — Google Flights"
+        },
+        {
+          "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIzagcIARIDR1JVGhUSCjIwMjYtMTItMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAyaHJoMF8",
           "titulo": "Honolulu — Google Flights"
         }
@@ -13794,14 +15815,16 @@
       "match": false
     },
     {
-      "id": "d850a3a1c30e",
+      "id": "84b80b729871",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Ilha de Páscoa",
       "destino_metro": "IPC",
+      "destino_iata": "IPC",
+      "origem_iata": "GRU",
       "pais_texto": "Chile",
       "pais_iso2": "CL",
-      "preco_brl": 4804,
+      "preco_brl": 4796,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
@@ -13822,6 +15845,11 @@
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI3LTAxLTA3agcIARIDR1JVGhUSCjIwMjctMDEtMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkX3p6",
           "titulo": "Ilha de Páscoa — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI3LTAxLTA3agcIARIDR1JVGhUSCjIwMjctMDEtMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkX3p6",
+          "titulo": "Ilha de Páscoa — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -13829,9 +15857,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       },
       "tipos": [
         "cultural",
@@ -13846,7 +15871,10 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "7e17f91695ee",
@@ -13924,6 +15952,73 @@
       "match": false
     },
     {
+      "id": "3794af455bcd",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Istambul",
+      "destino_metro": "IST",
+      "destino_iata": "IST",
+      "origem_iata": "GRU",
+      "pais_texto": "Turquia",
+      "pais_iso2": "TR",
+      "preco_brl": 4816,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "British Airways",
+      "janela": "2026-11-15 a 2026-11-22",
+      "janela_inicio": "2026-11-15",
+      "janela_fim": "2026-11-22",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 1155,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDR1JVGhUSCjIwMjYtMTEtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA5OTQ5bQ",
+          "titulo": "Istambul — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDR1JVGhUSCjIwMjYtMTEtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA5OTQ5bQ",
+          "titulo": "Istambul — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "asia",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A PEGADINHA E O PASSAPORTE, NAO O VISTO — CONFIRMEI PALAVRA POR PALAVRA NO MFA TURCO: 'Foreigners wishing to enter Türkiye should carry a travel document (passport) with an expiration date at least 60 days beyond the duration of stay of their visa, e-Visa, visa exemption, or residence permit.' Ou seja, para entrar com direito a 90 dias o passaporte precisa ter 150 DIAS de validade NO MOMENTO DA ENTRADA (90+60). Brasileiro com passaporte vencendo em 4 meses e barrado mesmo sendo isento. Base legal: art. 7.1b da Lei 6458. Segunda: o limite e 90 dias dentro de cada 180 — e o MFA avisa explicitamente que quem tem dois passaportes NAO pode somar 90+90. Terceira: Turquia NAO e Schengen, entao os dias la nao entram na conta europeia (e vice-versa) — mas a regra turca dos 60 dias e MAIS dura que a europeia dos 3 meses em viagens curtas, entao e ela que manda no seu planejamento de passaporte.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4816>4000"
+      }
+    },
+    {
       "id": "d0a965c19c57",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -13992,66 +16087,6 @@
         "andreia": true
       },
       "match": true
-    },
-    {
-      "id": "911ef55acb28",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Istambul",
-      "destino_metro": "IST",
-      "pais_texto": "Turquia",
-      "pais_iso2": "TR",
-      "preco_brl": 4829,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "British Airways",
-      "janela": "2026-11-19 a 2026-11-26",
-      "janela_inicio": "2026-11-19",
-      "janela_fim": "2026-11-26",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 1160,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDR1JVGhUSCjIwMjYtMTEtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA5OTQ5bQ",
-          "titulo": "Istambul — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4829>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A PEGADINHA E O PASSAPORTE, NAO O VISTO — CONFIRMEI PALAVRA POR PALAVRA NO MFA TURCO: 'Foreigners wishing to enter Türkiye should carry a travel document (passport) with an expiration date at least 60 days beyond the duration of stay of their visa, e-Visa, visa exemption, or residence permit.' Ou seja, para entrar com direito a 90 dias o passaporte precisa ter 150 DIAS de validade NO MOMENTO DA ENTRADA (90+60). Brasileiro com passaporte vencendo em 4 meses e barrado mesmo sendo isento. Base legal: art. 7.1b da Lei 6458. Segunda: o limite e 90 dias dentro de cada 180 — e o MFA avisa explicitamente que quem tem dois passaportes NAO pode somar 90+90. Terceira: Turquia NAO e Schengen, entao os dias la nao entram na conta europeia (e vice-versa) — mas a regra turca dos 60 dias e MAIS dura que a europeia dos 3 meses em viagens curtas, entao e ela que manda no seu planejamento de passaporte.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false
     },
     {
       "id": "cac5c1e9561e",
@@ -14170,6 +16205,67 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "88685c709830",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Edimburgo",
+      "destino_metro": "EDI",
+      "destino_iata": "EDI",
+      "origem_iata": "GRU",
+      "pais_texto": "Reino Unido",
+      "pais_iso2": "GB",
+      "preco_brl": 4911,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air France, Gol e KLM",
+      "janela": "2026-11-26 a 2026-12-02",
+      "janela_inicio": "2026-11-26",
+      "janela_fim": "2026-12-02",
+      "noites": 6,
+      "escalas": 2,
+      "duracao_min": 945,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTI2agcIARIDR1JVGhUSCjIwMjYtMTItMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAybTc3",
+          "titulo": "Edimburgo — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "AUTORIZACAO_ELETRONICA",
+        "dias": 180,
+        "pegadinha": "DESDE 25/02/2026 O ETA E BARRADO NO PORTAO: sem ETA voce nao embarca — a checagem e feita pela COMPANHIA (aerea, ferry ou trem), que responde pelo passageiro. Nao adianta 'resolver na chegada'. Segunda, a que mais pega casal em roteiro Europa: a isencao de ETA por vir da Irlanda so vale para quem e LEGALMENTE RESIDENTE na Irlanda circulando na Common Travel Area. Turista brasileiro passeando em Dublin que resolve cruzar para a Irlanda do Norte (Belfast) PRECISA de ETA — nao ha controle na fronteira terrestre, mas voce fica irregular, e isso aparece depois. Terceira: ETA nao garante entrada — o oficial ainda pode recusar. Quarta: o ETA fica vinculado ao passaporte; passaporte novo = ETA novo.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "bda1ab12beec",
@@ -14422,14 +16518,212 @@
       "match": false
     },
     {
-      "id": "33c5057ccb13",
+      "id": "a2d663940229",
+      "origem_texto": "SP",
+      "origem_metro": "SAO",
+      "destino_texto": "Xangai",
+      "destino_metro": "PVG",
+      "pais_iso2": "CN",
+      "preco_brl": 5048,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Lufthansa / Air China",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18616",
+          "titulo": "China bom demais🔥🇨🇳"
+        }
+      ],
+      "descoberto_em": "2026-07-22T11:13:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 30,
+        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5048>4000"
+      }
+    },
+    {
+      "id": "1d4e087b0f17",
+      "origem_texto": "Rio",
+      "origem_metro": "RIO",
+      "destino_texto": "Xangai",
+      "destino_metro": "PVG",
+      "pais_iso2": "CN",
+      "preco_brl": 5048,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Lufthansa / Air China",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18616",
+          "titulo": "China bom demais🔥🇨🇳"
+        }
+      ],
+      "descoberto_em": "2026-07-22T11:13:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 30,
+        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:RIO"
+      }
+    },
+    {
+      "id": "2861348c9875",
+      "origem_texto": "SP",
+      "origem_metro": "SAO",
+      "destino_texto": "Pequim",
+      "destino_metro": "PEK",
+      "pais_iso2": "CN",
+      "preco_brl": 5048,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Lufthansa / Air China",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18616",
+          "titulo": "China bom demais🔥🇨🇳"
+        }
+      ],
+      "descoberto_em": "2026-07-22T11:13:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 30,
+        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5048>4000"
+      }
+    },
+    {
+      "id": "590b9284f077",
+      "origem_texto": "Rio",
+      "origem_metro": "RIO",
+      "destino_texto": "Pequim",
+      "destino_metro": "PEK",
+      "pais_iso2": "CN",
+      "preco_brl": 5048,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Lufthansa / Air China",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18616",
+          "titulo": "China bom demais🔥🇨🇳"
+        }
+      ],
+      "descoberto_em": "2026-07-22T11:13:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 30,
+        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:RIO"
+      }
+    },
+    {
+      "id": "a1c6b95e4667",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Praga",
       "destino_metro": "PRG",
+      "destino_iata": "PRG",
+      "origem_iata": "GRU",
       "pais_texto": "Tchéquia",
       "pais_iso2": "CZ",
-      "preco_brl": 5064,
+      "preco_brl": 5052,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
@@ -14450,6 +16744,11 @@
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn",
           "titulo": "Praga — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn",
+          "titulo": "Praga — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -14457,9 +16756,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5064>4000"
       },
       "tipos": [
         "cultural",
@@ -14474,7 +16770,59 @@
         "ale": true,
         "andreia": false
       },
-      "match": false
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5052>4000"
+      }
+    },
+    {
+      "id": "8a7c861e2233",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Xangai",
+      "destino_metro": "PVG",
+      "pais_iso2": "CN",
+      "preco_brl": 5062,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Lufthansa",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18609",
+          "titulo": "China imperdível 🔥🇨🇳"
+        }
+      ],
+      "descoberto_em": "2026-07-21T21:13:53+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 30,
+        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5062>4000"
+      }
     },
     {
       "id": "f6b23645cfda",
@@ -14587,14 +16935,16 @@
       "match": false
     },
     {
-      "id": "6853ee829192",
+      "id": "66dee37026cf",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Budapeste",
       "destino_metro": "BUD",
+      "destino_iata": "BUD",
+      "origem_iata": "GRU",
       "pais_texto": "Hungria",
       "pais_iso2": "HU",
-      "preco_brl": 5113,
+      "preco_brl": 5099,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
@@ -14615,6 +16965,11 @@
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDR1JVGhUSCjIwMjYtMTEtMjRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NXdf",
           "titulo": "Budapeste — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDR1JVGhUSCjIwMjYtMTEtMjRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NXdf",
+          "titulo": "Budapeste — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -14622,9 +16977,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5113>4000"
       },
       "tipos": [
         "cultural",
@@ -14639,7 +16991,10 @@
         "ale": true,
         "andreia": false
       },
-      "match": false
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5099>4000"
+      }
     },
     {
       "id": "6bedd54e0d8b",
@@ -15122,6 +17477,130 @@
       "match": true
     },
     {
+      "id": "1f459f12f7f0",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Malta",
+      "destino_metro": "MLA",
+      "destino_iata": "MLA",
+      "origem_iata": "GRU",
+      "pais_texto": "Malta",
+      "pais_iso2": "MT",
+      "preco_brl": 5679,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Lufthansa",
+      "janela": "2026-08-02 a 2026-08-11",
+      "janela_inicio": "2026-08-02",
+      "janela_fim": "2026-08-11",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1435,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTAyagcIARIDR1JVGhUSCjIwMjYtMDgtMTFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0djNx",
+          "titulo": "Malta — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5679>4000"
+      }
+    },
+    {
+      "id": "365d22338602",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Santorini",
+      "destino_metro": "JTR",
+      "destino_iata": "JTR",
+      "origem_iata": "GRU",
+      "pais_texto": "Grécia",
+      "pais_iso2": "GR",
+      "preco_brl": 5712,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Discover Airlines, ITA e Lufthansa",
+      "janela": "2026-08-13 a 2026-08-20",
+      "janela_inicio": "2026-08-13",
+      "janela_fim": "2026-08-20",
+      "noites": 7,
+      "escalas": 2,
+      "duracao_min": 1340,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDR1JVGhUSCjIwMjYtMDgtMjByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MHQ5",
+          "titulo": "Santorini — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDR1JVGhUSCjIwMjYtMDgtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MHQ5",
+          "titulo": "Santorini — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "cultural"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, sem alerta no SIS. CHIPRE: se o roteiro incluir Chipre, o tempo la conta SEPARADAMENTE e nao entra nos 90 dias dos demais (Chipre nao e Schengen). Balsa/ferry Grecia>Turquia e fronteira EXTERNA: sai do Schengen, com registro de saida no EES. EES 100% operacional desde 10/04/2026.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5712>4000"
+      }
+    },
+    {
       "id": "89757cd6ba94",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -15180,66 +17659,6 @@
         "andreia": false
       },
       "match": false
-    },
-    {
-      "id": "d029c33795dc",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Santorini",
-      "destino_metro": "JTR",
-      "pais_texto": "Grécia",
-      "pais_iso2": "GR",
-      "preco_brl": 5767,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Discover Airlines e Lufthansa",
-      "janela": "2026-08-10 a 2026-08-18",
-      "janela_inicio": "2026-08-10",
-      "janela_fim": "2026-08-18",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1000,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDR1JVGhUSCjIwMjYtMDgtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MHQ5",
-          "titulo": "Santorini — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5767>4000"
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "cultural"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, sem alerta no SIS. CHIPRE: se o roteiro incluir Chipre, o tempo la conta SEPARADAMENTE e nao entra nos 90 dias dos demais (Chipre nao e Schengen). Balsa/ferry Grecia>Turquia e fronteira EXTERNA: sai do Schengen, com registro de saida no EES. EES 100% operacional desde 10/04/2026.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
     },
     {
       "id": "15977bb39d1b",
@@ -15617,30 +18036,37 @@
       "match": false
     },
     {
-      "id": "3b88f2499378",
+      "id": "bcdcd74e00e6",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Mumbai",
       "destino_metro": "BOM",
+      "destino_iata": "BOM",
+      "origem_iata": "GRU",
       "pais_texto": "Índia",
       "pais_iso2": "IN",
-      "preco_brl": 6097,
+      "preco_brl": 6091,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
-      "companhia": "American, Etihad e Akasa Air",
-      "janela": "2026-10-19 a 2026-10-27",
-      "janela_inicio": "2026-10-19",
-      "janela_fim": "2026-10-27",
-      "noites": 8,
-      "escalas": 2,
-      "duracao_min": 2205,
+      "companhia": "Turkish Airlines",
+      "janela": "2026-09-17 a 2026-09-23",
+      "janela_inicio": "2026-09-17",
+      "janela_fim": "2026-09-23",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 2435,
       "validade": "",
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE3agcIARIDR1JVGhUSCjIwMjYtMDktMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0dm1w",
+          "titulo": "Mumbai — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE5agcIARIDR1JVGhUSCjIwMjYtMTAtMjdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0dm1w",
@@ -15652,9 +18078,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:6097>4000"
       },
       "tipos": [
         "cidade_grande",
@@ -15674,7 +18097,10 @@
         "ale": true,
         "andreia": false
       },
-      "match": false
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "c4b3bdfc46ae",
@@ -16051,30 +18477,37 @@
       "match": false
     },
     {
-      "id": "7ec56044ba9d",
+      "id": "aecff41d55a2",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Tóquio",
       "destino_metro": "TYO",
+      "destino_iata": "HND",
+      "origem_iata": "GRU",
       "pais_texto": "Japão",
       "pais_iso2": "JP",
-      "preco_brl": 6359,
+      "preco_brl": 6344,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
       "companhia": "Turkish Airlines",
-      "janela": "2026-12-03 a 2026-12-10",
-      "janela_inicio": "2026-12-03",
-      "janela_fim": "2026-12-10",
-      "noites": 7,
+      "janela": "2026-11-30 a 2026-12-08",
+      "janela_inicio": "2026-11-30",
+      "janela_fim": "2026-12-08",
+      "noites": 8,
       "escalas": 1,
       "duracao_min": 1655,
       "validade": "",
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTMwagcIARIDR1JVGhUSCjIwMjYtMTItMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3ZGZr",
+          "titulo": "Tóquio — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTAzagcIARIDR1JVGhUSCjIwMjYtMTItMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3ZGZr",
@@ -16086,9 +18519,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:6359>4000"
       },
       "tipos": [
         "cidade_grande",
@@ -16108,7 +18538,10 @@
         "ale": true,
         "andreia": false
       },
-      "match": false
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:6344>4000"
+      }
     },
     {
       "id": "e2f74e2fa7ff",
@@ -16702,6 +19135,11 @@
       "fontes": [
         {
           "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDR1JVGhUSCjIwMjYtMDgtMTlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzaDY0",
+          "titulo": "Hong Kong — Google Flights"
+        },
+        {
+          "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDR1JVGhUSCjIwMjYtMDgtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzaDY0",
           "titulo": "Hong Kong — Google Flights"
         }
@@ -16791,6 +19229,73 @@
       "match": false
     },
     {
+      "id": "6ef15bd38f32",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Bangkok",
+      "destino_metro": "BKK",
+      "destino_iata": "BKK",
+      "origem_iata": "GRU",
+      "pais_texto": "Tailândia",
+      "pais_iso2": "TH",
+      "preco_brl": 6473,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Etihad, Iberia, Malaysia Airlines e Qatar Airways",
+      "janela": "2026-10-19 a 2026-10-25",
+      "janela_inicio": "2026-10-19",
+      "janela_fim": "2026-10-25",
+      "noites": 6,
+      "escalas": 2,
+      "duracao_min": 1845,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE5agcIARIDR1JVGhUSCjIwMjYtMTAtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmbjJn",
+          "titulo": "Bangkok — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE5agcIARIDR1JVGhUSCjIwMjYtMTAtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmbjJn",
+          "titulo": "Bangkok — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "asia",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "Os 90 dias vêm de ACORDO BILATERAL, NÃO do regime geral de isenção turística. Carregue impresso o PDF do MFA com a nota de rodapé — agente de check-in mal informado tende a aplicar o número do regime geral. Sem TDAC preenchido = risco de barra no embarque. Certificado de febre amarela pode ser exigido de quem vem do Brasil. Atenção: o Gabinete tailandês aprovou em 19/05/2026 a reforma do esquema de isenção; ela ainda NÃO está em vigor (entra 15 dias após publicação no Diário Oficial/Royal Gazette) e, pelo desenho aprovado, o canal bilateral de 90 dias é MANTIDO para Argentina, Brasil, Chile, Peru e Coreia do Sul. Reconfira a publicação no Royal Gazette antes de embarcar.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
       "id": "672064237a7f",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -16855,66 +19360,6 @@
         "andreia": true
       },
       "match": true
-    },
-    {
-      "id": "c6d6bf5f9692",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Bangkok",
-      "destino_metro": "BKK",
-      "pais_texto": "Tailândia",
-      "pais_iso2": "TH",
-      "preco_brl": 6490,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Etihad, Iberia, Malaysia Airlines e Qatar Airways",
-      "janela": "2026-10-19 a 2026-10-25",
-      "janela_inicio": "2026-10-19",
-      "janela_fim": "2026-10-25",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 1845,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE5agcIARIDR1JVGhUSCjIwMjYtMTAtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmbjJn",
-          "titulo": "Bangkok — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "Os 90 dias vêm de ACORDO BILATERAL, NÃO do regime geral de isenção turística. Carregue impresso o PDF do MFA com a nota de rodapé — agente de check-in mal informado tende a aplicar o número do regime geral. Sem TDAC preenchido = risco de barra no embarque. Certificado de febre amarela pode ser exigido de quem vem do Brasil. Atenção: o Gabinete tailandês aprovou em 19/05/2026 a reforma do esquema de isenção; ela ainda NÃO está em vigor (entra 15 dias após publicação no Diário Oficial/Royal Gazette) e, pelo desenho aprovado, o canal bilateral de 90 dias é MANTIDO para Argentina, Brasil, Chile, Peru e Coreia do Sul. Reconfira a publicação no Royal Gazette antes de embarcar.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false
     },
     {
       "id": "dd546eab39c6",
@@ -17792,30 +20237,37 @@
       "match": true
     },
     {
-      "id": "7a233d21c7f8",
+      "id": "c826a432ed00",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Anchorage",
       "destino_metro": "ANC",
+      "destino_iata": "ANC",
+      "origem_iata": "GRU",
       "pais_texto": "Estados Unidos",
       "pais_iso2": "US",
-      "preco_brl": 7045,
+      "preco_brl": 7030,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
-      "companhia": "Delta e LATAM",
-      "janela": "2026-08-20 a 2026-08-27",
+      "companhia": "United",
+      "janela": "2026-08-20 a 2026-08-26",
       "janela_inicio": "2026-08-20",
-      "janela_fim": "2026-08-27",
-      "noites": 7,
-      "escalas": 2,
-      "duracao_min": 1264,
+      "janela_fim": "2026-08-26",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 1184,
       "validade": "",
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzBnX3duMg",
+          "titulo": "Anchorage — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzBnX3duMg",
@@ -17827,9 +20279,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:7045>4000"
       },
       "tipos": [
         "natureza",
@@ -17849,17 +20298,22 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
-      "id": "ad6d5668e8c6",
+      "id": "902e274325ed",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Parque Nacional e Reserva de Denali",
       "destino_metro": "FAI",
+      "destino_iata": "FAI",
+      "origem_iata": "GRU",
       "pais_texto": "Estados Unidos",
       "pais_iso2": "US",
-      "preco_brl": 7045,
+      "preco_brl": 7030,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
@@ -17885,6 +20339,16 @@
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBxZjVw",
           "titulo": "Fairbanks — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxbmI2cA",
+          "titulo": "Parque Nacional e Reserva de Denali — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBxZjVw",
+          "titulo": "Fairbanks — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -17892,9 +20356,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       },
       "tipos": [
         "natureza",
@@ -17914,7 +20375,87 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "300a52d1ba84",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Quioto",
+      "destino_metro": "KIX",
+      "destino_iata": "KIX",
+      "origem_iata": "GRU",
+      "pais_texto": "Japão",
+      "pais_iso2": "JP",
+      "preco_brl": 7031,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-11-27 a 2026-12-06",
+      "janela_inicio": "2026-11-27",
+      "janela_fim": "2026-12-06",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1605,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDR1JVGhUSCjIwMjYtMTItMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZDRf",
+          "titulo": "Quioto — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDR1JVGhUSCjIwMjYtMTItMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkcXl3",
+          "titulo": "Osaka — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZDRf",
+          "titulo": "Quioto — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkcXl3",
+          "titulo": "Osaka — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "natureza"
+      ],
+      "continente": "asia",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "DUAS ARMADILHAS, E A SEGUNDA É URGENTE. (1) A isenção vale SOMENTE para passaporte eletrônico (com chip) em conformidade com ICAO. A MOFA usa linguagem dura para o Brasil: quem não tem ePassport 'will be refused to enter Japan' — é recusa, não exame rigoroso. (2) PRAZO DO ACORDO: o regime entrou em vigor em 30/09/2023 e há relato consistente e especializado (incluindo a firma global de imigração Fragomen) de que foi firmado por um período INICIAL DE TRÊS ANOS, ou seja, vencendo por volta de 30/09/2026 — daqui a ~2 meses. NÃO encontrei confirmação NEM desmentido em fonte primária japonesa, e não há notícia de prorrogação. Quem viajar a partir de setembro/2026 NÃO pode assumir que a isenção continua: reconfirme na MOFA ou no consulado japonês antes de comprar passagem. Também exigidos na prática: passagem de volta, comprovante de hospedagem e de recursos. Não é permitido trabalhar.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:7031>4000"
+      }
     },
     {
       "id": "2fe0d2ae60da",
@@ -18372,14 +20913,16 @@
       "match": false
     },
     {
-      "id": "cd6aba589483",
+      "id": "065c30920f1a",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Singapura",
       "destino_metro": "SIN",
+      "destino_iata": "SIN",
+      "origem_iata": "GRU",
       "pais_texto": "Singapura",
       "pais_iso2": "SG",
-      "preco_brl": 7280,
+      "preco_brl": 7263,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
@@ -18400,6 +20943,11 @@
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2dDJ0",
           "titulo": "Singapura — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2dDJ0",
+          "titulo": "Singapura — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -18407,9 +20955,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       },
       "tipos": [
         "cidade_grande",
@@ -18429,7 +20974,10 @@
         "ale": true,
         "andreia": false
       },
-      "match": false
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "4884e4792029",
@@ -18550,71 +21098,6 @@
         "andreia": false
       },
       "match": false
-    },
-    {
-      "id": "df665241f1b0",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Quioto",
-      "destino_metro": "KIX",
-      "pais_texto": "Japão",
-      "pais_iso2": "JP",
-      "preco_brl": 7366,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "JAL e LATAM",
-      "janela": "2026-08-20 a 2026-08-27",
-      "janela_inicio": "2026-08-20",
-      "janela_fim": "2026-08-27",
-      "noites": 7,
-      "escalas": 2,
-      "duracao_min": 1920,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZDRf",
-          "titulo": "Quioto — Google Flights"
-        },
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkcXl3",
-          "titulo": "Osaka — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:7366>4000"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "natureza"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DUAS ARMADILHAS, E A SEGUNDA É URGENTE. (1) A isenção vale SOMENTE para passaporte eletrônico (com chip) em conformidade com ICAO. A MOFA usa linguagem dura para o Brasil: quem não tem ePassport 'will be refused to enter Japan' — é recusa, não exame rigoroso. (2) PRAZO DO ACORDO: o regime entrou em vigor em 30/09/2023 e há relato consistente e especializado (incluindo a firma global de imigração Fragomen) de que foi firmado por um período INICIAL DE TRÊS ANOS, ou seja, vencendo por volta de 30/09/2026 — daqui a ~2 meses. NÃO encontrei confirmação NEM desmentido em fonte primária japonesa, e não há notícia de prorrogação. Quem viajar a partir de setembro/2026 NÃO pode assumir que a isenção continua: reconfirme na MOFA ou no consulado japonês antes de comprar passagem. Também exigidos na prática: passagem de volta, comprovante de hospedagem e de recursos. Não é permitido trabalhar.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
     },
     {
       "id": "401730a5ed01",
@@ -18768,30 +21251,42 @@
       "match": true
     },
     {
-      "id": "0cba82c9c2a3",
+      "id": "e90a7106eb7e",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Bali",
       "destino_metro": "DPS",
+      "destino_iata": "DPS",
+      "origem_iata": "GRU",
       "pais_texto": "Indonésia",
       "pais_iso2": "ID",
-      "preco_brl": 7635,
+      "preco_brl": 7618,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
       "companhia": "Turkish Airlines",
-      "janela": "2026-10-16 a 2026-10-25",
-      "janela_inicio": "2026-10-16",
+      "janela": "2026-10-18 a 2026-10-25",
+      "janela_inicio": "2026-10-18",
       "janela_fim": "2026-10-25",
-      "noites": 9,
+      "noites": 7,
       "escalas": 1,
       "duracao_min": 1725,
       "validade": "",
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE4agcIARIDR1JVGhUSCjIwMjYtMTAtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBESoPCAMSCy9nLzEyMWh4aDFq",
+          "titulo": "Bali — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE4agcIARIDR1JVGhUSCjIwMjYtMTAtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA0bjA5OQ",
+          "titulo": "Ubud — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE2agcIARIDR1JVGhUSCjIwMjYtMTAtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBESoPCAMSCy9nLzEyMWh4aDFq",
@@ -18808,9 +21303,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:7635>4000"
       },
       "tipos": [
         "praia",
@@ -18831,7 +21323,10 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:7618>4000"
+      }
     },
     {
       "id": "ef04398021a7",
@@ -19378,6 +21873,68 @@
       "match": false
     },
     {
+      "id": "0395549097a4",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Melbourne",
+      "destino_metro": "MEL",
+      "destino_iata": "MEL",
+      "origem_iata": "GRU",
+      "pais_texto": "Austrália",
+      "pais_iso2": "AU",
+      "preco_brl": 8182,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-08-06 a 2026-08-13",
+      "janela_inicio": "2026-08-06",
+      "janela_fim": "2026-08-13",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 1235,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzBjaGd6bQ",
+          "titulo": "Melbourne — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "oceania",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "ALERTA MÁXIMO — CONFIRMADO PELO AUDITOR, incluindo a existência de desinformação ativa. Circulam sites afirmando que 'brasileiros não precisam de visto para a Austrália e recebem 90 dias na chegada'. É COMPLETAMENTE FALSO. A Austrália exige visto de TODOS os não-cidadãos (única exceção prática: cidadãos neozelandeses); não existe entrada sem visto, não existe visto na chegada, e a companhia aérea simplesmente não deixa embarcar sem visto concedido. Segunda camada da armadilha: brasileiro NÃO é elegível às vias fáceis — nem ETA (subclass 601) nem eVisitor (subclass 651, só União Europeia). Sobra o subclass 600, que é visto de verdade: taxa a partir de AUD 250, documentação de vínculo/recursos, prazo de análise longo e possibilidade de recusa. Estadias acima de 6 meses exigem exame médico. Comece o processo com MESES de antecedência — não é formalidade de última hora.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:8182>4000"
+      }
+    },
+    {
       "id": "95dd8e333c16",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -19546,6 +22103,136 @@
         "andreia": true
       },
       "match": true
+    },
+    {
+      "id": "a45a04da577d",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Queenstown",
+      "destino_metro": "ZQN",
+      "destino_iata": "ZQN",
+      "origem_iata": "GRU",
+      "pais_texto": "Nova Zelândia",
+      "pais_iso2": "NZ",
+      "preco_brl": 8880,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Jetstar, LATAM e Air New Zealand",
+      "janela": "2026-08-23 a 2026-09-01",
+      "janela_inicio": "2026-08-23",
+      "janela_fim": "2026-09-01",
+      "noites": 9,
+      "escalas": 2,
+      "duracao_min": 1775,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIzagcIARIDR1JVGhUSCjIwMjYtMDktMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxN2NmNw",
+          "titulo": "Queenstown — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIzagcIARIDR1JVGhUSCjIwMjYtMDktMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAyZjNwZw",
+          "titulo": "Fiordland National Park — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "aventura",
+        "montanha",
+        "natureza",
+        "esportes_inverno"
+      ],
+      "continente": "oceania",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "AUTORIZACAO_ELETRONICA",
+        "dias": 90,
+        "pegadinha": "'Isento de visto' aqui custa ~NZD 117 e envolve TRÊS documentos distintos. (1) A NZeTA de NZD 17 é a parte pequena; a IVL de NZD 100 é obrigatória e não reembolsável mesmo se a NZeTA for recusada — ela QUADRUPLICOU (era NZD 35 até 30/09/2024), então tabela de custo antiga engana feio. (2) A NZTD é um documento SEPARADO da NZeTA e obrigatório para todos que entram — quem tirou a NZeTA acha que está pronto e não está. (3) Comprovação financeira com valor definido e verificável no portão: NZD 1.000 por mês, ou NZD 400 por mês se a hospedagem já estiver paga — mais passagem de saída. Teto pouco conhecido: máximo 6 meses em qualquer período de 12 meses, mesmo com a NZeTA válida por 2 anos.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:8880>4000"
+      }
+    },
+    {
+      "id": "0ac04c00aef2",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Sydney",
+      "destino_metro": "SYD",
+      "destino_iata": "SYD",
+      "origem_iata": "GRU",
+      "pais_texto": "Austrália",
+      "pais_iso2": "AU",
+      "preco_brl": 8887,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-09-14 a 2026-09-23",
+      "janela_inicio": "2026-09-14",
+      "janela_fim": "2026-09-23",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1300,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE0agcIARIDR1JVGhUSCjIwMjYtMDktMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2eTU3",
+          "titulo": "Sydney — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "praia",
+        "cultural"
+      ],
+      "continente": "oceania",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "ALERTA MÁXIMO — CONFIRMADO PELO AUDITOR, incluindo a existência de desinformação ativa. Circulam sites afirmando que 'brasileiros não precisam de visto para a Austrália e recebem 90 dias na chegada'. É COMPLETAMENTE FALSO. A Austrália exige visto de TODOS os não-cidadãos (única exceção prática: cidadãos neozelandeses); não existe entrada sem visto, não existe visto na chegada, e a companhia aérea simplesmente não deixa embarcar sem visto concedido. Segunda camada da armadilha: brasileiro NÃO é elegível às vias fáceis — nem ETA (subclass 601) nem eVisitor (subclass 651, só União Europeia). Sobra o subclass 600, que é visto de verdade: taxa a partir de AUD 250, documentação de vínculo/recursos, prazo de análise longo e possibilidade de recusa. Estadias acima de 6 meses exigem exame médico. Comece o processo com MESES de antecedência — não é formalidade de última hora.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:8887>4000"
+      }
     },
     {
       "id": "83cfbd5fed59",
@@ -20044,23 +22731,25 @@
       "match": false
     },
     {
-      "id": "f906e7387e53",
+      "id": "5c2458aedb11",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Astana",
       "destino_metro": "NQZ",
+      "destino_iata": "NQZ",
+      "origem_iata": "GRU",
       "pais_texto": "Cazaquistão",
       "pais_iso2": "KZ",
-      "preco_brl": 9708,
+      "preco_brl": 9682,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
       "companhia": "Turkish Airlines",
-      "janela": "2026-08-13 a 2026-08-19",
-      "janela_inicio": "2026-08-13",
-      "janela_fim": "2026-08-19",
+      "janela": "2026-08-06 a 2026-08-12",
+      "janela_inicio": "2026-08-06",
+      "janela_fim": "2026-08-12",
       "noites": 6,
       "escalas": 1,
       "duracao_min": 1220,
@@ -20068,6 +22757,11 @@
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmbjA4",
+          "titulo": "Astana — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDR1JVGhUSCjIwMjYtMDgtMTlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmbjA4",
@@ -20079,9 +22773,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       },
       "tipos": [
         "cidade_grande",
@@ -20095,7 +22786,67 @@
         "ale": true,
         "andreia": false
       },
-      "match": false
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "4ff464940e58",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Ilha Maurícia",
+      "destino_metro": "MRU",
+      "destino_iata": "MRU",
+      "origem_iata": "GRU",
+      "pais_texto": "Maurício",
+      "pais_iso2": "MU",
+      "preco_brl": 9685,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-09-24 a 2026-10-03",
+      "janela_inicio": "2026-09-24",
+      "janela_fim": "2026-10-03",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1525,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI0agcIARIDR1JVGhUSCjIwMjYtMTAtMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBEioQCAMSDC9nLzExMnlmZHQxbQ",
+          "titulo": "Ilha Maurícia — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "africa",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": true
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:9685>4000"
+      }
     },
     {
       "id": "12e1e42a4af6",
@@ -20392,6 +23143,68 @@
       "match": false
     },
     {
+      "id": "bafe83598004",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Perth",
+      "destino_metro": "PER",
+      "destino_iata": "PER",
+      "origem_iata": "GRU",
+      "pais_texto": "Austrália",
+      "pais_iso2": "AU",
+      "preco_brl": 10358,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM e Qantas",
+      "janela": "2026-11-02 a 2026-11-10",
+      "janela_inicio": "2026-11-02",
+      "janela_fim": "2026-11-10",
+      "noites": 8,
+      "escalas": 2,
+      "duracao_min": 1835,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTAyagcIARIDR1JVGhUSCjIwMjYtMTEtMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2MnFn",
+          "titulo": "Perth — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "praia",
+        "natureza"
+      ],
+      "continente": "oceania",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "ALERTA MÁXIMO — CONFIRMADO PELO AUDITOR, incluindo a existência de desinformação ativa. Circulam sites afirmando que 'brasileiros não precisam de visto para a Austrália e recebem 90 dias na chegada'. É COMPLETAMENTE FALSO. A Austrália exige visto de TODOS os não-cidadãos (única exceção prática: cidadãos neozelandeses); não existe entrada sem visto, não existe visto na chegada, e a companhia aérea simplesmente não deixa embarcar sem visto concedido. Segunda camada da armadilha: brasileiro NÃO é elegível às vias fáceis — nem ETA (subclass 601) nem eVisitor (subclass 651, só União Europeia). Sobra o subclass 600, que é visto de verdade: taxa a partir de AUD 250, documentação de vínculo/recursos, prazo de análise longo e possibilidade de recusa. Estadias acima de 6 meses exigem exame médico. Comece o processo com MESES de antecedência — não é formalidade de última hora.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:10358>4000"
+      }
+    },
+    {
       "id": "ac7cb0160441",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -20416,6 +23229,11 @@
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIxagcIARIDR1JVGhUSCjIwMjYtMDgtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoYjZn",
+          "titulo": "Taiti — Google Flights"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIxagcIARIDR1JVGhUSCjIwMjYtMDgtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoYjZn",
@@ -20447,14 +23265,16 @@
       "match": false
     },
     {
-      "id": "e910d20eb525",
+      "id": "cc82f90884d5",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Cazã",
       "destino_metro": "KZN",
+      "destino_iata": "KZN",
+      "origem_iata": "GRU",
       "pais_texto": "Rússia",
       "pais_iso2": "RU",
-      "preco_brl": 10619,
+      "preco_brl": 10595,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
@@ -20475,6 +23295,11 @@
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE3agcIARIDR1JVGhUSCjIwMjYtMDktMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxY3IyOA",
           "titulo": "Cazã — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE3agcIARIDR1JVGhUSCjIwMjYtMDktMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxY3IyOA",
+          "titulo": "Cazã — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -20482,9 +23307,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       },
       "tipos": [
         "cultural",
@@ -20503,7 +23325,10 @@
         "ale": true,
         "andreia": false
       },
-      "match": false
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "69033043baba",
@@ -21277,14 +24102,16 @@
       "match": true
     },
     {
-      "id": "92e3ec470f71",
+      "id": "ef024467f8a5",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
       "destino_texto": "Ulan Bator",
       "destino_metro": "UBN",
+      "destino_iata": "UBN",
+      "origem_iata": "GRU",
       "pais_texto": "Mongólia",
       "pais_iso2": "MN",
-      "preco_brl": 12112,
+      "preco_brl": 12085,
       "por_pessoa": true,
       "ida_e_volta": true,
       "com_taxas": true,
@@ -21305,6 +24132,11 @@
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA5agcIARIDR1JVGhUSCjIwMjYtMDgtMTZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBocWtn",
           "titulo": "Ulan Bator — Google Flights"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA5agcIARIDR1JVGhUSCjIwMjYtMDgtMTZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBocWtn",
+          "titulo": "Ulan Bator — Google Flights"
         }
       ],
       "descoberto_em": "2026-07-22",
@@ -21312,9 +24144,6 @@
         "tem_baseline": false,
         "amostras": 4,
         "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:12112>4000"
       },
       "tipos": [
         "cultural",
@@ -21329,7 +24158,10 @@
         "ale": true,
         "andreia": true
       },
-      "match": true
+      "match": true,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:12085>4000"
+      }
     },
     {
       "id": "3b47f6b28ccd",
@@ -21562,6 +24394,63 @@
       "match": false
     },
     {
+      "id": "971ecab6f534",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Bora Bora",
+      "destino_metro": "HUH",
+      "destino_iata": "HUH",
+      "origem_iata": "GRU",
+      "pais_texto": "Polinésia Francesa",
+      "pais_iso2": "PF",
+      "preco_brl": 12561,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "COPA, Air Tahiti Nui e Air Tahiti",
+      "janela": "2026-09-04 a 2026-09-11",
+      "janela_inicio": "2026-09-04",
+      "janela_fim": "2026-09-11",
+      "noites": 7,
+      "escalas": 3,
+      "duracao_min": 2250,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTA0agcIARIDR1JVGhUSCjIwMjYtMDktMTFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAyal9rag",
+          "titulo": "Bora Bora — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "natureza"
+      ],
+      "continente": "oceania",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": true
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:12561>4000"
+      }
+    },
+    {
       "id": "588b15b1de14",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -21755,121 +24644,6 @@
         "andreia": false
       },
       "match": false
-    },
-    {
-      "id": "d266a24547cf",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Ulan Bator",
-      "destino_metro": "UBN",
-      "pais_texto": "Mongólia",
-      "pais_iso2": "MN",
-      "preco_brl": 14311,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Turkish Airlines",
-      "janela": "2026-08-27 a 2026-09-03",
-      "janela_inicio": "2026-08-27",
-      "janela_fim": "2026-09-03",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 2410,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI3agcIARIDR1JVGhUSCjIwMjYtMDktMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBocWtn",
-          "titulo": "Ulan Bator — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:14311>4000"
-      },
-      "tipos": [
-        "cultural",
-        "aventura",
-        "natureza"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
-    },
-    {
-      "id": "c8205cdb7664",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Dunedin",
-      "destino_metro": "DUD",
-      "pais_texto": "Nova Zelândia",
-      "pais_iso2": "NZ",
-      "preco_brl": 15486,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM e Air New Zealand",
-      "janela": "2026-07-23 a 2026-07-29",
-      "janela_inicio": "2026-07-23",
-      "janela_fim": "2026-07-29",
-      "noites": 6,
-      "escalas": 3,
-      "duracao_min": 2080,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTIzagcIARIDR1JVGhUSCjIwMjYtMDctMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAyeTl3cQ",
-          "titulo": "Dunedin — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "natureza",
-        "cultural",
-        "aventura"
-      ],
-      "continente": "oceania",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "AUTORIZACAO_ELETRONICA",
-        "dias": 90,
-        "pegadinha": "'Isento de visto' aqui custa ~NZD 117 e envolve TRÊS documentos distintos. (1) A NZeTA de NZD 17 é a parte pequena; a IVL de NZD 100 é obrigatória e não reembolsável mesmo se a NZeTA for recusada — ela QUADRUPLICOU (era NZD 35 até 30/09/2024), então tabela de custo antiga engana feio. (2) A NZTD é um documento SEPARADO da NZeTA e obrigatório para todos que entram — quem tirou a NZeTA acha que está pronto e não está. (3) Comprovação financeira com valor definido e verificável no portão: NZD 1.000 por mês, ou NZD 400 por mês se a hospedagem já estiver paga — mais passagem de saída. Teto pouco conhecido: máximo 6 meses em qualquer período de 12 meses, mesmo com a NZeTA válida por 2 anos.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
     }
   ]
 }
