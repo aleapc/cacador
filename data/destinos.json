@@ -1,0 +1,913 @@
+{
+  "versao": 1,
+  "_comentario": "Tags de tipo de viagem por destino, para os filtros do PWA. Gerado pelo workflow taggear-destinos (Opus etiqueta uma vez, custo zero em runtime). key = destino_metro (IATA) do Explore OU destino_texto do blog. Para retaggear ou adicionar destino novo, rodar o workflow de novo.",
+  "gerado_em": "2026-07-22",
+  "destinos": [
+    {
+      "key": "AMS",
+      "nome": "Amsterdã",
+      "pais_iso2": "NL",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "ANC",
+      "nome": "Anchorage",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "natureza",
+        "aventura",
+        "esportes_inverno"
+      ]
+    },
+    {
+      "key": "NQZ",
+      "nome": "Astana",
+      "pais_iso2": "KZ",
+      "continente": "asia",
+      "tipos": [
+        "cidade_grande",
+        "cultural"
+      ]
+    },
+    {
+      "key": "ATH",
+      "nome": "Atenas",
+      "pais_iso2": "GR",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "Austrália ou Nova Zelândia (Sydney, Melbourne, Brisbane ou Auckland)",
+      "nome": "Austrália ou Nova Zelândia (Sydney, Melbourne, Brisbane ou Auckland)",
+      "pais_iso2": "AU",
+      "continente": "oceania",
+      "tipos": [
+        "cidade_grande",
+        "natureza",
+        "praia",
+        "aventura"
+      ]
+    },
+    {
+      "key": "DPS",
+      "nome": "Bali",
+      "pais_iso2": "ID",
+      "continente": "asia",
+      "tipos": [
+        "praia",
+        "natureza",
+        "descanso",
+        "cultural"
+      ]
+    },
+    {
+      "key": "BKK",
+      "nome": "Bangkok",
+      "pais_iso2": "TH",
+      "continente": "asia",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "BCN",
+      "nome": "Barcelona",
+      "pais_iso2": "ES",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico",
+        "praia"
+      ]
+    },
+    {
+      "key": "BER",
+      "nome": "Berlim",
+      "pais_iso2": "DE",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "BOG",
+      "nome": "Bogotá",
+      "pais_iso2": "CO",
+      "continente": "america_sul",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "RFP",
+      "nome": "Bora Bora",
+      "pais_iso2": "PF",
+      "continente": "oceania",
+      "tipos": [
+        "praia",
+        "descanso",
+        "natureza"
+      ]
+    },
+    {
+      "key": "BOB",
+      "nome": "Bora Bora",
+      "pais_iso2": "PF",
+      "continente": "oceania",
+      "tipos": [
+        "praia",
+        "descanso",
+        "natureza"
+      ]
+    },
+    {
+      "key": "BOS",
+      "nome": "Boston",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "BUD",
+      "nome": "Budapeste",
+      "pais_iso2": "HU",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "Buenos Aires",
+      "nome": "Buenos Aires",
+      "pais_iso2": "AR",
+      "continente": "america_sul",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "BUE",
+      "nome": "Buenos Aires",
+      "pais_iso2": "AR",
+      "continente": "america_sul",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "CUN",
+      "nome": "Cancún",
+      "pais_iso2": "MX",
+      "continente": "america_norte_central",
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ]
+    },
+    {
+      "key": "CTG",
+      "nome": "Cartagena",
+      "pais_iso2": "CO",
+      "continente": "america_sul",
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ]
+    },
+    {
+      "key": "KZN",
+      "nome": "Cazã",
+      "pais_iso2": "RU",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande"
+      ]
+    },
+    {
+      "key": "ORD",
+      "nome": "Chicago",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "CPT",
+      "nome": "Cidade do Cabo",
+      "pais_iso2": "ZA",
+      "continente": "africa",
+      "tipos": [
+        "natureza",
+        "cultural",
+        "praia",
+        "aventura"
+      ]
+    },
+    {
+      "key": "SHJ",
+      "nome": "Dubai",
+      "pais_iso2": "AE",
+      "continente": "asia",
+      "tipos": [
+        "cidade_grande",
+        "praia",
+        "descanso"
+      ]
+    },
+    {
+      "key": "DUD",
+      "nome": "Dunedin",
+      "pais_iso2": "NZ",
+      "continente": "oceania",
+      "tipos": [
+        "natureza",
+        "cultural",
+        "aventura"
+      ]
+    },
+    {
+      "key": "EDI",
+      "nome": "Edimburgo",
+      "pais_iso2": "GB",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande"
+      ]
+    },
+    {
+      "key": "FLR",
+      "nome": "Florença",
+      "pais_iso2": "IT",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ]
+    },
+    {
+      "key": "SCY",
+      "nome": "Galápagos",
+      "pais_iso2": "EC",
+      "continente": "america_sul",
+      "tipos": [
+        "natureza",
+        "aventura",
+        "esportes_verao",
+        "praia"
+      ]
+    },
+    {
+      "key": "HRB",
+      "nome": "Harbin",
+      "pais_iso2": "CN",
+      "continente": "asia",
+      "tipos": [
+        "esportes_inverno",
+        "cultural",
+        "cidade_grande"
+      ]
+    },
+    {
+      "key": "HKG",
+      "nome": "Hong Kong",
+      "pais_iso2": "HK",
+      "continente": "asia",
+      "tipos": [
+        "cidade_grande",
+        "gastronomico",
+        "cultural"
+      ]
+    },
+    {
+      "key": "HNL",
+      "nome": "Honolulu",
+      "pais_iso2": "US",
+      "continente": "oceania",
+      "tipos": [
+        "praia",
+        "descanso",
+        "natureza",
+        "esportes_verao"
+      ]
+    },
+    {
+      "key": "RUN",
+      "nome": "Ilha da Reunião",
+      "pais_iso2": "RE",
+      "continente": "africa",
+      "tipos": [
+        "natureza",
+        "aventura",
+        "praia"
+      ]
+    },
+    {
+      "key": "IPC",
+      "nome": "Ilha de Páscoa",
+      "pais_iso2": "CL",
+      "continente": "america_sul",
+      "tipos": [
+        "cultural",
+        "natureza",
+        "aventura"
+      ]
+    },
+    {
+      "key": "MRU",
+      "nome": "Ilha Maurícia",
+      "pais_iso2": "MU",
+      "continente": "africa",
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ]
+    },
+    {
+      "key": "IST",
+      "nome": "Istambul",
+      "pais_iso2": "TR",
+      "continente": "asia",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "LAS",
+      "nome": "Las Vegas",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "descanso",
+        "aventura"
+      ]
+    },
+    {
+      "key": "LIS",
+      "nome": "Lisboa",
+      "pais_iso2": "PT",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ]
+    },
+    {
+      "key": "Lisboa ou Porto",
+      "nome": "Lisboa ou Porto",
+      "pais_iso2": "PT",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ]
+    },
+    {
+      "key": "LON",
+      "nome": "Londres",
+      "pais_iso2": "GB",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "LAX",
+      "nome": "Los Angeles",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "praia",
+        "cultural"
+      ]
+    },
+    {
+      "key": "CUZ",
+      "nome": "Machu Picchu",
+      "pais_iso2": "PE",
+      "continente": "america_sul",
+      "tipos": [
+        "cultural",
+        "montanha",
+        "aventura",
+        "natureza"
+      ]
+    },
+    {
+      "key": "Madri ou Barcelona",
+      "nome": "Madri ou Barcelona",
+      "pais_iso2": "ES",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "MAD",
+      "nome": "Madrid",
+      "pais_iso2": "ES",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "MLA",
+      "nome": "Malta",
+      "pais_iso2": "MT",
+      "continente": "europa",
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ]
+    },
+    {
+      "key": "OGG",
+      "nome": "Maui",
+      "pais_iso2": "US",
+      "continente": "oceania",
+      "tipos": [
+        "praia",
+        "natureza",
+        "descanso",
+        "esportes_verao"
+      ]
+    },
+    {
+      "key": "MEL",
+      "nome": "Melbourne",
+      "pais_iso2": "AU",
+      "continente": "oceania",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "MIA",
+      "nome": "Miami",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ]
+    },
+    {
+      "key": "YUL",
+      "nome": "Montreal",
+      "pais_iso2": "CA",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "BOM",
+      "nome": "Mumbai",
+      "pais_iso2": "IN",
+      "continente": "asia",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "NAT",
+      "nome": "Natal",
+      "pais_iso2": "BR",
+      "continente": "america_sul",
+      "tipos": [
+        "praia",
+        "descanso",
+        "natureza"
+      ]
+    },
+    {
+      "key": "NYC",
+      "nome": "Nova Iorque",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "MCO",
+      "nome": "Orlando",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "descanso"
+      ]
+    },
+    {
+      "key": "SFB",
+      "nome": "Orlando",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "descanso"
+      ]
+    },
+    {
+      "key": "Orlando ou Tampa",
+      "nome": "Orlando ou Tampa",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "descanso",
+        "praia"
+      ]
+    },
+    {
+      "key": "PAR",
+      "nome": "Paris",
+      "pais_iso2": "FR",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "FAI",
+      "nome": "Parque Nacional e Reserva de Denali",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "natureza",
+        "montanha",
+        "aventura"
+      ]
+    },
+    {
+      "key": "HDS",
+      "nome": "Parque Nacional Kruger",
+      "pais_iso2": "ZA",
+      "continente": "africa",
+      "tipos": [
+        "natureza",
+        "aventura"
+      ]
+    },
+    {
+      "key": "PNT",
+      "nome": "Parque Nacional Torres del Paine",
+      "pais_iso2": "CL",
+      "continente": "america_sul",
+      "tipos": [
+        "natureza",
+        "montanha",
+        "aventura"
+      ]
+    },
+    {
+      "key": "PER",
+      "nome": "Perth",
+      "pais_iso2": "AU",
+      "continente": "oceania",
+      "tipos": [
+        "cidade_grande",
+        "praia",
+        "natureza"
+      ]
+    },
+    {
+      "key": "PRG",
+      "nome": "Praga",
+      "pais_iso2": "CZ",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "YQB",
+      "nome": "Quebec",
+      "pais_iso2": "CA",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "esportes_inverno"
+      ]
+    },
+    {
+      "key": "ZQN",
+      "nome": "Queenstown",
+      "pais_iso2": "NZ",
+      "continente": "oceania",
+      "tipos": [
+        "aventura",
+        "montanha",
+        "natureza",
+        "esportes_inverno"
+      ]
+    },
+    {
+      "key": "ITM",
+      "nome": "Quioto",
+      "pais_iso2": "JP",
+      "continente": "asia",
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "natureza"
+      ]
+    },
+    {
+      "key": "KIX",
+      "nome": "Quioto",
+      "pais_iso2": "JP",
+      "continente": "asia",
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "natureza"
+      ]
+    },
+    {
+      "key": "RIO",
+      "nome": "Rio de Janeiro",
+      "pais_iso2": "BR",
+      "continente": "america_sul",
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ]
+    },
+    {
+      "key": "FCO",
+      "nome": "Roma",
+      "pais_iso2": "IT",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ]
+    },
+    {
+      "key": "SSA",
+      "nome": "Salvador",
+      "pais_iso2": "BR",
+      "continente": "america_sul",
+      "tipos": [
+        "praia",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "ADZ",
+      "nome": "San Andrés",
+      "pais_iso2": "CO",
+      "continente": "america_sul",
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ]
+    },
+    {
+      "key": "SAN",
+      "nome": "San Diego",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ]
+    },
+    {
+      "key": "SCL",
+      "nome": "Santiago",
+      "pais_iso2": "CL",
+      "continente": "america_sul",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico",
+        "montanha"
+      ]
+    },
+    {
+      "key": "JTR",
+      "nome": "Santorini",
+      "pais_iso2": "GR",
+      "continente": "europa",
+      "tipos": [
+        "praia",
+        "descanso",
+        "cultural"
+      ]
+    },
+    {
+      "key": "SFO",
+      "nome": "São Francisco",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ]
+    },
+    {
+      "key": "SEA",
+      "nome": "Seattle",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "natureza",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "SIN",
+      "nome": "Singapura",
+      "pais_iso2": "SG",
+      "continente": "asia",
+      "tipos": [
+        "cidade_grande",
+        "gastronomico",
+        "cultural"
+      ]
+    },
+    {
+      "key": "SYD",
+      "nome": "Sydney",
+      "pais_iso2": "AU",
+      "continente": "oceania",
+      "tipos": [
+        "cidade_grande",
+        "praia",
+        "cultural"
+      ]
+    },
+    {
+      "key": "PPT",
+      "nome": "Taiti",
+      "pais_iso2": "PF",
+      "continente": "oceania",
+      "tipos": [
+        "praia",
+        "descanso",
+        "natureza"
+      ]
+    },
+    {
+      "key": "TYO",
+      "nome": "Tóquio",
+      "pais_iso2": "JP",
+      "continente": "asia",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "YYZ",
+      "nome": "Toronto",
+      "pais_iso2": "CA",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "UBN",
+      "nome": "Ulan Bator",
+      "pais_iso2": "MN",
+      "continente": "asia",
+      "tipos": [
+        "cultural",
+        "aventura",
+        "natureza"
+      ]
+    },
+    {
+      "key": "USH",
+      "nome": "Ushuaia",
+      "pais_iso2": "AR",
+      "continente": "america_sul",
+      "tipos": [
+        "natureza",
+        "aventura",
+        "esportes_inverno"
+      ]
+    },
+    {
+      "key": "YVR",
+      "nome": "Vancouver",
+      "pais_iso2": "CA",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cidade_grande",
+        "natureza",
+        "montanha"
+      ]
+    },
+    {
+      "key": "VCE",
+      "nome": "Veneza",
+      "pais_iso2": "IT",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "VIE",
+      "nome": "Viena",
+      "pais_iso2": "AT",
+      "continente": "europa",
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ]
+    },
+    {
+      "key": "IAD",
+      "nome": "Washington, D.C.",
+      "pais_iso2": "US",
+      "continente": "america_norte_central",
+      "tipos": [
+        "cultural",
+        "cidade_grande"
+      ]
+    }
+  ]
+}

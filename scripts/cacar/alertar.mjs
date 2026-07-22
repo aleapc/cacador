@@ -11,14 +11,27 @@ const brl = (n) => `R$ ${n.toLocaleString('pt-BR', { maximumFractionDigits: 0 })
 
 const BAGAGEM = { inclui: ' · com bagagem', nao_inclui: ' · SEM bagagem', nao_dito: '' }
 
+const TIPO_EMOJI = {
+  praia: '🏖', montanha: '⛰️', cultural: '🏛️', gastronomico: '🍽️', natureza: '🌿',
+  esportes_inverno: '🎿', esportes_verao: '🏄', cidade_grande: '🌃', descanso: '🧘', aventura: '🎢',
+}
+
 function formatar(oferta, perfil) {
   const origem = oferta.origem_texto || '(origem não dita)'
   const casal = oferta.por_pessoa ? ` · ${brl(oferta.preco_brl * perfil.viajantes)} p/ ${perfil.viajantes}` : ''
   const p = oferta.posicionamento
+  // 💛 quando agrada os dois; senão de quem é o gosto que puxou o alerta.
+  const nomes = (perfil.pessoas || []).filter((x) => oferta.gosto?.[x.id]).map((x) => x.nome)
+  const selo = oferta.match ? '💛 ' : ''
   const linhas = [
-    `${p ? '🎯' : '✈️'} *${oferta.destino_texto}* — ${brl(oferta.preco_brl)}${oferta.por_pessoa ? '/pessoa' : ''}${casal}`,
+    `${p ? '🎯' : selo || '✈️'} *${oferta.destino_texto}* — ${brl(oferta.preco_brl)}${oferta.por_pessoa ? '/pessoa' : ''}${casal}`,
     `${origem} → ${oferta.destino_texto}${oferta.ida_e_volta ? ' · ida e volta' : ' · só ida'}${oferta.com_taxas ? ' · c/ taxas' : ''}${BAGAGEM[oferta.bagagem_despachada] || ''}`,
   ]
+  // Tipo de viagem + de quem agrada.
+  if (oferta.tipos?.length) {
+    const t = oferta.tipos.slice(0, 3).map((x) => `${TIPO_EMOJI[x] || ''}${x.replace('_', ' ')}`).join(' · ')
+    linhas.push(oferta.match ? `${t} — agrada os dois 💛` : nomes.length ? `${t} — ${nomes.join(' e ')} ia gostar` : t)
+  }
 
   // A conta do posicionamento, entregue aberta. O app não sabe seu saldo de
   // milhas nem o preço do trecho doméstico de hoje — então dá o número e você
@@ -45,6 +58,12 @@ function formatar(oferta, perfil) {
   if (oferta.janela) linhas.push(`Janela: ${oferta.janela}${oferta.noites ? ` (${oferta.noites} noites)` : ''}`)
   if (oferta.validade) linhas.push(`Janela: ${oferta.validade}`)
   if (oferta.observacao) linhas.push(`_${oferta.observacao}_`)
+  // Visto: a pegadinha aparece sempre que o destino exige algo — é o item com
+  // consequência física (o México barra brasileiro no portão desde 2022).
+  if (oferta.visto && oferta.visto.exige !== 'NAO') {
+    const peg = oferta.visto.pegadinha ? ` — ${oferta.visto.pegadinha.slice(0, 160)}` : ''
+    linhas.push(`🛂 *Exige visto/autorização* (${oferta.visto.exige.toLowerCase().replace(/_/g, ' ')})${peg}`)
+  }
   if (oferta.flags.length) linhas.push(`⚠️ ${oferta.flags.join(', ')} — confira antes de acreditar`)
   // O link do Melhores Destinos vai pra matéria deles com o afiliado intacto:
   // você clicando lá é o que paga a curadoria que este app consome. O do

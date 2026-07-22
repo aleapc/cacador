@@ -168,5 +168,16 @@ export function casaPerfil(oferta, perfil) {
   if (perfil.teto_por_pessoa && oferta.preco_brl > perfil.teto_por_pessoa)
     return `acima_do_teto:${oferta.preco_brl}>${perfil.teto_por_pessoa}`
   if (perfil.exigir_bagagem && oferta.bagagem_despachada !== 'inclui') return 'sem_bagagem'
+
+  // Visto: só barra quando o dataset AFIRMA que exige (sem_visto === false).
+  // Desconhecido (null) NÃO barra — mas a pegadinha aparece no card. Errar pro
+  // lado de "esconder" é melhor que pro lado de "mandar pro balcão sem embarcar".
+  if (perfil.exigir_sem_visto && oferta.sem_visto === false) return `exige_visto:${oferta.pais_iso2}`
+
+  // Match do casal: só gateia alerta se você pediu (alertar_apenas_match).
+  // Por padrão, o que agrada um só também alerta (marcado de quem) — o match
+  // apenas sobe no ranking.
+  if (perfil.alertar_apenas_match && !oferta.match) return 'nao_agrada_os_dois'
+
   return null // null = casa
 }

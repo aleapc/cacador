@@ -1,6 +1,6 @@
 {
-  "versao": 1,
-  "_comentario": "Perfis de caça. São FILTROS sobre o que o job já coletou — mudar um perfil não dispara busca nova, só muda o que casa. Alta permanência por design: mexer aqui é evento raro, então commitar é o lugar certo. Nenhum dado pessoal aqui (o chat_id do Telegram vai em GitHub Secret).",
+  "versao": 2,
+  "_comentario": "Restrições OBJETIVAS (valem pros dois: 2 viajantes, sai de SP, teto, visto, noites) ficam no perfil e gateiam o ALERTA. GOSTO é por pessoa (pessoas[]) e alimenta o match do casal e os filtros de visão no PWA — não gateia alerta por padrão (alertar_apenas_match faz isso se você quiser). Nenhum dado pessoal aqui; chat_id em GitHub Secret.",
   "perfis": [
     {
       "id": "ale-andreia",
@@ -13,12 +13,18 @@
       "tipos": ["dinheiro"],
       "exigir_bagagem": false,
       "excluir_domestico": true,
-      "_max_alertas_comentario": "Teto por rodada. Enxurrada vira ruído e ruído vira app ignorado. As que não couberem ficam no ofertas.json (e o log diz quantas foram cortadas).",
+      "_visto_comentario": "true = só alerta destino sem visto pra brasileiro (derivado de vistos.json). Default false porque vocês podem ter visto americano etc. — mas a pegadinha do visto sempre aparece no card/alerta.",
+      "exigir_sem_visto": false,
       "max_alertas_por_rodada": 5,
-      "_posicionamento_comentario": "DESLIGADO ATÉ TER O CUSTO DO TRECHO DOMÉSTICO. A pesquisa de 2026-07-16 mostrou que a diferença BRUTA mente: Miami de Manaus é R$881/pessoa mais barato, mas o GRU<->MAO custa R$1.215-1.400 em dinheiro — economia líquida negativa. Sem o preço do doméstico (Travelpayouts), o app não consegue calcular economia líquida, e alertar a diferença bruta é publicar um número bonito e errado. Religar só quando: (1) houver preço do doméstico, (2) houver janela de sazonalidade e frequência por rota, (3) houver trava de febre amarela. Ver README.",
       "posicionamento": { "ativo": false, "economia_minima_grupo": 800 },
-      "_paises_comentario": "Vazio = qualquer país. O filtro de visto entra quando o dataset de vistos estiver pronto — aí 'sem visto' vira derivado, não lista mantida à mão.",
-      "paises": []
+      "paises": [],
+      "_pessoas_comentario": "Gosto de cada um, do vocabulário de tipos (praia/montanha/cultural/gastronomico/natureza/esportes_inverno/esportes_verao/cidade_grande/descanso/aventura). É EXEMPLO inicial — ajustem. O match do casal é a interseção; no PWA o seletor Alê/Andréia/Nós dois usa isto.",
+      "pessoas": [
+        { "id": "ale", "nome": "Alê", "gosta": ["cultural", "gastronomico", "cidade_grande", "aventura"] },
+        { "id": "andreia", "nome": "Andréia", "gosta": ["praia", "natureza", "descanso", "montanha"] }
+      ],
+      "_match_comentario": "true = só alerta o que agrada os DOIS. Deixe false pra também receber o que agrada um só (marcado de quem no card). O match sempre sobe no ranking, alertando ou não.",
+      "alertar_apenas_match": false
     }
   ]
 }

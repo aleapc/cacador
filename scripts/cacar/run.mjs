@@ -13,6 +13,7 @@ import { extrair } from './extrair.mjs'
 import { normalizar, deduplicar, casaPerfil } from './dedupe.mjs'
 import { marcarPosicionamento } from './posicionamento.mjs'
 import { registrar, marcarBaseline } from './baseline.mjs'
+import { carregarTaxonomia, carregarVistos, enriquecer, avaliarGosto } from './taxonomia.mjs'
 import { alertar } from './alertar.mjs'
 
 const SECO = process.argv.includes('--seco')
@@ -115,9 +116,22 @@ async function main() {
   // computação pura, sem custo de API, e uma oferta sem veredito no JSON vira
   // "passou" no PWA por omissão — silêncio virando aprovação. O alerta é que
   // fica restrito às inéditas.
-  const comBaseline = marcarBaseline(todas, historico)
+  let comBaseline = marcarBaseline(todas, historico)
   const comSerie = comBaseline.filter((o) => o.baseline.tem_baseline).length
   console.log(`baseline: ${comSerie} de ${comBaseline.length} têm série suficiente (>=7 dias)`)
+
+  // Enriquece com tipos (praia/montanha/...), continente, visto e o gosto de
+  // cada pessoa do casal. Tudo lookup, custo zero. As pessoas vêm do 1º perfil
+  // (o casal). Um destino sem tag entra em "Tudo" mas some dos filtros de tipo.
+  const tax = await carregarTaxonomia()
+  const vistos = await carregarVistos()
+  const pessoas = perfis[0]?.pessoas || []
+  comBaseline = comBaseline.map((o) => avaliarGosto(enriquecer(o, tax, vistos), pessoas))
+  const semTag = comBaseline.filter((o) => !o.tem_tag).length
+  const matches = comBaseline.filter((o) => o.match).length
+  console.log(`taxonomia: ${comBaseline.length - semTag} taggeados, ${semTag} sem tag · ${matches} agradam os dois`)
+  if (comBaseline.length && semTag / comBaseline.length > 0.4)
+    console.log(`::warning title=Muitos destinos sem tag::${semTag}/${comBaseline.length} — rodar o tagger`)
 
   const funil = {
     candidatos_do_slug: candidatos,
@@ -131,6 +145,8 @@ async function main() {
     ineditas: inéditas.length,
     rotas_no_historico: Object.keys(historico.rotas || {}).length,
     com_baseline: comSerie,
+    sem_tag: semTag,
+    agradam_os_dois: matches,
     por_perfil: {},
   }
 
@@ -168,8 +184,10 @@ async function main() {
     // enxurrada — e enxurrada vira ruído que você aprende a ignorar, o que
     // mata o app mais rápido que bug nenhum. Ordena por relevância: quem tem
     // baseline e está raro vem primeiro; sem baseline, o mais barato.
+    // Match do casal vem primeiro (é o "wow"), depois raro, depois desvio,
+    // depois preço. Um destino que agrada os dois E está barato ganha de tudo.
     const ranked = casam.sort((a, b) => {
-      const pontos = (o) => (o.baseline?.raro ? 1000 : 0) - (o.baseline?.desvio_pct ?? 0)
+      const pontos = (o) => (o.match ? 5000 : 0) + (o.baseline?.raro ? 1000 : 0) - (o.baseline?.desvio_pct ?? 0)
       return pontos(b) - pontos(a) || a.preco_brl - b.preco_brl
     })
     const teto = perfil.max_alertas_por_rodada ?? 5
@@ -231,6 +249,9 @@ async function main() {
         funil,
         avisos,
         perfis: perfis.map((p) => ({ id: p.id, nome: p.nome, viajantes: p.viajantes })),
+        // O PWA precisa das pessoas e do gosto pra montar o seletor Alê/Andréia/
+        // Nós dois e recalcular o match localmente (filtro de visão, sem servidor).
+        pessoas,
         // Todas com baseline e veredito. 400 cobre meses e mantém o JSON em
         // poucas centenas de KB, que é o que o celular baixa.
         ofertas: enriquecidas.slice(0, 400),
