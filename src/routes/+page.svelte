@@ -25,6 +25,29 @@
   let extra = $state({ visto: false, match: false, deal: false, direto: false });
   let sheet = $state(false);
   let seg = $state('tipo');
+  let gostoSheet = $state(false);
+  let editando = $state(null); // id da pessoa sendo configurada
+
+  function toggleGosto(id, tipo) {
+    const atual = local.gosto?.[id] ?? [];
+    const novo = atual.includes(tipo) ? atual.filter((t) => t !== tipo) : [...atual, tipo];
+    local = { ...local, gosto: { ...(local.gosto ?? {}), [id]: novo } };
+    gravarEstado(local);
+  }
+
+  // Código pra levar o gosto daqui pro alerta do Telegram (que roda no
+  // servidor e não enxerga este aparelho) e pro celular do outro.
+  let codigoGosto = $derived(
+    'GC1.' + pessoas.map((p) => `${p.id}:${(gostoDe(p.id) ?? []).join(',')}`).join('|'),
+  );
+  let copiado = $state(false);
+  async function copiarCodigo() {
+    try {
+      await navigator.clipboard.writeText(codigoGosto);
+      copiado = true;
+      setTimeout(() => (copiado = false), 2000);
+    } catch { /* sem clipboard: o código fica visível na tela pra copiar à mão */ }
+  }
 
   onMount(async () => {
     local = lerEstado();
@@ -40,7 +63,21 @@
   let pessoas = $derived(estado.dados?.pessoas ?? []);
   const nomePessoa = (id) => pessoas.find((p) => p.id === id)?.nome ?? id;
 
-  const curte = (o, id) => o.gosto?.[id] === true;
+  // GOSTO É DE VOCÊS, NÃO MEU. Vem do aparelho (localStorage), marcado por cada
+  // um. O `gosto` que o servidor calcula usa valores de EXEMPLO no perfis.json
+  // e NÃO é usado aqui: afirmar "agrada os dois" com gosto inventado é fabricar
+  // sinal. Sem marcação, não há match — e o app diz isso na cara.
+  const gostoDe = (id) => local.gosto?.[id] ?? null;
+  const configurado = (id) => (gostoDe(id) ?? []).length > 0;
+  let algumConfigurado = $derived(pessoas.some((p) => configurado(p.id)));
+  let todosConfigurados = $derived(pessoas.length >= 2 && pessoas.every((p) => configurado(p.id)));
+
+  const curte = (o, id) => {
+    const g = gostoDe(id);
+    if (!g?.length) return false; // não marcou = não afirmo que curte
+    return (o.tipos || []).some((t) => g.includes(t));
+  };
+  const ehMatch = (o) => todosConfigurados && pessoas.every((p) => curte(o, p.id));
 
   // Filtro de visão: origem de casa, não descartado, não doméstico, dentro do
   // preço, e o que a pessoa/tipos/lugares/extras pedirem. Tudo client-side.
@@ -64,14 +101,14 @@
     if (continentes.size && !continentes.has(o.continente)) return false;
     if (paises.size && !paises.has(o.pais_iso2)) return false;
     if (extra.visto && o.sem_visto !== true) return false;
-    if (extra.match && !o.match) return false;
+    if (extra.match && !ehMatch(o)) return false;
     if (extra.direto && o.escalas !== 0) return false;
     if (extra.deal && !(o.baseline?.raro || (o.baseline?.tem_baseline && o.baseline.desvio_pct < 0) || o.insight?.nivel === 'low')) return false;
     return true;
   }
 
   const pontos = (o) =>
-    (o.match ? 5000 : 0) +
+    (ehMatch(o) ? 5000 : 0) +
     (o.baseline?.raro ? 1000 : 0) +
     (o.insight?.nivel === 'low' ? 800 : 0) -
     (o.baseline?.desvio_pct ?? o.insight?.desvio_pct ?? 0);
@@ -98,7 +135,7 @@
       .sort((a, b) => pontos(b) - pontos(a) || a.preco_brl - b.preco_brl);
   });
 
-  let matches = $derived(ofertas.filter((o) => o.match).length);
+  let matches = $derived(ofertas.filter(ehMatch).length);
   let favoritas = $derived(
     (estado.dados?.ofertas ?? []).filter((o) => local.favoritos.includes(o.id)),
   );
@@ -192,6 +229,23 @@
     {/each}
   </div>
 
+  <!-- Sem gosto marcado, o app NÃO afirma match. Convida a marcar. -->
+  {#if !todosConfigurados}
+    <button class="setup" onclick={() => { editando = pessoas.find((p) => !configurado(p.id))?.id ?? pessoas[0]?.id; gostoSheet = true; }}>
+      <div>
+        <div class="l">💛 Marquem o gosto de vocês</div>
+        <div class="d">
+          {#if !algumConfigurado}
+            Ninguém marcou ainda — por isso não tem “agrada os dois”. Leva 30 segundos.
+          {:else}
+            Falta {pessoas.filter((p) => !configurado(p.id)).map((p) => p.nome).join(' e ')} marcar.
+          {/if}
+        </div>
+      </div>
+      <span class="chev">›</span>
+    </button>
+  {/if}
+
   <div class="countline mt-3">
     {ofertas.length}
     {ofertas.length === 1 ? 'oportunidade' : 'oportunidades'}
@@ -199,19 +253,26 @@
     {#if pessoa === 'nos' && matches}<span class="text-ambar"> · 💛 {matches} agradam os dois</span>{/if}
   </div>
 
+  {#if pessoa !== 'nos' && !configurado(pessoa)}
+    <p class="text-mute text-sm mt-3">
+      {nomePessoa(pessoa)} ainda não marcou o gosto.
+      <button class="linkbtn" onclick={() => { editando = pessoa; gostoSheet = true; }}>Marcar agora</button>
+    </p>
+  {/if}
+
   {#if !ofertas.length}
     <p class="text-mute text-sm mt-4">Nada com esses filtros. Toque num chip acima pra afrouxar.</p>
   {/if}
 
   <div class="cards mt-2">
     {#each ofertas as o (o.id)}
-      <article class="card" class:match={o.match}>
+      <article class="card" class:match={ehMatch(o)}>
         <div class="ctop">
           <div class="min-w-0">
             <div class="dest">
               {flag(o.pais_iso2)}
               {o.destino_texto}
-              {#if o.match}<span class="heart">💛</span>
+              {#if ehMatch(o)}<span class="heart">💛</span>
               {:else}
                 {#if curte(o, pessoas[0]?.id)}<span class="pd sm" style="background:#38BDF8"></span>{/if}
                 {#if curte(o, pessoas[1]?.id)}<span class="pd sm" style="background:#F472B6"></span>{/if}
@@ -279,6 +340,45 @@
     <div class="favbar">★ {favoritas.length} favorita{favoritas.length > 1 ? 's' : ''} salva{favoritas.length > 1 ? 's' : ''} neste aparelho</div>
   {/if}
 {/if}
+
+<!-- gaveta de GOSTO: cada um marca o seu, fica no aparelho -->
+<div class="scrim" class:open={gostoSheet} onclick={() => (gostoSheet = false)} aria-hidden="true"></div>
+<div class="sheet" class:open={gostoSheet}>
+  <div class="handle"></div>
+  <h3>O que vocês curtem numa viagem</h3>
+  <p class="sub2">Fica só neste aparelho. É isto que define o 💛 “agrada os dois”.</p>
+
+  <div class="segs">
+    {#each pessoas as p}
+      <button class:on={editando === p.id} onclick={() => (editando = p.id)}>
+        {p.nome}{#if configurado(p.id)} ✓{/if}
+      </button>
+    {/each}
+  </div>
+
+  <div class="pane">
+    <div class="tgrid">
+      {#each TIPOS as [k, em, lbl]}
+        <button class="tchip" class:on={(gostoDe(editando) ?? []).includes(k)} onclick={() => toggleGosto(editando, k)}>
+          <span class="em">{em}</span>{lbl}<span class="ck"></span>
+        </button>
+      {/each}
+    </div>
+
+    {#if todosConfigurados}
+      <div class="codigo">
+        <div class="l">Levar pro Telegram e pro outro celular</div>
+        <div class="d">O alerta roda no servidor e não enxerga este aparelho. Mande este código pro Claude commitar — e cole no celular do outro.</div>
+        <code>{codigoGosto}</code>
+        <button class="copiar" onclick={copiarCodigo}>{copiado ? 'copiado ✓' : 'copiar código'}</button>
+      </div>
+    {/if}
+  </div>
+
+  <button class="apply" onclick={() => (gostoSheet = false)}>
+    {todosConfigurados ? `Pronto — ${matches} agradam os dois` : 'Pronto'}
+  </button>
+</div>
 
 <!-- gaveta de filtros -->
 <div class="scrim" class:open={sheet} onclick={() => (sheet = false)} aria-hidden="true"></div>
@@ -371,6 +471,21 @@
   .fchip .x { border: 0; background: transparent; color: #8A9BB8; font-size: 16px; line-height: 1; cursor: pointer; padding: 0 3px; }
 
   .countline { font-size: 12px; color: #8A9BB8; }
+  .setup { width: 100%; display: flex; align-items: center; gap: 12px; text-align: left; margin-top: 12px; cursor: pointer;
+    background: linear-gradient(180deg,#2a2210,#1d1a0e); border: 1px solid #4a3a17; border-radius: 14px; padding: 13px 15px; color: inherit; font: inherit; }
+  .setup .l { font-size: 13.5px; font-weight: 650; color: #F5A524; }
+  .setup .d { font-size: 11.5px; color: #8A9BB8; margin-top: 3px; }
+  .setup > div { flex: 1; }
+  .setup .chev { color: #F5A524; font-size: 18px; }
+  .linkbtn { border: 0; background: transparent; color: #F5A524; font: inherit; font-size: inherit; text-decoration: underline; cursor: pointer; padding: 0; }
+  .sub2 { font-size: 12px; color: #8A9BB8; margin-top: 4px; }
+  .codigo { margin-top: 18px; border-top: 1px solid #1b2a44; padding-top: 14px; }
+  .codigo .l { font-size: 13px; font-weight: 650; }
+  .codigo .d { font-size: 11.5px; color: #8A9BB8; margin-top: 3px; }
+  .codigo code { display: block; margin-top: 9px; background: #0c1626; border: 1px solid #22304A; border-radius: 9px;
+    padding: 10px; font-size: 11px; word-break: break-all; color: #EAF0FA; }
+  .copiar { margin-top: 9px; border: 1px solid #22304A; background: #1B2942; color: #EAF0FA; font: inherit; font-size: 12.5px;
+    font-weight: 600; padding: 9px 14px; border-radius: 9px; cursor: pointer; }
   .cards { display: flex; flex-direction: column; gap: 11px; }
   .card { background: #131C2E; border: 1px solid #22304A; border-radius: 16px; padding: 14px; }
   .card.match { border-color: #4a3a17; }

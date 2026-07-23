@@ -18,10 +18,10 @@
       "max_alertas_por_rodada": 5,
       "posicionamento": { "ativo": false, "economia_minima_grupo": 800 },
       "paises": [],
-      "_pessoas_comentario": "Gosto de cada um, do vocabulário de tipos (praia/montanha/cultural/gastronomico/natureza/esportes_inverno/esportes_verao/cidade_grande/descanso/aventura). É EXEMPLO inicial — ajustem. O match do casal é a interseção; no PWA o seletor Alê/Andréia/Nós dois usa isto.",
+      "_pessoas_comentario": "gosta[] VAZIO de propósito: gosto é de vocês, não meu. Marquem no app (fica no aparelho) e mandem o código GC1. que o app gera — aí eu preencho aqui e o alerta do Telegram passa a usar o gosto de verdade. Enquanto estiver vazio, o servidor NÃO afirma match: alertar '💛 agrada os dois' com gosto inventado seria fabricar sinal.",
       "pessoas": [
-        { "id": "ale", "nome": "Alê", "gosta": ["cultural", "gastronomico", "cidade_grande", "aventura"] },
-        { "id": "andreia", "nome": "Andréia", "gosta": ["praia", "natureza", "descanso", "montanha"] }
+        { "id": "ale", "nome": "Alê", "gosta": [] },
+        { "id": "andreia", "nome": "Andréia", "gosta": [] }
       ],
       "_match_comentario": "true = só alerta o que agrada os DOIS. Deixe false pra também receber o que agrada um só (marcado de quem no card). O match sempre sobe no ranking, alertando ou não.",
       "alertar_apenas_match": false

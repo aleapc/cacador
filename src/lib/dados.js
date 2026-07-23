@@ -33,11 +33,13 @@ export const janelaCurta = (j) => {
 // vem depois pelo padrão de código via WhatsApp, igual aos outros PWAs.
 const CHAVE = 'CACADOR_v1';
 
+const VAZIO = { favoritos: [], descartados: [], gosto: {} };
+
 export function lerEstado() {
   try {
-    return JSON.parse(localStorage.getItem(CHAVE)) ?? { favoritos: [], descartados: [] };
+    return { ...VAZIO, ...(JSON.parse(localStorage.getItem(CHAVE)) ?? {}) };
   } catch {
-    return { favoritos: [], descartados: [] };
+    return { ...VAZIO };
   }
 }
 
