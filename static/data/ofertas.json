@@ -1,18 +1,18 @@
 {
-  "gerado_em": "2026-07-23T00:15:05.900Z",
+  "gerado_em": "2026-07-23T03:44:52.829Z",
   "visto_ate": "2026-07-22T23:49:05+00:00",
   "ultimo_explore": "2026-07-23",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 1,
-      "lidas": 1,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
-      "destinos": 90,
-      "status": "ok"
+      "destinos": 0,
+      "status": "nao_rodou"
     },
     {
       "nome": "tg:melhoresdestinos",
@@ -60,34 +60,34 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 1,
-    "materias_lidas": 1,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 5,
-    "explore_destinos": 90,
-    "explore_status": "ok",
+    "ofertas_extraidas": 0,
+    "explore_destinos": 0,
+    "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 69,
+    "ineditas": 0,
     "rotas_no_historico": 108,
     "com_baseline": 0,
-    "sem_tag": 27,
-    "agradam_os_dois": 192,
+    "sem_tag": 25,
+    "agradam_os_dois": 165,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 468,
+        "total_avaliadas": 400,
         "casam_no_perfil": 134,
-        "dessas_ja_alertadas_antes": 116,
-        "novas_para_alertar": 18,
-        "alertados": 5,
-        "cortadas_pelo_teto": 13,
+        "dessas_ja_alertadas_antes": 134,
+        "novas_para_alertar": 0,
+        "alertados": 0,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 3,
           "posicionamento_desligado": 25,
           "domestico": 15,
-          "origem": 23,
-          "janela_curta": 93,
-          "acima_do_teto": 175
+          "origem": 19,
+          "janela_curta": 77,
+          "acima_do_teto": 127
         }
       }
     }
@@ -8364,68 +8364,6 @@
       "match": true
     },
     {
-      "id": "d0b140e03099",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Los Angeles",
-      "destino_metro": "LAX",
-      "destino_iata": "LAX",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3444,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-29 a 2026-11-04",
-      "janela_inicio": "2026-10-29",
-      "janela_fim": "2026-11-04",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 899,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
-          "titulo": "Los Angeles — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "cultural"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
       "id": "5beab416e9c3",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -8459,6 +8397,68 @@
         }
       ],
       "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 5,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "praia",
+        "cultural"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "d0b140e03099",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Los Angeles",
+      "destino_metro": "LAX",
+      "destino_iata": "LAX",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 3444,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "COPA",
+      "janela": "2026-10-29 a 2026-11-04",
+      "janela_inicio": "2026-10-29",
+      "janela_fim": "2026-11-04",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 899,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
+          "titulo": "Los Angeles — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": false,
         "amostras": 5,
@@ -14323,68 +14323,6 @@
       "match": false
     },
     {
-      "id": "2ac812559fb2",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Roma",
-      "destino_metro": "FCO",
-      "destino_iata": "FCO",
-      "origem_iata": "GRU",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 4128,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia",
-      "janela": "2026-12-03 a 2026-12-10",
-      "janela_inicio": "2026-12-03",
-      "janela_fim": "2026-12-10",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 960,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTAzagcIARIDR1JVGhUSCjIwMjYtMTItMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
-          "titulo": "Roma — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4128>4000"
-      }
-    },
-    {
       "id": "43f11d8e657b",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -14418,6 +14356,68 @@
         }
       ],
       "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 5,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:4128>4000"
+      }
+    },
+    {
+      "id": "2ac812559fb2",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Roma",
+      "destino_metro": "FCO",
+      "destino_iata": "FCO",
+      "origem_iata": "GRU",
+      "pais_texto": "Itália",
+      "pais_iso2": "IT",
+      "preco_brl": 4128,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Iberia",
+      "janela": "2026-12-03 a 2026-12-10",
+      "janela_inicio": "2026-12-03",
+      "janela_fim": "2026-12-10",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 960,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTAzagcIARIDR1JVGhUSCjIwMjYtMTItMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
+          "titulo": "Roma — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": false,
         "amostras": 5,
