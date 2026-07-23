@@ -44,12 +44,20 @@
 
   // Filtro de visão: origem de casa, não descartado, não doméstico, dentro do
   // preço, e o que a pessoa/tipos/lugares/extras pedirem. Tudo client-side.
+  let regras = $derived(estado.dados?.perfis?.[0] ?? {});
+
   function passa(o) {
     if (local.descartados.includes(o.id)) return false;
     if (o.origem_metro && o.origem_metro !== 'SAO') return false; // só o que sai de SP
     // Doméstico fora — checa as DUAS formas de dizer Brasil (iso2 pode vir
     // vazio se a taxonomia não casou; o pais_texto do Explore ainda diz).
     if (/^BR$/i.test(o.pais_iso2 || '') || /^brasil$/i.test(o.pais_texto || '')) return false;
+    // MESMAS regras objetivas do alerta — senão o app mostra o que o Telegram
+    // barra, e os dois passam a discordar sem motivo.
+    if (regras.tipos?.length && !regras.tipos.includes(o.tipo)) return false;
+    if (o.noites != null && regras.noites) {
+      if (o.noites < regras.noites.min || o.noites > regras.noites.max) return false;
+    }
     if (o.preco_brl > precoMax) return false;
     if (pessoa !== 'nos' && !curte(o, pessoa)) return false;
     if (tipos.size && !(o.tipos || []).some((t) => tipos.has(t))) return false;
@@ -69,15 +77,25 @@
     (o.baseline?.desvio_pct ?? o.insight?.desvio_pct ?? 0);
 
   let ofertas = $derived.by(() => {
-    let ds = (estado.dados?.ofertas ?? []).filter(passa);
-    // dedup por destino: mantém a mais barata de cada destino na visão
-    const porDest = new Map();
+    const ds = (estado.dados?.ofertas ?? []).filter(passa);
+    // Agrupa por destino + MÊS da viagem, não só por destino. Colapsar tudo
+    // num card por destino escondia datas legítimas — uma promoção de janeiro
+    // sumia atrás de uma de agosto. Mantém a mais barata de cada janela e
+    // conta quantas outras existem nela.
+    const grupos = new Map();
     for (const o of ds) {
-      const k = o.destino_metro || o.destino_texto;
-      if (!porDest.has(k) || o.preco_brl < porDest.get(k).preco_brl) porDest.set(k, o);
+      const mes = (o.janela_inicio || o.descoberto_em || '').slice(0, 7);
+      const k = `${o.destino_metro || o.destino_texto}|${mes}`;
+      const g = grupos.get(k);
+      if (!g) grupos.set(k, { melhor: o, n: 1 });
+      else {
+        g.n++;
+        if (o.preco_brl < g.melhor.preco_brl) g.melhor = o;
+      }
     }
-    ds = [...porDest.values()];
-    return ds.sort((a, b) => pontos(b) - pontos(a) || a.preco_brl - b.preco_brl);
+    return [...grupos.values()]
+      .map((g) => ({ ...g.melhor, _outras: g.n - 1 }))
+      .sort((a, b) => pontos(b) - pontos(a) || a.preco_brl - b.preco_brl);
   });
 
   let matches = $derived(ofertas.filter((o) => o.match).length);
@@ -232,7 +250,12 @@
           <p class="base dim">📊 sem baseline ainda ({o.baseline?.amostras ?? 0}/{o.baseline?.precisa ?? 7} dias)</p>
         {/if}
 
-        {#if o.janela}<p class="win">{janelaCurta(o.janela)}{o.noites ? ` · ${o.noites} noites` : ''}</p>{/if}
+        {#if o.janela}
+          <p class="win">
+            {janelaCurta(o.janela)}{o.noites ? ` · ${o.noites} noites` : ''}
+            {#if o._outras > 0}<span class="mais">· +{o._outras} outra{o._outras > 1 ? 's' : ''} data{o._outras > 1 ? 's' : ''} nesse mês</span>{/if}
+          </p>
+        {/if}
         {#if o.visto && o.visto.exige !== 'NAO'}
           <p class="visto">🛂 exige visto/autorização — confira antes de comprar</p>
         {:else if o.sem_visto === true}
@@ -366,6 +389,7 @@
   .base.mid { color: #8A9BB8; }
   .base.dim { color: #6b7d9c; }
   .win { font-size: 11.5px; color: #8A9BB8; margin-top: 6px; }
+  .win .mais { color: #6b7d9c; }
   .visto { font-size: 11.5px; color: #F5A524; margin-top: 6px; }
   .visto.ok { color: #4ADE80; }
   .bag { font-size: 11.5px; color: #4ADE80; margin-top: 5px; }

@@ -290,7 +290,13 @@ async function main() {
         // apertou com o tempo. Sem isso, redescobrir custa um diagnóstico.
         funil,
         avisos,
-        perfis: perfis.map((p) => ({ id: p.id, nome: p.nome, viajantes: p.viajantes })),
+        // As restrições objetivas vão junto pro PWA aplicar as MESMAS regras do
+        // alerta. Sem isso os dois divergem: o app mostrava oferta em milhas e
+        // janela de 6 noites que o alerta corretamente barrava.
+        perfis: perfis.map((p) => ({
+          id: p.id, nome: p.nome, viajantes: p.viajantes,
+          noites: p.noites, tipos: p.tipos, teto_por_pessoa: p.teto_por_pessoa,
+        })),
         // O PWA precisa das pessoas e do gosto pra montar o seletor Alê/Andréia/
         // Nós dois e recalcular o match localmente (filtro de visão, sem servidor).
         pessoas,
