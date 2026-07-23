@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-23T18:38:18.982Z",
+  "gerado_em": "2026-07-23T20:19:46.415Z",
   "visto_ate": "2026-07-23T14:10:15+00:00",
   "ultimo_explore": "2026-07-23",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 5,
+      "novos": 1,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -36,6 +36,9 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18656",
+    "https://t.me/passageirodeprimeira/27800",
+    "https://t.me/promopassagens/110130",
     "https://t.me/melhoresdestinos/18655",
     "https://t.me/melhoresdestinos/18654",
     "https://t.me/melhoresdestinos/18653",
@@ -78,40 +81,36 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 2,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 4,
-    "por_motivo_de_descarte": {
-      "incompleta": 4
-    },
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
     "ineditas": 2,
     "rotas_no_historico": 110,
     "com_baseline": 0,
-    "sem_tag": 32,
+    "sem_tag": 33,
     "agradam_os_dois": 153,
     "por_perfil": {
       "ale-andreia": {
         "total_avaliadas": 402,
         "casam_no_perfil": 138,
-        "dessas_ja_alertadas_antes": 137,
-        "novas_para_alertar": 1,
-        "alertados": 1,
+        "dessas_ja_alertadas_antes": 138,
+        "novas_para_alertar": 0,
+        "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 6,
+          "tipo": 8,
           "posicionamento_desligado": 29,
           "domestico": 15,
           "origem": 20,
           "janela_curta": 68,
-          "acima_do_teto": 126
+          "acima_do_teto": 124
         }
       }
     }
   },
-  "avisos": [
-    "descartou 4 de 6 — schema ou categoria descalibrados?"
-  ],
+  "avisos": [],
   "perfis": [
     {
       "id": "ale-andreia",
@@ -287,6 +286,50 @@
         "andreia": true
       },
       "match": true
+    },
+    {
+      "id": "19536cab2f59",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 285,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "Ou 11 mil milhas o trecho mais taxas",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18656",
+          "titulo": "Latam Pass"
+        }
+      ],
+      "descoberto_em": "2026-07-23T18:54:17+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
     },
     {
       "id": "a2d8d4e0c6e3",
@@ -1119,6 +1162,67 @@
       "match": false
     },
     {
+      "id": "bcd599b5a8c7",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 588,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "A partir de 37 mil milhas Smiles ou R$ 588 + taxas",
+      "flags": [
+        "preco_abaixo_da_faixa",
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/27800",
+          "titulo": "Voe para Miami a partir de 37 mil milhas Smiles ou R$ 588 + taxas"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110130",
+          "titulo": "🚢 Voe Para Miami A Partir De 37 Mil Milhas Smiles Ou R$ 588 + Taxas"
+        }
+      ],
+      "descoberto_em": "2026-07-23T19:24:10+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": true
+      },
+      "match": true,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
       "id": "7c82c5706cdb",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -1787,7 +1891,7 @@
       "descoberto_em": "2026-07-21T19:10:51+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "posicionamento": {
@@ -23301,121 +23405,6 @@
         "andreia": true
       },
       "match": true
-    },
-    {
-      "id": "9fa7b1d5864d",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Quioto",
-      "destino_metro": "KIX",
-      "pais_texto": "Japão",
-      "pais_iso2": "JP",
-      "preco_brl": 6835,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Turkish Airlines",
-      "janela": "2026-11-27 a 2026-12-06",
-      "janela_inicio": "2026-11-27",
-      "janela_fim": "2026-12-06",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 1605,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDR1JVGhUSCjIwMjYtMTItMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZDRf",
-          "titulo": "Quioto — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:6835>4000"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "natureza"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DUAS ARMADILHAS, E A SEGUNDA É URGENTE. (1) A isenção vale SOMENTE para passaporte eletrônico (com chip) em conformidade com ICAO. A MOFA usa linguagem dura para o Brasil: quem não tem ePassport 'will be refused to enter Japan' — é recusa, não exame rigoroso. (2) PRAZO DO ACORDO: o regime entrou em vigor em 30/09/2023 e há relato consistente e especializado (incluindo a firma global de imigração Fragomen) de que foi firmado por um período INICIAL DE TRÊS ANOS, ou seja, vencendo por volta de 30/09/2026 — daqui a ~2 meses. NÃO encontrei confirmação NEM desmentido em fonte primária japonesa, e não há notícia de prorrogação. Quem viajar a partir de setembro/2026 NÃO pode assumir que a isenção continua: reconfirme na MOFA ou no consulado japonês antes de comprar passagem. Também exigidos na prática: passagem de volta, comprovante de hospedagem e de recursos. Não é permitido trabalhar.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
-    },
-    {
-      "id": "eb1a59b5b5cd",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Hong Kong",
-      "destino_metro": "HKG",
-      "pais_texto": "Hong Kong",
-      "pais_iso2": "HK",
-      "preco_brl": 6871,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Ethiopian",
-      "janela": "2026-08-09 a 2026-08-18",
-      "janela_inicio": "2026-08-09",
-      "janela_fim": "2026-08-18",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 1570,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA5agcIARIDR1JVGhUSCjIwMjYtMDgtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzaDY0",
-          "titulo": "Hong Kong — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:6871>4000"
-      },
-      "tipos": [
-        "cidade_grande",
-        "gastronomico",
-        "cultural"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false
     }
   ]
 }
