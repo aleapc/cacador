@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-23T14:30:43.301Z",
+  "gerado_em": "2026-07-23T16:44:46.850Z",
   "visto_ate": "2026-07-23T14:10:15+00:00",
   "ultimo_explore": "2026-07-23",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 3,
-      "lidas": 3,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 5,
+      "novos": 3,
       "status": "ok"
     },
     {
@@ -31,11 +31,14 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18648",
+    "https://t.me/melhoresdestinos/18647",
+    "https://t.me/melhoresdestinos/18646",
     "https://t.me/melhoresdestinos/18645",
     "https://t.me/melhoresdestinos/18643",
     "https://t.me/melhoresdestinos/18642",
@@ -66,36 +69,34 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 3,
-    "materias_lidas": 3,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 12,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 2,
-    "por_motivo_de_descarte": {
-      "incompleta": 2
-    },
-    "ineditas": 12,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 2,
     "rotas_no_historico": 109,
     "com_baseline": 0,
-    "sem_tag": 30,
-    "agradam_os_dois": 165,
+    "sem_tag": 31,
+    "agradam_os_dois": 155,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 411,
-        "casam_no_perfil": 136,
-        "dessas_ja_alertadas_antes": 133,
-        "novas_para_alertar": 3,
-        "alertados": 3,
+        "total_avaliadas": 402,
+        "casam_no_perfil": 137,
+        "dessas_ja_alertadas_antes": 136,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 4,
+          "tipo": 5,
           "posicionamento_desligado": 29,
           "domestico": 15,
           "origem": 20,
-          "janela_curta": 77,
-          "acima_do_teto": 130
+          "janela_curta": 69,
+          "acima_do_teto": 127
         }
       }
     }
@@ -2810,6 +2811,58 @@
       }
     },
     {
+      "id": "92fbc05e556b",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Frankfurt",
+      "destino_metro": "FRA",
+      "pais_iso2": "DE",
+      "preco_brl": 1480,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "Voo direto; o trecho, ou 57 mil milhas Latam Pass + taxas",
+      "flags": [
+        "preco_abaixo_da_faixa",
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18648",
+          "titulo": "Verão Europeu 🇩🇪"
+        }
+      ],
+      "descoberto_em": "2026-07-23T16:05:05+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — sem waiver para os 10 anos. Art. 6 do CFS: justificar proposito, meios de subsistencia para estada e retorno, nao estar sinalizado no SIS. Frankfurt e Munique sao rigorosos com passagem de saida e comprovante de hospedagem. EES 100% operacional desde 10/04/2026: biometria facial e digitais, fim do carimbo, overstay do 90/180 detectado por sistema.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
       "id": "e7a0f1721888",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -5136,18 +5189,23 @@
       "com_taxas": false,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
-      "companhia": "United / Delta",
-      "validade": "agosto a novembro, além de saídas em 2027",
+      "companhia": "",
+      "validade": "",
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18646",
+          "titulo": "Bom preço! Chicago 🇺🇸"
+        },
         {
           "nome": "melhores-destinos",
           "link": "https://www.melhoresdestinos.com.br/promocao/bom-preco-passagens-aereas-chicago-2498",
           "titulo": "Bom preço! Passagens aéreas para Chicago a partir de R$ 2.498 ida e volta saindo do Rio de Janeiro"
         }
       ],
-      "descoberto_em": "2026-07-23T13:45:26+00:00",
+      "descoberto_em": "2026-07-23T14:37:48+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 1,
@@ -11952,6 +12010,61 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "6698df5a6c6e",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Viena",
+      "destino_metro": "VIE",
+      "pais_iso2": "AT",
+      "preco_brl": 3779,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "saindo de várias cidades",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18647",
+          "titulo": "Outono na Europa 🍂🇦🇹"
+        }
+      ],
+      "descoberto_em": "2026-07-23T15:10:48+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — as duas condicoes valem no dia da entrada. Art. 6 do CFS: proposito da viagem, meios de subsistencia para estada e retorno, sem alerta no SIS. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo, overstay automatico).",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "186e07bcec16",
@@ -23314,128 +23427,6 @@
         "andreia": true
       },
       "match": true
-    },
-    {
-      "id": "23ba118dfd77",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Parque Nacional e Reserva de Denali",
-      "destino_metro": "FAI",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 7022,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "United",
-      "janela": "2026-08-13 a 2026-08-19",
-      "janela_inicio": "2026-08-13",
-      "janela_fim": "2026-08-19",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 1809,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEzagcIARIDR1JVGhUSCjIwMjYtMDgtMTlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxbmI2cA",
-          "titulo": "Parque Nacional e Reserva de Denali — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "natureza",
-        "montanha",
-        "aventura"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
-    },
-    {
-      "id": "700d4d6359cc",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Anchorage",
-      "destino_metro": "ANC",
-      "destino_iata": "ANC",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 7030,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Delta e LATAM",
-      "janela": "2026-08-20 a 2026-08-27",
-      "janela_inicio": "2026-08-20",
-      "janela_fim": "2026-08-27",
-      "noites": 7,
-      "escalas": 2,
-      "duracao_min": 1264,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzBnX3duMg",
-          "titulo": "Anchorage — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_inverno"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:7030>4000"
-      }
     }
   ]
 }
