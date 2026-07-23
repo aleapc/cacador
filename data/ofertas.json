@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-23T21:04:27.982Z",
+  "gerado_em": "2026-07-23T21:21:05.489Z",
   "visto_ate": "2026-07-23T14:10:15+00:00",
   "ultimo_explore": "2026-07-23",
   "fontes": [
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,11 +31,13 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 2,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/promopassagens/110134",
+    "https://t.me/promopassagens/110133",
     "https://t.me/passageirodeprimeira/27802",
     "https://t.me/melhoresdestinos/18656",
     "https://t.me/passageirodeprimeira/27800",
@@ -85,16 +87,18 @@
     "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 1,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 0,
     "rotas_no_historico": 110,
     "com_baseline": 0,
     "sem_tag": 34,
-    "agradam_os_dois": 152,
+    "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
+        "total_avaliadas": 400,
         "casam_no_perfil": 138,
         "dessas_ja_alertadas_antes": 138,
         "novas_para_alertar": 0,
@@ -106,7 +110,7 @@
           "domestico": 15,
           "origem": 20,
           "janela_curta": 68,
-          "acima_do_teto": 122
+          "acima_do_teto": 121
         }
       }
     }
@@ -131,22 +135,12 @@
     {
       "id": "ale",
       "nome": "Alê",
-      "gosta": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande",
-        "aventura"
-      ]
+      "gosta": []
     },
     {
       "id": "andreia",
       "nome": "Andréia",
-      "gosta": [
-        "praia",
-        "natureza",
-        "descanso",
-        "montanha"
-      ]
+      "gosta": []
     }
   ],
   "ofertas": [
@@ -291,10 +285,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "19536cab2f59",
@@ -393,10 +387,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "a3607f5ef657",
@@ -495,10 +489,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "b24cc0f99216",
@@ -553,10 +547,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "127b59fde2d7",
@@ -611,10 +605,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "238263bb1d99",
@@ -667,10 +661,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "8e4fe09d0e8d",
@@ -723,10 +717,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "f64eb2e44431",
@@ -781,10 +775,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "3532e0971153",
@@ -839,10 +833,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "50d4e8f1a3a2",
@@ -897,10 +891,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "18b18c28853b",
@@ -953,10 +947,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "f89e49344d4d",
@@ -1009,10 +1003,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "fc5792fd9757",
@@ -1064,10 +1058,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "b3ccf5874284",
@@ -1166,7 +1160,7 @@
       "visto": null,
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -1223,10 +1217,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "tipo:misto"
       }
@@ -1281,10 +1275,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "domestico"
       }
@@ -1391,10 +1385,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "domestico"
       }
@@ -1449,10 +1443,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "7f6c0f72b67f",
@@ -1610,10 +1604,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "domestico"
       }
@@ -1662,7 +1656,7 @@
       "visto": null,
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -1769,10 +1763,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "cdaff13779ad",
@@ -1818,7 +1812,7 @@
       "visto": null,
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -2027,20 +2021,25 @@
       "com_taxas": false,
       "tipo": "misto",
       "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
+      "companhia": "Latam",
       "validade": "",
-      "observacao": "ou 38 mil milhas LATAM Pass + taxas",
+      "observacao": "Ou 38 mil milhas Latam Pass + taxas",
       "flags": [
         "origem_nao_atribuida"
       ],
       "fontes": [
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110133",
+          "titulo": "🛩 Voe Para A Jamaica A Partir De R$ 992 Ou 38 Mil Milhas Latam Pass + Taxas"
+        },
         {
           "nome": "tg:passageirodeprimeira",
           "link": "https://t.me/passageirodeprimeira/27802",
           "titulo": "Voe para a Jamaica a partir de R$ 992 ou 38 mil milhas LATAM Pass + taxas"
         }
       ],
-      "descoberto_em": "2026-07-23T20:52:19+00:00",
+      "descoberto_em": "2026-07-23T21:15:41+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
@@ -2114,10 +2113,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "domestico"
       }
@@ -2172,10 +2171,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "70040295083e",
@@ -2221,10 +2220,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "9558a2e84605",
@@ -2324,7 +2323,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -2428,7 +2427,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -2480,10 +2479,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "b882394e0182",
@@ -2537,7 +2536,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -2592,7 +2591,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -2646,7 +2645,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -2703,7 +2702,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -2761,7 +2760,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -2816,7 +2815,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -2864,7 +2863,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -2919,7 +2918,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -2967,7 +2966,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -3020,7 +3019,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -3167,7 +3166,7 @@
       "visto": null,
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false,
       "perfis": {
@@ -3224,7 +3223,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -3282,7 +3281,7 @@
       "visto": null,
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -3335,7 +3334,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -3394,7 +3393,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false,
       "perfis": {
@@ -3457,7 +3456,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -3517,7 +3516,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -3564,7 +3563,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -3613,10 +3612,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "8e9a0c87832f",
@@ -3669,10 +3668,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "insight": {
         "fonte": "google-price-insights",
         "nivel": "low",
@@ -3737,10 +3736,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "insight": {
         "fonte": "google-price-insights",
         "nivel": "low",
@@ -3805,10 +3804,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "insight": {
         "fonte": "google-price-insights",
         "nivel": "low",
@@ -3883,7 +3882,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -3944,10 +3943,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "d724fb07251f",
@@ -4005,7 +4004,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -4060,10 +4059,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "insight": {
         "fonte": "google-price-insights",
         "nivel": "low",
@@ -4132,10 +4131,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "insight": {
         "fonte": "google-price-insights",
         "nivel": "typical",
@@ -4204,10 +4203,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "insight": {
         "fonte": "google-price-insights",
         "nivel": "typical",
@@ -4272,10 +4271,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "13220f510323",
@@ -4331,10 +4330,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "9986cb640b4f",
@@ -4379,10 +4378,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "360dd27cb575",
@@ -4434,10 +4433,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "casa"
       }
@@ -4486,10 +4485,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "dbf4c7c8c4b0",
@@ -4541,10 +4540,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "89d89f4db51e",
@@ -4602,10 +4601,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "79a3dcedeae2",
@@ -4660,10 +4659,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "casa"
       }
@@ -4721,10 +4720,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "casa"
       }
@@ -4773,10 +4772,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "5cdfbe7ef857",
@@ -4834,7 +4833,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -4926,10 +4925,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "e5464d0c0804",
@@ -4975,7 +4974,7 @@
       "visto": null,
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -5026,10 +5025,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "cfa4946ccb8a",
@@ -5085,10 +5084,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "19f9abfe0de6",
@@ -5145,10 +5144,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "cb7b89a067b2",
@@ -5205,7 +5204,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false,
       "perfis": {
@@ -5266,10 +5265,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "3f4690385e39",
@@ -5321,10 +5320,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "99ced50e4af8",
@@ -5376,10 +5375,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "casa"
       }
@@ -5439,10 +5438,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "db9f77c42845",
@@ -5494,7 +5493,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -5561,10 +5560,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "6af65dc86e70",
@@ -5616,10 +5615,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "161960cf9362",
@@ -5671,10 +5670,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "919f54d7e365",
@@ -5725,10 +5724,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
@@ -5782,10 +5781,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
@@ -5844,10 +5843,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "casa"
       }
@@ -5906,10 +5905,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "9efb9e20f6d7",
@@ -5961,10 +5960,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "3c33ce054de1",
@@ -6016,10 +6015,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "d72b34bc8bdd",
@@ -6075,7 +6074,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -6137,7 +6136,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -6200,7 +6199,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -6255,10 +6254,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "20a11d2dd943",
@@ -6309,10 +6308,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
@@ -6367,10 +6366,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "821ed06a737d",
@@ -6426,7 +6425,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -6489,7 +6488,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -6549,7 +6548,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -6609,7 +6608,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -6668,7 +6667,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -6730,7 +6729,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -6793,7 +6792,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -6853,7 +6852,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -6914,10 +6913,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "144c190c2939",
@@ -7018,10 +7017,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "38cb5a36547a",
@@ -7077,10 +7076,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "b373eb7da7f3",
@@ -7138,10 +7137,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "d95d11e0e844",
@@ -7198,7 +7197,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -7257,7 +7256,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -7320,7 +7319,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -7380,7 +7379,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -7442,7 +7441,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -7492,7 +7491,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -7554,7 +7553,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -7618,7 +7617,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -7680,10 +7679,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "c29e1aeb255c",
@@ -7741,10 +7740,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "9334305a2bb7",
@@ -7801,7 +7800,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -7860,7 +7859,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -7923,7 +7922,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -7973,7 +7972,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -8036,7 +8035,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -8096,7 +8095,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -8156,7 +8155,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -8216,10 +8215,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "a87a0525ddf6",
@@ -8276,10 +8275,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "6842d662678d",
@@ -8336,10 +8335,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "75e9c45ef09b",
@@ -8389,7 +8388,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -8442,7 +8441,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -8502,7 +8501,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -8558,10 +8557,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "229582be8f39",
@@ -8608,7 +8607,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -8670,7 +8669,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -8742,7 +8741,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -8802,7 +8801,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -8862,7 +8861,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -8922,10 +8921,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "bd97be1b6e51",
@@ -8982,10 +8981,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "5beab416e9c3",
@@ -9041,10 +9040,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
@@ -9103,10 +9102,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
@@ -9168,7 +9167,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -9264,7 +9263,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -9326,7 +9325,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -9397,7 +9396,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -9455,7 +9454,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -9518,7 +9517,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -9568,7 +9567,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -9621,7 +9620,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -9674,7 +9673,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -9727,7 +9726,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -9789,7 +9788,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -9842,7 +9841,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -9895,7 +9894,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -9955,7 +9954,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -10014,7 +10013,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -10076,7 +10075,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -10139,7 +10138,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -10199,10 +10198,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "3f8fb6c8d022",
@@ -10258,7 +10257,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -10321,10 +10320,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "6200a76b11de",
@@ -10381,10 +10380,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "096e53ab20ae",
@@ -10441,7 +10440,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -10500,10 +10499,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
@@ -10562,10 +10561,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
@@ -10625,7 +10624,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -10685,7 +10684,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -10744,7 +10743,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -10803,7 +10802,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -10862,10 +10861,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "4c2ff4939b25",
@@ -10922,10 +10921,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "0f2a9ecd462e",
@@ -10982,10 +10981,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "53154cf9260c",
@@ -11042,7 +11041,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -11102,7 +11101,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -11161,7 +11160,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -11312,10 +11311,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "a824b4f7f030",
@@ -11375,10 +11374,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "8f27a16485c4",
@@ -11436,10 +11435,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "f983f58b474c",
@@ -11491,7 +11490,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -11549,7 +11548,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -11612,10 +11611,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "casa"
       }
@@ -11675,10 +11674,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "50b2d6643a4f",
@@ -11735,10 +11734,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "cb16b85221cf",
@@ -11795,10 +11794,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "casa"
       }
@@ -11964,7 +11963,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -12022,7 +12021,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -12084,7 +12083,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -12146,7 +12145,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -12214,7 +12213,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -12274,7 +12273,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -12326,7 +12325,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -12389,7 +12388,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -12442,7 +12441,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -12501,10 +12500,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "casa"
       }
@@ -12563,10 +12562,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "casa"
       }
@@ -12625,7 +12624,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -12688,7 +12687,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -12748,7 +12747,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -12808,7 +12807,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -12868,7 +12867,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -12928,7 +12927,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -12988,7 +12987,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -13048,7 +13047,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -13108,10 +13107,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "81847353b937",
@@ -13168,7 +13167,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -13228,7 +13227,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -13288,10 +13287,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "36ddcc823e23",
@@ -13348,10 +13347,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "064985c6fa6a",
@@ -13408,10 +13407,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "4d78aba48617",
@@ -13468,10 +13467,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "e316d8ef44f6",
@@ -13528,7 +13527,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -13578,7 +13577,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -13631,7 +13630,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -13694,10 +13693,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "53088aebea5c",
@@ -13754,7 +13753,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -13813,7 +13812,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -13875,7 +13874,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -13938,7 +13937,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -13999,10 +13998,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "0dc08fd9369c",
@@ -14059,10 +14058,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "5ed22a12d44a",
@@ -14119,7 +14118,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -14178,10 +14177,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "casa"
       }
@@ -14241,10 +14240,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "2ceaba575021",
@@ -14301,10 +14300,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "6bf617e79742",
@@ -14361,7 +14360,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -14421,7 +14420,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -14481,10 +14480,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "28163c83b87e",
@@ -14541,7 +14540,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -14601,7 +14600,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -14661,10 +14660,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "be4f0943ca20",
@@ -14720,7 +14719,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -14782,7 +14781,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -14845,7 +14844,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -14905,7 +14904,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -14964,10 +14963,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:4055>4000"
       }
@@ -15026,10 +15025,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
@@ -15088,7 +15087,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -15151,7 +15150,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -15210,7 +15209,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -15272,7 +15271,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -15336,10 +15335,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "8aad6aa843aa",
@@ -15397,10 +15396,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "5f6badd26213",
@@ -15457,7 +15456,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -15516,7 +15515,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -15577,10 +15576,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "477395ce3590",
@@ -15637,7 +15636,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -15697,10 +15696,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "2c5e05e5fff8",
@@ -15757,7 +15756,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -15817,7 +15816,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -15876,7 +15875,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -15939,7 +15938,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -15999,7 +15998,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -16059,7 +16058,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -16162,10 +16161,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:4223>4000"
       }
@@ -16224,7 +16223,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -16286,7 +16285,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -16349,7 +16348,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -16409,10 +16408,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "4b9d96b69d62",
@@ -16468,10 +16467,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:4257>4000"
       }
@@ -16532,10 +16531,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "7ffe1ff4e270",
@@ -16592,7 +16591,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -16652,7 +16651,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -16712,7 +16711,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -16772,7 +16771,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -16832,7 +16831,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -16892,7 +16891,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -16951,7 +16950,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -17014,10 +17013,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:4376>4000"
       }
@@ -17077,7 +17076,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -17132,10 +17131,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "7d51bfa29c17",
@@ -17187,10 +17186,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "6d6acee634fd",
@@ -17247,10 +17246,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "f6bfa9534412",
@@ -17307,7 +17306,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -17367,10 +17366,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "b45065568a04",
@@ -17426,7 +17425,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -17489,7 +17488,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -17544,10 +17543,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "9f6096d22003",
@@ -17604,10 +17603,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:4569>4000"
       }
@@ -17669,7 +17668,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -17730,7 +17729,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -17791,7 +17790,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -17850,7 +17849,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -17912,7 +17911,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -17970,10 +17969,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:4617>4000"
       }
@@ -18028,10 +18027,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "642a4b77caf2",
@@ -18090,7 +18089,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -18149,7 +18148,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -18204,10 +18203,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "0f40d5d36aa4",
@@ -18259,10 +18258,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "8db8b68cf562",
@@ -18318,7 +18317,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -18377,7 +18376,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -18434,10 +18433,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
@@ -18499,7 +18498,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -18560,7 +18559,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -18613,10 +18612,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
@@ -18676,7 +18675,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -18735,7 +18734,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -18797,7 +18796,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -18855,10 +18854,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "e2696709bf09",
@@ -18914,10 +18913,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:4842>4000"
       }
@@ -18975,7 +18974,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -19037,7 +19036,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -19099,7 +19098,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -19158,7 +19157,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -19219,7 +19218,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false,
       "perfis": {
@@ -19282,7 +19281,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false,
       "perfis": {
@@ -19342,7 +19341,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -19405,7 +19404,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -19465,7 +19464,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -19525,7 +19524,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -19729,7 +19728,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -19979,7 +19978,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -20036,7 +20035,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -20143,7 +20142,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -20198,7 +20197,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -20252,10 +20251,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:5091>4000"
       }
@@ -20309,7 +20308,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -20366,7 +20365,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -20424,7 +20423,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -20479,7 +20478,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -20541,7 +20540,7 @@
       },
       "gosto": {
         "ale": false,
-        "andreia": true
+        "andreia": false
       },
       "match": false
     },
@@ -20595,7 +20594,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -20654,7 +20653,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -20714,10 +20713,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "18c11ef5f72d",
@@ -20774,10 +20773,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "9cc363e78afc",
@@ -20829,10 +20828,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "1f459f12f7f0",
@@ -20883,10 +20882,10 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:5679>4000"
       }
@@ -20945,10 +20944,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:5712>4000"
       }
@@ -21008,7 +21007,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -21068,7 +21067,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -21128,10 +21127,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "57af8bd05d1e",
@@ -21188,10 +21187,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "6e3b0b8b858e",
@@ -21247,10 +21246,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:5880>4000"
       }
@@ -21309,7 +21308,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -21365,10 +21364,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "1711ba1b4efa",
@@ -21425,7 +21424,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -21484,7 +21483,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -21546,7 +21545,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -21609,7 +21608,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -21669,7 +21668,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -21728,10 +21727,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "1a48a1230a26",
@@ -21788,7 +21787,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -21848,7 +21847,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -21908,7 +21907,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -21967,7 +21966,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -22029,7 +22028,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -22087,7 +22086,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -22147,7 +22146,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -22207,7 +22206,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -22267,10 +22266,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "2eb1503a7075",
@@ -22327,7 +22326,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -22387,10 +22386,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "9425b51e0b3c",
@@ -22447,10 +22446,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "6e6e687fc1a0",
@@ -22502,7 +22501,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -22556,7 +22555,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -22619,7 +22618,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -22674,7 +22673,7 @@
       "sem_visto": null,
       "visto": null,
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -22734,7 +22733,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -22793,7 +22792,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -22855,7 +22854,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false,
@@ -22919,10 +22918,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "dd546eab39c6",
@@ -22979,7 +22978,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -23038,10 +23037,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "30be4a70acd8",
@@ -23099,10 +23098,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "07b38ec857f6",
@@ -23159,10 +23158,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "1cbca5cb2ef5",
@@ -23220,10 +23219,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     },
     {
       "id": "41dbf07070a2",
@@ -23279,10 +23278,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true,
+      "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:6741>4000"
       }
@@ -23342,7 +23341,7 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
+        "ale": false,
         "andreia": false
       },
       "match": false
@@ -23401,10 +23400,10 @@
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
-        "ale": true,
-        "andreia": true
+        "ale": false,
+        "andreia": false
       },
-      "match": true
+      "match": false
     }
   ]
 }
