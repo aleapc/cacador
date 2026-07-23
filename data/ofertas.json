@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-23T20:19:46.415Z",
+  "gerado_em": "2026-07-23T21:04:27.982Z",
   "visto_ate": "2026-07-23T14:10:15+00:00",
   "ultimo_explore": "2026-07-23",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,11 +31,12 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/passageirodeprimeira/27802",
     "https://t.me/melhoresdestinos/18656",
     "https://t.me/passageirodeprimeira/27800",
     "https://t.me/promopassagens/110130",
@@ -81,31 +82,31 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 3,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 2,
+    "ineditas": 1,
     "rotas_no_historico": 110,
     "com_baseline": 0,
-    "sem_tag": 33,
-    "agradam_os_dois": 153,
+    "sem_tag": 34,
+    "agradam_os_dois": 152,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 402,
+        "total_avaliadas": 401,
         "casam_no_perfil": 138,
         "dessas_ja_alertadas_antes": 138,
         "novas_para_alertar": 0,
         "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 8,
+          "tipo": 9,
           "posicionamento_desligado": 29,
           "domestico": 15,
           "origem": 20,
           "janela_curta": 68,
-          "acima_do_teto": 124
+          "acima_do_teto": 122
         }
       }
     }
@@ -115,7 +116,15 @@
     {
       "id": "ale-andreia",
       "nome": "Alê & Andréia",
-      "viajantes": 2
+      "viajantes": 2,
+      "noites": {
+        "min": 7,
+        "max": 14
+      },
+      "tipos": [
+        "dinheiro"
+      ],
+      "teto_por_pessoa": 4000
     }
   ],
   "pessoas": [
@@ -2004,6 +2013,57 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "ffbca5cc9322",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Jamaica",
+      "destino_metro": "",
+      "pais_iso2": "JM",
+      "preco_brl": 992,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "validade": "",
+      "observacao": "ou 38 mil milhas LATAM Pass + taxas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/27802",
+          "titulo": "Voe para a Jamaica a partir de R$ 992 ou 38 mil milhas LATAM Pass + taxas"
+        }
+      ],
+      "descoberto_em": "2026-07-23T20:52:19+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "O C5 é a armadilha, e ela é financeira. O formulário é 100% GRATUITO no portal oficial do governo (enterjamaica.gov.jm), mas existe um ecossistema grande de sites intermediários com nomes quase idênticos — 'jamaicaentryform.com', 'visit-jamaica.com', 'jamaica-c5-form' e variantes — que cobram taxa por um serviço público de graça, e alguns colhem dados pessoais. Segunda: o C5 é obrigatório para TODOS, inclusive bebês e residentes, e é digital desde 2023 — quem espera receber o cartãozinho de papel no avião chega sem. Passaporte deve valer 6 meses além da data de saída.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
     },
     {
       "id": "9932af65c7d4",
@@ -23338,66 +23398,6 @@
         "exige": "NAO",
         "dias": 90,
         "pegadinha": "DUPLA PEGADINHA, AMBAS CONFIRMADAS NESTA AUDITORIA. (1) FEBRE AMARELA: o Brasil é país de risco para a África do Sul. Sem o certificado internacional (CIVP) a fonte oficial prevê 'refusal of entry, or quarantine until your certificate becomes valid' — quarentena de até 6 dias. Vacina no mínimo 10 dias antes. (2) DECLARAÇÃO ONLINE: obrigatória desde 01/07/2026 para ENTRADA E SAÍDA, por ar, terra, mar e trilho — inclui o voo de volta, não é só chegada. Em itinerário com escalas, conta-se 24h antes do último trecho com destino direto à África do Sul. Só trânsito aéreo/marítimo sem sair da área de trânsito é isento. Passaporte: 2 páginas em branco e validade de 30 dias além da saída.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
-    },
-    {
-      "id": "e063226846c9",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Quioto",
-      "destino_metro": "KIX",
-      "pais_texto": "Japão",
-      "pais_iso2": "JP",
-      "preco_brl": 6792,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Turkish Airlines",
-      "janela": "2026-12-05 a 2026-12-13",
-      "janela_inicio": "2026-12-05",
-      "janela_fim": "2026-12-13",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1605,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTA1agcIARIDR1JVGhUSCjIwMjYtMTItMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZDRf",
-          "titulo": "Quioto — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:6792>4000"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "natureza"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DUAS ARMADILHAS, E A SEGUNDA É URGENTE. (1) A isenção vale SOMENTE para passaporte eletrônico (com chip) em conformidade com ICAO. A MOFA usa linguagem dura para o Brasil: quem não tem ePassport 'will be refused to enter Japan' — é recusa, não exame rigoroso. (2) PRAZO DO ACORDO: o regime entrou em vigor em 30/09/2023 e há relato consistente e especializado (incluindo a firma global de imigração Fragomen) de que foi firmado por um período INICIAL DE TRÊS ANOS, ou seja, vencendo por volta de 30/09/2026 — daqui a ~2 meses. NÃO encontrei confirmação NEM desmentido em fonte primária japonesa, e não há notícia de prorrogação. Quem viajar a partir de setembro/2026 NÃO pode assumir que a isenção continua: reconfirme na MOFA ou no consulado japonês antes de comprar passagem. Também exigidos na prática: passagem de volta, comprovante de hospedagem e de recursos. Não é permitido trabalhar.",
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
