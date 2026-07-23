@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-23T12:02:09.554Z",
-  "visto_ate": "2026-07-22T23:49:05+00:00",
+  "gerado_em": "2026-07-23T14:30:43.301Z",
+  "visto_ate": "2026-07-23T14:10:15+00:00",
   "ultimo_explore": "2026-07-23",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 3,
+      "lidas": 3,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 5,
       "status": "ok"
     },
     {
@@ -31,11 +31,17 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18645",
+    "https://t.me/melhoresdestinos/18643",
+    "https://t.me/melhoresdestinos/18642",
+    "https://t.me/melhoresdestinos/18640",
+    "https://t.me/melhoresdestinos/18638",
+    "https://t.me/promopassagens/110111",
     "https://t.me/melhoresdestinos/18633",
     "https://t.me/passageirodeprimeira/27779",
     "https://t.me/promopassagens/110089",
@@ -60,34 +66,36 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 3,
+    "materias_lidas": 3,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 12,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
-    "rotas_no_historico": 108,
+    "descartadas": 2,
+    "por_motivo_de_descarte": {
+      "incompleta": 2
+    },
+    "ineditas": 12,
+    "rotas_no_historico": 109,
     "com_baseline": 0,
-    "sem_tag": 25,
+    "sem_tag": 30,
     "agradam_os_dois": 165,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 134,
-        "dessas_ja_alertadas_antes": 134,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "total_avaliadas": 411,
+        "casam_no_perfil": 136,
+        "dessas_ja_alertadas_antes": 133,
+        "novas_para_alertar": 3,
+        "alertados": 3,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 3,
-          "posicionamento_desligado": 25,
+          "tipo": 4,
+          "posicionamento_desligado": 29,
           "domestico": 15,
-          "origem": 19,
+          "origem": 20,
           "janela_curta": 77,
-          "acima_do_teto": 127
+          "acima_do_teto": 130
         }
       }
     }
@@ -1645,6 +1653,57 @@
         "andreia": true
       },
       "match": false
+    },
+    {
+      "id": "41f3db95ec79",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Punta Cana",
+      "destino_metro": "PUJ",
+      "pais_iso2": "DO",
+      "preco_brl": 746,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "Voo direto, o trecho, mais taxas; ou 28 mil milhas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18645",
+          "titulo": "Caribe com a Latam!"
+        }
+      ],
+      "descoberto_em": "2026-07-23T14:22:17+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 30,
+        "pegadinha": "Duas. (1) O brasileiro NÃO tem visto dispensado de forma genérica — está na categoria 'pode entrar SÓ com Tarjeta de Turista, EXCLUSIVAMENTE para fins turísticos'. Qualquer outro propósito (trabalho, atividade lucrativa) derruba a base legal da entrada: atividade lucrativa com Tarjeta de Turista é punida com expulsão imediata. (2) A estadia da Tarjeta de Turista é de 30 DIAS, não 60 nem 90 — muita fonte de viagem repete '60 dias' e está errada. Passar disso exige prorrogação e pagamento de taxa por excesso de estadia na saída. Cuidado com sites cobrando pelo E-Ticket, que é gratuito no portal oficial.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
     },
     {
       "id": "357134b7daf9",
@@ -5065,6 +5124,68 @@
       "match": true
     },
     {
+      "id": "db9f77c42845",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Chicago",
+      "destino_metro": "ORD",
+      "pais_iso2": "US",
+      "preco_brl": 2498,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "United / Delta",
+      "validade": "agosto a novembro, além de saídas em 2027",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/bom-preco-passagens-aereas-chicago-2498",
+          "titulo": "Bom preço! Passagens aéreas para Chicago a partir de R$ 2.498 ida e volta saindo do Rio de Janeiro"
+        }
+      ],
+      "descoberto_em": "2026-07-23T13:45:26+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Rio de Janeiro",
+        "praca_metro": "RIO",
+        "base_de_casa": 3203,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 705,
+        "economia_grupo": 1410,
+        "trecho_domestico": "SAO->RIO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1410"
+      }
+    },
+    {
       "id": "ae638ea33257",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -7001,6 +7122,68 @@
       "match": false
     },
     {
+      "id": "92a743a49b01",
+      "origem_texto": "Fortaleza",
+      "origem_metro": "FOR",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 3064,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol",
+      "validade": "setembro a novembro",
+      "observacao": "voo com conexão, menor valor",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/portugal-com-a-gol-promocao-do-novo-voo-para-lisboa-tem-passagens-a-partir-de-r-3-064-ida-e-volta",
+          "titulo": "Portugal com a Gol muito bom! Promo do novo voo para Lisboa a partir de R$ 3.064 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-23T12:03:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Fortaleza",
+        "praca_metro": "FOR",
+        "base_de_casa": 3693,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 629,
+        "economia_grupo": 1258,
+        "trecho_domestico": "SAO->FOR"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1258"
+      }
+    },
+    {
       "id": "e5d36cb0acb6",
       "origem_texto": "Fortaleza",
       "origem_metro": "FOR",
@@ -7418,6 +7601,59 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "86b66d8476e7",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Chicago",
+      "destino_metro": "ORD",
+      "pais_iso2": "US",
+      "preco_brl": 3203,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "agosto a novembro, além de saídas em 2027",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/bom-preco-passagens-aereas-chicago-2498",
+          "titulo": "Bom preço! Passagens aéreas para Chicago a partir de R$ 2.498 ida e volta saindo do Rio de Janeiro"
+        }
+      ],
+      "descoberto_em": "2026-07-23T13:45:26+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 5,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "a71225b8446f",
@@ -8000,6 +8236,68 @@
         "andreia": true
       },
       "match": true
+    },
+    {
+      "id": "229582be8f39",
+      "origem_texto": "Navegantes",
+      "origem_metro": "NVT",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 3366,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol",
+      "validade": "setembro a novembro",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/portugal-com-a-gol-promocao-do-novo-voo-para-lisboa-tem-passagens-a-partir-de-r-3-064-ida-e-volta",
+          "titulo": "Portugal com a Gol muito bom! Promo do novo voo para Lisboa a partir de R$ 3.064 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-23T12:03:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Navegantes",
+        "praca_metro": "NVT",
+        "base_de_casa": 3693,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 327,
+        "economia_grupo": 654,
+        "trecho_domestico": "SAO->NVT"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_654"
+      }
     },
     {
       "id": "affa501077f3",
@@ -8593,6 +8891,68 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "37d780d439fe",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 3496,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol",
+      "validade": "setembro a novembro",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/portugal-com-a-gol-promocao-do-novo-voo-para-lisboa-tem-passagens-a-partir-de-r-3-064-ida-e-volta",
+          "titulo": "Portugal com a Gol muito bom! Promo do novo voo para Lisboa a partir de R$ 3.064 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-23T12:03:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Florianópolis",
+        "praca_metro": "FLN",
+        "base_de_casa": 3693,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 197,
+        "economia_grupo": 394,
+        "trecho_domestico": "SAO->FLN"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_394"
       }
     },
     {
@@ -10484,6 +10844,50 @@
       }
     },
     {
+      "id": "a917d6813112",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Helsinque",
+      "destino_metro": "HEL",
+      "pais_iso2": "FI",
+      "preco_brl": 3651,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "",
+      "validade": "",
+      "observacao": "na época da aurora boreal",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18638",
+          "titulo": "Finlândia imperdível 🔥"
+        }
+      ],
+      "descoberto_em": "2026-07-23T12:02:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "c905d5294dd1",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -10510,7 +10914,7 @@
       "descoberto_em": "2026-07-22T20:19:38+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [],
@@ -10710,6 +11114,64 @@
         "andreia": true
       },
       "match": true
+    },
+    {
+      "id": "f983f58b474c",
+      "origem_texto": "Campinas",
+      "origem_metro": "SAO",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 3693,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol",
+      "validade": "setembro a novembro",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/portugal-com-a-gol-promocao-do-novo-voo-para-lisboa-tem-passagens-a-partir-de-r-3-064-ida-e-volta",
+          "titulo": "Portugal com a Gol muito bom! Promo do novo voo para Lisboa a partir de R$ 3.064 ida e volta saindo de várias cidades"
+        },
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIyagcIARIDR1JVGhUSCjIwMjYtMTEtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi",
+          "titulo": "Lisboa — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-23T12:03:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 5,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "d5ead6b8816a",
@@ -11851,68 +12313,6 @@
       "match": false
     },
     {
-      "id": "32774a1057d5",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Lisboa",
-      "destino_metro": "LIS",
-      "destino_iata": "LIS",
-      "origem_iata": "GRU",
-      "pais_texto": "Portugal",
-      "pais_iso2": "PT",
-      "preco_brl": 3842,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "British Airways",
-      "janela": "2026-11-22 a 2026-11-30",
-      "janela_inicio": "2026-11-22",
-      "janela_fim": "2026-11-30",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1015,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIyagcIARIDR1JVGhUSCjIwMjYtMTEtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi",
-          "titulo": "Lisboa — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
       "id": "704f2762125e",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -12751,6 +13151,59 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "494cb985e12e",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 3944,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol",
+      "validade": "setembro a novembro",
+      "observacao": "voo direto",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/portugal-com-a-gol-promocao-do-novo-voo-para-lisboa-tem-passagens-a-partir-de-r-3-064-ida-e-volta",
+          "titulo": "Portugal com a Gol muito bom! Promo do novo voo para Lisboa a partir de R$ 3.064 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-23T12:03:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": true,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:RIO"
+      }
     },
     {
       "id": "ac2225f07019",
@@ -18697,6 +19150,155 @@
       "match": false
     },
     {
+      "id": "8234e3a27126",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Pequim",
+      "destino_metro": "PEK",
+      "pais_iso2": "CN",
+      "preco_brl": 5034,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "Lufthansa / Air China",
+      "validade": "agosto a novembro",
+      "observacao": "Menor preço dos últimos anos",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pequim-menor-preco-passagens-china-5034",
+          "titulo": "Pequim, China! Menor preço dos últimos anos: passagens aéreas por R$ 5.034 voando Lufthansa e Air China"
+        }
+      ],
+      "descoberto_em": "2026-07-23T14:10:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 30,
+        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5034>4000"
+      }
+    },
+    {
+      "id": "025b92bde49f",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Xangai",
+      "destino_metro": "PVG",
+      "pais_iso2": "CN",
+      "preco_brl": 5034,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "Lufthansa / Air China",
+      "validade": "agosto a novembro",
+      "observacao": "Menor preço dos últimos anos",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pequim-menor-preco-passagens-china-5034",
+          "titulo": "Pequim, China! Menor preço dos últimos anos: passagens aéreas por R$ 5.034 voando Lufthansa e Air China"
+        }
+      ],
+      "descoberto_em": "2026-07-23T14:10:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 30,
+        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5034>4000"
+      }
+    },
+    {
+      "id": "30199124a44b",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Pequim",
+      "destino_metro": "PEK",
+      "pais_iso2": "CN",
+      "preco_brl": 5034,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Lufthansa e Air China",
+      "validade": "",
+      "observacao": "Menor preço dos últimos anos",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18643",
+          "titulo": "Pequim, China 🇨🇳"
+        }
+      ],
+      "descoberto_em": "2026-07-23T13:51:36+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 30,
+        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "acima_do_teto:5034>4000"
+      }
+    },
+    {
       "id": "ef0bda0c483e",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -18778,7 +19380,7 @@
       "descoberto_em": "2026-07-22T11:13:07+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [],
@@ -18876,7 +19478,7 @@
       "descoberto_em": "2026-07-22T11:13:07+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [],
@@ -19088,7 +19690,7 @@
       "descoberto_em": "2026-07-21T21:13:53+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [],
@@ -22834,674 +23436,6 @@
       "perfis": {
         "ale-andreia": "acima_do_teto:7030>4000"
       }
-    },
-    {
-      "id": "695ce211ddb5",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Parque Nacional e Reserva de Denali",
-      "destino_metro": "FAI",
-      "destino_iata": "FAI",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 7030,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "United",
-      "janela": "2026-08-20 a 2026-08-26",
-      "janela_inicio": "2026-08-20",
-      "janela_fim": "2026-08-26",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1556,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxbmI2cA",
-          "titulo": "Parque Nacional e Reserva de Denali — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "tipos": [
-        "natureza",
-        "montanha",
-        "aventura"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "c826a432ed00",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Anchorage",
-      "destino_metro": "ANC",
-      "destino_iata": "ANC",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 7030,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "United",
-      "janela": "2026-08-20 a 2026-08-26",
-      "janela_inicio": "2026-08-20",
-      "janela_fim": "2026-08-26",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1184,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzBnX3duMg",
-          "titulo": "Anchorage — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_inverno"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "902e274325ed",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Parque Nacional e Reserva de Denali",
-      "destino_metro": "FAI",
-      "destino_iata": "FAI",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 7030,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "United",
-      "janela": "2026-08-20 a 2026-08-26",
-      "janela_inicio": "2026-08-20",
-      "janela_fim": "2026-08-26",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1556,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxbmI2cA",
-          "titulo": "Parque Nacional e Reserva de Denali — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "tipos": [
-        "natureza",
-        "montanha",
-        "aventura"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "300a52d1ba84",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Quioto",
-      "destino_metro": "KIX",
-      "destino_iata": "KIX",
-      "origem_iata": "GRU",
-      "pais_texto": "Japão",
-      "pais_iso2": "JP",
-      "preco_brl": 7031,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Turkish Airlines",
-      "janela": "2026-11-27 a 2026-12-06",
-      "janela_inicio": "2026-11-27",
-      "janela_fim": "2026-12-06",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 1605,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDR1JVGhUSCjIwMjYtMTItMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZDRf",
-          "titulo": "Quioto — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "natureza"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DUAS ARMADILHAS, E A SEGUNDA É URGENTE. (1) A isenção vale SOMENTE para passaporte eletrônico (com chip) em conformidade com ICAO. A MOFA usa linguagem dura para o Brasil: quem não tem ePassport 'will be refused to enter Japan' — é recusa, não exame rigoroso. (2) PRAZO DO ACORDO: o regime entrou em vigor em 30/09/2023 e há relato consistente e especializado (incluindo a firma global de imigração Fragomen) de que foi firmado por um período INICIAL DE TRÊS ANOS, ou seja, vencendo por volta de 30/09/2026 — daqui a ~2 meses. NÃO encontrei confirmação NEM desmentido em fonte primária japonesa, e não há notícia de prorrogação. Quem viajar a partir de setembro/2026 NÃO pode assumir que a isenção continua: reconfirme na MOFA ou no consulado japonês antes de comprar passagem. Também exigidos na prática: passagem de volta, comprovante de hospedagem e de recursos. Não é permitido trabalhar.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:7031>4000"
-      }
-    },
-    {
-      "id": "2fe0d2ae60da",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Quioto",
-      "destino_metro": "KIX",
-      "pais_texto": "Japão",
-      "pais_iso2": "JP",
-      "preco_brl": 7084,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Turkish Airlines",
-      "janela": "2026-12-05 a 2026-12-13",
-      "janela_inicio": "2026-12-05",
-      "janela_fim": "2026-12-13",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1605,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTA1agcIARIDR1JVGhUSCjIwMjYtMTItMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5ZDRf",
-          "titulo": "Quioto — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:7084>4000"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "natureza"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DUAS ARMADILHAS, E A SEGUNDA É URGENTE. (1) A isenção vale SOMENTE para passaporte eletrônico (com chip) em conformidade com ICAO. A MOFA usa linguagem dura para o Brasil: quem não tem ePassport 'will be refused to enter Japan' — é recusa, não exame rigoroso. (2) PRAZO DO ACORDO: o regime entrou em vigor em 30/09/2023 e há relato consistente e especializado (incluindo a firma global de imigração Fragomen) de que foi firmado por um período INICIAL DE TRÊS ANOS, ou seja, vencendo por volta de 30/09/2026 — daqui a ~2 meses. NÃO encontrei confirmação NEM desmentido em fonte primária japonesa, e não há notícia de prorrogação. Quem viajar a partir de setembro/2026 NÃO pode assumir que a isenção continua: reconfirme na MOFA ou no consulado japonês antes de comprar passagem. Também exigidos na prática: passagem de volta, comprovante de hospedagem e de recursos. Não é permitido trabalhar.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
-    },
-    {
-      "id": "747988981a70",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Anchorage",
-      "destino_metro": "ANC",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 7084,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "United",
-      "janela": "2026-08-17 a 2026-08-23",
-      "janela_inicio": "2026-08-17",
-      "janela_fim": "2026-08-23",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1184,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE3agcIARIDR1JVGhUSCjIwMjYtMDgtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzBnX3duMg",
-          "titulo": "Anchorage — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_inverno"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
-    },
-    {
-      "id": "506dfd6a5895",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Parque Nacional e Reserva de Denali",
-      "destino_metro": "FAI",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 7084,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "United",
-      "janela": "2026-08-17 a 2026-08-23",
-      "janela_inicio": "2026-08-17",
-      "janela_fim": "2026-08-23",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 1779,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE3agcIARIDR1JVGhUSCjIwMjYtMDgtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxbmI2cA",
-          "titulo": "Parque Nacional e Reserva de Denali — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "natureza",
-        "montanha",
-        "aventura"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
-    },
-    {
-      "id": "8bdfdcacfc7f",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Anchorage",
-      "destino_metro": "ANC",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 7084,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "United",
-      "janela": "2026-08-17 a 2026-08-23",
-      "janela_inicio": "2026-08-17",
-      "janela_fim": "2026-08-23",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1184,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE3agcIARIDR1JVGhUSCjIwMjYtMDgtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzBnX3duMg",
-          "titulo": "Anchorage — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_inverno"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
-    },
-    {
-      "id": "d1487f38c806",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Parque Nacional e Reserva de Denali",
-      "destino_metro": "FAI",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 7084,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "United",
-      "janela": "2026-08-17 a 2026-08-23",
-      "janela_inicio": "2026-08-17",
-      "janela_fim": "2026-08-23",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 1779,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE3agcIARIDR1JVGhUSCjIwMjYtMDgtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxbmI2cA",
-          "titulo": "Parque Nacional e Reserva de Denali — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "natureza",
-        "montanha",
-        "aventura"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
-    },
-    {
-      "id": "8c8fd4ceba1b",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Santorini",
-      "destino_metro": "JTR",
-      "pais_texto": "Grécia",
-      "pais_iso2": "GR",
-      "preco_brl": 7157,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Discover Airlines, Aegean, LATAM e Lufthansa",
-      "janela": "2026-08-03 a 2026-08-12",
-      "janela_inicio": "2026-08-03",
-      "janela_fim": "2026-08-12",
-      "noites": 9,
-      "escalas": 2,
-      "duracao_min": 1300,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTAzagcIARIDR1JVGhUSCjIwMjYtMDgtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MHQ5",
-          "titulo": "Santorini — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:7157>4000"
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "cultural"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, sem alerta no SIS. CHIPRE: se o roteiro incluir Chipre, o tempo la conta SEPARADAMENTE e nao entra nos 90 dias dos demais (Chipre nao e Schengen). Balsa/ferry Grecia>Turquia e fronteira EXTERNA: sai do Schengen, com registro de saida no EES. EES 100% operacional desde 10/04/2026.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": true
-      },
-      "match": true
-    },
-    {
-      "id": "0be2d48036ea",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Singapura",
-      "destino_metro": "SIN",
-      "pais_texto": "Singapura",
-      "pais_iso2": "SG",
-      "preco_brl": 7254,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Turkish Airlines",
-      "janela": "2026-10-22 a 2026-10-28",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-28",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1605,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2dDJ0",
-          "titulo": "Singapura — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "cidade_grande",
-        "gastronomico",
-        "cultural"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 30,
-        "pegadinha": "São 30 dias, NÃO 90 — erro comum de quem generaliza 'Ásia = 90 dias'. Existe ainda um teto anual pouco conhecido: mais de 180 dias por ano em Singapura exige visto apropriado, mesmo fracionado em várias viagens curtas. E o SG Arrival Card não é formalidade: a própria ICA avisa que quem não o envia 'may be denied entry into Singapore'. O passe efetivo é decidido pelo oficial no balcão (pode ser 14, 30 ou 90 dias) — os 30 são o teto da isenção, não uma garantia. A embaixada é explícita: a entrada NÃO é automaticamente garantida e pode haver entrevista e checagens adicionais.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": true,
-        "andreia": false
-      },
-      "match": false
     }
   ]
 }
