@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-24T14:10:47.423Z",
+  "gerado_em": "2026-07-24T15:43:11.436Z",
   "visto_ate": "2026-07-23T14:10:15+00:00",
   "ultimo_explore": "2026-07-24",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 4,
+      "novos": 3,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -36,6 +36,11 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18670",
+    "https://t.me/melhoresdestinos/18669",
+    "https://t.me/melhoresdestinos/18668",
+    "https://t.me/passageirodeprimeira/27811",
+    "https://t.me/promopassagens/110152",
     "https://t.me/melhoresdestinos/18667",
     "https://t.me/melhoresdestinos/18666",
     "https://t.me/melhoresdestinos/18664",
@@ -91,34 +96,33 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 3,
+    "ofertas_extraidas": 4,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 2,
+    "descartadas": 1,
     "por_motivo_de_descarte": {
-      "incompleta": 1,
       "categoria": 1
     },
-    "ineditas": 3,
+    "ineditas": 2,
     "rotas_no_historico": 113,
     "com_baseline": 0,
-    "sem_tag": 36,
+    "sem_tag": 37,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 403,
-        "casam_no_perfil": 155,
-        "dessas_ja_alertadas_antes": 154,
+        "total_avaliadas": 402,
+        "casam_no_perfil": 156,
+        "dessas_ja_alertadas_antes": 155,
         "novas_para_alertar": 1,
         "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 12,
           "posicionamento_desligado": 31,
-          "domestico": 17,
+          "domestico": 18,
           "origem": 18,
           "janela_curta": 65,
-          "acima_do_teto": 105
+          "acima_do_teto": 102
         }
       }
     }
@@ -845,6 +849,50 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "284e28c579f5",
+      "origem_texto": "SP",
+      "origem_metro": "",
+      "destino_texto": "Foz do Iguaçu",
+      "destino_metro": "IGU",
+      "pais_iso2": "BR",
+      "preco_brl": 474,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "saindo de SP e mais cidades",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18670",
+          "titulo": "Cataratas, compras e mais 🇧🇷"
+        }
+      ],
+      "descoberto_em": "2026-07-24T15:00:05+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "50d4e8f1a3a2",
@@ -1746,6 +1794,16 @@
         "origem_nao_atribuida"
       ],
       "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/27811",
+          "titulo": "Excelente! Trecho para San Andrés a partir de R$ 673 ou 27 mil milhas LATAM Pass + taxas"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110152",
+          "titulo": "🚞 Excelente! Trecho Para San Andrés A Partir De R$ 673 Ou 27 Mil Milhas Latam Pass + Taxas"
+        },
         {
           "nome": "tg:melhoresdestinos",
           "link": "https://t.me/melhoresdestinos/18666",
@@ -8393,6 +8451,61 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "527382f5da42",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 3064,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol",
+      "validade": "",
+      "observacao": "saindo de várias cidades",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18668",
+          "titulo": "Portugal com a Gol 🔥"
+        }
+      ],
+      "descoberto_em": "2026-07-24T14:11:33+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "92a743a49b01",
@@ -23380,122 +23493,6 @@
       "tem_tag": true,
       "sem_visto": null,
       "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "4c889dbe6cb9",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Budapeste",
-      "destino_metro": "BUD",
-      "pais_texto": "Hungria",
-      "pais_iso2": "HU",
-      "preco_brl": 5137,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "British Airways",
-      "janela": "2026-11-15 a 2026-11-24",
-      "janela_inicio": "2026-11-15",
-      "janela_fim": "2026-11-24",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 910,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDR1JVGhUSCjIwMjYtMTEtMjRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NXdf",
-          "titulo": "Budapeste — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5137>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "81656365e3a3",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Honolulu",
-      "destino_metro": "HNL",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 5158,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Canada",
-      "janela": "2026-10-30 a 2026-11-05",
-      "janela_inicio": "2026-10-30",
-      "janela_fim": "2026-11-05",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 1810,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTMwagcIARIDR1JVGhUSCjIwMjYtMTEtMDVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAyaHJoMF8",
-          "titulo": "Honolulu — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "natureza",
-        "esportes_verao"
-      ],
-      "continente": "oceania",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
       "gosto": {
         "ale": false,
         "andreia": false
