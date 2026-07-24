@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-24T19:45:17.366Z",
-  "visto_ate": "2026-07-23T14:10:15+00:00",
+  "gerado_em": "2026-07-24T21:20:41.673Z",
+  "visto_ate": "2026-07-24T18:28:35+00:00",
   "ultimo_explore": "2026-07-24",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 4,
+      "lidas": 4,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 4,
+      "novos": 3,
       "status": "ok"
     },
     {
@@ -31,11 +31,16 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 4,
+      "novos": 2,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18679",
+    "https://t.me/melhoresdestinos/18678",
+    "https://t.me/melhoresdestinos/18677",
+    "https://t.me/promopassagens/110183",
+    "https://t.me/promopassagens/110182",
     "https://t.me/melhoresdestinos/18675",
     "https://t.me/melhoresdestinos/18674",
     "https://t.me/melhoresdestinos/18673",
@@ -108,37 +113,34 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 4,
+    "materias_lidas": 4,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 6,
+    "ofertas_extraidas": 22,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 3,
-    "por_motivo_de_descarte": {
-      "categoria": 2,
-      "incompleta": 1
-    },
-    "ineditas": 5,
-    "rotas_no_historico": 115,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 20,
+    "rotas_no_historico": 129,
     "com_baseline": 0,
-    "sem_tag": 39,
+    "sem_tag": 44,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 405,
-        "casam_no_perfil": 160,
-        "dessas_ja_alertadas_antes": 158,
+        "total_avaliadas": 420,
+        "casam_no_perfil": 162,
+        "dessas_ja_alertadas_antes": 160,
         "novas_para_alertar": 2,
         "alertados": 2,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 14,
-          "posicionamento_desligado": 31,
-          "domestico": 18,
-          "origem": 20,
+          "tipo": 16,
+          "posicionamento_desligado": 33,
+          "domestico": 20,
+          "origem": 31,
           "janela_curta": 64,
-          "acima_do_teto": 98
+          "acima_do_teto": 94
         }
       }
     }
@@ -867,6 +869,50 @@
       "match": false
     },
     {
+      "id": "46033a0b8c3f",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Foz do Iguaçu",
+      "destino_metro": "IGU",
+      "pais_iso2": "BR",
+      "preco_brl": 474,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-foz-do-iguacu-474",
+          "titulo": "Cataratas, compras e mais! Muito bom: voos para Foz do Iguaçu desde R$ 474 ida e volta saindo de SP e mais cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-24T14:57:25+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "284e28c579f5",
       "origem_texto": "São Paulo",
       "origem_metro": "",
@@ -1312,21 +1358,26 @@
       "preco_brl": 598,
       "por_pessoa": true,
       "ida_e_volta": false,
-      "com_taxas": false,
+      "com_taxas": true,
       "tipo": "misto",
       "bagagem_despachada": "nao_dito",
       "companhia": "",
       "validade": "",
-      "observacao": "Ou 23 mil milhas o trecho mais taxas",
+      "observacao": "Trecho; ou 23 mil milhas mais taxas",
       "flags": [],
       "fontes": [
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110183",
+          "titulo": "🏝 Voos De São Paulo Para Cartagena A Partir De R$ 598 Ou 23 Mil Milhas O Trecho Mais Taxas"
+        },
         {
           "nome": "tg:melhoresdestinos",
           "link": "https://t.me/melhoresdestinos/18674",
           "titulo": "Cartagena 🇨🇴"
         }
       ],
-      "descoberto_em": "2026-07-24T19:01:16+00:00",
+      "descoberto_em": "2026-07-24T20:15:43+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 1,
@@ -1572,6 +1623,50 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "dc97f2f6ba36",
+      "origem_texto": "Campinas",
+      "origem_metro": "SAO",
+      "destino_texto": "Foz do Iguaçu",
+      "destino_metro": "IGU",
+      "pais_iso2": "BR",
+      "preco_brl": 640,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-foz-do-iguacu-474",
+          "titulo": "Cataratas, compras e mais! Muito bom: voos para Foz do Iguaçu desde R$ 474 ida e volta saindo de SP e mais cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-24T14:57:25+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "7f6c0f72b67f",
@@ -2111,6 +2206,94 @@
       }
     },
     {
+      "id": "5db3e23cb670",
+      "origem_texto": "Cuiabá",
+      "origem_metro": "CGB",
+      "destino_texto": "Foz do Iguaçu",
+      "destino_metro": "IGU",
+      "pais_iso2": "BR",
+      "preco_brl": 757,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-foz-do-iguacu-474",
+          "titulo": "Cataratas, compras e mais! Muito bom: voos para Foz do Iguaçu desde R$ 474 ida e volta saindo de SP e mais cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-24T14:57:25+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CGB"
+      }
+    },
+    {
+      "id": "b6dce77a524f",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "Foz do Iguaçu",
+      "destino_metro": "IGU",
+      "pais_iso2": "BR",
+      "preco_brl": 815,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-foz-do-iguacu-474",
+          "titulo": "Cataratas, compras e mais! Muito bom: voos para Foz do Iguaçu desde R$ 474 ida e volta saindo de SP e mais cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-24T14:57:25+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:BSB"
+      }
+    },
+    {
       "id": "357134b7daf9",
       "origem_texto": "Rio de Janeiro",
       "origem_metro": "RIO",
@@ -2162,6 +2345,50 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "6ec2b9b34086",
+      "origem_texto": "Porto Alegre",
+      "origem_metro": "POA",
+      "destino_texto": "Foz do Iguaçu",
+      "destino_metro": "IGU",
+      "pais_iso2": "BR",
+      "preco_brl": 865,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-foz-do-iguacu-474",
+          "titulo": "Cataratas, compras e mais! Muito bom: voos para Foz do Iguaçu desde R$ 474 ida e volta saindo de SP e mais cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-24T14:57:25+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:POA"
+      }
     },
     {
       "id": "741dec49d998",
@@ -2250,6 +2477,50 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "5e5d71b9e32b",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Foz do Iguaçu",
+      "destino_metro": "IGU",
+      "pais_iso2": "BR",
+      "preco_brl": 870,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-foz-do-iguacu-474",
+          "titulo": "Cataratas, compras e mais! Muito bom: voos para Foz do Iguaçu desde R$ 474 ida e volta saindo de SP e mais cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-24T14:57:25+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:RIO"
+      }
     },
     {
       "id": "0f57b624b1d3",
@@ -3776,6 +4047,63 @@
       "match": false
     },
     {
+      "id": "f064afd3d6f7",
+      "origem_texto": "Manaus",
+      "origem_metro": "MAO",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 1631,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "menor preço",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.631 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-24T11:52:00+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Manaus",
+        "praca_metro": "MAO",
+        "base_de_casa": 1941,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 310,
+        "economia_grupo": 620,
+        "trecho_domestico": "SAO->MAO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_620"
+      }
+    },
+    {
       "id": "8c50fc222698",
       "origem_texto": "",
       "origem_metro": "",
@@ -3960,20 +4288,20 @@
       "descoberto_em": "2026-07-16T08:49:56+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 0,
+        "amostras": 1,
         "precisa": 7
       },
       "posicionamento": {
         "praca": "Manaus",
         "praca_metro": "MAO",
-        "base_de_casa": 2284,
+        "base_de_casa": 1941,
         "base_origem": "São Paulo",
-        "economia_por_pessoa": 570,
-        "economia_grupo": 1140,
+        "economia_por_pessoa": 227,
+        "economia_grupo": 454,
         "trecho_domestico": "SAO->MAO"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1140"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_454"
       },
       "tipos": [
         "praia",
@@ -4226,6 +4554,68 @@
       "match": false
     },
     {
+      "id": "99b81936a8ef",
+      "origem_texto": "Manaus",
+      "origem_metro": "MAO",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 1783,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "menor preço",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/florida-selecao-passagens-aereas-miami-fort-lauderdale-2694",
+          "titulo": "Flórida: seleção de passagens aéreas para Miami ou Fort Lauderdale a partir de R$ 2.694 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-24T18:28:35+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Manaus",
+        "praca_metro": "MAO",
+        "base_de_casa": 2694,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 911,
+        "economia_grupo": 1822,
+        "trecho_domestico": "SAO->MAO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1822"
+      }
+    },
+    {
       "id": "dcf7db34ace6",
       "origem_texto": "Brasília",
       "origem_metro": "BSB",
@@ -4321,6 +4711,116 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "60e7b7b1952e",
+      "origem_texto": "Rio",
+      "origem_metro": "RIO",
+      "destino_texto": "Tóquio",
+      "destino_metro": "TYO",
+      "pais_iso2": "JP",
+      "preco_brl": 1834,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Azul",
+      "validade": "",
+      "observacao": "Ou 157 mil pontos Azul o trecho mais taxas",
+      "flags": [
+        "preco_abaixo_da_faixa"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18677",
+          "titulo": "Japão 🇯🇵"
+        }
+      ],
+      "descoberto_em": "2026-07-24T20:04:44+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "asia",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "DUAS ARMADILHAS, E A SEGUNDA É URGENTE. (1) A isenção vale SOMENTE para passaporte eletrônico (com chip) em conformidade com ICAO. A MOFA usa linguagem dura para o Brasil: quem não tem ePassport 'will be refused to enter Japan' — é recusa, não exame rigoroso. (2) PRAZO DO ACORDO: o regime entrou em vigor em 30/09/2023 e há relato consistente e especializado (incluindo a firma global de imigração Fragomen) de que foi firmado por um período INICIAL DE TRÊS ANOS, ou seja, vencendo por volta de 30/09/2026 — daqui a ~2 meses. NÃO encontrei confirmação NEM desmentido em fonte primária japonesa, e não há notícia de prorrogação. Quem viajar a partir de setembro/2026 NÃO pode assumir que a isenção continua: reconfirme na MOFA ou no consulado japonês antes de comprar passagem. Também exigidos na prática: passagem de volta, comprovante de hospedagem e de recursos. Não é permitido trabalhar.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
+      "id": "c3cc07d68c2c",
+      "origem_texto": "Rio",
+      "origem_metro": "RIO",
+      "destino_texto": "Tóquio",
+      "destino_metro": "",
+      "pais_iso2": "JP",
+      "preco_brl": 1834,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Azul",
+      "validade": "",
+      "observacao": "Ou 157 mil pontos Azul o trecho, mais taxas",
+      "flags": [
+        "preco_abaixo_da_faixa"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110182",
+          "titulo": "💺 Japão! Voos Rio-Tóquio Por R$ 1.834 Ou 157 Mil Pontos Azul O Trecho Mais Taxas"
+        }
+      ],
+      "descoberto_em": "2026-07-24T20:15:39+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "asia",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "DUAS ARMADILHAS, E A SEGUNDA É URGENTE. (1) A isenção vale SOMENTE para passaporte eletrônico (com chip) em conformidade com ICAO. A MOFA usa linguagem dura para o Brasil: quem não tem ePassport 'will be refused to enter Japan' — é recusa, não exame rigoroso. (2) PRAZO DO ACORDO: o regime entrou em vigor em 30/09/2023 e há relato consistente e especializado (incluindo a firma global de imigração Fragomen) de que foi firmado por um período INICIAL DE TRÊS ANOS, ou seja, vencendo por volta de 30/09/2026 — daqui a ~2 meses. NÃO encontrei confirmação NEM desmentido em fonte primária japonesa, e não há notícia de prorrogação. Quem viajar a partir de setembro/2026 NÃO pode assumir que a isenção continua: reconfirme na MOFA ou no consulado japonês antes de comprar passagem. Também exigidos na prática: passagem de volta, comprovante de hospedagem e de recursos. Não é permitido trabalhar.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
     },
     {
       "id": "8e9a0c87832f",
@@ -4618,7 +5118,7 @@
       "descoberto_em": "2026-07-16T13:18:58+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "posicionamento": {
@@ -4652,6 +5152,54 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "5a9012855a61",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 1941,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.631 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-24T11:52:00+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "d724fb07251f",
@@ -5649,6 +6197,54 @@
       "match": false
     },
     {
+      "id": "472454f8de68",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 2229,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.631 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-24T11:52:00+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:FLN"
+      }
+    },
+    {
       "id": "c44bfa0077dd",
       "origem_texto": "Brasília",
       "origem_metro": "BSB",
@@ -5781,7 +6377,7 @@
       "descoberto_em": "2026-07-16T08:49:56+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 0,
+        "amostras": 1,
         "precisa": 7
       },
       "perfis": {
@@ -5801,6 +6397,54 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "6364ed5777f8",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "CNF",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 2305,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.631 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-24T11:52:00+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CNF"
+      }
     },
     {
       "id": "a72b9e7e58ff",
@@ -5974,6 +6618,54 @@
       "match": false
     },
     {
+      "id": "736eb078df4b",
+      "origem_texto": "Belém",
+      "origem_metro": "BEL",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 2426,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.631 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-24T11:52:00+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:BEL"
+      }
+    },
+    {
       "id": "cb7b89a067b2",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -6093,6 +6785,54 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "6b3ba559bc4a",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 2469,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.631 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-24T11:52:00+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:BSB"
+      }
     },
     {
       "id": "3f4690385e39",
@@ -7372,6 +8112,59 @@
       "match": false
     },
     {
+      "id": "60f656976f93",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 2694,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/florida-selecao-passagens-aereas-miami-fort-lauderdale-2694",
+          "titulo": "Flórida: seleção de passagens aéreas para Miami ou Fort Lauderdale a partir de R$ 2.694 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-24T18:28:35+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 6,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "df60b7d4f16a",
       "origem_texto": "",
       "origem_metro": "",
@@ -7480,6 +8273,59 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "555f69305de2",
+      "origem_texto": "Belém",
+      "origem_metro": "BEL",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 2695,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/florida-selecao-passagens-aereas-miami-fort-lauderdale-2694",
+          "titulo": "Flórida: seleção de passagens aéreas para Miami ou Fort Lauderdale a partir de R$ 2.694 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-24T18:28:35+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:BEL"
       }
     },
     {
@@ -7899,6 +8745,59 @@
       }
     },
     {
+      "id": "f66231d225d2",
+      "origem_texto": "Salvador",
+      "origem_metro": "SSA",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 2781,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/florida-selecao-passagens-aereas-miami-fort-lauderdale-2694",
+          "titulo": "Flórida: seleção de passagens aéreas para Miami ou Fort Lauderdale a partir de R$ 2.694 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-24T18:28:35+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:SSA"
+      }
+    },
+    {
       "id": "81a580e60fd4",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -8141,6 +9040,59 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "f49feb915e7b",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "CNF",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 2804,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/florida-selecao-passagens-aereas-miami-fort-lauderdale-2694",
+          "titulo": "Flórida: seleção de passagens aéreas para Miami ou Fort Lauderdale a partir de R$ 2.694 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-24T18:28:35+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CNF"
+      }
     },
     {
       "id": "414f7a4702b3",
@@ -16102,18 +17054,23 @@
       "com_taxas": false,
       "tipo": "dinheiro",
       "bagagem_despachada": "inclui",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
+      "companhia": "Latam / Finnair",
+      "validade": "Viagens entre agosto/setembro 2026 e até março de 2027",
+      "observacao": "Menores preços entre outubro e novembro",
       "flags": [],
       "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/suecia-muito-bom-passagens-estocolmo-3968",
+          "titulo": "Suécia muito bom! Passagens aéreas para Estocolmo por R$ 3.968 ida e volta com bagagem"
+        },
         {
           "nome": "tg:melhoresdestinos",
           "link": "https://t.me/melhoresdestinos/18667",
           "titulo": "Suécia muito bom 🇸🇪"
         }
       ],
-      "descoberto_em": "2026-07-24T13:25:02+00:00",
+      "descoberto_em": "2026-07-24T14:52:41+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 1,
@@ -22458,1050 +23415,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "acima_do_teto:4908>4000"
-      }
-    },
-    {
-      "id": "88685c709830",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Edimburgo",
-      "destino_metro": "EDI",
-      "destino_iata": "EDI",
-      "origem_iata": "GRU",
-      "pais_texto": "Reino Unido",
-      "pais_iso2": "GB",
-      "preco_brl": 4911,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air France, Gol e KLM",
-      "janela": "2026-11-26 a 2026-12-02",
-      "janela_inicio": "2026-11-26",
-      "janela_fim": "2026-12-02",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 945,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTI2agcIARIDR1JVGhUSCjIwMjYtMTItMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAybTc3",
-          "titulo": "Edimburgo — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "AUTORIZACAO_ELETRONICA",
-        "dias": 180,
-        "pegadinha": "DESDE 25/02/2026 O ETA E BARRADO NO PORTAO: sem ETA voce nao embarca — a checagem e feita pela COMPANHIA (aerea, ferry ou trem), que responde pelo passageiro. Nao adianta 'resolver na chegada'. Segunda, a que mais pega casal em roteiro Europa: a isencao de ETA por vir da Irlanda so vale para quem e LEGALMENTE RESIDENTE na Irlanda circulando na Common Travel Area. Turista brasileiro passeando em Dublin que resolve cruzar para a Irlanda do Norte (Belfast) PRECISA de ETA — nao ha controle na fronteira terrestre, mas voce fica irregular, e isso aparece depois. Terceira: ETA nao garante entrada — o oficial ainda pode recusar. Quarta: o ETA fica vinculado ao passaporte; passaporte novo = ETA novo.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "bda1ab12beec",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Florença",
-      "destino_metro": "FLR",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 4912,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "KLM",
-      "janela": "2026-10-22 a 2026-10-29",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-29",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 975,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzMXky",
-          "titulo": "Florença — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4912>4000"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "bb2c2be890ec",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Istambul",
-      "destino_metro": "IST",
-      "pais_texto": "Turquia",
-      "pais_iso2": "TR",
-      "preco_brl": 4913,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "British Airways",
-      "janela": "2026-11-14 a 2026-11-22",
-      "janela_inicio": "2026-11-14",
-      "janela_fim": "2026-11-22",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1330,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDR1JVGhUSCjIwMjYtMTEtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA5OTQ5bQ",
-          "titulo": "Istambul — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4913>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A PEGADINHA E O PASSAPORTE, NAO O VISTO — CONFIRMEI PALAVRA POR PALAVRA NO MFA TURCO: 'Foreigners wishing to enter Türkiye should carry a travel document (passport) with an expiration date at least 60 days beyond the duration of stay of their visa, e-Visa, visa exemption, or residence permit.' Ou seja, para entrar com direito a 90 dias o passaporte precisa ter 150 DIAS de validade NO MOMENTO DA ENTRADA (90+60). Brasileiro com passaporte vencendo em 4 meses e barrado mesmo sendo isento. Base legal: art. 7.1b da Lei 6458. Segunda: o limite e 90 dias dentro de cada 180 — e o MFA avisa explicitamente que quem tem dois passaportes NAO pode somar 90+90. Terceira: Turquia NAO e Schengen, entao os dias la nao entram na conta europeia (e vice-versa) — mas a regra turca dos 60 dias e MAIS dura que a europeia dos 3 meses em viagens curtas, entao e ela que manda no seu planejamento de passaporte.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "be29cdda8f08",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Istambul",
-      "destino_metro": "IST",
-      "pais_texto": "Turquia",
-      "pais_iso2": "TR",
-      "preco_brl": 4923,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "British Airways",
-      "janela": "2026-11-14 a 2026-11-22",
-      "janela_inicio": "2026-11-14",
-      "janela_fim": "2026-11-22",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1330,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDR1JVGhUSCjIwMjYtMTEtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA5OTQ5bQ",
-          "titulo": "Istambul — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4923>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A PEGADINHA E O PASSAPORTE, NAO O VISTO — CONFIRMEI PALAVRA POR PALAVRA NO MFA TURCO: 'Foreigners wishing to enter Türkiye should carry a travel document (passport) with an expiration date at least 60 days beyond the duration of stay of their visa, e-Visa, visa exemption, or residence permit.' Ou seja, para entrar com direito a 90 dias o passaporte precisa ter 150 DIAS de validade NO MOMENTO DA ENTRADA (90+60). Brasileiro com passaporte vencendo em 4 meses e barrado mesmo sendo isento. Base legal: art. 7.1b da Lei 6458. Segunda: o limite e 90 dias dentro de cada 180 — e o MFA avisa explicitamente que quem tem dois passaportes NAO pode somar 90+90. Terceira: Turquia NAO e Schengen, entao os dias la nao entram na conta europeia (e vice-versa) — mas a regra turca dos 60 dias e MAIS dura que a europeia dos 3 meses em viagens curtas, entao e ela que manda no seu planejamento de passaporte.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "ae3c01d76f31",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Honolulu",
-      "destino_metro": "HNL",
-      "destino_iata": "HNL",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 4953,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Canada",
-      "janela": "2026-10-22 a 2026-10-28",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-28",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 1835,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAyaHJoMF8",
-          "titulo": "Honolulu — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "natureza",
-        "esportes_verao"
-      ],
-      "continente": "oceania",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "6b4b432800d2",
-      "origem_texto": "Rio de Janeiro",
-      "origem_metro": "RIO",
-      "destino_texto": "Tóquio",
-      "destino_metro": "TYO",
-      "pais_iso2": "JP",
-      "preco_brl": 4956,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18673",
-          "titulo": "Japão 🔥🇯🇵"
-        }
-      ],
-      "descoberto_em": "2026-07-24T18:45:51+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DUAS ARMADILHAS, E A SEGUNDA É URGENTE. (1) A isenção vale SOMENTE para passaporte eletrônico (com chip) em conformidade com ICAO. A MOFA usa linguagem dura para o Brasil: quem não tem ePassport 'will be refused to enter Japan' — é recusa, não exame rigoroso. (2) PRAZO DO ACORDO: o regime entrou em vigor em 30/09/2023 e há relato consistente e especializado (incluindo a firma global de imigração Fragomen) de que foi firmado por um período INICIAL DE TRÊS ANOS, ou seja, vencendo por volta de 30/09/2026 — daqui a ~2 meses. NÃO encontrei confirmação NEM desmentido em fonte primária japonesa, e não há notícia de prorrogação. Quem viajar a partir de setembro/2026 NÃO pode assumir que a isenção continua: reconfirme na MOFA ou no consulado japonês antes de comprar passagem. Também exigidos na prática: passagem de volta, comprovante de hospedagem e de recursos. Não é permitido trabalhar.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:RIO"
-      }
-    },
-    {
-      "id": "191f454b2037",
-      "origem_texto": "Rio de Janeiro",
-      "origem_metro": "RIO",
-      "destino_texto": "Tóquio",
-      "destino_metro": "",
-      "pais_iso2": "JP",
-      "preco_brl": 4956,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:promopassagens",
-          "link": "https://t.me/promopassagens/110177",
-          "titulo": "💺 Baixou! 🔥🇯🇵 Japão: Voos Para Tóquio Por R$ 4.956 Ida E Volta Saindo Do Rio De Janeiro"
-        }
-      ],
-      "descoberto_em": "2026-07-24T19:30:56+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DUAS ARMADILHAS, E A SEGUNDA É URGENTE. (1) A isenção vale SOMENTE para passaporte eletrônico (com chip) em conformidade com ICAO. A MOFA usa linguagem dura para o Brasil: quem não tem ePassport 'will be refused to enter Japan' — é recusa, não exame rigoroso. (2) PRAZO DO ACORDO: o regime entrou em vigor em 30/09/2023 e há relato consistente e especializado (incluindo a firma global de imigração Fragomen) de que foi firmado por um período INICIAL DE TRÊS ANOS, ou seja, vencendo por volta de 30/09/2026 — daqui a ~2 meses. NÃO encontrei confirmação NEM desmentido em fonte primária japonesa, e não há notícia de prorrogação. Quem viajar a partir de setembro/2026 NÃO pode assumir que a isenção continua: reconfirme na MOFA ou no consulado japonês antes de comprar passagem. Também exigidos na prática: passagem de volta, comprovante de hospedagem e de recursos. Não é permitido trabalhar.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:RIO"
-      }
-    },
-    {
-      "id": "4195c357048b",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Maui",
-      "destino_metro": "OGG",
-      "destino_iata": "OGG",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 4957,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Canada",
-      "janela": "2026-11-14 a 2026-11-23",
-      "janela_inicio": "2026-11-14",
-      "janela_fim": "2026-11-23",
-      "noites": 9,
-      "escalas": 2,
-      "duracao_min": 1842,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDR1JVGhUSCjIwMjYtMTEtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBqYnM1",
-          "titulo": "Maui — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "natureza",
-        "descanso",
-        "esportes_verao"
-      ],
-      "continente": "oceania",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4957>4000"
-      }
-    },
-    {
-      "id": "8234e3a27126",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Pequim",
-      "destino_metro": "PEK",
-      "pais_iso2": "CN",
-      "preco_brl": 5034,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "inclui",
-      "companhia": "Lufthansa / Air China",
-      "validade": "agosto a novembro",
-      "observacao": "Menor preço dos últimos anos",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/pequim-menor-preco-passagens-china-5034",
-          "titulo": "Pequim, China! Menor preço dos últimos anos: passagens aéreas por R$ 5.034 voando Lufthansa e Air China"
-        }
-      ],
-      "descoberto_em": "2026-07-23T14:10:15+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 30,
-        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5034>4000"
-      }
-    },
-    {
-      "id": "025b92bde49f",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Xangai",
-      "destino_metro": "PVG",
-      "pais_iso2": "CN",
-      "preco_brl": 5034,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "inclui",
-      "companhia": "Lufthansa / Air China",
-      "validade": "agosto a novembro",
-      "observacao": "Menor preço dos últimos anos",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/pequim-menor-preco-passagens-china-5034",
-          "titulo": "Pequim, China! Menor preço dos últimos anos: passagens aéreas por R$ 5.034 voando Lufthansa e Air China"
-        }
-      ],
-      "descoberto_em": "2026-07-23T14:10:15+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 30,
-        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5034>4000"
-      }
-    },
-    {
-      "id": "30199124a44b",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Pequim",
-      "destino_metro": "PEK",
-      "pais_iso2": "CN",
-      "preco_brl": 5034,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Lufthansa e Air China",
-      "validade": "",
-      "observacao": "Menor preço dos últimos anos",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18643",
-          "titulo": "Pequim, China 🇨🇳"
-        }
-      ],
-      "descoberto_em": "2026-07-23T13:51:36+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 30,
-        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5034>4000"
-      }
-    },
-    {
-      "id": "6ab015b3fc80",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Praga",
-      "destino_metro": "PRG",
-      "destino_iata": "PRG",
-      "origem_iata": "GRU",
-      "pais_texto": "Tchéquia",
-      "pais_iso2": "CZ",
-      "preco_brl": 5038,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia e LATAM",
-      "janela": "2026-11-09 a 2026-11-18",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-18",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 920,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn",
-          "titulo": "Praga — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5038>4000"
-      }
-    },
-    {
-      "id": "ef0bda0c483e",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Praga",
-      "destino_metro": "PRG",
-      "pais_texto": "Tchéquia",
-      "pais_iso2": "CZ",
-      "preco_brl": 5045,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia e LATAM",
-      "janela": "2026-11-16 a 2026-11-22",
-      "janela_inicio": "2026-11-16",
-      "janela_fim": "2026-11-22",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 920,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn",
-          "titulo": "Praga — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "a2d663940229",
-      "origem_texto": "SP",
-      "origem_metro": "SAO",
-      "destino_texto": "Xangai",
-      "destino_metro": "PVG",
-      "pais_iso2": "CN",
-      "preco_brl": 5048,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Lufthansa / Air China",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18616",
-          "titulo": "China bom demais🔥🇨🇳"
-        }
-      ],
-      "descoberto_em": "2026-07-22T11:13:07+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 30,
-        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5048>4000"
-      }
-    },
-    {
-      "id": "1d4e087b0f17",
-      "origem_texto": "Rio",
-      "origem_metro": "RIO",
-      "destino_texto": "Xangai",
-      "destino_metro": "PVG",
-      "pais_iso2": "CN",
-      "preco_brl": 5048,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Lufthansa / Air China",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18616",
-          "titulo": "China bom demais🔥🇨🇳"
-        }
-      ],
-      "descoberto_em": "2026-07-22T11:13:07+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 30,
-        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:RIO"
-      }
-    },
-    {
-      "id": "2861348c9875",
-      "origem_texto": "SP",
-      "origem_metro": "SAO",
-      "destino_texto": "Pequim",
-      "destino_metro": "PEK",
-      "pais_iso2": "CN",
-      "preco_brl": 5048,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Lufthansa / Air China",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18616",
-          "titulo": "China bom demais🔥🇨🇳"
-        }
-      ],
-      "descoberto_em": "2026-07-22T11:13:07+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 30,
-        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5048>4000"
-      }
-    },
-    {
-      "id": "590b9284f077",
-      "origem_texto": "Rio",
-      "origem_metro": "RIO",
-      "destino_texto": "Pequim",
-      "destino_metro": "PEK",
-      "pais_iso2": "CN",
-      "preco_brl": 5048,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Lufthansa / Air China",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18616",
-          "titulo": "China bom demais🔥🇨🇳"
-        }
-      ],
-      "descoberto_em": "2026-07-22T11:13:07+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 30,
-        "pegadinha": "São apenas 30 dias — não 90. E a isenção é UNILATERAL e TEMPORÁRIA: expira às 24h00 (hora de Pequim) de 31/12/2026. Quem planeja viagem para 2027 não pode assumir que continua isento; a política já foi prorrogada duas vezes e pode simplesmente não ser de novo. Estadia acima de 30 dias exige visto tirado antes, mesmo entrando dentro do período de isenção.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:RIO"
-      }
-    },
-    {
-      "id": "98d4e3cd2d8f",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Praga",
-      "destino_metro": "PRG",
-      "destino_iata": "PRG",
-      "origem_iata": "GRU",
-      "pais_texto": "Tchéquia",
-      "pais_iso2": "CZ",
-      "preco_brl": 5052,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia e LATAM",
-      "janela": "2026-11-16 a 2026-11-25",
-      "janela_inicio": "2026-11-16",
-      "janela_fim": "2026-11-25",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 920,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDR1JVGhUSCjIwMjYtMTEtMjVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn",
-          "titulo": "Praga — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5052>4000"
-      }
-    },
-    {
-      "id": "a1c6b95e4667",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Praga",
-      "destino_metro": "PRG",
-      "destino_iata": "PRG",
-      "origem_iata": "GRU",
-      "pais_texto": "Tchéquia",
-      "pais_iso2": "CZ",
-      "preco_brl": 5052,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia e LATAM",
-      "janela": "2026-11-09 a 2026-11-18",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-18",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 920,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1eXdn",
-          "titulo": "Praga — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5052>4000"
       }
     }
   ]
