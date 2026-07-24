@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-24T09:33:10.320Z",
+  "gerado_em": "2026-07-24T11:55:19.644Z",
   "visto_ate": "2026-07-23T14:10:15+00:00",
   "ultimo_explore": "2026-07-24",
   "fontes": [
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,13 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/passageirodeprimeira/27806",
+    "https://t.me/promopassagens/110141",
     "https://t.me/promopassagens/110134",
     "https://t.me/promopassagens/110133",
     "https://t.me/passageirodeprimeira/27802",
@@ -84,26 +86,26 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 111,
     "com_baseline": 0,
-    "sem_tag": 34,
+    "sem_tag": 35,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 401,
         "casam_no_perfil": 154,
         "dessas_ja_alertadas_antes": 154,
         "novas_para_alertar": 0,
         "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 9,
+          "tipo": 10,
           "posicionamento_desligado": 31,
           "domestico": 17,
           "origem": 18,
@@ -2288,6 +2290,62 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "f9f1e51e9884",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Washington",
+      "destino_metro": "",
+      "pais_iso2": "US",
+      "preco_brl": 1027,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": true,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Azul",
+      "validade": "",
+      "observacao": "ou 87 mil pontos Azul + taxas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/27806",
+          "titulo": "Voe para Washington a partir de R$ 1.027 ou 87 mil pontos Azul + taxas"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110141",
+          "titulo": "🧭 Voe Para Washington A Partir De R$ 1.027 Ou 87 Mil Pontos Azul + Taxas"
+        }
+      ],
+      "descoberto_em": "2026-07-24T11:21:18+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
     },
     {
       "id": "70040295083e",
@@ -23442,66 +23500,6 @@
       },
       "perfis": {
         "ale-andreia": "acima_do_teto:5477>4000"
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "cultural"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, sem alerta no SIS. CHIPRE: se o roteiro incluir Chipre, o tempo la conta SEPARADAMENTE e nao entra nos 90 dias dos demais (Chipre nao e Schengen). Balsa/ferry Grecia>Turquia e fronteira EXTERNA: sai do Schengen, com registro de saida no EES. EES 100% operacional desde 10/04/2026.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "18c11ef5f72d",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Santorini",
-      "destino_metro": "JTR",
-      "pais_texto": "Grécia",
-      "pais_iso2": "GR",
-      "preco_brl": 5495,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air France",
-      "janela": "2026-08-10 a 2026-08-18",
-      "janela_inicio": "2026-08-10",
-      "janela_fim": "2026-08-18",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 970,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDR1JVGhUSCjIwMjYtMDgtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MHQ5",
-          "titulo": "Santorini — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5495>4000"
       },
       "tipos": [
         "praia",
