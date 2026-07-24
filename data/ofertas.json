@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-24T00:10:24.598Z",
+  "gerado_em": "2026-07-24T03:41:36.718Z",
   "visto_ate": "2026-07-23T14:10:15+00:00",
   "ultimo_explore": "2026-07-24",
   "fontes": [
@@ -11,8 +11,8 @@
     },
     {
       "nome": "google-explore",
-      "destinos": 89,
-      "status": "ok"
+      "destinos": 0,
+      "status": "nao_rodou"
     },
     {
       "nome": "tg:melhoresdestinos",
@@ -85,30 +85,30 @@
     "materias_lidas": 0,
     "extracoes_falhas": 0,
     "ofertas_extraidas": 0,
-    "explore_destinos": 89,
-    "explore_status": "ok",
+    "explore_destinos": 0,
+    "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 64,
+    "ineditas": 0,
     "rotas_no_historico": 111,
     "com_baseline": 0,
     "sem_tag": 34,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 464,
+        "total_avaliadas": 400,
         "casam_no_perfil": 154,
-        "dessas_ja_alertadas_antes": 138,
-        "novas_para_alertar": 16,
-        "alertados": 5,
-        "cortadas_pelo_teto": 11,
+        "dessas_ja_alertadas_antes": 154,
+        "novas_para_alertar": 0,
+        "alertados": 0,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 9,
           "posicionamento_desligado": 31,
           "domestico": 17,
           "origem": 18,
-          "janela_curta": 83,
-          "acima_do_teto": 152
+          "janela_curta": 65,
+          "acima_do_teto": 106
         }
       }
     }
@@ -1553,64 +1553,6 @@
       "match": false
     },
     {
-      "id": "3b132572f1b2",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Rio de Janeiro",
-      "destino_metro": "RIO",
-      "destino_iata": "GIG",
-      "origem_iata": "GRU",
-      "pais_texto": "Brasil",
-      "pais_iso2": "BR",
-      "preco_brl": 645,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-10-23 a 2026-10-30",
-      "janela_inicio": "2026-10-23",
-      "janela_fim": "2026-10-30",
-      "noites": 7,
-      "escalas": 0,
-      "duracao_min": 60,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIzagcIARIDR1JVGhUSCjIwMjYtMTAtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
-          "titulo": "Rio de Janeiro — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "cultural",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "domestico"
-      }
-    },
-    {
       "id": "260135d5823b",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -1644,6 +1586,64 @@
         }
       ],
       "descoberto_em": "2026-07-22",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 6,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "3b132572f1b2",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "destino_iata": "GIG",
+      "origem_iata": "GRU",
+      "pais_texto": "Brasil",
+      "pais_iso2": "BR",
+      "preco_brl": 645,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-10-23 a 2026-10-30",
+      "janela_inicio": "2026-10-23",
+      "janela_fim": "2026-10-30",
+      "noites": 7,
+      "escalas": 0,
+      "duracao_min": 60,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIzagcIARIDR1JVGhUSCjIwMjYtMTAtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
+          "titulo": "Rio de Janeiro — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": false,
         "amostras": 6,
