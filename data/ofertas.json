@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-24T11:55:19.644Z",
+  "gerado_em": "2026-07-24T14:10:47.423Z",
   "visto_ate": "2026-07-23T14:10:15+00:00",
   "ultimo_explore": "2026-07-24",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 4,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -36,6 +36,11 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18667",
+    "https://t.me/melhoresdestinos/18666",
+    "https://t.me/melhoresdestinos/18664",
+    "https://t.me/melhoresdestinos/18662",
+    "https://t.me/promopassagens/110148",
     "https://t.me/passageirodeprimeira/27806",
     "https://t.me/promopassagens/110141",
     "https://t.me/promopassagens/110134",
@@ -86,31 +91,34 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 2,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 1,
-    "rotas_no_historico": 111,
+    "descartadas": 2,
+    "por_motivo_de_descarte": {
+      "incompleta": 1,
+      "categoria": 1
+    },
+    "ineditas": 3,
+    "rotas_no_historico": 113,
     "com_baseline": 0,
-    "sem_tag": 35,
+    "sem_tag": 36,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
-        "casam_no_perfil": 154,
+        "total_avaliadas": 403,
+        "casam_no_perfil": 155,
         "dessas_ja_alertadas_antes": 154,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 10,
+          "tipo": 12,
           "posicionamento_desligado": 31,
           "domestico": 17,
           "origem": 18,
           "janela_curta": 65,
-          "acima_do_teto": 106
+          "acima_do_teto": 105
         }
       }
     }
@@ -1717,6 +1725,56 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "e6021e8552b8",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 662,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "ou 25 mil milhas Latam Pass o trecho + taxas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18666",
+          "titulo": "Caribe colombiano 🇨🇴"
+        }
+      ],
+      "descoberto_em": "2026-07-24T13:09:08+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
     },
     {
       "id": "f6bad3901816",
@@ -3579,6 +3637,59 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "bd8941746eac",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Madri",
+      "destino_metro": "MAD",
+      "pais_iso2": "ES",
+      "preco_brl": 1704,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "ou 65 mil milhas o trecho mais taxas",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18662",
+          "titulo": "Madri com a Latam"
+        }
+      ],
+      "descoberto_em": "2026-07-24T12:07:58+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
     },
     {
       "id": "41be16f3a591",
@@ -15525,6 +15636,50 @@
       "match": false
     },
     {
+      "id": "dc60db6cd46d",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Estocolmo",
+      "destino_metro": "ARN",
+      "pais_iso2": "SE",
+      "preco_brl": 3968,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18667",
+          "titulo": "Suécia muito bom 🇸🇪"
+        }
+      ],
+      "descoberto_em": "2026-07-24T13:25:02+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "f2e196080817",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -23339,180 +23494,6 @@
         "exige": "SIM",
         "dias": 0,
         "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "b6b9464a88a0",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Budapeste",
-      "destino_metro": "BUD",
-      "pais_texto": "Hungria",
-      "pais_iso2": "HU",
-      "preco_brl": 5277,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Lufthansa",
-      "janela": "2026-08-10 a 2026-08-19",
-      "janela_inicio": "2026-08-10",
-      "janela_fim": "2026-08-19",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 900,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDR1JVGhUSCjIwMjYtMDgtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA5NXdf",
-          "titulo": "Budapeste — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5277>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "4b3285fc378e",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Edimburgo",
-      "destino_metro": "EDI",
-      "pais_texto": "Reino Unido",
-      "pais_iso2": "GB",
-      "preco_brl": 5362,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "KLM",
-      "janela": "2026-08-09 a 2026-08-17",
-      "janela_inicio": "2026-08-09",
-      "janela_fim": "2026-08-17",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1285,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA5agcIARIDR1JVGhUSCjIwMjYtMDgtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAybTc3",
-          "titulo": "Edimburgo — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5362>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "AUTORIZACAO_ELETRONICA",
-        "dias": 180,
-        "pegadinha": "DESDE 25/02/2026 O ETA E BARRADO NO PORTAO: sem ETA voce nao embarca — a checagem e feita pela COMPANHIA (aerea, ferry ou trem), que responde pelo passageiro. Nao adianta 'resolver na chegada'. Segunda, a que mais pega casal em roteiro Europa: a isencao de ETA por vir da Irlanda so vale para quem e LEGALMENTE RESIDENTE na Irlanda circulando na Common Travel Area. Turista brasileiro passeando em Dublin que resolve cruzar para a Irlanda do Norte (Belfast) PRECISA de ETA — nao ha controle na fronteira terrestre, mas voce fica irregular, e isso aparece depois. Terceira: ETA nao garante entrada — o oficial ainda pode recusar. Quarta: o ETA fica vinculado ao passaporte; passaporte novo = ETA novo.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "cd8b9a9b4a29",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Santorini",
-      "destino_metro": "JTR",
-      "pais_texto": "Grécia",
-      "pais_iso2": "GR",
-      "preco_brl": 5477,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Discover Airlines e Lufthansa",
-      "janela": "2026-08-10 a 2026-08-18",
-      "janela_inicio": "2026-08-10",
-      "janela_fim": "2026-08-18",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1000,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTEwagcIARIDR1JVGhUSCjIwMjYtMDgtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MHQ5",
-          "titulo": "Santorini — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:5477>4000"
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "cultural"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, sem alerta no SIS. CHIPRE: se o roteiro incluir Chipre, o tempo la conta SEPARADAMENTE e nao entra nos 90 dias dos demais (Chipre nao e Schengen). Balsa/ferry Grecia>Turquia e fronteira EXTERNA: sai do Schengen, com registro de saida no EES. EES 100% operacional desde 10/04/2026.",
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
