@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-25T14:00:55.781Z",
+  "gerado_em": "2026-07-25T15:18:38.699Z",
   "visto_ate": "2026-07-24T20:40:44+00:00",
   "ultimo_explore": "2026-07-25",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 2,
+      "novos": 4,
       "status": "ok"
     },
     {
@@ -31,11 +31,15 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18687",
+    "https://t.me/melhoresdestinos/18686",
+    "https://t.me/melhoresdestinos/18685",
+    "https://t.me/melhoresdestinos/18684",
     "https://t.me/melhoresdestinos/18682",
     "https://t.me/melhoresdestinos/18681",
     "https://t.me/promopassagens/110196",
@@ -121,33 +125,31 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 1,
+    "ofertas_extraidas": 4,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "incompleta": 1
-    },
-    "ineditas": 1,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 4,
     "rotas_no_historico": 130,
-    "com_baseline": 242,
-    "sem_tag": 40,
+    "com_baseline": 241,
+    "sem_tag": 43,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
+        "total_avaliadas": 404,
         "casam_no_perfil": 181,
-        "dessas_ja_alertadas_antes": 180,
-        "novas_para_alertar": 1,
-        "alertados": 1,
+        "dessas_ja_alertadas_antes": 181,
+        "novas_para_alertar": 0,
+        "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 17,
           "posicionamento_desligado": 33,
-          "domestico": 22,
+          "domestico": 26,
           "origem": 27,
           "janela_curta": 67,
-          "acima_do_teto": 54
+          "acima_do_teto": 53
         }
       }
     }
@@ -534,6 +536,103 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "81ca13397407",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Porto Alegre",
+      "destino_metro": "POA",
+      "pais_iso2": "BR",
+      "preco_brl": 356,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18686",
+          "titulo": "Gramado no roteiro 🍂"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:34:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "4e9d48de274a",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 356,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Saindo de várias cidades",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18685",
+          "titulo": "Rio de Janeiro em oferta 🇧🇷"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:18:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "b24cc0f99216",
@@ -1442,6 +1541,52 @@
       }
     },
     {
+      "id": "9f7b077e130d",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 593,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18684",
+          "titulo": "Pernambuco ☀️"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:01:36+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "879dda125dde",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -1728,6 +1873,52 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "f78a6be0e31a",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 632,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Saindo de várias cidades",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18687",
+          "titulo": "Voos para Fortaleza 🏝️"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:51:08+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "dc97f2f6ba36",
@@ -24157,251 +24348,6 @@
       "tem_tag": true,
       "sem_visto": null,
       "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "6d6acee634fd",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Seattle",
-      "destino_metro": "SEA",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 4420,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Delta e LATAM",
-      "janela": "2026-08-01 a 2026-08-09",
-      "janela_inicio": "2026-08-01",
-      "janela_fim": "2026-08-09",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1600,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTAxagcIARIDR1JVGhUSCjIwMjYtMDgtMDlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkOWpy",
-          "titulo": "Seattle — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4036,
-        "minimo_visto": 3975,
-        "p10": 3975,
-        "desvio_pct": 10,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4420>4000"
-      },
-      "tipos": [
-        "cidade_grande",
-        "natureza",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "f6bfa9534412",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Berlim",
-      "destino_metro": "BER",
-      "pais_texto": "Alemanha",
-      "pais_iso2": "DE",
-      "preco_brl": 4425,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia",
-      "janela": "2026-11-09 a 2026-11-18",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-18",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 1110,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxNTZx",
-          "titulo": "Berlim — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4387,
-        "minimo_visto": 4312,
-        "p10": 4312,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4425>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — sem waiver para os 10 anos. Art. 6 do CFS: justificar proposito, meios de subsistencia para estada e retorno, nao estar sinalizado no SIS. Frankfurt e Munique sao rigorosos com passagem de saida e comprovante de hospedagem. EES 100% operacional desde 10/04/2026: biometria facial e digitais, fim do carimbo, overstay do 90/180 detectado por sistema.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "b98b5412323f",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Dublin",
-      "destino_metro": "DUB",
-      "destino_iata": "DUB",
-      "origem_iata": "GRU",
-      "pais_texto": "Irlanda",
-      "pais_iso2": null,
-      "preco_brl": 4430,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "British Airways",
-      "janela": "2026-11-15 a 2026-11-23",
-      "janela_inicio": "2026-11-15",
-      "janela_fim": "2026-11-23",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 880,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDR1JVGhUSCjIwMjYtMTEtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAyY2Z0",
-          "titulo": "Dublin — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-25",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4430>4000"
-      }
-    },
-    {
-      "id": "d2cc7e7bb09b",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Seattle",
-      "destino_metro": "SEA",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 4444,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "American",
-      "janela": "2026-07-27 a 2026-08-05",
-      "janela_inicio": "2026-07-27",
-      "janela_fim": "2026-08-05",
-      "noites": 9,
-      "escalas": 2,
-      "duracao_min": 1555,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTI3agcIARIDR1JVGhUSCjIwMjYtMDgtMDVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkOWpy",
-          "titulo": "Seattle — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4036,
-        "minimo_visto": 3975,
-        "p10": 3975,
-        "desvio_pct": 10,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4444>4000"
-      },
-      "tipos": [
-        "cidade_grande",
-        "natureza",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
       "gosto": {
         "ale": false,
         "andreia": false
