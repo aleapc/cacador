@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-25T19:33:18.102Z",
-  "visto_ate": "2026-07-24T20:40:44+00:00",
+  "gerado_em": "2026-07-25T21:08:34.957Z",
+  "visto_ate": "2026-07-25T14:31:22+00:00",
   "ultimo_explore": "2026-07-25",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 5,
+      "lidas": 5,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -123,22 +123,22 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 5,
+    "materias_lidas": 5,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 28,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
-    "rotas_no_historico": 130,
-    "com_baseline": 237,
-    "sem_tag": 43,
+    "ineditas": 28,
+    "rotas_no_historico": 151,
+    "com_baseline": 238,
+    "sem_tag": 63,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 428,
         "casam_no_perfil": 181,
         "dessas_ja_alertadas_antes": 181,
         "novas_para_alertar": 0,
@@ -146,9 +146,9 @@
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 17,
-          "posicionamento_desligado": 33,
-          "domestico": 27,
-          "origem": 27,
+          "posicionamento_desligado": 45,
+          "domestico": 31,
+          "origem": 39,
           "janela_curta": 67,
           "acima_do_teto": 48
         }
@@ -211,7 +211,7 @@
       "descoberto_em": "2026-07-22T20:04:44+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [],
@@ -465,14 +465,14 @@
       "posicionamento": {
         "praca": "Parnaíba",
         "praca_metro": "PHB",
-        "base_de_casa": 868,
+        "base_de_casa": 639,
         "base_origem": "Campinas",
-        "economia_por_pessoa": 516,
-        "economia_grupo": 1032,
+        "economia_por_pessoa": 287,
+        "economia_grupo": 574,
         "trecho_domestico": "SAO->PHB"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1032"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_574"
       },
       "tipos": [],
       "continente": null,
@@ -513,10 +513,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 7,
-        "mediana": 534,
+        "mediana": 486,
         "minimo_visto": 354,
         "p10": 354,
-        "desvio_pct": -34,
+        "desvio_pct": -27,
         "raro": true
       },
       "perfis": {
@@ -537,6 +537,108 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "af6ef3045e2a",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "Porto Alegre",
+      "destino_metro": "POA",
+      "pais_iso2": "BR",
+      "preco_brl": 356,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Menor valor",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/gramado-passagens-aereas-porto-aelgre-356",
+          "titulo": "Gramado no roteiro! Passagens para Porto Alegre a partir de R$ 356 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:19:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Curitiba",
+        "praca_metro": "CWB",
+        "base_de_casa": 543,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 187,
+        "economia_grupo": 374,
+        "trecho_domestico": "SAO->CWB"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_374"
+      }
+    },
+    {
+      "id": "19038b514437",
+      "origem_texto": "São José dos Campos",
+      "origem_metro": "SJK",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 356,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-oferta-356",
+          "titulo": "Rio de Janeiro em oferta! Passagens a partir de R$ 356 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:04:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:SJK"
+      }
     },
     {
       "id": "81ca13397407",
@@ -636,6 +738,59 @@
       }
     },
     {
+      "id": "4bf8171b2449",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "CNF",
+      "destino_texto": "Porto Alegre",
+      "destino_metro": "POA",
+      "pais_iso2": "BR",
+      "preco_brl": 361,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/gramado-passagens-aereas-porto-aelgre-356",
+          "titulo": "Gramado no roteiro! Passagens para Porto Alegre a partir de R$ 356 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:19:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Belo Horizonte",
+        "praca_metro": "CNF",
+        "base_de_casa": 543,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 182,
+        "economia_grupo": 364,
+        "trecho_domestico": "SAO->CNF"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_364"
+      }
+    },
+    {
       "id": "b24cc0f99216",
       "origem_texto": "Vitória",
       "origem_metro": "VIX",
@@ -662,7 +817,7 @@
       "descoberto_em": "2026-07-20T13:26:35+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "posicionamento": {
@@ -692,6 +847,55 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "c705cab50cb5",
+      "origem_texto": "Ribeirão Preto",
+      "origem_metro": "RAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 362,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-oferta-356",
+          "titulo": "Rio de Janeiro em oferta! Passagens a partir de R$ 356 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:04:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:RAO"
+      }
     },
     {
       "id": "127b59fde2d7",
@@ -752,6 +956,308 @@
       "match": false
     },
     {
+      "id": "d77c56052068",
+      "origem_texto": "Vitória",
+      "origem_metro": "VIX",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 379,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-oferta-356",
+          "titulo": "Rio de Janeiro em oferta! Passagens a partir de R$ 356 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:04:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:VIX"
+      }
+    },
+    {
+      "id": "cdfad0e1abd7",
+      "origem_texto": "Joinville",
+      "origem_metro": "JOI",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 393,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-oferta-356",
+          "titulo": "Rio de Janeiro em oferta! Passagens a partir de R$ 356 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:04:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:JOI"
+      }
+    },
+    {
+      "id": "c7f812e80f9c",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 403,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-oferta-356",
+          "titulo": "Rio de Janeiro em oferta! Passagens a partir de R$ 356 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:04:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:FLN"
+      }
+    },
+    {
+      "id": "2bab2920893e",
+      "origem_texto": "Uberlândia",
+      "origem_metro": "UDI",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 412,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-oferta-356",
+          "titulo": "Rio de Janeiro em oferta! Passagens a partir de R$ 356 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:04:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:UDI"
+      }
+    },
+    {
+      "id": "99af2785a2df",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "Porto Alegre",
+      "destino_metro": "POA",
+      "pais_iso2": "BR",
+      "preco_brl": 422,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/gramado-passagens-aereas-porto-aelgre-356",
+          "titulo": "Gramado no roteiro! Passagens para Porto Alegre a partir de R$ 356 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:19:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Florianópolis",
+        "praca_metro": "FLN",
+        "base_de_casa": 543,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 121,
+        "economia_grupo": 242,
+        "trecho_domestico": "SAO->FLN"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_242"
+      }
+    },
+    {
+      "id": "4e57a736d314",
+      "origem_texto": "Campinas",
+      "origem_metro": "SAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 422,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-oferta-356",
+          "titulo": "Rio de Janeiro em oferta! Passagens a partir de R$ 356 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:04:21+00:00",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 7,
+        "mediana": 486,
+        "minimo_visto": 354,
+        "p10": 354,
+        "desvio_pct": -13,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "238263bb1d99",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -786,10 +1292,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 7,
-        "mediana": 534,
+        "mediana": 486,
         "minimo_visto": 354,
         "p10": 354,
-        "desvio_pct": -20,
+        "desvio_pct": -12,
         "raro": false
       },
       "perfis": {
@@ -810,6 +1316,55 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "a83edc128d2f",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 439,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-oferta-356",
+          "titulo": "Rio de Janeiro em oferta! Passagens a partir de R$ 356 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:04:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CWB"
+      }
     },
     {
       "id": "8e4fe09d0e8d",
@@ -846,10 +1401,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 7,
-        "mediana": 534,
+        "mediana": 486,
         "minimo_visto": 354,
         "p10": 354,
-        "desvio_pct": -17,
+        "desvio_pct": -9,
         "raro": false
       },
       "perfis": {
@@ -1151,7 +1706,7 @@
       "descoberto_em": "2026-07-20T13:26:35+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "posicionamento": {
@@ -1217,10 +1772,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 7,
-        "mediana": 534,
+        "mediana": 486,
         "minimo_visto": 354,
         "p10": 354,
-        "desvio_pct": -9,
+        "desvio_pct": 0,
         "raro": false
       },
       "perfis": {
@@ -1241,6 +1796,59 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "4e689c61ada2",
+      "origem_texto": "Ribeirão Preto",
+      "origem_metro": "RAO",
+      "destino_texto": "Porto Alegre",
+      "destino_metro": "POA",
+      "pais_iso2": "BR",
+      "preco_brl": 492,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/gramado-passagens-aereas-porto-aelgre-356",
+          "titulo": "Gramado no roteiro! Passagens para Porto Alegre a partir de R$ 356 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:19:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Ribeirão Preto",
+        "praca_metro": "RAO",
+        "base_de_casa": 543,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 51,
+        "economia_grupo": 102,
+        "trecho_domestico": "SAO->RAO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_102"
+      }
     },
     {
       "id": "f89e49344d4d",
@@ -1277,10 +1885,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 7,
-        "mediana": 534,
+        "mediana": 486,
         "minimo_visto": 354,
         "p10": 354,
-        "desvio_pct": 0,
+        "desvio_pct": 10,
         "raro": false
       },
       "perfis": {
@@ -1301,6 +1909,50 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "b5f8a393087a",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Porto Alegre",
+      "destino_metro": "POA",
+      "pais_iso2": "BR",
+      "preco_brl": 543,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/gramado-passagens-aereas-porto-aelgre-356",
+          "titulo": "Gramado no roteiro! Passagens para Porto Alegre a partir de R$ 356 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:19:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "fc5792fd9757",
@@ -1398,10 +2050,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 7,
-        "mediana": 534,
+        "mediana": 486,
         "minimo_visto": 354,
         "p10": 354,
-        "desvio_pct": 3,
+        "desvio_pct": 13,
         "raro": false
       },
       "tipos": [
@@ -1456,14 +2108,14 @@
       "posicionamento": {
         "praca": "Teresina",
         "praca_metro": "THE",
-        "base_de_casa": 868,
+        "base_de_casa": 639,
         "base_origem": "Campinas",
-        "economia_por_pessoa": 319,
-        "economia_grupo": 638,
+        "economia_por_pessoa": 90,
+        "economia_grupo": 180,
         "trecho_domestico": "SAO->THE"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_638"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_180"
       },
       "tipos": [],
       "continente": null,
@@ -1583,6 +2235,59 @@
       "match": false,
       "perfis": {
         "ale-andreia": "tipo:misto"
+      }
+    },
+    {
+      "id": "191641873272",
+      "origem_texto": "Vitória",
+      "origem_metro": "VIX",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 593,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernmabuco-recife-passagens-aereas593",
+          "titulo": "Pernambuco: seleção de passagens para Recife a partir de R$ 593 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T13:58:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Vitória",
+        "praca_metro": "VIX",
+        "base_de_casa": 812,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 219,
+        "economia_grupo": 438,
+        "trecho_domestico": "SAO->VIX"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_438"
       }
     },
     {
@@ -1721,10 +2426,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 7,
-        "mediana": 534,
+        "mediana": 486,
         "minimo_visto": 354,
         "p10": 354,
-        "desvio_pct": 13,
+        "desvio_pct": 24,
         "raro": false
       },
       "tipos": [
@@ -1779,14 +2484,14 @@
       "posicionamento": {
         "praca": "Belém",
         "praca_metro": "BEL",
-        "base_de_casa": 868,
+        "base_de_casa": 639,
         "base_origem": "Campinas",
-        "economia_por_pessoa": 251,
-        "economia_grupo": 502,
+        "economia_por_pessoa": 22,
+        "economia_grupo": 44,
         "trecho_domestico": "SAO->BEL"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_502"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_44"
       },
       "tipos": [],
       "continente": null,
@@ -1920,6 +2625,59 @@
       "match": false
     },
     {
+      "id": "b9ccb781ecf4",
+      "origem_texto": "Ribeirão Preto",
+      "origem_metro": "RAO",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 632,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-passagens-aereas-632",
+          "titulo": "Voos para Fortaleza! Passagens a partir de R$ 632 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:31:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Ribeirão Preto",
+        "praca_metro": "RAO",
+        "base_de_casa": 639,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 7,
+        "economia_grupo": 14,
+        "trecho_domestico": "SAO->RAO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_14"
+      }
+    },
+    {
       "id": "f78a6be0e31a",
       "origem_texto": "",
       "origem_metro": "",
@@ -1949,6 +2707,50 @@
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "7d3a4ca21a1d",
+      "origem_texto": "Campinas",
+      "origem_metro": "SAO",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 639,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-passagens-aereas-632",
+          "titulo": "Voos para Fortaleza! Passagens a partir de R$ 632 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:31:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [],
@@ -2063,6 +2865,59 @@
       "match": false
     },
     {
+      "id": "6030e6561e87",
+      "origem_texto": "Salvador",
+      "origem_metro": "SSA",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 643,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernmabuco-recife-passagens-aereas593",
+          "titulo": "Pernambuco: seleção de passagens para Recife a partir de R$ 593 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T13:58:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Salvador",
+        "praca_metro": "SSA",
+        "base_de_casa": 812,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 169,
+        "economia_grupo": 338,
+        "trecho_domestico": "SAO->SSA"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_338"
+      }
+    },
+    {
       "id": "1dd18d0ba214",
       "origem_texto": "Recife",
       "origem_metro": "REC",
@@ -2152,10 +3007,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 7,
-        "mediana": 534,
+        "mediana": 486,
         "minimo_visto": 354,
         "p10": 354,
-        "desvio_pct": 21,
+        "desvio_pct": 33,
         "raro": false
       },
       "tipos": [
@@ -2214,10 +3069,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 7,
-        "mediana": 534,
+        "mediana": 486,
         "minimo_visto": 354,
         "p10": 354,
-        "desvio_pct": 21,
+        "desvio_pct": 33,
         "raro": false
       },
       "tipos": [
@@ -2237,6 +3092,59 @@
       "match": false,
       "perfis": {
         "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "3f75a807644e",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "CNF",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 652,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernmabuco-recife-passagens-aereas593",
+          "titulo": "Pernambuco: seleção de passagens para Recife a partir de R$ 593 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T13:58:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Belo Horizonte",
+        "praca_metro": "CNF",
+        "base_de_casa": 812,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 160,
+        "economia_grupo": 320,
+        "trecho_domestico": "SAO->CNF"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_320"
       }
     },
     {
@@ -2286,6 +3194,59 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "24fdffa17055",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 657,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernmabuco-recife-passagens-aereas593",
+          "titulo": "Pernambuco: seleção de passagens para Recife a partir de R$ 593 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T13:58:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Brasília",
+        "praca_metro": "BSB",
+        "base_de_casa": 812,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 155,
+        "economia_grupo": 310,
+        "trecho_domestico": "SAO->BSB"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_310"
+      }
     },
     {
       "id": "e6021e8552b8",
@@ -2374,7 +3335,7 @@
       "descoberto_em": "2026-07-21T19:10:51+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "posicionamento": {
@@ -2399,6 +3360,103 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "f928037ca830",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 718,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-passagens-aereas-632",
+          "titulo": "Voos para Fortaleza! Passagens a partir de R$ 632 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:31:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CWB"
+      }
+    },
+    {
+      "id": "0a47531cbe2d",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 718,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernmabuco-recife-passagens-aereas593",
+          "titulo": "Pernambuco: seleção de passagens para Recife a partir de R$ 593 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T13:58:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Florianópolis",
+        "praca_metro": "FLN",
+        "base_de_casa": 812,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 94,
+        "economia_grupo": 188,
+        "trecho_domestico": "SAO->FLN"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_188"
+      }
     },
     {
       "id": "cc1b9729a715",
@@ -2458,6 +3516,112 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "a531c090bb65",
+      "origem_texto": "Goiânia",
+      "origem_metro": "GYN",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 721,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernmabuco-recife-passagens-aereas593",
+          "titulo": "Pernambuco: seleção de passagens para Recife a partir de R$ 593 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T13:58:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Goiânia",
+        "praca_metro": "GYN",
+        "base_de_casa": 812,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 91,
+        "economia_grupo": 182,
+        "trecho_domestico": "SAO->GYN"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_182"
+      }
+    },
+    {
+      "id": "716493045006",
+      "origem_texto": "Ribeirão Preto",
+      "origem_metro": "RAO",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 737,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernmabuco-recife-passagens-aereas593",
+          "titulo": "Pernambuco: seleção de passagens para Recife a partir de R$ 593 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T13:58:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Ribeirão Preto",
+        "praca_metro": "RAO",
+        "base_de_casa": 812,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 75,
+        "economia_grupo": 150,
+        "trecho_domestico": "SAO->RAO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_150"
+      }
     },
     {
       "id": "cdaff13779ad",
@@ -2659,6 +3823,50 @@
       }
     },
     {
+      "id": "80795c1ede1b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 812,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernmabuco-recife-passagens-aereas593",
+          "titulo": "Pernambuco: seleção de passagens para Recife a partir de R$ 593 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T13:58:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "b6dce77a524f",
       "origem_texto": "Brasília",
       "origem_metro": "BSB",
@@ -2700,6 +3908,94 @@
       "match": false,
       "perfis": {
         "ale-andreia": "origem:BSB"
+      }
+    },
+    {
+      "id": "32966357223e",
+      "origem_texto": "Goiânia",
+      "origem_metro": "GYN",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 819,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-passagens-aereas-632",
+          "titulo": "Voos para Fortaleza! Passagens a partir de R$ 632 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:31:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:GYN"
+      }
+    },
+    {
+      "id": "fa4d0f7c83df",
+      "origem_texto": "Vitória",
+      "origem_metro": "VIX",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 836,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-passagens-aereas-632",
+          "titulo": "Voos para Fortaleza! Passagens a partir de R$ 632 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:31:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:VIX"
       }
     },
     {
@@ -2887,7 +4183,7 @@
       "descoberto_em": "2026-07-21T19:10:51+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "perfis": {
@@ -2931,7 +4227,7 @@
       "descoberto_em": "2026-07-21T19:10:51+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "perfis": {
@@ -2993,6 +4289,50 @@
       }
     },
     {
+      "id": "4f8c5ef8ff72",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "CNF",
+      "destino_texto": "Fortaleza",
+      "destino_metro": "FOR",
+      "pais_iso2": "BR",
+      "preco_brl": 880,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-fortaleza-passagens-aereas-632",
+          "titulo": "Voos para Fortaleza! Passagens a partir de R$ 632 ida e volta saindo de várias cidades"
+        }
+      ],
+      "descoberto_em": "2026-07-25T14:31:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CNF"
+      }
+    },
+    {
       "id": "0f57b624b1d3",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -3051,6 +4391,50 @@
       "match": false,
       "perfis": {
         "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "d9f51f201801",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 921,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernmabuco-recife-passagens-aereas593",
+          "titulo": "Pernambuco: seleção de passagens para Recife a partir de R$ 593 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-25T13:58:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CWB"
       }
     },
     {
@@ -22548,1797 +23932,6 @@
       "perfis": {
         "ale-andreia": "acima_do_teto:4201>4000"
       }
-    },
-    {
-      "id": "fbc46e350c1e",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Atenas",
-      "destino_metro": "ATH",
-      "pais_texto": "Grécia",
-      "pais_iso2": "GR",
-      "preco_brl": 4212,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia",
-      "janela": "2026-12-03 a 2026-12-10",
-      "janela_inicio": "2026-12-03",
-      "janela_fim": "2026-12-10",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 1140,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTAzagcIARIDR1JVGhUSCjIwMjYtMTItMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBuMno",
-          "titulo": "Atenas — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4512,
-        "minimo_visto": 4212,
-        "p10": 4212,
-        "desvio_pct": -7,
-        "raro": true
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4212>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, sem alerta no SIS. CHIPRE: se o roteiro incluir Chipre, o tempo la conta SEPARADAMENTE e nao entra nos 90 dias dos demais (Chipre nao e Schengen). Balsa/ferry Grecia>Turquia e fronteira EXTERNA: sai do Schengen, com registro de saida no EES. EES 100% operacional desde 10/04/2026.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "7879e79a173f",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Viena",
-      "destino_metro": "VIE",
-      "pais_texto": "Áustria",
-      "pais_iso2": "AT",
-      "preco_brl": 4213,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia",
-      "janela": "2026-10-22 a 2026-10-29",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-29",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 880,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmaHA5",
-          "titulo": "Viena — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4190,
-        "minimo_visto": 3942,
-        "p10": 3942,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4213>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — as duas condicoes valem no dia da entrada. Art. 6 do CFS: proposito da viagem, meios de subsistencia para estada e retorno, sem alerta no SIS. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo, overstay automatico).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "95d45449e4bb",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Florença",
-      "destino_metro": "FLR",
-      "destino_iata": "FLR",
-      "origem_iata": "GRU",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 4214,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia e Vueling",
-      "janela": "2026-11-26 a 2026-12-03",
-      "janela_inicio": "2026-11-26",
-      "janela_fim": "2026-12-03",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 1350,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTI2agcIARIDR1JVGhUSCjIwMjYtMTItMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzMXky",
-          "titulo": "Florença — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4226,
-        "minimo_visto": 4214,
-        "p10": 4214,
-        "desvio_pct": 0,
-        "raro": true
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4214>4000"
-      }
-    },
-    {
-      "id": "aad021f6cc7d",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Washington, D.C.",
-      "destino_metro": "IAD",
-      "destino_iata": "IAD",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 4220,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-07-30 a 2026-08-05",
-      "janela_inicio": "2026-07-30",
-      "janela_fim": "2026-08-05",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 775,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTMwagcIARIDR1JVGhUSCjIwMjYtMDgtMDVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzByaDZr",
-          "titulo": "Washington, D.C. — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 3530,
-        "minimo_visto": 3500,
-        "p10": 3500,
-        "desvio_pct": 20,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "667bdac53208",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Florença",
-      "destino_metro": "FLR",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 4221,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia e Vueling",
-      "janela": "2026-11-14 a 2026-11-22",
-      "janela_inicio": "2026-11-14",
-      "janela_fim": "2026-11-22",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 980,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIyagcIARIDR1JVGhUSCjIwMjYtMTEtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzMXky",
-          "titulo": "Florença — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4226,
-        "minimo_visto": 4214,
-        "p10": 4214,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4221>4000"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "42385ace1a11",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Abu Dhabi",
-      "destino_metro": "AUH",
-      "pais_iso2": "AE",
-      "preco_brl": 4223,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Latam + Etihad",
-      "validade": "",
-      "observacao": "Em 10x sem juros",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18612",
-          "titulo": "Emirados na Mega Promo 🐪"
-        }
-      ],
-      "descoberto_em": "2026-07-21T22:24:57+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A CONTA DOS 90 DIAS É POR 12 MESES, NÃO POR VIAGEM. São 90 dias a cada período de 12 meses contados da PRIMEIRA entrada — sair e voltar não zera o contador. Quem usa Dubai como hub de conexões repetidas ao longo do ano pode estourar a cota sem perceber. Passaporte com 6 meses de validade. O sistema migratório (ICP federal, GDRFA em Dubai) é automatizado e rigoroso, e overstay gera multa diária.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4223>4000"
-      }
-    },
-    {
-      "id": "3d50cb6eb1a1",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Dubai",
-      "destino_metro": "DXB",
-      "pais_iso2": "AE",
-      "preco_brl": 4223,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Latam + Etihad",
-      "validade": "",
-      "observacao": "Em 10x sem juros",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18612",
-          "titulo": "Emirados na Mega Promo 🐪"
-        }
-      ],
-      "descoberto_em": "2026-07-21T22:24:57+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "descanso"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A CONTA DOS 90 DIAS É POR 12 MESES, NÃO POR VIAGEM. São 90 dias a cada período de 12 meses contados da PRIMEIRA entrada — sair e voltar não zera o contador. Quem usa Dubai como hub de conexões repetidas ao longo do ano pode estourar a cota sem perceber. Passaporte com 6 meses de validade. O sistema migratório (ICP federal, GDRFA em Dubai) é automatizado e rigoroso, e overstay gera multa diária.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4223>4000"
-      }
-    },
-    {
-      "id": "81677fc63f3d",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Florença",
-      "destino_metro": "FLR",
-      "destino_iata": "FLR",
-      "origem_iata": "GRU",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 4225,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM e Vueling",
-      "janela": "2026-11-20 a 2026-11-26",
-      "janela_inicio": "2026-11-20",
-      "janela_fim": "2026-11-26",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1135,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIwagcIARIDR1JVGhUSCjIwMjYtMTEtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzMXky",
-          "titulo": "Florença — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-25",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4226,
-        "minimo_visto": 4214,
-        "p10": 4214,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "d170e16a36aa",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Florença",
-      "destino_metro": "FLR",
-      "destino_iata": "FLR",
-      "origem_iata": "GRU",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 4226,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia e Vueling",
-      "janela": "2026-11-27 a 2026-12-06",
-      "janela_inicio": "2026-11-27",
-      "janela_fim": "2026-12-06",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 980,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDR1JVGhUSCjIwMjYtMTItMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzMXky",
-          "titulo": "Florença — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4226,
-        "minimo_visto": 4214,
-        "p10": 4214,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4226>4000"
-      }
-    },
-    {
-      "id": "500f02b59fb8",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Florença",
-      "destino_metro": "FLR",
-      "destino_iata": "FLR",
-      "origem_iata": "GRU",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 4226,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia e Vueling",
-      "janela": "2026-11-27 a 2026-12-06",
-      "janela_inicio": "2026-11-27",
-      "janela_fim": "2026-12-06",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 980,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTI3agcIARIDR1JVGhUSCjIwMjYtMTItMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzMXky",
-          "titulo": "Florença — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4226,
-        "minimo_visto": 4214,
-        "p10": 4214,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4226>4000"
-      }
-    },
-    {
-      "id": "f00ffb8bb2a3",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Viena",
-      "destino_metro": "VIE",
-      "pais_texto": "Áustria",
-      "pais_iso2": "AT",
-      "preco_brl": 4232,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia",
-      "janela": "2026-11-09 a 2026-11-18",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-18",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 1115,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmaHA5",
-          "titulo": "Viena — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4190,
-        "minimo_visto": 3942,
-        "p10": 3942,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4232>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — as duas condicoes valem no dia da entrada. Art. 6 do CFS: proposito da viagem, meios de subsistencia para estada e retorno, sem alerta no SIS. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo, overstay automatico).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "22a480e01c46",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Seattle",
-      "destino_metro": "SEA",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 4233,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Delta e LATAM",
-      "janela": "2026-07-30 a 2026-08-07",
-      "janela_inicio": "2026-07-30",
-      "janela_fim": "2026-08-07",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1065,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTMwagcIARIDR1JVGhUSCjIwMjYtMDgtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkOWpy",
-          "titulo": "Seattle — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4036,
-        "minimo_visto": 3975,
-        "p10": 3975,
-        "desvio_pct": 5,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4233>4000"
-      },
-      "tipos": [
-        "cidade_grande",
-        "natureza",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "4b9d96b69d62",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Vancouver",
-      "destino_metro": "YVR",
-      "destino_iata": "YVR",
-      "origem_iata": "GRU",
-      "pais_texto": "Canadá",
-      "pais_iso2": "CA",
-      "preco_brl": 4257,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "American e Air Canada",
-      "janela": "2026-11-01 a 2026-11-09",
-      "janela_inicio": "2026-11-01",
-      "janela_fim": "2026-11-09",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1115,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTAxagcIARIDR1JVGhUSCjIwMjYtMTEtMDlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA4MGgy",
-          "titulo": "Vancouver — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 3986,
-        "minimo_visto": 3410,
-        "p10": 3410,
-        "desvio_pct": 7,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "natureza",
-        "montanha"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "DEPENDE",
-        "dias": 180,
-        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4257>4000"
-      }
-    },
-    {
-      "id": "eb74dc9dbc1b",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cidade do Cabo",
-      "destino_metro": "CPT",
-      "destino_iata": "CPT",
-      "origem_iata": "GRU",
-      "pais_texto": "África do Sul",
-      "pais_iso2": "ZA",
-      "preco_brl": 4290,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-08-09 a 2026-08-17",
-      "janela_inicio": "2026-08-09",
-      "janela_fim": "2026-08-17",
-      "noites": 8,
-      "escalas": 0,
-      "duracao_min": 430,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA5agcIARIDR1JVGhUSCjIwMjYtMDgtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxeWoy",
-          "titulo": "Cidade do Cabo — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 3704,
-        "minimo_visto": 2804,
-        "p10": 2804,
-        "desvio_pct": 16,
-        "raro": false
-      },
-      "tipos": [
-        "natureza",
-        "cultural",
-        "praia",
-        "aventura"
-      ],
-      "continente": "africa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DUPLA PEGADINHA, AMBAS CONFIRMADAS NESTA AUDITORIA. (1) FEBRE AMARELA: o Brasil é país de risco para a África do Sul. Sem o certificado internacional (CIVP) a fonte oficial prevê 'refusal of entry, or quarantine until your certificate becomes valid' — quarentena de até 6 dias. Vacina no mínimo 10 dias antes. (2) DECLARAÇÃO ONLINE: obrigatória desde 01/07/2026 para ENTRADA E SAÍDA, por ar, terra, mar e trilho — inclui o voo de volta, não é só chegada. Em itinerário com escalas, conta-se 24h antes do último trecho com destino direto à África do Sul. Só trânsito aéreo/marítimo sem sair da área de trânsito é isento. Passaporte: 2 páginas em branco e validade de 30 dias além da saída.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4290>4000"
-      }
-    },
-    {
-      "id": "062c84445155",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Barcelona",
-      "destino_metro": "BCN",
-      "pais_texto": "Espanha",
-      "pais_iso2": "ES",
-      "preco_brl": 4297,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Tap Air Portugal",
-      "janela": "2026-10-22 a 2026-10-29",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-29",
-      "noites": 7,
-      "escalas": 2,
-      "duracao_min": 815,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy",
-          "titulo": "Barcelona — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 3702,
-        "minimo_visto": 3672,
-        "p10": 3672,
-        "desvio_pct": 16,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4297>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico",
-        "praia"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "7ffe1ff4e270",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Amsterdã",
-      "destino_metro": "AMS",
-      "pais_texto": "Países Baixos",
-      "pais_iso2": "NL",
-      "preco_brl": 4308,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-11-06 a 2026-11-15",
-      "janela_inicio": "2026-11-06",
-      "janela_fim": "2026-11-15",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 875,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA2agcIARIDR1JVGhUSCjIwMjYtMTEtMTVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBrM3A",
-          "titulo": "Amsterdã — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4029,
-        "minimo_visto": 3903,
-        "p10": 3903,
-        "desvio_pct": 7,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4308>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, ausencia de alerta no SIS. Schiphol e um dos maiores hubs de conexao de brasileiros — atencao: conexao que sai da area de transito internacional = ENTRADA no Schengen, entra na conta do 90/180 e no EES. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "0a4a5e5b91bd",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Berlim",
-      "destino_metro": "BER",
-      "pais_texto": "Alemanha",
-      "pais_iso2": "DE",
-      "preco_brl": 4312,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM, Lufthansa e Brussels Airlines",
-      "janela": "2026-11-08 a 2026-11-17",
-      "janela_inicio": "2026-11-08",
-      "janela_fim": "2026-11-17",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 940,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxNTZx",
-          "titulo": "Berlim — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4387,
-        "minimo_visto": 4312,
-        "p10": 4312,
-        "desvio_pct": -2,
-        "raro": true
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4312>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — sem waiver para os 10 anos. Art. 6 do CFS: justificar proposito, meios de subsistencia para estada e retorno, nao estar sinalizado no SIS. Frankfurt e Munique sao rigorosos com passagem de saida e comprovante de hospedagem. EES 100% operacional desde 10/04/2026: biometria facial e digitais, fim do carimbo, overstay do 90/180 detectado por sistema.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "8b3190abe0ca",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Viena",
-      "destino_metro": "VIE",
-      "pais_texto": "Áustria",
-      "pais_iso2": "AT",
-      "preco_brl": 4317,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia e LATAM",
-      "janela": "2026-11-22 a 2026-11-29",
-      "janela_inicio": "2026-11-22",
-      "janela_fim": "2026-11-29",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 1160,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIyagcIARIDR1JVGhUSCjIwMjYtMTEtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmaHA5",
-          "titulo": "Viena — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4190,
-        "minimo_visto": 3942,
-        "p10": 3942,
-        "desvio_pct": 3,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4317>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — as duas condicoes valem no dia da entrada. Art. 6 do CFS: proposito da viagem, meios de subsistencia para estada e retorno, sem alerta no SIS. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo, overstay automatico).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "fba6d1608735",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Amsterdã",
-      "destino_metro": "AMS",
-      "pais_texto": "Países Baixos",
-      "pais_iso2": "NL",
-      "preco_brl": 4335,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-11-05 a 2026-11-12",
-      "janela_inicio": "2026-11-05",
-      "janela_fim": "2026-11-12",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 875,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA1agcIARIDR1JVGhUSCjIwMjYtMTEtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBrM3A",
-          "titulo": "Amsterdã — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4029,
-        "minimo_visto": 3903,
-        "p10": 3903,
-        "desvio_pct": 8,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4335>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, ausencia de alerta no SIS. Schiphol e um dos maiores hubs de conexao de brasileiros — atencao: conexao que sai da area de transito internacional = ENTRADA no Schengen, entra na conta do 90/180 e no EES. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "01d716eb72ea",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Berlim",
-      "destino_metro": "BER",
-      "destino_iata": "BER",
-      "origem_iata": "GRU",
-      "pais_texto": "Alemanha",
-      "pais_iso2": "DE",
-      "preco_brl": 4342,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM e Brussels Airlines",
-      "janela": "2026-11-09 a 2026-11-17",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-17",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1175,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxNTZx",
-          "titulo": "Berlim — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4387,
-        "minimo_visto": 4312,
-        "p10": 4312,
-        "desvio_pct": -1,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — sem waiver para os 10 anos. Art. 6 do CFS: justificar proposito, meios de subsistencia para estada e retorno, nao estar sinalizado no SIS. Frankfurt e Munique sao rigorosos com passagem de saida e comprovante de hospedagem. EES 100% operacional desde 10/04/2026: biometria facial e digitais, fim do carimbo, overstay do 90/180 detectado por sistema.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4342>4000"
-      }
-    },
-    {
-      "id": "dac4094e5688",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Florença",
-      "destino_metro": "FLR",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 4348,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Tap Air Portugal",
-      "janela": "2026-11-14 a 2026-11-22",
-      "janela_inicio": "2026-11-14",
-      "janela_fim": "2026-11-22",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 915,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDR1JVGhUSCjIwMjYtMTEtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzMXky",
-          "titulo": "Florença — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4226,
-        "minimo_visto": 4214,
-        "p10": 4214,
-        "desvio_pct": 3,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4348>4000"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "b0d60c72af28",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Florença",
-      "destino_metro": "FLR",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 4348,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Tap Air Portugal",
-      "janela": "2026-11-14 a 2026-11-22",
-      "janela_inicio": "2026-11-14",
-      "janela_fim": "2026-11-22",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 915,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDR1JVGhUSCjIwMjYtMTEtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAzMXky",
-          "titulo": "Florença — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4226,
-        "minimo_visto": 4214,
-        "p10": 4214,
-        "desvio_pct": 3,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4348>4000"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "551909b83edf",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Berlim",
-      "destino_metro": "BER",
-      "destino_iata": "BER",
-      "origem_iata": "GRU",
-      "pais_texto": "Alemanha",
-      "pais_iso2": "DE",
-      "preco_brl": 4354,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM e Brussels Airlines",
-      "janela": "2026-11-09 a 2026-11-17",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-17",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1175,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxNTZx",
-          "titulo": "Berlim — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4387,
-        "minimo_visto": 4312,
-        "p10": 4312,
-        "desvio_pct": -1,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — sem waiver para os 10 anos. Art. 6 do CFS: justificar proposito, meios de subsistencia para estada e retorno, nao estar sinalizado no SIS. Frankfurt e Munique sao rigorosos com passagem de saida e comprovante de hospedagem. EES 100% operacional desde 10/04/2026: biometria facial e digitais, fim do carimbo, overstay do 90/180 detectado por sistema.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4354>4000"
-      }
-    },
-    {
-      "id": "0d50cd897ddf",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Amsterdã",
-      "destino_metro": "AMS",
-      "destino_iata": "AMS",
-      "origem_iata": "GRU",
-      "pais_texto": "Países Baixos",
-      "pais_iso2": "NL",
-      "preco_brl": 4364,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Tap Air Portugal",
-      "janela": "2026-11-20 a 2026-11-28",
-      "janela_inicio": "2026-11-20",
-      "janela_fim": "2026-11-28",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 990,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIwagcIARIDR1JVGhUSCjIwMjYtMTEtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBrM3A",
-          "titulo": "Amsterdã — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-25",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4029,
-        "minimo_visto": 3903,
-        "p10": 3903,
-        "desvio_pct": 8,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, ausencia de alerta no SIS. Schiphol e um dos maiores hubs de conexao de brasileiros — atencao: conexao que sai da area de transito internacional = ENTRADA no Schengen, entra na conta do 90/180 e no EES. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4364>4000"
-      }
-    },
-    {
-      "id": "a7dba6fdfe10",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cidade do Cabo",
-      "destino_metro": "CPT",
-      "destino_iata": "CPT",
-      "origem_iata": "GRU",
-      "pais_texto": "África do Sul",
-      "pais_iso2": "ZA",
-      "preco_brl": 4376,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-11-22 a 2026-11-30",
-      "janela_inicio": "2026-11-22",
-      "janela_fim": "2026-11-30",
-      "noites": 8,
-      "escalas": 0,
-      "duracao_min": 440,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIyagcIARIDR1JVGhUSCjIwMjYtMTEtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxeWoy",
-          "titulo": "Cidade do Cabo — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 3704,
-        "minimo_visto": 2804,
-        "p10": 2804,
-        "desvio_pct": 18,
-        "raro": false
-      },
-      "tipos": [
-        "natureza",
-        "cultural",
-        "praia",
-        "aventura"
-      ],
-      "continente": "africa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DUPLA PEGADINHA, AMBAS CONFIRMADAS NESTA AUDITORIA. (1) FEBRE AMARELA: o Brasil é país de risco para a África do Sul. Sem o certificado internacional (CIVP) a fonte oficial prevê 'refusal of entry, or quarantine until your certificate becomes valid' — quarentena de até 6 dias. Vacina no mínimo 10 dias antes. (2) DECLARAÇÃO ONLINE: obrigatória desde 01/07/2026 para ENTRADA E SAÍDA, por ar, terra, mar e trilho — inclui o voo de volta, não é só chegada. Em itinerário com escalas, conta-se 24h antes do último trecho com destino direto à África do Sul. Só trânsito aéreo/marítimo sem sair da área de trânsito é isento. Passaporte: 2 páginas em branco e validade de 30 dias além da saída.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4376>4000"
-      }
-    },
-    {
-      "id": "cadf397df1b8",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Berlim",
-      "destino_metro": "BER",
-      "pais_texto": "Alemanha",
-      "pais_iso2": "DE",
-      "preco_brl": 4387,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia",
-      "janela": "2026-11-09 a 2026-11-18",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-18",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 1110,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxNTZx",
-          "titulo": "Berlim — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4387,
-        "minimo_visto": 4312,
-        "p10": 4312,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4387>4000"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — sem waiver para os 10 anos. Art. 6 do CFS: justificar proposito, meios de subsistencia para estada e retorno, nao estar sinalizado no SIS. Frankfurt e Munique sao rigorosos com passagem de saida e comprovante de hospedagem. EES 100% operacional desde 10/04/2026: biometria facial e digitais, fim do carimbo, overstay do 90/180 detectado por sistema.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "00e76e885871",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Berlim",
-      "destino_metro": "BER",
-      "destino_iata": "BER",
-      "origem_iata": "GRU",
-      "pais_texto": "Alemanha",
-      "pais_iso2": "DE",
-      "preco_brl": 4392,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia",
-      "janela": "2026-11-05 a 2026-11-12",
-      "janela_inicio": "2026-11-05",
-      "janela_fim": "2026-11-12",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 935,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA1agcIARIDR1JVGhUSCjIwMjYtMTEtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxNTZx",
-          "titulo": "Berlim — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-25",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4387,
-        "minimo_visto": 4312,
-        "p10": 4312,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen — sem waiver para os 10 anos. Art. 6 do CFS: justificar proposito, meios de subsistencia para estada e retorno, nao estar sinalizado no SIS. Frankfurt e Munique sao rigorosos com passagem de saida e comprovante de hospedagem. EES 100% operacional desde 10/04/2026: biometria facial e digitais, fim do carimbo, overstay do 90/180 detectado por sistema.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4392>4000"
-      }
-    },
-    {
-      "id": "0b9798c72c11",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Malta",
-      "destino_metro": "MLA",
-      "pais_texto": "Malta",
-      "pais_iso2": "MT",
-      "preco_brl": 4402,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air France, Gol, KLM e KM Malta Airlines",
-      "janela": "2026-08-02 a 2026-08-11",
-      "janela_inicio": "2026-08-02",
-      "janela_fim": "2026-08-11",
-      "noites": 9,
-      "escalas": 2,
-      "duracao_min": 1195,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTAyagcIARIDR1JVGhUSCjIwMjYtMDgtMTFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0djNx",
-          "titulo": "Malta — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4455,
-        "minimo_visto": 4402,
-        "p10": 4402,
-        "desvio_pct": -1,
-        "raro": true
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4402>4000"
-      },
-      "tipos": [
-        "praia",
-        "cultural",
-        "descanso"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
     }
   ]
 }
