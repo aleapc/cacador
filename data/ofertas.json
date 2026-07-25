@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-25T12:08:57.916Z",
+  "gerado_em": "2026-07-25T14:00:55.781Z",
   "visto_ate": "2026-07-24T20:40:44+00:00",
   "ultimo_explore": "2026-07-25",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 2,
       "status": "ok"
     },
     {
@@ -31,11 +31,14 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18682",
+    "https://t.me/melhoresdestinos/18681",
+    "https://t.me/promopassagens/110196",
     "https://t.me/passageirodeprimeira/27823",
     "https://t.me/promopassagens/110193",
     "https://t.me/melhoresdestinos/18679",
@@ -118,23 +121,25 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 1,
     "rotas_no_historico": 130,
     "com_baseline": 242,
-    "sem_tag": 39,
+    "sem_tag": 40,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 180,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 181,
         "dessas_ja_alertadas_antes": 180,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 17,
@@ -15530,6 +15535,50 @@
       }
     },
     {
+      "id": "418d664131d8",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Helsinque",
+      "destino_metro": "HEL",
+      "pais_iso2": "FI",
+      "preco_brl": 3651,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "inclui",
+      "companhia": "",
+      "validade": "época da aurora boreal",
+      "observacao": "na época da aurora boreal",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18682",
+          "titulo": "Finlândia imperdível 🔥"
+        }
+      ],
+      "descoberto_em": "2026-07-25T13:00:16+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "a917d6813112",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -15556,7 +15605,7 @@
       "descoberto_em": "2026-07-23T12:02:22+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "tipos": [],
@@ -15600,7 +15649,7 @@
       "descoberto_em": "2026-07-22T20:19:38+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "tipos": [],
@@ -24358,67 +24407,6 @@
         "andreia": false
       },
       "match": false
-    },
-    {
-      "id": "7618a0281ff9",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Malta",
-      "destino_metro": "MLA",
-      "destino_iata": "MLA",
-      "origem_iata": "GRU",
-      "pais_texto": "Malta",
-      "pais_iso2": "MT",
-      "preco_brl": 4445,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air France, KLM e KM Malta Airlines",
-      "janela": "2026-08-03 a 2026-08-12",
-      "janela_inicio": "2026-08-03",
-      "janela_fim": "2026-08-12",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 1380,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTAzagcIARIDR1JVGhUSCjIwMjYtMDgtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0djNx",
-          "titulo": "Malta — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4455,
-        "minimo_visto": 4402,
-        "p10": 4402,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "cultural",
-        "descanso"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4445>4000"
-      }
     }
   ]
 }
