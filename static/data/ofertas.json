@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-25T17:13:32.925Z",
+  "gerado_em": "2026-07-25T18:07:14.128Z",
   "visto_ate": "2026-07-24T20:40:44+00:00",
   "ultimo_explore": "2026-07-25",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -36,6 +36,7 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18689",
     "https://t.me/melhoresdestinos/18687",
     "https://t.me/melhoresdestinos/18686",
     "https://t.me/melhoresdestinos/18685",
@@ -125,19 +126,19 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 130,
     "com_baseline": 238,
-    "sem_tag": 42,
+    "sem_tag": 43,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 401,
         "casam_no_perfil": 181,
         "dessas_ja_alertadas_antes": 181,
         "novas_para_alertar": 0,
@@ -146,7 +147,7 @@
         "rejeitados": {
           "tipo": 17,
           "posicionamento_desligado": 33,
-          "domestico": 26,
+          "domestico": 27,
           "origem": 27,
           "janela_curta": 67,
           "acima_do_teto": 49
@@ -927,6 +928,50 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "a306284f0e08",
+      "origem_texto": "SP",
+      "origem_metro": "",
+      "destino_texto": "Foz do Iguaçu",
+      "destino_metro": "IGU",
+      "pais_iso2": "BR",
+      "preco_brl": 459,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18689",
+          "titulo": "Voos para Foz 🇧🇷"
+        }
+      ],
+      "descoberto_em": "2026-07-25T17:52:12+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "3532e0971153",
@@ -24268,65 +24313,6 @@
         }
       ],
       "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 4455,
-        "minimo_visto": 4402,
-        "p10": 4402,
-        "desvio_pct": -1,
-        "raro": true
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4402>4000"
-      },
-      "tipos": [
-        "praia",
-        "cultural",
-        "descanso"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "7d51bfa29c17",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Malta",
-      "destino_metro": "MLA",
-      "pais_texto": "Malta",
-      "pais_iso2": "MT",
-      "preco_brl": 4402,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air France, Gol, KLM e KM Malta Airlines",
-      "janela": "2026-08-02 a 2026-08-11",
-      "janela_inicio": "2026-08-02",
-      "janela_fim": "2026-08-11",
-      "noites": 9,
-      "escalas": 2,
-      "duracao_min": 1195,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTAyagcIARIDR1JVGhUSCjIwMjYtMDgtMTFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0djNx",
-          "titulo": "Malta — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
         "amostras": 7,
