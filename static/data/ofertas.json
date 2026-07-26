@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-26T19:33:37.862Z",
+  "gerado_em": "2026-07-26T21:10:54.217Z",
   "visto_ate": "2026-07-25T14:31:22+00:00",
   "ultimo_explore": "2026-07-26",
   "fontes": [
@@ -22,7 +22,7 @@
     {
       "nome": "tg:passageirodeprimeira",
       "novos": 0,
-      "status": "ok"
+      "status": "vazio"
     },
     {
       "nome": "tg:canalpontospravoar",
