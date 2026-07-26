@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-26T15:19:50.586Z",
+  "gerado_em": "2026-07-26T17:14:04.172Z",
   "visto_ate": "2026-07-25T14:31:22+00:00",
   "ultimo_explore": "2026-07-26",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -128,19 +128,19 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 1,
+    "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 1,
+    "ineditas": 0,
     "rotas_no_historico": 151,
-    "com_baseline": 244,
+    "com_baseline": 243,
     "sem_tag": 63,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
+        "total_avaliadas": 400,
         "casam_no_perfil": 195,
         "dessas_ja_alertadas_antes": 195,
         "novas_para_alertar": 0,
@@ -152,7 +152,7 @@
           "domestico": 33,
           "origem": 39,
           "janela_curta": 67,
-          "acima_do_teto": 4
+          "acima_do_teto": 3
         }
       }
     }
