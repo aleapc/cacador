@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-26T13:54:30.284Z",
+  "gerado_em": "2026-07-26T15:19:50.586Z",
   "visto_ate": "2026-07-25T14:31:22+00:00",
   "ultimo_explore": "2026-07-26",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -36,6 +36,7 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18691",
     "https://t.me/promopassagens/110216",
     "https://t.me/melhoresdestinos/18689",
     "https://t.me/melhoresdestinos/18687",
@@ -127,26 +128,26 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 151,
     "com_baseline": 244,
     "sem_tag": 63,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 401,
         "casam_no_perfil": 195,
         "dessas_ja_alertadas_antes": 195,
         "novas_para_alertar": 0,
         "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 17,
+          "tipo": 18,
           "posicionamento_desligado": 45,
           "domestico": 33,
           "origem": 39,
@@ -15723,6 +15724,61 @@
       "match": false
     },
     {
+      "id": "6dfe4acd17a6",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 3485,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "Classe executiva, o trecho mais taxas; ou 134 mil milhas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18691",
+          "titulo": "Lisboa na classe executiva da Latam"
+        }
+      ],
+      "descoberto_em": "2026-07-26T14:32:26+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
       "id": "cc858584dba3",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -24038,72 +24094,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "54cb140f5be5",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Amsterdã",
-      "destino_metro": "AMS",
-      "destino_iata": "AMS",
-      "origem_iata": "GRU",
-      "pais_texto": "Países Baixos",
-      "pais_iso2": "NL",
-      "preco_brl": 4029,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "ITA",
-      "janela": "2026-11-07 a 2026-11-16",
-      "janela_inicio": "2026-11-07",
-      "janela_fim": "2026-11-16",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 985,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA3agcIARIDR1JVGhUSCjIwMjYtMTEtMTZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBrM3A",
-          "titulo": "Amsterdã — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 4032,
-        "minimo_visto": 3903,
-        "p10": 3903,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, ausencia de alerta no SIS. Schiphol e um dos maiores hubs de conexao de brasileiros — atencao: conexao que sai da area de transito internacional = ENTRADA no Schengen, entra na conta do 90/180 e no EES. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4029>4000"
       }
     }
   ]
