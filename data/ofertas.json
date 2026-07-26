@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-26T21:10:54.217Z",
-  "visto_ate": "2026-07-25T14:31:22+00:00",
+  "gerado_em": "2026-07-26T22:11:29.070Z",
+  "visto_ate": "2026-07-26T13:30:53+00:00",
   "ultimo_explore": "2026-07-26",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 1,
+      "lidas": 1,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -126,32 +126,32 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 1,
+    "materias_lidas": 1,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 6,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 6,
     "rotas_no_historico": 151,
     "com_baseline": 243,
     "sem_tag": 63,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 195,
+        "total_avaliadas": 406,
+        "casam_no_perfil": 196,
         "dessas_ja_alertadas_antes": 195,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 18,
-          "posicionamento_desligado": 45,
+          "posicionamento_desligado": 46,
           "domestico": 33,
-          "origem": 39,
+          "origem": 43,
           "janela_curta": 67,
           "acima_do_teto": 3
         }
@@ -6189,6 +6189,63 @@
       "match": false
     },
     {
+      "id": "c1eada904914",
+      "origem_texto": "Manaus",
+      "origem_metro": "MAO",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 1606,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "menor preço",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.606 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-26T13:30:53+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Manaus",
+        "praca_metro": "MAO",
+        "base_de_casa": 1908,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 302,
+        "economia_grupo": 604,
+        "trecho_domestico": "SAO->MAO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_604"
+      }
+    },
+    {
       "id": "f064afd3d6f7",
       "origem_texto": "Manaus",
       "origem_metro": "MAO",
@@ -6215,7 +6272,7 @@
       "descoberto_em": "2026-07-24T11:52:00+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [
@@ -6235,14 +6292,14 @@
       "posicionamento": {
         "praca": "Manaus",
         "praca_metro": "MAO",
-        "base_de_casa": 1941,
+        "base_de_casa": 1908,
         "base_origem": "São Paulo",
-        "economia_por_pessoa": 310,
-        "economia_grupo": 620,
+        "economia_por_pessoa": 277,
+        "economia_grupo": 554,
         "trecho_domestico": "SAO->MAO"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_620"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_554"
       }
     },
     {
@@ -6434,20 +6491,20 @@
       "descoberto_em": "2026-07-16T08:49:56+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "posicionamento": {
         "praca": "Manaus",
         "praca_metro": "MAO",
-        "base_de_casa": 1941,
+        "base_de_casa": 1908,
         "base_origem": "São Paulo",
-        "economia_por_pessoa": 227,
-        "economia_grupo": 454,
+        "economia_por_pessoa": 194,
+        "economia_grupo": 388,
         "trecho_domestico": "SAO->MAO"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_454"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_388"
       },
       "tipos": [
         "praia",
@@ -7127,6 +7184,54 @@
       }
     },
     {
+      "id": "1a3381c9551f",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 1908,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.606 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-26T13:30:53+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "659ae286d6b0",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -7428,7 +7533,7 @@
       "descoberto_em": "2026-07-24T11:52:00+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [
@@ -8695,6 +8800,54 @@
       "match": false
     },
     {
+      "id": "67ec71964830",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 2229,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.606 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-26T13:30:53+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:FLN"
+      }
+    },
+    {
       "id": "472454f8de68",
       "origem_texto": "Florianópolis",
       "origem_metro": "FLN",
@@ -8721,7 +8874,7 @@
       "descoberto_em": "2026-07-24T11:52:00+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [
@@ -9063,7 +9216,7 @@
       "descoberto_em": "2026-07-16T08:49:56+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "perfis": {
@@ -9083,6 +9236,54 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "cd015cd26817",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "CNF",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 2305,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.606 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-26T13:30:53+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CNF"
+      }
     },
     {
       "id": "6364ed5777f8",
@@ -9111,7 +9312,7 @@
       "descoberto_em": "2026-07-24T11:52:00+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [
@@ -9312,6 +9513,54 @@
       "match": false
     },
     {
+      "id": "096b3c9a2610",
+      "origem_texto": "Belém",
+      "origem_metro": "BEL",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 2426,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.606 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-26T13:30:53+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:BEL"
+      }
+    },
+    {
       "id": "736eb078df4b",
       "origem_texto": "Belém",
       "origem_metro": "BEL",
@@ -9338,7 +9587,7 @@
       "descoberto_em": "2026-07-24T11:52:00+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [
@@ -9554,6 +9803,54 @@
       "match": false
     },
     {
+      "id": "34f99ff43555",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "San Andrés",
+      "destino_metro": "ADZ",
+      "pais_iso2": "CO",
+      "preco_brl": 2469,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
+          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.606 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-26T13:30:53+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:BSB"
+      }
+    },
+    {
       "id": "6b3ba559bc4a",
       "origem_texto": "Brasília",
       "origem_metro": "BSB",
@@ -9580,7 +9877,7 @@
       "descoberto_em": "2026-07-24T11:52:00+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [
@@ -23710,392 +24007,6 @@
         "andreia": false
       },
       "match": false
-    },
-    {
-      "id": "a44e5665d479",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Roma",
-      "destino_metro": "FCO",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 4000,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-11-09 a 2026-11-18",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-18",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 1190,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
-          "titulo": "Roma — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "22ef137516dc",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Seattle",
-      "destino_metro": "SEA",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 4009,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "American",
-      "janela": "2026-08-06 a 2026-08-12",
-      "janela_inicio": "2026-08-06",
-      "janela_fim": "2026-08-12",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 1647,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkOWpy",
-          "titulo": "Seattle — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 4031,
-        "minimo_visto": 3975,
-        "p10": 3975,
-        "desvio_pct": -1,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "cidade_grande",
-        "natureza",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "be4f0943ca20",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Amsterdã",
-      "destino_metro": "AMS",
-      "destino_iata": "AMS",
-      "origem_iata": "GRU",
-      "pais_texto": "Países Baixos",
-      "pais_iso2": "NL",
-      "preco_brl": 4011,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "ITA",
-      "janela": "2026-11-07 a 2026-11-16",
-      "janela_inicio": "2026-11-07",
-      "janela_fim": "2026-11-16",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 985,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA3agcIARIDR1JVGhUSCjIwMjYtMTEtMTZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBrM3A",
-          "titulo": "Amsterdã — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 4032,
-        "minimo_visto": 3903,
-        "p10": 3903,
-        "desvio_pct": -1,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, ausencia de alerta no SIS. Schiphol e um dos maiores hubs de conexao de brasileiros — atencao: conexao que sai da area de transito internacional = ENTRADA no Schengen, entra na conta do 90/180 e no EES. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4011>4000"
-      }
-    },
-    {
-      "id": "64c00d9b368a",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Amsterdã",
-      "destino_metro": "AMS",
-      "destino_iata": "AMS",
-      "origem_iata": "GRU",
-      "pais_texto": "Países Baixos",
-      "pais_iso2": "NL",
-      "preco_brl": 4012,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "ITA",
-      "janela": "2026-11-09 a 2026-11-16",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-16",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 920,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMTZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBrM3A",
-          "titulo": "Amsterdã — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 4032,
-        "minimo_visto": 3903,
-        "p10": 3903,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, ausencia de alerta no SIS. Schiphol e um dos maiores hubs de conexao de brasileiros — atencao: conexao que sai da area de transito internacional = ENTRADA no Schengen, entra na conta do 90/180 e no EES. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4012>4000"
-      }
-    },
-    {
-      "id": "5da9cd9fd522",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Lisboa",
-      "destino_metro": "LIS",
-      "pais_texto": "Portugal",
-      "pais_iso2": "PT",
-      "preco_brl": 4024,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-11-08 a 2026-11-17",
-      "janela_inicio": "2026-11-08",
-      "janela_fim": "2026-11-17",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 765,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA4agcIARIDR1JVGhUSCjIwMjYtMTEtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi",
-          "titulo": "Lisboa — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 3824,
-        "minimo_visto": 3610,
-        "p10": 3610,
-        "desvio_pct": 5,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "acima_do_teto:4024>4000"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "70899149f821",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Seattle",
-      "destino_metro": "SEA",
-      "destino_iata": "SEA",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 4025,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "American",
-      "janela": "2026-08-24 a 2026-08-30",
-      "janela_inicio": "2026-08-24",
-      "janela_fim": "2026-08-30",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 1238,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI0agcIARIDR1JVGhUSCjIwMjYtMDgtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBkOWpy",
-          "titulo": "Seattle — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-26",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 4031,
-        "minimo_visto": 3975,
-        "p10": 3975,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "natureza",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
     }
   ]
 }
