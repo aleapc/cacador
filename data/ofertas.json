@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-26T17:14:04.172Z",
+  "gerado_em": "2026-07-26T18:11:35.997Z",
   "visto_ate": "2026-07-25T14:31:22+00:00",
   "ultimo_explore": "2026-07-26",
   "fontes": [
@@ -31,11 +31,12 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/promopassagens/110233",
     "https://t.me/melhoresdestinos/18691",
     "https://t.me/promopassagens/110216",
     "https://t.me/melhoresdestinos/18689",
