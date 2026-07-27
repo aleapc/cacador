@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-27T15:12:09.401Z",
+  "gerado_em": "2026-07-27T17:06:48.688Z",
   "visto_ate": "2026-07-26T13:30:53+00:00",
   "ultimo_explore": "2026-07-27",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 3,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,12 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18700",
     "https://t.me/melhoresdestinos/18699",
     "https://t.me/melhoresdestinos/18698",
     "https://t.me/melhoresdestinos/18696",
@@ -133,28 +134,26 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 3,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "incompleta": 1
-    },
-    "ineditas": 3,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 1,
     "rotas_no_historico": 151,
-    "com_baseline": 240,
+    "com_baseline": 239,
     "sem_tag": 64,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 402,
-        "casam_no_perfil": 191,
-        "dessas_ja_alertadas_antes": 188,
-        "novas_para_alertar": 3,
-        "alertados": 3,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 189,
+        "dessas_ja_alertadas_antes": 189,
+        "novas_para_alertar": 0,
+        "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 18,
+          "tipo": 19,
           "posicionamento_desligado": 46,
           "domestico": 35,
           "origem": 41,
@@ -5250,6 +5249,63 @@
       }
     },
     {
+      "id": "ec50be03f69c",
+      "origem_texto": "SP",
+      "origem_metro": "SAO",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 1189,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "ou 45 mil milhas o trecho mais taxas",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18700",
+          "titulo": "Miami com a Latam"
+        }
+      ],
+      "descoberto_em": "2026-07-27T15:45:34+00:00",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 9,
+        "mediana": 2419,
+        "minimo_visto": 1189,
+        "p10": 1189,
+        "desvio_pct": -51,
+        "raro": true
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
       "id": "b882394e0182",
       "origem_texto": "Floripa",
       "origem_metro": "FLN",
@@ -8225,10 +8281,10 @@
         "tem_baseline": true,
         "amostras": 9,
         "mediana": 2419,
-        "minimo_visto": 2051,
-        "p10": 2051,
+        "minimo_visto": 1189,
+        "p10": 1189,
         "desvio_pct": -15,
-        "raro": true
+        "raro": false
       },
       "perfis": {
         "ale-andreia": "casa"
@@ -8301,10 +8357,10 @@
         "tem_baseline": true,
         "amostras": 9,
         "mediana": 2419,
-        "minimo_visto": 2051,
-        "p10": 2051,
+        "minimo_visto": 1189,
+        "p10": 1189,
         "desvio_pct": -15,
-        "raro": true
+        "raro": false
       },
       "perfis": {
         "ale-andreia": "casa"
@@ -8851,8 +8907,8 @@
         "tem_baseline": true,
         "amostras": 9,
         "mediana": 2419,
-        "minimo_visto": 2051,
-        "p10": 2051,
+        "minimo_visto": 1189,
+        "p10": 1189,
         "desvio_pct": -12,
         "raro": false
       },
@@ -9914,8 +9970,8 @@
         "tem_baseline": true,
         "amostras": 9,
         "mediana": 2419,
-        "minimo_visto": 2051,
-        "p10": 2051,
+        "minimo_visto": 1189,
+        "p10": 1189,
         "desvio_pct": 0,
         "raro": false
       },
@@ -9978,8 +10034,8 @@
         "tem_baseline": true,
         "amostras": 9,
         "mediana": 2419,
-        "minimo_visto": 2051,
-        "p10": 2051,
+        "minimo_visto": 1189,
+        "p10": 1189,
         "desvio_pct": 0,
         "raro": false
       },
@@ -10551,8 +10607,8 @@
         "tem_baseline": true,
         "amostras": 9,
         "mediana": 2419,
-        "minimo_visto": 2051,
-        "p10": 2051,
+        "minimo_visto": 1189,
+        "p10": 1189,
         "desvio_pct": 3,
         "raro": false
       },
@@ -10615,8 +10671,8 @@
         "tem_baseline": true,
         "amostras": 9,
         "mediana": 2419,
-        "minimo_visto": 2051,
-        "p10": 2051,
+        "minimo_visto": 1189,
+        "p10": 1189,
         "desvio_pct": 3,
         "raro": false
       },
@@ -10794,8 +10850,8 @@
         "tem_baseline": true,
         "amostras": 9,
         "mediana": 2419,
-        "minimo_visto": 2051,
-        "p10": 2051,
+        "minimo_visto": 1189,
+        "p10": 1189,
         "desvio_pct": 3,
         "raro": false
       },
@@ -11285,8 +11341,8 @@
         "tem_baseline": true,
         "amostras": 9,
         "mediana": 2419,
-        "minimo_visto": 2051,
-        "p10": 2051,
+        "minimo_visto": 1189,
+        "p10": 1189,
         "desvio_pct": 7,
         "raro": false
       },
@@ -12221,8 +12277,8 @@
         "tem_baseline": true,
         "amostras": 9,
         "mediana": 2419,
-        "minimo_visto": 2051,
-        "p10": 2051,
+        "minimo_visto": 1189,
+        "p10": 1189,
         "desvio_pct": 11,
         "raro": false
       },
@@ -13511,8 +13567,8 @@
         "tem_baseline": true,
         "amostras": 9,
         "mediana": 2419,
-        "minimo_visto": 2051,
-        "p10": 2051,
+        "minimo_visto": 1189,
+        "p10": 1189,
         "desvio_pct": 16,
         "raro": false
       },
@@ -23982,72 +24038,6 @@
         "andreia": false
       },
       "match": false
-    },
-    {
-      "id": "b7708b062bec",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Paris",
-      "destino_metro": "PAR",
-      "destino_iata": "ORY",
-      "origem_iata": "GRU",
-      "pais_texto": "França",
-      "pais_iso2": "FR",
-      "preco_brl": 3915,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-11-06 a 2026-11-14",
-      "janela_inicio": "2026-11-06",
-      "janela_fim": "2026-11-14",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 890,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA2agcIARIDR1JVGhUSCjIwMjYtMTEtMTRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq",
-          "titulo": "Paris — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-27",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 3857,
-        "minimo_visto": 3706,
-        "p10": 3706,
-        "desvio_pct": 2,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido por +3 MESES alem da saida prevista do Schengen — as duas condicoes no dia da entrada, sem waiver para os 10 anos. Alem disso, art. 6 do CFS: justificar proposito e condicoes da estada e provar meios de subsistencia para a estada E para o retorno, avaliados 'por referencia aos precos medios de alojamento e alimentacao em acomodacao economica multiplicados pelo numero de dias'. Na pratica: passagem de saida, comprovante de hospedagem e dinheiro. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo, overstay automatico).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
     }
   ]
 }
