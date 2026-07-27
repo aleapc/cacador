@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-27T20:42:32.156Z",
-  "visto_ate": "2026-07-26T13:30:53+00:00",
+  "gerado_em": "2026-07-27T22:17:23.272Z",
+  "visto_ate": "2026-07-27T13:38:07+00:00",
   "ultimo_explore": "2026-07-27",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 2,
+      "lidas": 2,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,13 +16,13 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 1,
+      "novos": 2,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
-      "status": "vazio"
+      "novos": 1,
+      "status": "ok"
     },
     {
       "nome": "tg:canalpontospravoar",
@@ -31,11 +31,15 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18706",
+    "https://t.me/melhoresdestinos/18705",
+    "https://t.me/passageirodeprimeira/27864",
+    "https://t.me/promopassagens/110286",
     "https://t.me/melhoresdestinos/18704",
     "https://t.me/promopassagens/110275",
     "https://t.me/melhoresdestinos/18700",
@@ -133,33 +137,36 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 2,
+    "materias_lidas": 2,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 1,
+    "ofertas_extraidas": 10,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 1,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 9,
     "rotas_no_historico": 151,
-    "com_baseline": 238,
-    "sem_tag": 64,
+    "com_baseline": 237,
+    "sem_tag": 69,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
-        "casam_no_perfil": 188,
-        "dessas_ja_alertadas_antes": 188,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "total_avaliadas": 409,
+        "casam_no_perfil": 189,
+        "dessas_ja_alertadas_antes": 187,
+        "novas_para_alertar": 2,
+        "alertados": 2,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
-          "posicionamento_desligado": 46,
+          "posicionamento_desligado": 47,
           "domestico": 35,
-          "origem": 41,
-          "janela_curta": 71
+          "origem": 46,
+          "janela_curta": 71,
+          "acima_do_teto": 1
         }
       }
     }
@@ -314,14 +321,14 @@
       "posicionamento": {
         "praca": "Vitória",
         "praca_metro": "VIX",
-        "base_de_casa": 1307,
+        "base_de_casa": 1295,
         "base_origem": "São Paulo",
-        "economia_por_pessoa": 1034,
-        "economia_grupo": 2068,
+        "economia_por_pessoa": 1022,
+        "economia_grupo": 2044,
         "trecho_domestico": "SAO->VIX"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_2068"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_2044"
       },
       "tipos": [
         "praia",
@@ -416,14 +423,14 @@
       "posicionamento": {
         "praca": "Curitiba",
         "praca_metro": "CWB",
-        "base_de_casa": 1307,
+        "base_de_casa": 1295,
         "base_origem": "São Paulo",
-        "economia_por_pessoa": 969,
-        "economia_grupo": 1938,
+        "economia_por_pessoa": 957,
+        "economia_grupo": 1914,
         "trecho_domestico": "SAO->CWB"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1938"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1914"
       },
       "tipos": [
         "praia",
@@ -939,14 +946,14 @@
       "posicionamento": {
         "praca": "Ribeirão Preto",
         "praca_metro": "RAO",
-        "base_de_casa": 1307,
+        "base_de_casa": 1295,
         "base_origem": "São Paulo",
-        "economia_por_pessoa": 935,
-        "economia_grupo": 1870,
+        "economia_por_pessoa": 923,
+        "economia_grupo": 1846,
         "trecho_domestico": "SAO->RAO"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1870"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1846"
       },
       "tipos": [
         "praia",
@@ -1468,14 +1475,14 @@
       "posicionamento": {
         "praca": "Brasília",
         "praca_metro": "BSB",
-        "base_de_casa": 1307,
+        "base_de_casa": 1295,
         "base_origem": "São Paulo",
-        "economia_por_pessoa": 856,
-        "economia_grupo": 1712,
+        "economia_por_pessoa": 844,
+        "economia_grupo": 1688,
         "trecho_domestico": "SAO->BSB"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1712"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1688"
       },
       "tipos": [
         "praia",
@@ -5061,14 +5068,14 @@
       "posicionamento": {
         "praca": "Rio de Janeiro",
         "praca_metro": "RIO",
-        "base_de_casa": 1307,
+        "base_de_casa": 1295,
         "base_origem": "São Paulo",
-        "economia_por_pessoa": 217,
-        "economia_grupo": 434,
+        "economia_por_pessoa": 205,
+        "economia_grupo": 410,
         "trecho_domestico": "SAO->RIO"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_434"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_410"
       },
       "tipos": [
         "cidade_grande",
@@ -5340,14 +5347,14 @@
       "posicionamento": {
         "praca": "Floripa",
         "praca_metro": "FLN",
-        "base_de_casa": 1307,
+        "base_de_casa": 1295,
         "base_origem": "São Paulo",
-        "economia_por_pessoa": 102,
-        "economia_grupo": 204,
+        "economia_por_pessoa": 90,
+        "economia_grupo": 180,
         "trecho_domestico": "SAO->FLN"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_204"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_180"
       },
       "tipos": [
         "cidade_grande",
@@ -5557,6 +5564,63 @@
       },
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "351a5c6181b0",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1217,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "JetSMART",
+      "validade": "",
+      "observacao": "Menor valor",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/argentina-selecao-passagens-aereas-buenos-aires-1217",
+          "titulo": "Argentina: seleção de passagens para Buenos Aires a partir de R$ 1.217 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-27T12:46:26+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Rio de Janeiro",
+        "praca_metro": "RIO",
+        "base_de_casa": 1295,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 78,
+        "economia_grupo": 156,
+        "trecho_domestico": "SAO->RIO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_156"
       }
     },
     {
@@ -6118,6 +6182,54 @@
       }
     },
     {
+      "id": "d06cd32cda9e",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1295,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/argentina-selecao-passagens-aereas-buenos-aires-1217",
+          "titulo": "Argentina: seleção de passagens para Buenos Aires a partir de R$ 1.217 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-27T12:46:26+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "ab7355f92bc3",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -6497,6 +6609,54 @@
       }
     },
     {
+      "id": "744d33f34612",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "CNF",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1502,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/argentina-selecao-passagens-aereas-buenos-aires-1217",
+          "titulo": "Argentina: seleção de passagens para Buenos Aires a partir de R$ 1.217 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-27T12:46:26+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CNF"
+      }
+    },
+    {
       "id": "e7a0f1721888",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -6539,6 +6699,54 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "b7a3aa404a74",
+      "origem_texto": "Fortaleza",
+      "origem_metro": "FOR",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1568,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/argentina-selecao-passagens-aereas-buenos-aires-1217",
+          "titulo": "Argentina: seleção de passagens para Buenos Aires a partir de R$ 1.217 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-27T12:46:26+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:FOR"
+      }
     },
     {
       "id": "c1eada904914",
@@ -13653,6 +13861,55 @@
       "match": false
     },
     {
+      "id": "d93465df1fab",
+      "origem_texto": "Belém",
+      "origem_metro": "BEL",
+      "destino_texto": "Nova York",
+      "destino_metro": "",
+      "pais_iso2": "US",
+      "preco_brl": 2831,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/new-york-passagens-aereas-2831",
+          "titulo": "New York, New York! Seleção de passagens aéreas para a cidade a partir de R$ 2.831 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-27T13:38:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:BEL"
+      }
+    },
+    {
       "id": "f24e4062383d",
       "origem_texto": "",
       "origem_metro": "",
@@ -13973,6 +14230,55 @@
       }
     },
     {
+      "id": "92e347629673",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Nova York",
+      "destino_metro": "",
+      "pais_iso2": "US",
+      "preco_brl": 2940,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/new-york-passagens-aereas-2831",
+          "titulo": "New York, New York! Seleção de passagens aéreas para a cidade a partir de R$ 2.831 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-27T13:38:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:RIO"
+      }
+    },
+    {
       "id": "b373eb7da7f3",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -14224,6 +14530,55 @@
       ],
       "continente": "america_norte_central",
       "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "2406c753a3bd",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Nova York",
+      "destino_metro": "",
+      "pais_iso2": "US",
+      "preco_brl": 3002,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/new-york-passagens-aereas-2831",
+          "titulo": "New York, New York! Seleção de passagens aéreas para a cidade a partir de R$ 2.831 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-27T13:38:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
       "sem_visto": false,
       "visto": {
         "exige": "SIM",
@@ -14865,6 +15220,55 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "6f6290d44024",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "Nova York",
+      "destino_metro": "",
+      "pais_iso2": "US",
+      "preco_brl": 3121,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/new-york-passagens-aereas-2831",
+          "titulo": "New York, New York! Seleção de passagens aéreas para a cidade a partir de R$ 2.831 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-27T13:38:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:BSB"
+      }
     },
     {
       "id": "7259ee251c41",
@@ -23517,513 +23921,6 @@
         "exige": "NAO",
         "dias": 90,
         "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "2397216ec057",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Paris",
-      "destino_metro": "PAR",
-      "pais_texto": "França",
-      "pais_iso2": "FR",
-      "preco_brl": 3857,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-09-28 a 2026-10-07",
-      "janela_inicio": "2026-09-28",
-      "janela_fim": "2026-10-07",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 1100,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI4agcIARIDR1JVGhUSCjIwMjYtMTAtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq",
-          "titulo": "Paris — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 3857,
-        "minimo_visto": 3706,
-        "p10": 3706,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido por +3 MESES alem da saida prevista do Schengen — as duas condicoes no dia da entrada, sem waiver para os 10 anos. Alem disso, art. 6 do CFS: justificar proposito e condicoes da estada e provar meios de subsistencia para a estada E para o retorno, avaliados 'por referencia aos precos medios de alojamento e alimentacao em acomodacao economica multiplicados pelo numero de dias'. Na pratica: passagem de saida, comprovante de hospedagem e dinheiro. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo, overstay automatico).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "815a3980fa11",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Paris",
-      "destino_metro": "PAR",
-      "pais_texto": "França",
-      "pais_iso2": "FR",
-      "preco_brl": 3857,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-09-28 a 2026-10-07",
-      "janela_inicio": "2026-09-28",
-      "janela_fim": "2026-10-07",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 1100,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI4agcIARIDR1JVGhUSCjIwMjYtMTAtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1cXRq",
-          "titulo": "Paris — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 3857,
-        "minimo_visto": 3706,
-        "p10": 3706,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido por +3 MESES alem da saida prevista do Schengen — as duas condicoes no dia da entrada, sem waiver para os 10 anos. Alem disso, art. 6 do CFS: justificar proposito e condicoes da estada e provar meios de subsistencia para a estada E para o retorno, avaliados 'por referencia aos precos medios de alojamento e alimentacao em acomodacao economica multiplicados pelo numero de dias'. Na pratica: passagem de saida, comprovante de hospedagem e dinheiro. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo, overstay automatico).",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "137ada09277e",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Barcelona",
-      "destino_metro": "BCN",
-      "destino_iata": "BCN",
-      "origem_iata": "GRU",
-      "pais_texto": "Espanha",
-      "pais_iso2": "ES",
-      "preco_brl": 3864,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-11-16 a 2026-11-24",
-      "janela_inicio": "2026-11-16",
-      "janela_fim": "2026-11-24",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 830,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE2agcIARIDR1JVGhUSCjIwMjYtMTEtMjRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxZjYy",
-          "titulo": "Barcelona — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-26",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 3711,
-        "minimo_visto": 3672,
-        "p10": 3672,
-        "desvio_pct": 4,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico",
-        "praia"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "dde8d1cc78e0",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Roma",
-      "destino_metro": "FCO",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 3884,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia",
-      "janela": "2026-12-03 a 2026-12-10",
-      "janela_inicio": "2026-12-03",
-      "janela_fim": "2026-12-10",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 960,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEyLTAzagcIARIDR1JVGhUSCjIwMjYtMTItMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
-          "titulo": "Roma — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "cf1496d557c6",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Roma",
-      "destino_metro": "FCO",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 3887,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Iberia",
-      "janela": "2026-11-09 a 2026-11-18",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-18",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 900,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
-          "titulo": "Roma — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "32784e92f6c8",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Lisboa",
-      "destino_metro": "LIS",
-      "pais_texto": "Portugal",
-      "pais_iso2": "PT",
-      "preco_brl": 3890,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "British Airways",
-      "janela": "2026-11-19 a 2026-11-26",
-      "janela_inicio": "2026-11-19",
-      "janela_fim": "2026-11-26",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 1020,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE5agcIARIDR1JVGhUSCjIwMjYtMTEtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi",
-          "titulo": "Lisboa — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 3819,
-        "minimo_visto": 3610,
-        "p10": 3610,
-        "desvio_pct": 2,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "74e0e88f1aed",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Dubai",
-      "destino_metro": "SHJ",
-      "pais_texto": "Emirados Árabes Unidos",
-      "pais_iso2": "AE",
-      "preco_brl": 3890,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Ethiopian",
-      "janela": "2026-08-06 a 2026-08-13",
-      "janela_inicio": "2026-08-06",
-      "janela_fim": "2026-08-13",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 1120,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxZjA4cg",
-          "titulo": "Dubai — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 3823,
-        "minimo_visto": 3812,
-        "p10": 3812,
-        "desvio_pct": 2,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "descanso"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A CONTA DOS 90 DIAS É POR 12 MESES, NÃO POR VIAGEM. São 90 dias a cada período de 12 meses contados da PRIMEIRA entrada — sair e voltar não zera o contador. Quem usa Dubai como hub de conexões repetidas ao longo do ano pode estourar a cota sem perceber. Passaporte com 6 meses de validade. O sistema migratório (ICP federal, GDRFA em Dubai) é automatizado e rigoroso, e overstay gera multa diária.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "81847353b937",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Amsterdã",
-      "destino_metro": "AMS",
-      "pais_texto": "Países Baixos",
-      "pais_iso2": "NL",
-      "preco_brl": 3903,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-11-08 a 2026-11-17",
-      "janela_inicio": "2026-11-08",
-      "janela_fim": "2026-11-17",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 875,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTEyagcIARIDR1JVGhUSCjIwMjYtMTEtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDSoLCAMSBy9tLzBrM3A",
-          "titulo": "Amsterdã — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 4029,
-        "minimo_visto": 3903,
-        "p10": 3903,
-        "desvio_pct": -3,
-        "raro": true
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE (omitido no dataset anterior): emitido nos ULTIMOS 10 ANOS e valido +3 MESES alem da saida prevista do Schengen. Art. 6 do CFS: proposito, meios de subsistencia para estada e retorno, ausencia de alerta no SIS. Schiphol e um dos maiores hubs de conexao de brasileiros — atencao: conexao que sai da area de transito internacional = ENTRADA no Schengen, entra na conta do 90/180 e no EES. EES 100% operacional desde 10/04/2026 (biometria, fim do carimbo).",
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
