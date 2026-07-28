@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-28T22:16:21.404Z",
+  "gerado_em": "2026-07-28T23:16:42.516Z",
   "visto_ate": "2026-07-28T14:39:49+00:00",
   "ultimo_explore": "2026-07-28",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 2,
-      "lidas": 2,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -26,16 +26,17 @@
     },
     {
       "nome": "tg:canalpontospravoar",
-      "novos": 0,
-      "status": "vazio"
+      "novos": 1,
+      "status": "ok"
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/canalpontospravoar/26791",
     "https://t.me/promopassagens/110337",
     "https://t.me/promopassagens/110330",
     "https://t.me/promopassagens/110325",
@@ -151,35 +152,35 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 2,
-    "materias_lidas": 2,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 4,
+    "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 1,
     "por_motivo_de_descarte": {
       "incompleta": 1
     },
-    "ineditas": 4,
+    "ineditas": 0,
     "rotas_no_historico": 155,
-    "com_baseline": 238,
-    "sem_tag": 73,
+    "com_baseline": 235,
+    "sem_tag": 72,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 404,
-        "casam_no_perfil": 174,
-        "dessas_ja_alertadas_antes": 172,
-        "novas_para_alertar": 2,
-        "alertados": 2,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 171,
+        "dessas_ja_alertadas_antes": 171,
+        "novas_para_alertar": 0,
+        "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
           "posicionamento_desligado": 48,
           "domestico": 37,
           "origem": 46,
-          "janela_curta": 79
+          "janela_curta": 78
         }
       }
     }
