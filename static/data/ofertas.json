@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-29T17:37:03.994Z",
+  "gerado_em": "2026-07-29T19:41:40.156Z",
   "visto_ate": "2026-07-28T14:39:49+00:00",
   "ultimo_explore": "2026-07-29",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 1,
+      "novos": 2,
       "status": "ok"
     },
     {
@@ -31,11 +31,14 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18732",
+    "https://t.me/melhoresdestinos/18730",
+    "https://t.me/promopassagens/110373",
     "https://t.me/melhoresdestinos/18728",
     "https://t.me/melhoresdestinos/18725",
     "https://t.me/melhoresdestinos/18724",
@@ -164,19 +167,21 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 1,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 1,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 2,
     "rotas_no_historico": 155,
     "com_baseline": 235,
-    "sem_tag": 72,
+    "sem_tag": 74,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
+        "total_avaliadas": 402,
         "casam_no_perfil": 178,
         "dessas_ja_alertadas_antes": 177,
         "novas_para_alertar": 1,
@@ -185,7 +190,7 @@
         "rejeitados": {
           "tipo": 20,
           "posicionamento_desligado": 47,
-          "domestico": 39,
+          "domestico": 40,
           "origem": 46,
           "janela_curta": 71
         }
@@ -1039,6 +1044,52 @@
       "match": false,
       "perfis": {
         "ale-andreia": "origem:VIX"
+      }
+    },
+    {
+      "id": "cb4d8198c45e",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "América do Sul",
+      "destino_metro": "",
+      "pais_iso2": null,
+      "preco_brl": 391,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "Tarifas a partir de R$ 391",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110373",
+          "titulo": "🛩 Alerta De Passagens Ppv! Viaje Pela América Do Sul Com Tarifas A Partir De R$ 391 Na Latam"
+        }
+      ],
+      "descoberto_em": "2026-07-29T18:15:45+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
       }
     },
     {
@@ -4005,6 +4056,52 @@
       "match": false,
       "perfis": {
         "ale-andreia": "tipo:misto"
+      }
+    },
+    {
+      "id": "ba611d01c4ab",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "João Pessoa",
+      "destino_metro": "JPA",
+      "pais_iso2": "BR",
+      "preco_brl": 755,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18732",
+          "titulo": "Partiu Jampa ☀️"
+        }
+      ],
+      "descoberto_em": "2026-07-29T19:23:47+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
       }
     },
     {
@@ -23808,116 +23905,6 @@
         "andreia": false
       },
       "match": false
-    },
-    {
-      "id": "d24f87d74e8a",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Boston",
-      "destino_metro": "BOS",
-      "destino_iata": "BOS",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3650,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-10-02 a 2026-10-10",
-      "janela_inicio": "2026-10-02",
-      "janela_fim": "2026-10-10",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 875,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTAyagcIARIDR1JVGhUSCjIwMjYtMTAtMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxY3hf",
-          "titulo": "Boston — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3647,
-        "minimo_visto": 3616,
-        "p10": 3619,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "418d664131d8",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Helsinque",
-      "destino_metro": "HEL",
-      "pais_iso2": "FI",
-      "preco_brl": 3651,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "inclui",
-      "companhia": "",
-      "validade": "época da aurora boreal",
-      "observacao": "na época da aurora boreal",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18682",
-          "titulo": "Finlândia imperdível 🔥"
-        }
-      ],
-      "descoberto_em": "2026-07-25T13:00:16+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
     }
   ]
 }
