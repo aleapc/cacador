@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-29T12:19:04.042Z",
+  "gerado_em": "2026-07-29T15:18:44.566Z",
   "visto_ate": "2026-07-28T14:39:49+00:00",
   "ultimo_explore": "2026-07-29",
   "fontes": [
@@ -16,13 +16,13 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 4,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
-      "status": "vazio"
+      "novos": 2,
+      "status": "ok"
     },
     {
       "nome": "tg:canalpontospravoar",
@@ -31,11 +31,18 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18725",
+    "https://t.me/melhoresdestinos/18724",
+    "https://t.me/melhoresdestinos/18723",
+    "https://t.me/melhoresdestinos/18721",
+    "https://t.me/passageirodeprimeira/27894",
+    "https://t.me/passageirodeprimeira/27893",
+    "https://t.me/promopassagens/110357",
     "https://t.me/promopassagens/110347",
     "https://t.me/canalpontospravoar/26791",
     "https://t.me/promopassagens/110337",
@@ -156,30 +163,33 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 4,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "descartadas": 4,
+    "por_motivo_de_descarte": {
+      "incompleta": 4
+    },
+    "ineditas": 4,
     "rotas_no_historico": 155,
     "com_baseline": 235,
-    "sem_tag": 72,
+    "sem_tag": 76,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 177,
+        "total_avaliadas": 404,
+        "casam_no_perfil": 179,
         "dessas_ja_alertadas_antes": 177,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 2,
+        "alertados": 2,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
           "posicionamento_desligado": 47,
           "domestico": 39,
           "origem": 46,
-          "janela_curta": 71
+          "janela_curta": 71,
+          "acima_do_teto": 2
         }
       }
     }
@@ -6997,6 +7007,52 @@
       "match": false,
       "perfis": {
         "ale-andreia": "tipo:misto"
+      }
+    },
+    {
+      "id": "d82953204fad",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Deserto do Atacama",
+      "destino_metro": "CJC",
+      "pais_iso2": "CL",
+      "preco_brl": 1492,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Parada grátis em Santiago",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18725",
+          "titulo": "Chile 2x1 🇨🇱"
+        }
+      ],
+      "descoberto_em": "2026-07-29T14:28:38+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
       }
     },
     {
@@ -17032,6 +17088,57 @@
       }
     },
     {
+      "id": "5aadeea16fb3",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Joanesburgo",
+      "destino_metro": "JNB",
+      "pais_iso2": "ZA",
+      "preco_brl": 3115,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "",
+      "observacao": "Voos diretos",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18724",
+          "titulo": "África do Sul 🇿🇦"
+        }
+      ],
+      "descoberto_em": "2026-07-29T13:47:28+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "DUPLA PEGADINHA, AMBAS CONFIRMADAS NESTA AUDITORIA. (1) FEBRE AMARELA: o Brasil é país de risco para a África do Sul. Sem o certificado internacional (CIVP) a fonte oficial prevê 'refusal of entry, or quarantine until your certificate becomes valid' — quarentena de até 6 dias. Vacina no mínimo 10 dias antes. (2) DECLARAÇÃO ONLINE: obrigatória desde 01/07/2026 para ENTRADA E SAÍDA, por ar, terra, mar e trilho — inclui o voo de volta, não é só chegada. Em itinerário com escalas, conta-se 24h antes do último trecho com destino direto à África do Sul. Só trânsito aéreo/marítimo sem sair da área de trânsito é isento. Passaporte: 2 páginas em branco e validade de 30 dias além da saída.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "6f6290d44024",
       "origem_texto": "Brasília",
       "origem_metro": "BSB",
@@ -23795,94 +23902,6 @@
         }
       ],
       "descoberto_em": "2026-07-25T13:00:16+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "a917d6813112",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Helsinque",
-      "destino_metro": "HEL",
-      "pais_iso2": "FI",
-      "preco_brl": 3651,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "inclui",
-      "companhia": "",
-      "validade": "",
-      "observacao": "na época da aurora boreal",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18638",
-          "titulo": "Finlândia imperdível 🔥"
-        }
-      ],
-      "descoberto_em": "2026-07-23T12:02:22+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "c905d5294dd1",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Helsinque",
-      "destino_metro": "HEL",
-      "pais_iso2": "FI",
-      "preco_brl": 3651,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "inclui",
-      "companhia": "",
-      "validade": "época da aurora boreal",
-      "observacao": "na época da aurora boreal",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18632",
-          "titulo": "Finlândia sensacional 🔥"
-        }
-      ],
-      "descoberto_em": "2026-07-22T20:19:38+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 4,
