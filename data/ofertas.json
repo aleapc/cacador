@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-29T19:41:40.156Z",
+  "gerado_em": "2026-07-29T21:11:57.808Z",
   "visto_ate": "2026-07-28T14:39:49+00:00",
   "ultimo_explore": "2026-07-29",
   "fontes": [
@@ -21,21 +21,24 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
       "nome": "tg:canalpontospravoar",
       "novos": 0,
-      "status": "ok"
+      "status": "vazio"
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18735",
+    "https://t.me/melhoresdestinos/18733",
+    "https://t.me/passageirodeprimeira/27915",
     "https://t.me/melhoresdestinos/18732",
     "https://t.me/melhoresdestinos/18730",
     "https://t.me/promopassagens/110373",
@@ -176,19 +179,19 @@
     },
     "ineditas": 2,
     "rotas_no_historico": 155,
-    "com_baseline": 235,
+    "com_baseline": 234,
     "sem_tag": 74,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
         "total_avaliadas": 402,
-        "casam_no_perfil": 178,
-        "dessas_ja_alertadas_antes": 177,
+        "casam_no_perfil": 177,
+        "dessas_ja_alertadas_antes": 176,
         "novas_para_alertar": 1,
         "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 20,
+          "tipo": 21,
           "posicionamento_desligado": 47,
           "domestico": 40,
           "origem": 46,
@@ -371,6 +374,52 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "763c475a0a91",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "João Pessoa",
+      "destino_metro": "JPA",
+      "pais_iso2": "BR",
+      "preco_brl": 276,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol",
+      "validade": "",
+      "observacao": "ou 18 mil milhas o trecho mais taxas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18733",
+          "titulo": "Nordeste com Smiles 🌴"
+        }
+      ],
+      "descoberto_em": "2026-07-29T20:14:51+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
     },
     {
       "id": "19536cab2f59",
@@ -15197,6 +15246,61 @@
       }
     },
     {
+      "id": "a9b6cd954476",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 2783,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Parada grátis no Panamá; a partir de",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18735",
+          "titulo": "2x1 Panamá + EUA 🇵🇦🇺🇸"
+        }
+      ],
+      "descoberto_em": "2026-07-29T21:01:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "57c98d07a281",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -23777,134 +23881,6 @@
       "perfis": {
         "ale-andreia": "casa"
       }
-    },
-    {
-      "id": "53154cf9260c",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Boston",
-      "destino_metro": "BOS",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3647,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-09-25 a 2026-10-01",
-      "janela_inicio": "2026-09-25",
-      "janela_fim": "2026-10-01",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 875,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxY3hf",
-          "titulo": "Boston — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3647,
-        "minimo_visto": 3616,
-        "p10": 3619,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "877b0e31945e",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Boston",
-      "destino_metro": "BOS",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3647,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-09-25 a 2026-10-01",
-      "janela_inicio": "2026-09-25",
-      "janela_fim": "2026-10-01",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 875,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxY3hf",
-          "titulo": "Boston — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3647,
-        "minimo_visto": 3616,
-        "p10": 3619,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
     }
   ]
 }
