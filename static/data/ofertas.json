@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-30T12:03:17.003Z",
+  "gerado_em": "2026-07-30T14:29:45.105Z",
   "visto_ate": "2026-07-29T20:59:45+00:00",
   "ultimo_explore": "2026-07-30",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 3,
       "status": "ok"
     },
     {
@@ -36,6 +36,9 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18739",
+    "https://t.me/melhoresdestinos/18738",
+    "https://t.me/melhoresdestinos/18737",
     "https://t.me/promopassagens/110385",
     "https://t.me/melhoresdestinos/18736",
     "https://t.me/promopassagens/110383",
@@ -173,19 +176,21 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 2,
     "rotas_no_historico": 160,
     "com_baseline": 227,
-    "sem_tag": 81,
+    "sem_tag": 82,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 402,
         "casam_no_perfil": 178,
         "dessas_ja_alertadas_antes": 178,
         "novas_para_alertar": 0,
@@ -194,9 +199,10 @@
         "rejeitados": {
           "tipo": 21,
           "posicionamento_desligado": 50,
-          "domestico": 43,
+          "domestico": 44,
           "origem": 47,
-          "janela_curta": 61
+          "janela_curta": 61,
+          "acima_do_teto": 1
         }
       }
     }
@@ -3746,6 +3752,50 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "3c7dd3f75ac0",
+      "origem_texto": "SP",
+      "origem_metro": "",
+      "destino_texto": "Porto Seguro",
+      "destino_metro": "BPS",
+      "pais_iso2": "BR",
+      "preco_brl": 678,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18739",
+          "titulo": "Bahia no precinho 🌴"
+        }
+      ],
+      "descoberto_em": "2026-07-30T13:26:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "073ae2087b9a",
@@ -23696,72 +23746,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "8b8519952a3f",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "San Diego",
-      "destino_metro": "SAN",
-      "destino_iata": "SAN",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3604,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-22 a 2026-10-28",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-28",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1063,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MXZy",
-          "titulo": "San Diego — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-28",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 12,
-        "mediana": 3612,
-        "minimo_visto": 3602,
-        "p10": 3604,
-        "desvio_pct": 0,
-        "raro": true
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       }
     }
   ]
