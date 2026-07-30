@@ -2,9 +2,16 @@ import { base } from '$app/paths';
 
 export async function carregar() {
   const url = `${base}/data/ofertas.json`;
-  const r = await fetch(url, { cache: 'no-cache' });
+  const urlEscapadas = `${base}/data/escapadas.json`;
+  const [r, re] = await Promise.all([
+    fetch(url, { cache: 'no-cache' }),
+    fetch(urlEscapadas, { cache: 'no-cache' }),
+  ]);
   if (!r.ok) throw new Error(`não consegui ler ${url} (HTTP ${r.status})`);
-  return r.json();
+  const dados = await r.json();
+  if (!re.ok) return { ...dados, escapadas: [], escapadas_meta: { status: 'indisponivel' } };
+  const escapadas = await re.json();
+  return { ...dados, escapadas: escapadas.escapadas ?? [], escapadas_meta: escapadas };
 }
 
 export const brl = (n) =>
@@ -31,15 +38,47 @@ export const janelaCurta = (j) => {
 // Estado local do casal: favoritar e descartar.
 // Fica no aparelho — sem servidor, sem conta, sem login. O sync entre os dois
 // vem depois pelo padrão de código via WhatsApp, igual aos outros PWAs.
-const CHAVE = 'CACADOR_v1';
+const CHAVE = 'VIAGEM_PARA_DOIS_v2';
+const CHAVE_ANTIGA = 'CACADOR_v1';
 
-const VAZIO = { favoritos: [], descartados: [], gosto: {} };
+const VAZIO = {
+  favoritos: [],
+  descartados: [],
+  gosto: {},
+  escapadasFavoritas: [],
+  casal: {
+    completo: false,
+    cidade: '',
+    pessoas: [
+      { id: 'p1', nome: '', cor: '#38BDF8' },
+      { id: 'p2', nome: '', cor: '#F472B6' },
+    ],
+  },
+};
+
+function normalizar(salvo = {}) {
+  const pessoas = salvo.casal?.pessoas?.length === 2
+    ? salvo.casal.pessoas
+    : VAZIO.casal.pessoas;
+  return {
+    ...VAZIO,
+    ...salvo,
+    favoritos: salvo.favoritos ?? [],
+    descartados: salvo.descartados ?? [],
+    gosto: salvo.gosto ?? {},
+    escapadasFavoritas: salvo.escapadasFavoritas ?? [],
+    casal: { ...VAZIO.casal, ...(salvo.casal ?? {}), pessoas },
+  };
+}
 
 export function lerEstado() {
   try {
-    return { ...VAZIO, ...(JSON.parse(localStorage.getItem(CHAVE)) ?? {}) };
+    const atual = JSON.parse(localStorage.getItem(CHAVE));
+    if (atual) return normalizar(atual);
+    const antigo = JSON.parse(localStorage.getItem(CHAVE_ANTIGA));
+    return normalizar(antigo ?? {});
   } catch {
-    return { ...VAZIO };
+    return normalizar();
   }
 }
 
