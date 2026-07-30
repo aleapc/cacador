@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-07-29T23:13:04.942Z",
+  "gerado_em": "2026-07-30T00:10:23.769Z",
   "visto_ate": "2026-07-29T20:59:45+00:00",
-  "ultimo_explore": "2026-07-29",
+  "ultimo_explore": "2026-07-30",
   "fontes": [
     {
       "nome": "melhores-destinos",
@@ -11,8 +11,8 @@
     },
     {
       "nome": "google-explore",
-      "destinos": 0,
-      "status": "nao_rodou"
+      "destinos": 89,
+      "status": "ok"
     },
     {
       "nome": "tg:melhoresdestinos",
@@ -31,7 +31,7 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
@@ -174,29 +174,30 @@
     "materias_lidas": 0,
     "extracoes_falhas": 0,
     "ofertas_extraidas": 0,
-    "explore_destinos": 0,
-    "explore_status": "nao_rodou",
+    "explore_destinos": 89,
+    "explore_status": "ok",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 69,
     "rotas_no_historico": 160,
-    "com_baseline": 226,
-    "sem_tag": 80,
+    "com_baseline": 290,
+    "sem_tag": 82,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 174,
+        "total_avaliadas": 469,
+        "casam_no_perfil": 194,
         "dessas_ja_alertadas_antes": 174,
-        "novas_para_alertar": 0,
-        "alertados": 0,
-        "cortadas_pelo_teto": 0,
+        "novas_para_alertar": 20,
+        "alertados": 5,
+        "cortadas_pelo_teto": 15,
         "rejeitados": {
           "tipo": 21,
           "posicionamento_desligado": 50,
-          "domestico": 41,
+          "domestico": 43,
           "origem": 47,
-          "janela_curta": 67
+          "janela_curta": 85,
+          "acima_do_teto": 29
         }
       }
     }
@@ -604,11 +605,11 @@
       "descoberto_em": "2026-07-21T15:57:15+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": -36,
+        "desvio_pct": -39,
         "raro": true
       },
       "perfis": {
@@ -1369,11 +1370,11 @@
       "descoberto_em": "2026-07-25T14:04:21+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": -23,
+        "desvio_pct": -27,
         "raro": true
       },
       "tipos": [
@@ -1429,11 +1430,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": -22,
+        "desvio_pct": -26,
         "raro": false
       },
       "perfis": {
@@ -1538,11 +1539,11 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": -20,
+        "desvio_pct": -23,
         "raro": false
       },
       "perfis": {
@@ -1909,11 +1910,11 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": -12,
+        "desvio_pct": -16,
         "raro": false
       },
       "perfis": {
@@ -2022,11 +2023,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": -3,
+        "desvio_pct": -7,
         "raro": false
       },
       "perfis": {
@@ -2126,8 +2127,8 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
         "desvio_pct": -36,
@@ -2187,11 +2188,11 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": 0,
+        "desvio_pct": -5,
         "raro": false
       },
       "tipos": [
@@ -2302,11 +2303,11 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": 0,
+        "desvio_pct": -5,
         "raro": false
       },
       "tipos": [
@@ -2625,11 +2626,11 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": 9,
+        "desvio_pct": 5,
         "raro": false
       },
       "tipos": [
@@ -2687,11 +2688,11 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": 9,
+        "desvio_pct": 5,
         "raro": false
       },
       "tipos": [
@@ -2749,11 +2750,11 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": 11,
+        "desvio_pct": 6,
         "raro": false
       },
       "tipos": [
@@ -2864,8 +2865,8 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
         "desvio_pct": -27,
@@ -2923,8 +2924,8 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
         "desvio_pct": -26,
@@ -2984,11 +2985,11 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": 14,
+        "desvio_pct": 9,
         "raro": false
       },
       "tipos": [
@@ -3392,11 +3393,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": 17,
+        "desvio_pct": 12,
         "raro": false
       },
       "tipos": [
@@ -3454,11 +3455,11 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 551,
+        "amostras": 12,
+        "mediana": 577,
         "minimo_visto": 354,
         "p10": 422,
-        "desvio_pct": 17,
+        "desvio_pct": 12,
         "raro": false
       },
       "tipos": [
@@ -3748,6 +3749,68 @@
       "match": false
     },
     {
+      "id": "073ae2087b9a",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "destino_iata": "GIG",
+      "origem_iata": "GRU",
+      "pais_texto": "Brasil",
+      "pais_iso2": "BR",
+      "preco_brl": 680,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-09-27 a 2026-10-06",
+      "janela_inicio": "2026-09-27",
+      "janela_fim": "2026-10-06",
+      "noites": 9,
+      "escalas": 0,
+      "duracao_min": 60,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI3agcIARIDR1JVGhUSCjIwMjYtMTAtMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
+          "titulo": "Rio de Janeiro — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 577,
+        "minimo_visto": 354,
+        "p10": 422,
+        "desvio_pct": 18,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "f928037ca830",
       "origem_texto": "Curitiba",
       "origem_metro": "CWB",
@@ -3878,8 +3941,8 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
         "desvio_pct": -15,
@@ -4287,8 +4350,8 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
         "desvio_pct": -10,
@@ -4580,8 +4643,8 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
         "desvio_pct": 0,
@@ -4694,11 +4757,11 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
-        "desvio_pct": 1,
+        "desvio_pct": 0,
         "raro": false
       },
       "tipos": [
@@ -5037,8 +5100,8 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
         "desvio_pct": 4,
@@ -5107,6 +5170,67 @@
       }
     },
     {
+      "id": "b6bca25f619b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Salvador",
+      "destino_metro": "SSA",
+      "destino_iata": "SSA",
+      "origem_iata": "GRU",
+      "pais_texto": "Brasil",
+      "pais_iso2": "BR",
+      "preco_brl": 891,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol",
+      "janela": "2026-08-20 a 2026-08-26",
+      "janela_inicio": "2026-08-20",
+      "janela_fim": "2026-08-26",
+      "noites": 6,
+      "escalas": 0,
+      "duracao_min": 145,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA5d3dsag",
+          "titulo": "Salvador — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 848,
+        "minimo_visto": 545,
+        "p10": 619,
+        "desvio_pct": 5,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "0f57b624b1d3",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -5142,8 +5266,8 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
         "desvio_pct": 6,
@@ -5203,8 +5327,8 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
         "desvio_pct": 7,
@@ -5452,8 +5576,8 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
         "desvio_pct": 20,
@@ -5511,8 +5635,8 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 845,
+        "amostras": 12,
+        "mediana": 848,
         "minimo_visto": 545,
         "p10": 619,
         "desvio_pct": 20,
@@ -5945,8 +6069,8 @@
       "descoberto_em": "2026-07-27T15:45:34+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
         "desvio_pct": -52,
@@ -6068,7 +6192,7 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -6129,7 +6253,7 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -6190,7 +6314,7 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -6368,7 +6492,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -6429,7 +6553,7 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -6490,7 +6614,7 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -6563,7 +6687,7 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -6636,11 +6760,72 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 0,
+        "raro": false
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "4fd85f866e5d",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "BUE",
+      "destino_iata": "EZE",
+      "origem_iata": "GRU",
+      "pais_texto": "Argentina",
+      "pais_iso2": "AR",
+      "preco_brl": 1228,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Turkish Airlines",
+      "janela": "2026-08-27 a 2026-09-03",
+      "janela_inicio": "2026-08-27",
+      "janela_fim": "2026-09-03",
+      "noites": 7,
+      "escalas": 0,
+      "duracao_min": 185,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI3agcIARIDR1JVGhUSCjIwMjYtMDktMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxbHk1bQ",
+          "titulo": "Buenos Aires — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 1219,
+        "minimo_visto": 1216,
+        "p10": 1216,
+        "desvio_pct": 1,
         "raro": false
       },
       "tipos": [
@@ -6695,7 +6880,7 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -6754,7 +6939,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -6895,8 +7080,8 @@
           1400,
           1800
         ],
-        "lowest": 1294,
-        "desvio_pct": -19,
+        "lowest": 1339,
+        "desvio_pct": -16,
         "pontos_historico": 61
       },
       "perfis": {
@@ -7033,7 +7218,7 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -7094,7 +7279,7 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -7790,7 +7975,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 1219,
         "minimo_visto": 1216,
         "p10": 1216,
@@ -7952,11 +8137,11 @@
       "descoberto_em": "2026-07-16T00:19:03+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": -2,
+        "desvio_pct": -6,
         "raro": true
       },
       "perfis": {
@@ -8018,11 +8203,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": -1,
+        "desvio_pct": -5,
         "raro": true
       },
       "tipos": [
@@ -8082,11 +8267,11 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": -1,
+        "desvio_pct": -5,
         "raro": true
       },
       "perfis": {
@@ -8146,11 +8331,11 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": -1,
+        "desvio_pct": -5,
         "raro": true
       },
       "perfis": {
@@ -8212,11 +8397,11 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": -1,
+        "desvio_pct": -5,
         "raro": false
       },
       "tipos": [
@@ -8278,11 +8463,11 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": 0,
+        "desvio_pct": -4,
         "raro": false
       },
       "tipos": [
@@ -8344,11 +8529,11 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": 0,
+        "desvio_pct": -4,
         "raro": false
       },
       "tipos": [
@@ -8511,11 +8696,11 @@
       "descoberto_em": "2026-07-21T13:26:13+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": -10,
+        "desvio_pct": -13,
         "raro": true
       },
       "perfis": {
@@ -8704,7 +8889,7 @@
           2250,
           3700
         ],
-        "lowest": 2297,
+        "lowest": 2298,
         "desvio_pct": -23,
         "pontos_historico": 61
       },
@@ -8746,11 +8931,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": -6,
+        "desvio_pct": -10,
         "raro": true
       },
       "perfis": {
@@ -8866,11 +9051,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": -5,
+        "desvio_pct": -8,
         "raro": false
       },
       "perfis": {
@@ -8938,11 +9123,11 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": -5,
+        "desvio_pct": -8,
         "raro": false
       },
       "perfis": {
@@ -9015,11 +9200,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": 9,
+        "desvio_pct": 4,
         "raro": false
       },
       "perfis": {
@@ -9191,11 +9376,11 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": -4,
+        "desvio_pct": -7,
         "raro": false
       },
       "tipos": [
@@ -9251,11 +9436,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": 14,
+        "desvio_pct": 9,
         "raro": false
       },
       "perfis": {
@@ -9317,11 +9502,11 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": 14,
+        "desvio_pct": 9,
         "raro": false
       },
       "tipos": [
@@ -9383,11 +9568,11 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": 14,
+        "desvio_pct": 9,
         "raro": false
       },
       "tipos": [
@@ -9447,11 +9632,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": 0,
+        "desvio_pct": -3,
         "raro": false
       },
       "perfis": {
@@ -9521,11 +9706,11 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": 15,
+        "desvio_pct": 10,
         "raro": false
       },
       "tipos": [
@@ -9585,8 +9770,8 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
         "desvio_pct": -18,
@@ -9661,8 +9846,8 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
         "desvio_pct": -18,
@@ -9737,11 +9922,11 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": 3,
+        "desvio_pct": -1,
         "raro": false
       },
       "perfis": {
@@ -9809,10 +9994,10 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2431,
+        "amostras": 10,
+        "mediana": 2449,
         "minimo_visto": 2094,
-        "p10": 2094,
+        "p10": 2155,
         "desvio_pct": -14,
         "raro": true
       },
@@ -9922,11 +10107,11 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": 4,
+        "desvio_pct": 0,
         "raro": false
       },
       "tipos": [
@@ -9984,11 +10169,11 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": 5,
+        "desvio_pct": 1,
         "raro": false
       },
       "tipos": [
@@ -10211,8 +10396,8 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
         "desvio_pct": -14,
@@ -10277,12 +10462,12 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2431,
+        "amostras": 10,
+        "mediana": 2449,
         "minimo_visto": 2094,
-        "p10": 2094,
-        "desvio_pct": -11,
-        "raro": false
+        "p10": 2155,
+        "desvio_pct": -12,
+        "raro": true
       },
       "tipos": [
         "cidade_grande",
@@ -10342,12 +10527,12 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2431,
+        "amostras": 10,
+        "mediana": 2449,
         "minimo_visto": 2094,
-        "p10": 2094,
-        "desvio_pct": -11,
-        "raro": false
+        "p10": 2155,
+        "desvio_pct": -12,
+        "raro": true
       },
       "tipos": [
         "cidade_grande",
@@ -10454,11 +10639,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": 24,
+        "desvio_pct": 19,
         "raro": false
       },
       "perfis": {
@@ -10709,11 +10894,11 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": 12,
+        "desvio_pct": 8,
         "raro": false
       },
       "tipos": [
@@ -10771,11 +10956,11 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2495,
+        "amostras": 12,
+        "mediana": 2544,
         "minimo_visto": 2275,
         "p10": 2277,
-        "desvio_pct": -9,
+        "desvio_pct": -11,
         "raro": true
       },
       "tipos": [
@@ -10832,11 +11017,11 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2495,
+        "amostras": 12,
+        "mediana": 2544,
         "minimo_visto": 2275,
         "p10": 2277,
-        "desvio_pct": -9,
+        "desvio_pct": -10,
         "raro": true
       },
       "tipos": [
@@ -10893,11 +11078,11 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2495,
+        "amostras": 12,
+        "mediana": 2544,
         "minimo_visto": 2275,
         "p10": 2277,
-        "desvio_pct": -9,
+        "desvio_pct": -10,
         "raro": true
       },
       "tipos": [
@@ -10954,11 +11139,11 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2495,
+        "amostras": 12,
+        "mediana": 2544,
         "minimo_visto": 2275,
         "p10": 2277,
-        "desvio_pct": -8,
+        "desvio_pct": -10,
         "raro": false
       },
       "tipos": [
@@ -11084,7 +11269,7 @@
           2250,
           3700
         ],
-        "lowest": 2297,
+        "lowest": 2298,
         "desvio_pct": -23,
         "pontos_historico": 61
       },
@@ -11274,11 +11459,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2431,
+        "amostras": 10,
+        "mediana": 2449,
         "minimo_visto": 2094,
-        "p10": 2094,
-        "desvio_pct": -2,
+        "p10": 2155,
+        "desvio_pct": -3,
         "raro": false
       },
       "perfis": {
@@ -11302,6 +11487,72 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "0fd07bb4d406",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Cancún",
+      "destino_metro": "CUN",
+      "destino_iata": "CUN",
+      "origem_iata": "GRU",
+      "pais_texto": "México",
+      "pais_iso2": "MX",
+      "preco_brl": 2393,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Avianca e Arajet",
+      "janela": "2026-08-20 a 2026-08-26",
+      "janela_inicio": "2026-08-20",
+      "janela_fim": "2026-08-26",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 705,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
+          "titulo": "Cancún — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 1849,
+        "minimo_visto": 1748,
+        "p10": 1750,
+        "desvio_pct": 29,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "AUTORIZACAO_ELETRONICA",
+        "dias": 180,
+        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "f7630b2f7abd",
@@ -11393,8 +11644,8 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
         "desvio_pct": -3,
@@ -11457,8 +11708,8 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
         "desvio_pct": -3,
@@ -11523,7 +11774,7 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 2538,
         "minimo_visto": 2420,
         "p10": 2524,
@@ -11680,11 +11931,11 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2431,
+        "amostras": 10,
+        "mediana": 2449,
         "minimo_visto": 2094,
-        "p10": 2094,
-        "desvio_pct": 0,
+        "p10": 2155,
+        "desvio_pct": -1,
         "raro": false
       },
       "tipos": [
@@ -11745,11 +11996,11 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 1771,
+        "amostras": 12,
+        "mediana": 1849,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": 38,
+        "desvio_pct": 32,
         "raro": false
       },
       "tipos": [
@@ -11809,11 +12060,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2431,
+        "amostras": 10,
+        "mediana": 2449,
         "minimo_visto": 2094,
-        "p10": 2094,
-        "desvio_pct": 1,
+        "p10": 2155,
+        "desvio_pct": 0,
         "raro": false
       },
       "perfis": {
@@ -11874,11 +12125,73 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": 22,
+        "desvio_pct": 17,
+        "raro": false
+      },
+      "tipos": [
+        "cultural",
+        "montanha",
+        "aventura",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "48515b7572ec",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Machu Picchu",
+      "destino_metro": "CUZ",
+      "destino_iata": "CUZ",
+      "origem_iata": "GRU",
+      "pais_texto": "Peru",
+      "pais_iso2": "PE",
+      "preco_brl": 2465,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-09-14 a 2026-09-23",
+      "janela_inicio": "2026-09-14",
+      "janela_fim": "2026-09-23",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 665,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE0agcIARIDR1JVGhUSCjIwMjYtMDktMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBrcmZ5",
+          "titulo": "Machu Picchu — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 11,
+        "mediana": 2097,
+        "minimo_visto": 1827,
+        "p10": 1897,
+        "desvio_pct": 18,
         "raro": false
       },
       "tipos": [
@@ -11936,10 +12249,10 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2431,
+        "amostras": 10,
+        "mediana": 2449,
         "minimo_visto": 2094,
-        "p10": 2094,
+        "p10": 2155,
         "desvio_pct": 1,
         "raro": false
       },
@@ -12095,11 +12408,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2495,
+        "amostras": 12,
+        "mediana": 2544,
         "minimo_visto": 2275,
         "p10": 2277,
-        "desvio_pct": -1,
+        "desvio_pct": -2,
         "raro": false
       },
       "perfis": {
@@ -12156,11 +12469,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": 23,
+        "desvio_pct": 19,
         "raro": false
       },
       "tipos": [
@@ -12218,11 +12531,11 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2495,
+        "amostras": 12,
+        "mediana": 2544,
         "minimo_visto": 2275,
         "p10": 2277,
-        "desvio_pct": 0,
+        "desvio_pct": -2,
         "raro": false
       },
       "tipos": [
@@ -12279,8 +12592,8 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
         "desvio_pct": 0,
@@ -12343,8 +12656,8 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
         "desvio_pct": 0,
@@ -12522,8 +12835,8 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
         "desvio_pct": 0,
@@ -12588,11 +12901,11 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2431,
+        "amostras": 10,
+        "mediana": 2449,
         "minimo_visto": 2094,
-        "p10": 2094,
-        "desvio_pct": 3,
+        "p10": 2155,
+        "desvio_pct": 2,
         "raro": false
       },
       "tipos": [
@@ -12780,6 +13093,72 @@
       }
     },
     {
+      "id": "20be5a816d5b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "destino_iata": "MIA",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 2517,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-09-25 a 2026-10-03",
+      "janela_inicio": "2026-09-25",
+      "janela_fim": "2026-10-03",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 800,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmMnYw",
+          "titulo": "Miami — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 2497,
+        "minimo_visto": 1189,
+        "p10": 2051,
+        "desvio_pct": 1,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "8a0edb5e303f",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -12815,11 +13194,11 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2431,
+        "amostras": 10,
+        "mediana": 2449,
         "minimo_visto": 2094,
-        "p10": 2094,
-        "desvio_pct": 4,
+        "p10": 2155,
+        "desvio_pct": 3,
         "raro": false
       },
       "tipos": [
@@ -12878,7 +13257,7 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 2538,
         "minimo_visto": 2420,
         "p10": 2524,
@@ -12937,7 +13316,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 2538,
         "minimo_visto": 2420,
         "p10": 2524,
@@ -12961,6 +13340,71 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "d816861e8656",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Orlando",
+      "destino_metro": "SFB",
+      "destino_iata": "SFB",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 2531,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-09-11 a 2026-09-20",
+      "janela_inicio": "2026-09-11",
+      "janela_fim": "2026-09-20",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 800,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTExagcIARIDR1JVGhUSCjIwMjYtMDktMjByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
+          "titulo": "Orlando — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 10,
+        "mediana": 2449,
+        "minimo_visto": 2094,
+        "p10": 2155,
+        "desvio_pct": 3,
+        "raro": false
+      },
+      "tipos": [
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "161960cf9362",
@@ -12996,7 +13440,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 2538,
         "minimo_visto": 2420,
         "p10": 2524,
@@ -13057,7 +13501,7 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 2538,
         "minimo_visto": 2420,
         "p10": 2524,
@@ -13118,7 +13562,7 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 2538,
         "minimo_visto": 2420,
         "p10": 2524,
@@ -13179,7 +13623,7 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 2538,
         "minimo_visto": 2420,
         "p10": 2524,
@@ -13292,11 +13736,11 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 2021,
+        "amostras": 11,
+        "mediana": 2097,
         "minimo_visto": 1827,
         "p10": 1897,
-        "desvio_pct": 27,
+        "desvio_pct": 23,
         "raro": false
       },
       "tipos": [
@@ -13354,11 +13798,11 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
-        "desvio_pct": 4,
+        "desvio_pct": 3,
         "raro": false
       },
       "tipos": [
@@ -13418,10 +13862,10 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2431,
+        "amostras": 10,
+        "mediana": 2449,
         "minimo_visto": 2094,
-        "p10": 2094,
+        "p10": 2155,
         "desvio_pct": 6,
         "raro": false
       },
@@ -13481,11 +13925,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2495,
+        "amostras": 12,
+        "mediana": 2544,
         "minimo_visto": 2275,
         "p10": 2277,
-        "desvio_pct": 4,
+        "desvio_pct": 2,
         "raro": false
       },
       "perfis": {
@@ -13542,7 +13986,7 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 2538,
         "minimo_visto": 2420,
         "p10": 2524,
@@ -13601,11 +14045,11 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2495,
+        "amostras": 12,
+        "mediana": 2544,
         "minimo_visto": 2275,
         "p10": 2277,
-        "desvio_pct": 4,
+        "desvio_pct": 2,
         "raro": false
       },
       "perfis": {
@@ -13662,7 +14106,7 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 2538,
         "minimo_visto": 2420,
         "p10": 2524,
@@ -13723,7 +14167,7 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 2538,
         "minimo_visto": 2420,
         "p10": 2524,
@@ -13784,8 +14228,8 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
         "desvio_pct": 5,
@@ -13850,8 +14294,8 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
         "desvio_pct": -1,
@@ -13916,11 +14360,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
-        "desvio_pct": 0,
+        "desvio_pct": -1,
         "raro": true
       },
       "tipos": [
@@ -13982,11 +14426,11 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
-        "desvio_pct": 0,
+        "desvio_pct": -1,
         "raro": false
       },
       "tipos": [
@@ -14048,11 +14492,11 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
-        "desvio_pct": 0,
+        "desvio_pct": -1,
         "raro": false
       },
       "tipos": [
@@ -14114,11 +14558,11 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
-        "desvio_pct": 0,
+        "desvio_pct": -1,
         "raro": false
       },
       "tipos": [
@@ -14180,8 +14624,8 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
         "desvio_pct": 0,
@@ -14246,7 +14690,7 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 2538,
         "minimo_visto": 2420,
         "p10": 2524,
@@ -14305,11 +14749,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": -4,
+        "desvio_pct": -6,
         "raro": true
       },
       "perfis": {
@@ -14334,6 +14778,133 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "cd4d137bc878",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Parque Nacional Torres del Paine",
+      "destino_metro": "PNT",
+      "destino_iata": "PNT",
+      "origem_iata": "GRU",
+      "pais_texto": "Chile",
+      "pais_iso2": "CL",
+      "preco_brl": 2658,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-09-27 a 2026-10-03",
+      "janela_inicio": "2026-09-27",
+      "janela_fim": "2026-10-03",
+      "noites": 6,
+      "escalas": 2,
+      "duracao_min": 698,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI3agcIARIDR1JVGhUSCjIwMjYtMTAtMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAycDkyc3Q",
+          "titulo": "Parque Nacional Torres del Paine — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 2538,
+        "minimo_visto": 2420,
+        "p10": 2524,
+        "desvio_pct": 5,
+        "raro": false
+      },
+      "tipos": [
+        "natureza",
+        "montanha",
+        "aventura"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "70590c4d9d6c",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Chicago",
+      "destino_metro": "ORD",
+      "destino_iata": "ORD",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 2660,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-09-13 a 2026-09-21",
+      "janela_inicio": "2026-09-13",
+      "janela_fim": "2026-09-21",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 1202,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTEzagcIARIDR1JVGhUSCjIwMjYtMDktMjFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxX2Q0",
+          "titulo": "Chicago — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 2652,
+        "minimo_visto": 2629,
+        "p10": 2633,
+        "desvio_pct": 0,
+        "raro": false
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "a88c4bb2fbc9",
@@ -14371,11 +14942,11 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
-        "desvio_pct": 1,
+        "desvio_pct": 0,
         "raro": false
       },
       "tipos": [
@@ -14437,11 +15008,11 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
-        "desvio_pct": 1,
+        "desvio_pct": 0,
         "raro": false
       },
       "tipos": [
@@ -14549,8 +15120,8 @@
       "descoberto_em": "2026-07-24T18:28:35+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
         "desvio_pct": 8,
@@ -14779,11 +15350,11 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2495,
+        "amostras": 12,
+        "mediana": 2544,
         "minimo_visto": 2275,
         "p10": 2277,
-        "desvio_pct": 8,
+        "desvio_pct": 6,
         "raro": false
       },
       "tipos": [
@@ -14840,11 +15411,11 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2495,
+        "amostras": 12,
+        "mediana": 2544,
         "minimo_visto": 2275,
         "p10": 2277,
-        "desvio_pct": 8,
+        "desvio_pct": 6,
         "raro": false
       },
       "tipos": [
@@ -14901,11 +15472,11 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2431,
+        "amostras": 10,
+        "mediana": 2449,
         "minimo_visto": 2094,
-        "p10": 2094,
-        "desvio_pct": 11,
+        "p10": 2155,
+        "desvio_pct": 10,
         "raro": false
       },
       "tipos": [
@@ -14921,6 +15492,67 @@
         "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
         "rotulo": "FATO_COM_FONTE"
       },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "15fb260758ec",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Ushuaia",
+      "destino_metro": "USH",
+      "destino_iata": "USH",
+      "origem_iata": "GRU",
+      "pais_texto": "Argentina",
+      "pais_iso2": "AR",
+      "preco_brl": 2708,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Aerolineas Argentinas",
+      "janela": "2026-10-12 a 2026-10-20",
+      "janela_inicio": "2026-10-12",
+      "janela_fim": "2026-10-20",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 670,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTEyagcIARIDR1JVGhUSCjIwMjYtMTAtMjByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxemRucw",
+          "titulo": "Ushuaia — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 2544,
+        "minimo_visto": 2275,
+        "p10": 2277,
+        "desvio_pct": 6,
+        "raro": false
+      },
+      "tipos": [
+        "natureza",
+        "aventura",
+        "esportes_inverno"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
       "gosto": {
         "ale": false,
         "andreia": false
@@ -14964,11 +15596,11 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2495,
+        "amostras": 12,
+        "mediana": 2544,
         "minimo_visto": 2275,
         "p10": 2277,
-        "desvio_pct": 9,
+        "desvio_pct": 7,
         "raro": false
       },
       "perfis": {
@@ -15025,11 +15657,11 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": -1,
+        "desvio_pct": -3,
         "raro": true
       },
       "tipos": [
@@ -15089,11 +15721,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": -1,
+        "desvio_pct": -3,
         "raro": false
       },
       "perfis": {
@@ -15153,11 +15785,11 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": -1,
+        "desvio_pct": -3,
         "raro": false
       },
       "perfis": {
@@ -15217,11 +15849,11 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": -1,
+        "desvio_pct": -3,
         "raro": false
       },
       "perfis": {
@@ -15283,11 +15915,11 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": 0,
+        "desvio_pct": -2,
         "raro": false
       },
       "tipos": [
@@ -15349,7 +15981,7 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
+        "amostras": 9,
         "mediana": 2796,
         "minimo_visto": 2778,
         "p10": 2778,
@@ -15468,7 +16100,7 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
+        "amostras": 9,
         "mediana": 2796,
         "minimo_visto": 2778,
         "p10": 2778,
@@ -15640,7 +16272,7 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
+        "amostras": 9,
         "mediana": 2796,
         "minimo_visto": 2778,
         "p10": 2778,
@@ -15706,7 +16338,7 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
+        "amostras": 9,
         "mediana": 2796,
         "minimo_visto": 2778,
         "p10": 2778,
@@ -15770,7 +16402,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
+        "amostras": 9,
         "mediana": 2796,
         "minimo_visto": 2778,
         "p10": 2778,
@@ -15834,7 +16466,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
+        "amostras": 9,
         "mediana": 2796,
         "minimo_visto": 2778,
         "p10": 2778,
@@ -15951,7 +16583,7 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3704,
         "minimo_visto": 2804,
         "p10": 2958,
@@ -16016,8 +16648,8 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 3185,
+        "amostras": 9,
+        "mediana": 3180,
         "minimo_visto": 2808,
         "p10": 2808,
         "desvio_pct": -12,
@@ -16076,11 +16708,11 @@
       "descoberto_em": "2026-07-16T13:18:58+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
-        "desvio_pct": 13,
+        "desvio_pct": 12,
         "raro": false
       },
       "perfis": {
@@ -16105,6 +16737,72 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "9a0524c2065f",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Toronto",
+      "destino_metro": "YYZ",
+      "destino_iata": "YYZ",
+      "origem_iata": "GRU",
+      "pais_texto": "Canadá",
+      "pais_iso2": "CA",
+      "preco_brl": 2811,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-10-01 a 2026-10-07",
+      "janela_inicio": "2026-10-01",
+      "janela_fim": "2026-10-07",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 785,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTAxagcIARIDR1JVGhUSCjIwMjYtMTAtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBoN2g2",
+          "titulo": "Toronto — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 9,
+        "mediana": 2796,
+        "minimo_visto": 2778,
+        "p10": 2778,
+        "desvio_pct": 1,
+        "raro": false
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "DEPENDE",
+        "dias": 180,
+        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "d93465df1fab",
@@ -16207,6 +16905,72 @@
       }
     },
     {
+      "id": "e1b62123cdc5",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Nova Iorque",
+      "destino_metro": "NYC",
+      "destino_iata": "EWR",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 2881,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-09-24 a 2026-10-01",
+      "janela_inicio": "2026-09-24",
+      "janela_fim": "2026-10-01",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 760,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI0agcIARIDR1JVGhUSCjIwMjYtMTAtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAyXzI4Ng",
+          "titulo": "Nova Iorque — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 2825,
+        "minimo_visto": 2657,
+        "p10": 2731,
+        "desvio_pct": 2,
+        "raro": false
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "38cb5a36547a",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -16272,8 +17036,8 @@
           2500,
           3200
         ],
-        "lowest": 3054,
-        "desvio_pct": 7,
+        "lowest": 3070,
+        "desvio_pct": 8,
         "pontos_historico": 61
       }
     },
@@ -16313,7 +17077,7 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
+        "amostras": 9,
         "mediana": 2796,
         "minimo_visto": 2778,
         "p10": 2778,
@@ -16379,11 +17143,11 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": 6,
+        "desvio_pct": 4,
         "raro": false
       },
       "tipos": [
@@ -16445,11 +17209,11 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": 6,
+        "desvio_pct": 4,
         "raro": false
       },
       "tipos": [
@@ -16560,11 +17324,11 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": 7,
+        "desvio_pct": 5,
         "raro": false
       },
       "tipos": [
@@ -16624,7 +17388,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3704,
         "minimo_visto": 2804,
         "p10": 2958,
@@ -16720,8 +17484,8 @@
           2500,
           3200
         ],
-        "lowest": 3054,
-        "desvio_pct": 7,
+        "lowest": 3070,
+        "desvio_pct": 8,
         "pontos_historico": 61
       },
       "perfis": {
@@ -16762,8 +17526,8 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
         "desvio_pct": 13,
@@ -16828,11 +17592,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": 8,
+        "desvio_pct": 6,
         "raro": false
       },
       "tipos": [
@@ -16943,11 +17707,11 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": 9,
+        "desvio_pct": 7,
         "raro": false
       },
       "tipos": [
@@ -17007,8 +17771,8 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": -5,
@@ -17071,11 +17835,11 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
-        "desvio_pct": 16,
+        "desvio_pct": 15,
         "raro": false
       },
       "perfis": {
@@ -17463,7 +18227,7 @@
           2650,
           5400
         ],
-        "lowest": 2776,
+        "lowest": 2785,
         "desvio_pct": -31,
         "pontos_historico": 61
       }
@@ -17502,7 +18266,7 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3704,
         "minimo_visto": 2804,
         "p10": 2958,
@@ -17569,8 +18333,8 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 3185,
+        "amostras": 9,
+        "mediana": 3180,
         "minimo_visto": 2808,
         "p10": 2808,
         "desvio_pct": -2,
@@ -17632,6 +18396,63 @@
         "pegadinha": "DUPLA PEGADINHA, AMBAS CONFIRMADAS NESTA AUDITORIA. (1) FEBRE AMARELA: o Brasil é país de risco para a África do Sul. Sem o certificado internacional (CIVP) a fonte oficial prevê 'refusal of entry, or quarantine until your certificate becomes valid' — quarentena de até 6 dias. Vacina no mínimo 10 dias antes. (2) DECLARAÇÃO ONLINE: obrigatória desde 01/07/2026 para ENTRADA E SAÍDA, por ar, terra, mar e trilho — inclui o voo de volta, não é só chegada. Em itinerário com escalas, conta-se 24h antes do último trecho com destino direto à África do Sul. Só trânsito aéreo/marítimo sem sair da área de trânsito é isento. Passaporte: 2 páginas em branco e validade de 30 dias além da saída.",
         "rotulo": "FATO_COM_FONTE"
       },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "61ce291fef12",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Johanesburgo",
+      "destino_metro": "JNB",
+      "destino_iata": "JNB",
+      "origem_iata": "GRU",
+      "pais_texto": "África do Sul",
+      "pais_iso2": null,
+      "preco_brl": 3116,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Airlink e LATAM",
+      "janela": "2026-11-05 a 2026-11-12",
+      "janela_inicio": "2026-11-05",
+      "janela_fim": "2026-11-12",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 535,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA1agcIARIDR1JVGhUSCjIwMjYtMTEtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBnMjg0",
+          "titulo": "Johanesburgo — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 9,
+        "mediana": 3180,
+        "minimo_visto": 2808,
+        "p10": 2808,
+        "desvio_pct": -2,
+        "raro": false
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
       "gosto": {
         "ale": false,
         "andreia": false
@@ -17726,7 +18547,7 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
+        "amostras": 9,
         "mediana": 2796,
         "minimo_visto": 2778,
         "p10": 2778,
@@ -17790,8 +18611,8 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": -1,
@@ -17819,6 +18640,72 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "9a65d977bdd2",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Los Angeles",
+      "destino_metro": "LAX",
+      "destino_iata": "LAX",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 3161,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-10-29 a 2026-11-07",
+      "janela_inicio": "2026-10-29",
+      "janela_fim": "2026-11-07",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 1125,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
+          "titulo": "Los Angeles — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 3436,
+        "minimo_visto": 3161,
+        "p10": 3181,
+        "desvio_pct": -8,
+        "raro": true
+      },
+      "tipos": [
+        "cidade_grande",
+        "praia",
+        "cultural"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "cc37f0dc34ea",
@@ -17856,8 +18743,8 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": 0,
@@ -17920,8 +18807,8 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": 0,
@@ -17986,8 +18873,8 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": 0,
@@ -18052,8 +18939,8 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": 0,
@@ -18118,8 +19005,8 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 3185,
+        "amostras": 9,
+        "mediana": 3180,
         "minimo_visto": 2808,
         "p10": 2808,
         "desvio_pct": 0,
@@ -18187,8 +19074,8 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 3185,
+        "amostras": 9,
+        "mediana": 3180,
         "minimo_visto": 2808,
         "p10": 2808,
         "desvio_pct": 0,
@@ -18256,10 +19143,10 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": -7,
         "raro": true
       },
@@ -18322,8 +19209,8 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": 0,
@@ -18388,8 +19275,8 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 3185,
+        "amostras": 9,
+        "mediana": 3180,
         "minimo_visto": 2808,
         "p10": 2808,
         "desvio_pct": 0,
@@ -18457,11 +19344,11 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 3185,
+        "amostras": 9,
+        "mediana": 3180,
         "minimo_visto": 2808,
         "p10": 2808,
-        "desvio_pct": 0,
+        "desvio_pct": 1,
         "raro": false
       },
       "tipos": [],
@@ -18505,8 +19392,8 @@
       "descoberto_em": "2026-07-23T13:45:26+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
         "desvio_pct": 21,
@@ -18571,8 +19458,8 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": 1,
@@ -18635,11 +19522,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
-        "desvio_pct": 22,
+        "desvio_pct": 21,
         "raro": false
       },
       "perfis": {
@@ -18699,8 +19586,8 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2644,
+        "amostras": 12,
+        "mediana": 2652,
         "minimo_visto": 2629,
         "p10": 2633,
         "desvio_pct": 22,
@@ -18763,7 +19650,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3589,
         "minimo_visto": 3243,
         "p10": 3406,
@@ -18829,11 +19716,11 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2496,
+        "amostras": 12,
+        "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
-        "desvio_pct": 31,
+        "desvio_pct": 30,
         "raro": false
       },
       "tipos": [
@@ -18893,12 +19780,12 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": -5,
-        "raro": true
+        "raro": false
       },
       "perfis": {
         "ale-andreia": "casa"
@@ -18957,10 +19844,10 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": -5,
         "raro": false
       },
@@ -19021,10 +19908,10 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": -5,
         "raro": false
       },
@@ -19140,8 +20027,8 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3604,
+        "amostras": 12,
+        "mediana": 3606,
         "minimo_visto": 3318,
         "p10": 3514,
         "desvio_pct": -8,
@@ -19257,8 +20144,8 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": 4,
@@ -19321,7 +20208,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "perfis": {
@@ -19379,11 +20266,11 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 2769,
+        "amostras": 12,
+        "mediana": 2825,
         "minimo_visto": 2657,
         "p10": 2731,
-        "desvio_pct": 21,
+        "desvio_pct": 19,
         "raro": false
       },
       "tipos": [
@@ -19445,8 +20332,8 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": 6,
@@ -19633,8 +20520,8 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": 6,
@@ -19697,7 +20584,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3589,
         "minimo_visto": 3243,
         "p10": 3406,
@@ -19761,7 +20648,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3589,
         "minimo_visto": 3243,
         "p10": 3406,
@@ -19825,11 +20712,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 4032,
+        "amostras": 12,
+        "mediana": 4037,
         "minimo_visto": 3410,
         "p10": 3594,
-        "desvio_pct": -15,
+        "desvio_pct": -16,
         "raro": true
       },
       "perfis": {
@@ -19854,6 +20741,72 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "978ff42ddb9f",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Montreal",
+      "destino_metro": "YUL",
+      "destino_iata": "YUL",
+      "origem_iata": "GRU",
+      "pais_texto": "Canadá",
+      "pais_iso2": "CA",
+      "preco_brl": 3420,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Air Canada e Arajet",
+      "janela": "2027-01-28 a 2027-02-05",
+      "janela_inicio": "2027-01-28",
+      "janela_fim": "2027-02-05",
+      "noites": 8,
+      "escalas": 1,
+      "duracao_min": 855,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI3LTAxLTI4agcIARIDR1JVGhUSCjIwMjctMDItMDVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1MnA3",
+          "titulo": "Montreal — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 11,
+        "mediana": 3179,
+        "minimo_visto": 3020,
+        "p10": 3155,
+        "desvio_pct": 8,
+        "raro": false
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "DEPENDE",
+        "dias": 180,
+        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "e45c4ca09eb3",
@@ -19891,10 +20844,10 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": 0,
         "raro": false
       },
@@ -19957,10 +20910,10 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": 0,
         "raro": false
       },
@@ -20023,10 +20976,10 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": 0,
         "raro": false
       },
@@ -20087,10 +21040,10 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": 0,
         "raro": false
       },
@@ -20153,10 +21106,10 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": 0,
         "raro": false
       },
@@ -20219,10 +21172,10 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": 0,
         "raro": false
       },
@@ -20285,10 +21238,10 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": 0,
         "raro": false
       },
@@ -20413,10 +21366,10 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3436,
-        "minimo_visto": 3181,
-        "p10": 3263,
+        "minimo_visto": 3161,
+        "p10": 3181,
         "desvio_pct": 1,
         "raro": false
       },
@@ -20479,8 +21432,8 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 10,
-        "mediana": 3178,
+        "amostras": 11,
+        "mediana": 3179,
         "minimo_visto": 3020,
         "p10": 3155,
         "desvio_pct": 9,
@@ -20541,8 +21494,8 @@
       "descoberto_em": "2026-07-27T14:58:04+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3736,
+        "amostras": 12,
+        "mediana": 3739,
         "minimo_visto": 3482,
         "p10": 3487,
         "desvio_pct": -7,
@@ -20662,8 +21615,8 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3736,
+        "amostras": 12,
+        "mediana": 3739,
         "minimo_visto": 3482,
         "p10": 3487,
         "desvio_pct": -7,
@@ -20898,8 +21851,8 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3523,
+        "amostras": 12,
+        "mediana": 3527,
         "minimo_visto": 3500,
         "p10": 3500,
         "desvio_pct": -1,
@@ -20961,8 +21914,8 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3523,
+        "amostras": 12,
+        "mediana": 3527,
         "minimo_visto": 3500,
         "p10": 3500,
         "desvio_pct": -1,
@@ -21026,8 +21979,8 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3523,
+        "amostras": 12,
+        "mediana": 3527,
         "minimo_visto": 3500,
         "p10": 3500,
         "desvio_pct": -1,
@@ -21091,8 +22044,8 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3523,
+        "amostras": 12,
+        "mediana": 3527,
         "minimo_visto": 3500,
         "p10": 3500,
         "desvio_pct": -1,
@@ -21154,11 +22107,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3604,
+        "amostras": 12,
+        "mediana": 3606,
         "minimo_visto": 3318,
         "p10": 3514,
-        "desvio_pct": -2,
+        "desvio_pct": -3,
         "raro": true
       },
       "perfis": {
@@ -21183,6 +22136,72 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "757eb9369fe6",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Boston",
+      "destino_metro": "BOS",
+      "destino_iata": "BOS",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 3519,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-10-22 a 2026-10-31",
+      "janela_inicio": "2026-10-22",
+      "janela_fim": "2026-10-31",
+      "noites": 9,
+      "escalas": 0,
+      "duracao_min": 590,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMzFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxY3hf",
+          "titulo": "Boston — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 3643,
+        "minimo_visto": 3519,
+        "p10": 3616,
+        "desvio_pct": -3,
+        "raro": true
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "024fc74a5bb3",
@@ -21264,8 +22283,8 @@
       "descoberto_em": "2026-07-22T17:42:03+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3604,
+        "amostras": 12,
+        "mediana": 3606,
         "minimo_visto": 3318,
         "p10": 3514,
         "desvio_pct": -2,
@@ -21436,8 +22455,8 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3523,
+        "amostras": 12,
+        "mediana": 3527,
         "minimo_visto": 3500,
         "p10": 3500,
         "desvio_pct": 0,
@@ -21501,8 +22520,8 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3523,
+        "amostras": 12,
+        "mediana": 3527,
         "minimo_visto": 3500,
         "p10": 3500,
         "desvio_pct": 0,
@@ -21564,8 +22583,8 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3523,
+        "amostras": 12,
+        "mediana": 3527,
         "minimo_visto": 3500,
         "p10": 3500,
         "desvio_pct": 0,
@@ -21592,6 +22611,71 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "13575839ef86",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Washington, D.C.",
+      "destino_metro": "IAD",
+      "destino_iata": "IAD",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 3534,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Avianca",
+      "janela": "2026-09-17 a 2026-09-24",
+      "janela_inicio": "2026-09-17",
+      "janela_fim": "2026-09-24",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 775,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE3agcIARIDR1JVGhUSCjIwMjYtMDktMjRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzByaDZr",
+          "titulo": "Washington, D.C. — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 3527,
+        "minimo_visto": 3500,
+        "p10": 3500,
+        "desvio_pct": 0,
+        "raro": false
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "71580759f0fd",
@@ -21682,8 +22766,8 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3736,
+        "amostras": 12,
+        "mediana": 3739,
         "minimo_visto": 3482,
         "p10": 3487,
         "desvio_pct": -5,
@@ -21801,7 +22885,7 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3589,
         "minimo_visto": 3243,
         "p10": 3406,
@@ -21865,8 +22949,8 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3736,
+        "amostras": 12,
+        "mediana": 3739,
         "minimo_visto": 3482,
         "p10": 3487,
         "desvio_pct": -5,
@@ -21931,7 +23015,7 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3589,
         "minimo_visto": 3243,
         "p10": 3406,
@@ -21997,7 +23081,7 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3589,
         "minimo_visto": 3243,
         "p10": 3406,
@@ -22061,8 +23145,8 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3736,
+        "amostras": 12,
+        "mediana": 3739,
         "minimo_visto": 3482,
         "p10": 3487,
         "desvio_pct": -4,
@@ -22127,7 +23211,7 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3589,
         "minimo_visto": 3243,
         "p10": 3406,
@@ -22193,7 +23277,7 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3589,
         "minimo_visto": 3243,
         "p10": 3406,
@@ -22257,8 +23341,8 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 4032,
+        "amostras": 12,
+        "mediana": 4037,
         "minimo_visto": 3410,
         "p10": 3594,
         "desvio_pct": -11,
@@ -22323,8 +23407,8 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3604,
+        "amostras": 12,
+        "mediana": 3606,
         "minimo_visto": 3318,
         "p10": 3514,
         "desvio_pct": 0,
@@ -22387,8 +23471,8 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 4032,
+        "amostras": 12,
+        "mediana": 4037,
         "minimo_visto": 3410,
         "p10": 3594,
         "desvio_pct": -11,
@@ -22416,6 +23500,72 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "0b3dc156292b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Quebec",
+      "destino_metro": "YQB",
+      "destino_iata": "YQB",
+      "origem_iata": "GRU",
+      "pais_texto": "Canadá",
+      "pais_iso2": "CA",
+      "preco_brl": 3601,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "American",
+      "janela": "2026-08-06 a 2026-08-12",
+      "janela_inicio": "2026-08-06",
+      "janela_fim": "2026-08-12",
+      "noites": 6,
+      "escalas": 2,
+      "duracao_min": 914,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbXAy",
+          "titulo": "Quebec — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-07-30",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 12,
+        "mediana": 3589,
+        "minimo_visto": 3243,
+        "p10": 3406,
+        "desvio_pct": 0,
+        "raro": false
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "esportes_inverno"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "DEPENDE",
+        "dias": 180,
+        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
     },
     {
       "id": "7599248a762d",
@@ -22453,7 +23603,7 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3612,
         "minimo_visto": 3602,
         "p10": 3604,
@@ -22519,8 +23669,8 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3604,
+        "amostras": 12,
+        "mediana": 3606,
         "minimo_visto": 3318,
         "p10": 3514,
         "desvio_pct": 0,
@@ -22585,7 +23735,7 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 11,
+        "amostras": 12,
         "mediana": 3612,
         "minimo_visto": 3602,
         "p10": 3604,
@@ -22614,1185 +23764,6 @@
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
-    },
-    {
-      "id": "ad08aebc99af",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "San Diego",
-      "destino_metro": "SAN",
-      "destino_iata": "SAN",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3604,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-22 a 2026-10-28",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-28",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1063,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MXZy",
-          "titulo": "San Diego — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-27",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3612,
-        "minimo_visto": 3602,
-        "p10": 3604,
-        "desvio_pct": 0,
-        "raro": true
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "4c521bdc065c",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "San Diego",
-      "destino_metro": "SAN",
-      "destino_iata": "SAN",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3604,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-22 a 2026-10-28",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-28",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1063,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MXZy",
-          "titulo": "San Diego — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-26",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3612,
-        "minimo_visto": 3602,
-        "p10": 3604,
-        "desvio_pct": 0,
-        "raro": true
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "e3433ea46e48",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Madrid",
-      "destino_metro": "MAD",
-      "destino_iata": "MAD",
-      "origem_iata": "GRU",
-      "pais_texto": "Espanha",
-      "pais_iso2": "ES",
-      "preco_brl": 3604,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "ITA",
-      "janela": "2026-11-14 a 2026-11-23",
-      "janela_inicio": "2026-11-14",
-      "janela_fim": "2026-11-23",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 990,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE0agcIARIDR1JVGhUSCjIwMjYtMTEtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
-          "titulo": "Madrid — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-25",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3604,
-        "minimo_visto": 3318,
-        "p10": 3514,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "36f5ace6d69c",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Madrid",
-      "destino_metro": "MAD",
-      "destino_iata": "MAD",
-      "origem_iata": "GRU",
-      "pais_texto": "Espanha",
-      "pais_iso2": "ES",
-      "preco_brl": 3607,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "ITA",
-      "janela": "2026-11-22 a 2026-12-01",
-      "janela_inicio": "2026-11-22",
-      "janela_fim": "2026-12-01",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 990,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIyagcIARIDR1JVGhUSCjIwMjYtMTItMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
-          "titulo": "Madrid — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-27",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3604,
-        "minimo_visto": 3318,
-        "p10": 3514,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "6200a76b11de",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "San Diego",
-      "destino_metro": "SAN",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3608,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-22 a 2026-10-29",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-29",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 1063,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MXZy",
-          "titulo": "San Diego — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3612,
-        "minimo_visto": 3602,
-        "p10": 3604,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "ffe8f8173e32",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Madrid",
-      "destino_metro": "MAD",
-      "destino_iata": "MAD",
-      "origem_iata": "GRU",
-      "pais_texto": "Espanha",
-      "pais_iso2": "ES",
-      "preco_brl": 3609,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "ITA",
-      "janela": "2026-11-07 a 2026-11-16",
-      "janela_inicio": "2026-11-07",
-      "janela_fim": "2026-11-16",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 2045,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA3agcIARIDR1JVGhUSCjIwMjYtMTEtMTZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
-          "titulo": "Madrid — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3604,
-        "minimo_visto": 3318,
-        "p10": 3514,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "096e53ab20ae",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Lisboa",
-      "destino_metro": "LIS",
-      "pais_texto": "Portugal",
-      "pais_iso2": "PT",
-      "preco_brl": 3610,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-11-08 a 2026-11-17",
-      "janela_inicio": "2026-11-08",
-      "janela_fim": "2026-11-17",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 765,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA4agcIARIDR1JVGhUSCjIwMjYtMTEtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA0bGxi",
-          "titulo": "Lisboa — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3828,
-        "minimo_visto": 3610,
-        "p10": 3693,
-        "desvio_pct": -6,
-        "raro": true
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "0b63913093ea",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "San Diego",
-      "destino_metro": "SAN",
-      "destino_iata": "SAN",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3612,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-22 a 2026-10-28",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-28",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1063,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MXZy",
-          "titulo": "San Diego — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3612,
-        "minimo_visto": 3602,
-        "p10": 3604,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "13073eb61552",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "San Diego",
-      "destino_metro": "SAN",
-      "destino_iata": "SAN",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3612,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-22 a 2026-10-28",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-28",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1063,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MXZy",
-          "titulo": "San Diego — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3612,
-        "minimo_visto": 3602,
-        "p10": 3604,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "a9b56af8888d",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "San Diego",
-      "destino_metro": "SAN",
-      "destino_iata": "SAN",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3614,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-23 a 2026-10-30",
-      "janela_inicio": "2026-10-23",
-      "janela_fim": "2026-10-30",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 1050,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIzagcIARIDR1JVGhUSCjIwMjYtMTAtMzByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3MXZy",
-          "titulo": "San Diego — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-25",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3612,
-        "minimo_visto": 3602,
-        "p10": 3604,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "b3cf2e893205",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Roma",
-      "destino_metro": "FCO",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 3615,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Europa",
-      "janela": "2026-11-09 a 2026-11-17",
-      "janela_inicio": "2026-11-09",
-      "janela_fim": "2026-11-17",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1190,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA5agcIARIDR1JVGhUSCjIwMjYtMTEtMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2YzYy",
-          "titulo": "Roma — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 8,
-        "mediana": 3886,
-        "minimo_visto": 3615,
-        "p10": 3615,
-        "desvio_pct": -7,
-        "raro": true
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "insight": {
-        "fonte": "google-price-insights",
-        "nivel": "typical",
-        "tipico": 3825,
-        "faixa": [
-          3450,
-          4200
-        ],
-        "lowest": 3824,
-        "desvio_pct": 0,
-        "pontos_historico": 61
-      }
-    },
-    {
-      "id": "bda712ad2884",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Boston",
-      "destino_metro": "BOS",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3616,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-10-02 a 2026-10-08",
-      "janela_inicio": "2026-10-02",
-      "janela_fim": "2026-10-08",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 875,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxY3hf",
-          "titulo": "Boston — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3647,
-        "minimo_visto": 3616,
-        "p10": 3619,
-        "desvio_pct": -1,
-        "raro": true
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "c03f580c949a",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Washington, D.C.",
-      "destino_metro": "IAD",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3617,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-07-30 a 2026-08-07",
-      "janela_inicio": "2026-07-30",
-      "janela_fim": "2026-08-07",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 775,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA3LTMwagcIARIDR1JVGhUSCjIwMjYtMDgtMDdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzByaDZr",
-          "titulo": "Washington, D.C. — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3523,
-        "minimo_visto": 3500,
-        "p10": 3500,
-        "desvio_pct": 3,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "ab6c8a314606",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Quebec",
-      "destino_metro": "YQB",
-      "destino_iata": "YQB",
-      "origem_iata": "GRU",
-      "pais_texto": "Canadá",
-      "pais_iso2": "CA",
-      "preco_brl": 3619,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "American",
-      "janela": "2026-08-06 a 2026-08-12",
-      "janela_inicio": "2026-08-06",
-      "janela_fim": "2026-08-12",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 914,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbXAy",
-          "titulo": "Quebec — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-27",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3589,
-        "minimo_visto": 3243,
-        "p10": 3406,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "esportes_inverno"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "DEPENDE",
-        "dias": 180,
-        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "ca7a3054f54e",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Quebec",
-      "destino_metro": "YQB",
-      "destino_iata": "YQB",
-      "origem_iata": "GRU",
-      "pais_texto": "Canadá",
-      "pais_iso2": "CA",
-      "preco_brl": 3619,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "American",
-      "janela": "2026-08-06 a 2026-08-12",
-      "janela_inicio": "2026-08-06",
-      "janela_fim": "2026-08-12",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 914,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbXAy",
-          "titulo": "Quebec — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-26",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3589,
-        "minimo_visto": 3243,
-        "p10": 3406,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "esportes_inverno"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "DEPENDE",
-        "dias": 180,
-        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "9677e65b859e",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Boston",
-      "destino_metro": "BOS",
-      "destino_iata": "BOS",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3619,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-09-25 a 2026-10-01",
-      "janela_inicio": "2026-09-25",
-      "janela_fim": "2026-10-01",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 875,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxY3hf",
-          "titulo": "Boston — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3647,
-        "minimo_visto": 3616,
-        "p10": 3619,
-        "desvio_pct": -1,
-        "raro": true
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "5a9200e08d35",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Quebec",
-      "destino_metro": "YQB",
-      "destino_iata": "YQB",
-      "origem_iata": "GRU",
-      "pais_texto": "Canadá",
-      "pais_iso2": "CA",
-      "preco_brl": 3627,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "American",
-      "janela": "2026-08-06 a 2026-08-12",
-      "janela_inicio": "2026-08-06",
-      "janela_fim": "2026-08-12",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 914,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbXAy",
-          "titulo": "Quebec — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-25",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3589,
-        "minimo_visto": 3243,
-        "p10": 3406,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "esportes_inverno"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "DEPENDE",
-        "dias": 180,
-        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "1056161f5ba1",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Galápagos",
-      "destino_metro": "SCY",
-      "pais_texto": "Equador",
-      "pais_iso2": "EC",
-      "preco_brl": 3628,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-08-27 a 2026-09-02",
-      "janela_inicio": "2026-08-27",
-      "janela_fim": "2026-09-02",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 1805,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI3agcIARIDR1JVGhUSCjIwMjYtMDktMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxNnpqag",
-          "titulo": "Galápagos — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_verao",
-        "praia"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
     }
   ]
 }
