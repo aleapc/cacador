@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-30T14:29:45.105Z",
+  "gerado_em": "2026-07-30T16:48:03.108Z",
   "visto_ate": "2026-07-29T20:59:45+00:00",
   "ultimo_explore": "2026-07-30",
   "fontes": [
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 3,
       "status": "ok"
     },
     {
@@ -31,11 +31,18 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18743",
+    "https://t.me/melhoresdestinos/18742",
+    "https://t.me/melhoresdestinos/18741",
+    "https://t.me/passageirodeprimeira/27931",
+    "https://t.me/passageirodeprimeira/27930",
+    "https://t.me/passageirodeprimeira/27929",
+    "https://t.me/promopassagens/110405",
     "https://t.me/melhoresdestinos/18739",
     "https://t.me/melhoresdestinos/18738",
     "https://t.me/melhoresdestinos/18737",
@@ -176,17 +183,18 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 2,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
+    "descartadas": 5,
     "por_motivo_de_descarte": {
-      "incompleta": 1
+      "incompleta": 1,
+      "categoria": 4
     },
     "ineditas": 2,
     "rotas_no_historico": 160,
-    "com_baseline": 227,
-    "sem_tag": 82,
+    "com_baseline": 226,
+    "sem_tag": 83,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
@@ -199,15 +207,17 @@
         "rejeitados": {
           "tipo": 21,
           "posicionamento_desligado": 50,
-          "domestico": 44,
+          "domestico": 45,
           "origem": 47,
-          "janela_curta": 61,
+          "janela_curta": 60,
           "acima_do_teto": 1
         }
       }
     }
   },
-  "avisos": [],
+  "avisos": [
+    "descartou 5 de 8 — schema ou categoria descalibrados?"
+  ],
   "perfis": [
     {
       "id": "ale-andreia",
@@ -1757,7 +1767,7 @@
       "descoberto_em": "2026-07-24T14:57:25+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [],
@@ -1940,6 +1950,50 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "275ce5d4736e",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Foz do Iguaçu",
+      "destino_metro": "IGU",
+      "pais_iso2": "BR",
+      "preco_brl": 490,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18743",
+          "titulo": "Foz do Iguaçu 🛍️"
+        }
+      ],
+      "descoberto_em": "2026-07-30T16:26:09+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "4e689c61ada2",
@@ -3186,7 +3240,7 @@
       "descoberto_em": "2026-07-24T14:57:25+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [],
@@ -23671,72 +23725,6 @@
         "exige": "SIM",
         "dias": 0,
         "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "34c819d08fc7",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Madrid",
-      "destino_metro": "MAD",
-      "destino_iata": "MAD",
-      "origem_iata": "GRU",
-      "pais_texto": "Espanha",
-      "pais_iso2": "ES",
-      "preco_brl": 3603,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "ITA",
-      "janela": "2026-11-23 a 2026-12-02",
-      "janela_inicio": "2026-11-23",
-      "janela_fim": "2026-12-02",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 900,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIzagcIARIDR1JVGhUSCjIwMjYtMTItMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1Nl95",
-          "titulo": "Madrid — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-26",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 12,
-        "mediana": 3606,
-        "minimo_visto": 3318,
-        "p10": 3514,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "A PIOR DA EUROPA PARA BRASILEIRO — e CONFIRMEI OS NUMEROS NA FONTE PRIMARIA. A Espanha e o unico Schengen que publica e aplica valor economico minimo de forma sistematica. Importes 2026 publicados no BOE (DOUE-Z-2026-70025, de 27/04/2026): '10 % del salario mínimo interprofesional bruto (122,10 EUR)' POR DIA por pessoa, multiplicado pelos dias e pelos acompanhantes, com MINIMO de '90 % del salario mínimo interprofesional bruto (1 098,90 EUR)' por pessoa, independentemente da duracao — mais passagem de volta. A Orden PRE/1282/2007 manda acreditar recursos 'en modo sistematico y exhaustivo' na fronteira externa. Aceita dinheiro, cheques certificados, cheques de viagem ou cartao de credito ACOMPANHADO de extrato bancario — cartao sozinho pode nao bastar. Barajas e El Prat sao onde brasileiro mais e inadmitido. SOMADO A ISSO, a regra de passaporte omitida antes: emitido nos ultimos 10 ANOS e valido +3 MESES apos a saida prevista do Schengen. E o EES (biometria, fim do carimbo) 100% operacional desde 10/04/2026.",
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
