@@ -15,12 +15,18 @@ export function motivoInelegivel(o, { perfilId, escopo = 'perfil', precoMax = In
 }
 
 export function passaFiltros(o, filtros = {}) {
-  if (filtros.tipo && !(o.tipos ?? []).includes(filtros.tipo)) return false;
+  const tipos = filtros.tipos?.length ? filtros.tipos : (filtros.tipo ? [filtros.tipo] : []);
+  if (tipos.length && !tipos.some((tipo) => (o.tipos ?? []).includes(tipo))) return false;
   if (filtros.continente && o.continente !== filtros.continente) return false;
   if (filtros.pais && o.pais_iso2 !== filtros.pais) return false;
+  if (filtros.mes && mesDe(o) !== filtros.mes) return false;
   if (filtros.direto && o.escalas !== 0) return false;
+  if (filtros.escalas !== '' && filtros.escalas != null && o.escalas != null && o.escalas > +filtros.escalas) return false;
   if (filtros.semVisto && o.sem_visto !== true) return false;
-  if (filtros.match && (o.ranking?.pontos ?? 0) < 58) return false;
+  if ((filtros.match || filtros.afinidade === 'dupla') && (o.ranking?.pontos ?? 0) < 58) return false;
+  if (filtros.afinidade === 'descoberta' && (o.ranking?.pontos ?? 0) >= 58) return false;
+  if (filtros.classe && o.classe && o.classe !== filtros.classe) return false;
+  if (filtros.bagagem && o.bagagem_incluida === false) return false;
   if (filtros.deal && !ehOportunidade(o)) return false;
   return true;
 }

@@ -25,3 +25,14 @@ test('filtros objetivos funcionam depois da elegibilidade',()=>{
   assert.equal(passaFiltros(o,{tipo:'cultural',continente:'europa',direto:true,semVisto:true}),true);
   assert.equal(passaFiltros(o,{tipo:'praia'}),false);
 });
+test('experiências aceitam múltipla escolha sem exigir todas',()=>{
+  const o=oferta('x','Paris',{tipos:['cultural'],continente:'europa'});
+  assert.equal(passaFiltros(o,{tipos:['praia','cultural']}),true);
+  assert.equal(passaFiltros(o,{tipos:['praia','natureza']}),false);
+});
+test('filtros de mês e máximo de escalas respeitam dados disponíveis',()=>{
+  const o=oferta('x','Paris',{janela_inicio:'2026-10-10',escalas:1});
+  assert.equal(passaFiltros(o,{mes:'2026-10',escalas:'1'}),true);
+  assert.equal(passaFiltros(o,{mes:'2026-11'}),false);
+  assert.equal(passaFiltros(o,{escalas:'0'}),false);
+});

@@ -23,6 +23,22 @@ export const CONTINENTES = [
 ];
 export const CONT_LABEL = Object.fromEntries(CONTINENTES);
 
+export const PAISES = {
+  AR:'Argentina', AT:'Áustria', BR:'Brasil', CA:'Canadá', CL:'Chile', CO:'Colômbia',
+  DE:'Alemanha', DO:'República Dominicana', EC:'Equador', ES:'Espanha', IT:'Itália',
+  JM:'Jamaica', JP:'Japão', MX:'México', PE:'Peru', PT:'Portugal', PY:'Paraguai',
+  US:'Estados Unidos', UY:'Uruguai', ZA:'África do Sul'
+};
+export const pais = (iso2, fallback = '') => PAISES[iso2?.toUpperCase()] ?? fallback ?? iso2;
+
+export const DURACOES = [
+  ['curtissima', '1 a 3 noites', 1, 3],
+  ['curta', '4 a 6 noites', 4, 6],
+  ['semana', '7 a 10 noites', 7, 10],
+  ['media', '11 a 14 noites', 11, 14],
+  ['longa', '15 noites ou mais', 15, 30],
+];
+
 // Bandeira por ISO2 (emoji) — regional indicators.
 export const flag = (iso2) =>
   iso2 && iso2.length === 2
