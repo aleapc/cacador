@@ -16,6 +16,10 @@
 name: cacar
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'static/data/**'
   schedule:
     - cron: '17 * * * *' # 17 min depois da hora: evita o pico do minuto 0
   workflow_dispatch:
