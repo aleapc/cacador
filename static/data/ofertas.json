@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-31T14:45:27.216Z",
+  "gerado_em": "2026-07-31T14:49:59.381Z",
   "visto_ate": "2026-07-30T18:53:46+00:00",
   "ultimo_explore": "2026-07-31",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -36,6 +36,7 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18754",
     "https://t.me/melhoresdestinos/18753",
     "https://t.me/melhoresdestinos/18751",
     "https://t.me/melhoresdestinos/18750",
@@ -198,23 +199,23 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 166,
     "com_baseline": 216,
     "sem_tag": 98,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 168,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 169,
         "dessas_ja_alertadas_antes": 168,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 21,
@@ -9208,6 +9209,56 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "c7f8a92b1edc",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Cartagena das Índias",
+      "destino_metro": "CTG",
+      "pais_iso2": "CO",
+      "preco_brl": 1751,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18754",
+          "titulo": "Colômbia 🇨🇴"
+        }
+      ],
+      "descoberto_em": "2026-07-31T14:45:34+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "77ef58149977",
@@ -23460,71 +23511,6 @@
       },
       "perfis": {
         "ale-andreia": "posicionamento_desligado:diferenca_bruta_394"
-      }
-    },
-    {
-      "id": "ad1a33930024",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Washington, D.C.",
-      "destino_metro": "IAD",
-      "destino_iata": "IAD",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3500,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-09-03 a 2026-09-09",
-      "janela_inicio": "2026-09-03",
-      "janela_fim": "2026-09-09",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 775,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTAzagcIARIDR1JVGhUSCjIwMjYtMDktMDlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzByaDZr",
-          "titulo": "Washington, D.C. — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-27",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3530,
-        "minimo_visto": 3500,
-        "p10": 3500,
-        "desvio_pct": -1,
-        "raro": true
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       }
     }
   ]
