@@ -140,3 +140,4 @@ export function registrarMetrica(e, nome, dados = {}) {
   const evento = { nome, dados, criadoEm: agora() };
   return { ...e, metricas: [...(e.metricas ?? []).slice(-99), evento] };
 }
+
