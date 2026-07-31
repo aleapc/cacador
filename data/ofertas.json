@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-07-31T22:14:57.479Z",
-  "visto_ate": "2026-07-30T18:53:46+00:00",
+  "gerado_em": "2026-07-31T23:16:34.095Z",
+  "visto_ate": "2026-07-31T17:43:12+00:00",
   "ultimo_explore": "2026-07-31",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 3,
+      "lidas": 3,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -36,6 +36,7 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18761",
     "https://t.me/passageirodeprimeira/27966",
     "https://t.me/passageirodeprimeira/27963",
     "https://t.me/melhoresdestinos/18760",
@@ -206,33 +207,36 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 3,
+    "materias_lidas": 3,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 24,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
-    "rotas_no_historico": 167,
-    "com_baseline": 215,
-    "sem_tag": 98,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 24,
+    "rotas_no_historico": 185,
+    "com_baseline": 217,
+    "sem_tag": 107,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 169,
+        "total_avaliadas": 424,
+        "casam_no_perfil": 171,
         "dessas_ja_alertadas_antes": 169,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 2,
+        "alertados": 2,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 21,
-          "posicionamento_desligado": 49,
+          "posicionamento_desligado": 51,
           "domestico": 49,
-          "origem": 54,
-          "janela_curta": 58
+          "origem": 72,
+          "janela_curta": 58,
+          "acima_do_teto": 2
         }
       }
     }
@@ -2780,7 +2784,7 @@
       "descoberto_em": "2026-07-24T20:15:43+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [
@@ -5785,6 +5789,59 @@
       }
     },
     {
+      "id": "38f531ac7e52",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Montevidéu",
+      "destino_metro": "MVD",
+      "pais_iso2": "UY",
+      "preco_brl": 902,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-montevideu-902",
+          "titulo": "Escapada para o Uruguai! Passagens aéreas para Montevidéu a partir de R$ 902 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T12:37:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Rio de Janeiro",
+        "praca_metro": "RIO",
+        "base_de_casa": 1466,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 564,
+        "economia_grupo": 1128,
+        "trecho_domestico": "SAO->RIO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1128"
+      }
+    },
+    {
       "id": "6432061e5cc4",
       "origem_texto": "",
       "origem_metro": "",
@@ -8098,6 +8155,59 @@
       }
     },
     {
+      "id": "b1a38ae5c43a",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "CNF",
+      "destino_texto": "Montevidéu",
+      "destino_metro": "MVD",
+      "pais_iso2": "UY",
+      "preco_brl": 1385,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-montevideu-902",
+          "titulo": "Escapada para o Uruguai! Passagens aéreas para Montevidéu a partir de R$ 902 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T12:37:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Belo Horizonte",
+        "praca_metro": "CNF",
+        "base_de_casa": 1466,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 81,
+        "economia_grupo": 162,
+        "trecho_domestico": "SAO->CNF"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_162"
+      }
+    },
+    {
       "id": "49cb38129c91",
       "origem_texto": "Rio de Janeiro",
       "origem_metro": "RIO",
@@ -8260,6 +8370,50 @@
       "match": false,
       "perfis": {
         "ale-andreia": "tipo:misto"
+      }
+    },
+    {
+      "id": "059e1b83f06b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Montevidéu",
+      "destino_metro": "MVD",
+      "pais_iso2": "UY",
+      "preco_brl": 1466,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-montevideu-902",
+          "titulo": "Escapada para o Uruguai! Passagens aéreas para Montevidéu a partir de R$ 902 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T12:37:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
       }
     },
     {
@@ -8523,6 +8677,138 @@
       "match": false
     },
     {
+      "id": "5cc7670fb29a",
+      "origem_texto": "Vitória",
+      "origem_metro": "VIX",
+      "destino_texto": "Montevidéu",
+      "destino_metro": "MVD",
+      "pais_iso2": "UY",
+      "preco_brl": 1534,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-montevideu-902",
+          "titulo": "Escapada para o Uruguai! Passagens aéreas para Montevidéu a partir de R$ 902 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T12:37:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:VIX"
+      }
+    },
+    {
+      "id": "c2a6393e7787",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "Montevidéu",
+      "destino_metro": "MVD",
+      "pais_iso2": "UY",
+      "preco_brl": 1538,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-montevideu-902",
+          "titulo": "Escapada para o Uruguai! Passagens aéreas para Montevidéu a partir de R$ 902 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T12:37:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CWB"
+      }
+    },
+    {
+      "id": "fc92f472028d",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "Montevidéu",
+      "destino_metro": "MVD",
+      "pais_iso2": "UY",
+      "preco_brl": 1553,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-montevideu-902",
+          "titulo": "Escapada para o Uruguai! Passagens aéreas para Montevidéu a partir de R$ 902 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T12:37:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:FLN"
+      }
+    },
+    {
       "id": "b7a3aa404a74",
       "origem_texto": "Fortaleza",
       "origem_metro": "FOR",
@@ -8568,6 +8854,50 @@
       "match": false,
       "perfis": {
         "ale-andreia": "origem:FOR"
+      }
+    },
+    {
+      "id": "81ef42382e5a",
+      "origem_texto": "Porto Alegre",
+      "origem_metro": "POA",
+      "destino_texto": "Montevidéu",
+      "destino_metro": "MVD",
+      "pais_iso2": "UY",
+      "preco_brl": 1594,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-montevideu-902",
+          "titulo": "Escapada para o Uruguai! Passagens aéreas para Montevidéu a partir de R$ 902 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T12:37:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:POA"
       }
     },
     {
@@ -8820,7 +9150,7 @@
       "descoberto_em": "2026-07-24T12:07:58+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [
@@ -9221,6 +9551,54 @@
       "match": false
     },
     {
+      "id": "427432f8d1b2",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Cartagena das Índias",
+      "destino_metro": "CTG",
+      "pais_iso2": "CO",
+      "preco_brl": 1751,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Copa Airlines",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
+          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T14:41:57+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "c7f8a92b1edc",
       "origem_texto": "",
       "origem_metro": "",
@@ -9334,6 +9712,54 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "7dc890a15c04",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Cartagena das Índias",
+      "destino_metro": "CTG",
+      "pais_iso2": "CO",
+      "preco_brl": 1766,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Copa Airlines",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
+          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T14:41:57+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:RIO"
       }
     },
     {
@@ -10959,7 +11385,7 @@
       "descoberto_em": "2026-07-16T08:49:56+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "perfis": {
@@ -11401,6 +11827,54 @@
       }
     },
     {
+      "id": "44aa0594c76b",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "Cartagena das Índias",
+      "destino_metro": "CTG",
+      "pais_iso2": "CO",
+      "preco_brl": 2151,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
+          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T14:41:57+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:BSB"
+      }
+    },
+    {
       "id": "79a3dcedeae2",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -11642,6 +12116,54 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "9ec62152fc40",
+      "origem_texto": "Salvador",
+      "origem_metro": "SSA",
+      "destino_texto": "Cartagena das Índias",
+      "destino_metro": "CTG",
+      "pais_iso2": "CO",
+      "preco_brl": 2210,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
+          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T14:41:57+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:SSA"
+      }
     },
     {
       "id": "b3d01abbe59f",
@@ -12348,6 +12870,54 @@
       }
     },
     {
+      "id": "085c13b8f8e0",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "CNF",
+      "destino_texto": "Cartagena das Índias",
+      "destino_metro": "CTG",
+      "pais_iso2": "CO",
+      "preco_brl": 2352,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
+          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T14:41:57+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CNF"
+      }
+    },
+    {
       "id": "a72b9e7e58ff",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -12495,6 +13065,54 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "43bf8bf06952",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "Cartagena das Índias",
+      "destino_metro": "CTG",
+      "pais_iso2": "CO",
+      "preco_brl": 2369,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
+          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T14:41:57+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:FLN"
       }
     },
     {
@@ -12968,6 +13586,54 @@
       }
     },
     {
+      "id": "67c3e6c7c839",
+      "origem_texto": "Belém",
+      "origem_metro": "BEL",
+      "destino_texto": "Cartagena das Índias",
+      "destino_metro": "CTG",
+      "pais_iso2": "CO",
+      "preco_brl": 2430,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
+          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T14:41:57+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:BEL"
+      }
+    },
+    {
       "id": "d5ce2145452d",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -13030,6 +13696,102 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "78a001c9edd4",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "Cartagena das Índias",
+      "destino_metro": "CTG",
+      "pais_iso2": "CO",
+      "preco_brl": 2444,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
+          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T14:41:57+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CWB"
+      }
+    },
+    {
+      "id": "c88a4f90f8d9",
+      "origem_texto": "Navegantes",
+      "origem_metro": "NVT",
+      "destino_texto": "Cartagena das Índias",
+      "destino_metro": "CTG",
+      "pais_iso2": "CO",
+      "preco_brl": 2446,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
+          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-07-31T14:41:57+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "descanso"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:NVT"
       }
     },
     {
@@ -19581,7 +20343,7 @@
       "descoberto_em": "2026-07-23T12:03:15+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 3,
+        "amostras": 4,
         "precisa": 7
       },
       "tipos": [
@@ -19606,14 +20368,14 @@
       "posicionamento": {
         "praca": "Fortaleza",
         "praca_metro": "FOR",
-        "base_de_casa": 3693,
-        "base_origem": "Campinas",
-        "economia_por_pessoa": 629,
-        "economia_grupo": 1258,
+        "base_de_casa": 10011,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 6947,
+        "economia_grupo": 13894,
         "trecho_domestico": "SAO->FOR"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1258"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_13894"
       }
     },
     {
@@ -19643,7 +20405,7 @@
       "descoberto_em": "2026-07-22T23:49:05+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 3,
+        "amostras": 4,
         "precisa": 7
       },
       "tipos": [
@@ -19668,14 +20430,14 @@
       "posicionamento": {
         "praca": "Fortaleza",
         "praca_metro": "FOR",
-        "base_de_casa": 3693,
-        "base_origem": "Campinas",
-        "economia_por_pessoa": 629,
-        "economia_grupo": 1258,
+        "base_de_casa": 10011,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 6947,
+        "economia_grupo": 13894,
         "trecho_domestico": "SAO->FOR"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1258"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_13894"
       }
     },
     {
@@ -22175,14 +22937,14 @@
       "posicionamento": {
         "praca": "Navegantes",
         "praca_metro": "NVT",
-        "base_de_casa": 3693,
-        "base_origem": "Campinas",
-        "economia_por_pessoa": 327,
-        "economia_grupo": 654,
+        "base_de_casa": 10011,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 6645,
+        "economia_grupo": 13290,
         "trecho_domestico": "SAO->NVT"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_654"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_13290"
       }
     },
     {
@@ -22237,14 +22999,14 @@
       "posicionamento": {
         "praca": "Navegantes",
         "praca_metro": "NVT",
-        "base_de_casa": 3693,
-        "base_origem": "Campinas",
-        "economia_por_pessoa": 327,
-        "economia_grupo": 654,
+        "base_de_casa": 10011,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 6645,
+        "economia_grupo": 13290,
         "trecho_domestico": "SAO->NVT"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_654"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_13290"
       }
     },
     {
@@ -22502,1017 +23264,6 @@
         "andreia": false
       },
       "match": false
-    },
-    {
-      "id": "978ff42ddb9f",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Montreal",
-      "destino_metro": "YUL",
-      "destino_iata": "YUL",
-      "origem_iata": "GRU",
-      "pais_texto": "Canadá",
-      "pais_iso2": "CA",
-      "preco_brl": 3420,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Canada e Arajet",
-      "janela": "2027-01-28 a 2027-02-05",
-      "janela_inicio": "2027-01-28",
-      "janela_fim": "2027-02-05",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 855,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI3LTAxLTI4agcIARIDR1JVGhUSCjIwMjctMDItMDVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1MnA3",
-          "titulo": "Montreal — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-30",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 12,
-        "mediana": 3178,
-        "minimo_visto": 3020,
-        "p10": 3120,
-        "desvio_pct": 8,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "DEPENDE",
-        "dias": 180,
-        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "e45c4ca09eb3",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Los Angeles",
-      "destino_metro": "LAX",
-      "destino_iata": "LAX",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3435,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-29 a 2026-11-04",
-      "janela_inicio": "2026-10-29",
-      "janela_fim": "2026-11-04",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 899,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
-          "titulo": "Los Angeles — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3435,
-        "minimo_visto": 3148,
-        "p10": 3161,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "cultural"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "efdaf607d419",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Los Angeles",
-      "destino_metro": "LAX",
-      "destino_iata": "LAX",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3436,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-29 a 2026-11-04",
-      "janela_inicio": "2026-10-29",
-      "janela_fim": "2026-11-04",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 899,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
-          "titulo": "Los Angeles — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-27",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3435,
-        "minimo_visto": 3148,
-        "p10": 3161,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "cultural"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "fec3f01b889b",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Los Angeles",
-      "destino_metro": "LAX",
-      "destino_iata": "LAX",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3436,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-29 a 2026-11-04",
-      "janela_inicio": "2026-10-29",
-      "janela_fim": "2026-11-04",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 899,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
-          "titulo": "Los Angeles — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-26",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3435,
-        "minimo_visto": 3148,
-        "p10": 3161,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "cultural"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "bd97be1b6e51",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Los Angeles",
-      "destino_metro": "LAX",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3441,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-29 a 2026-11-05",
-      "janela_inicio": "2026-10-29",
-      "janela_fim": "2026-11-05",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 899,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDVyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
-          "titulo": "Los Angeles — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3435,
-        "minimo_visto": 3148,
-        "p10": 3161,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "cultural"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "5beab416e9c3",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Los Angeles",
-      "destino_metro": "LAX",
-      "destino_iata": "LAX",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3444,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-29 a 2026-11-04",
-      "janela_inicio": "2026-10-29",
-      "janela_fim": "2026-11-04",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 899,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
-          "titulo": "Los Angeles — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3435,
-        "minimo_visto": 3148,
-        "p10": 3161,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "cultural"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "d0b140e03099",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Los Angeles",
-      "destino_metro": "LAX",
-      "destino_iata": "LAX",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3444,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-29 a 2026-11-04",
-      "janela_inicio": "2026-10-29",
-      "janela_fim": "2026-11-04",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 899,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
-          "titulo": "Los Angeles — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3435,
-        "minimo_visto": 3148,
-        "p10": 3161,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "cultural"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "af64c7ea46b2",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Los Angeles",
-      "destino_metro": "LAX",
-      "destino_iata": "LAX",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3446,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-29 a 2026-11-04",
-      "janela_inicio": "2026-10-29",
-      "janela_fim": "2026-11-04",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 899,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
-          "titulo": "Los Angeles — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-25",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3435,
-        "minimo_visto": 3148,
-        "p10": 3161,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "cultural"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "269c04caa493",
-      "origem_texto": "Fortaleza",
-      "origem_metro": "FOR",
-      "destino_texto": "Lisboa",
-      "destino_metro": "LIS",
-      "pais_iso2": "PT",
-      "preco_brl": 3455,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Latam",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-mega-promo-latam-europa-18-07-26",
-          "titulo": "Mega promo Europa! Latam tem voos para Portugal, Espanha, Itália e mais destinos a partir de R$ 3.544 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-07-20T12:27:33+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 3,
-        "precisa": 7
-      },
-      "posicionamento": {
-        "praca": "Fortaleza",
-        "praca_metro": "FOR",
-        "base_de_casa": 3868,
-        "base_origem": "São Paulo",
-        "economia_por_pessoa": 413,
-        "economia_grupo": 826,
-        "trecho_domestico": "SAO->FOR"
-      },
-      "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_826"
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "268ab8a8b3ac",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Los Angeles",
-      "destino_metro": "LAX",
-      "destino_iata": "LAX",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3459,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-10-29 a 2026-11-04",
-      "janela_inicio": "2026-10-29",
-      "janela_fim": "2026-11-04",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 899,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTI5agcIARIDR1JVGhUSCjIwMjYtMTEtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
-          "titulo": "Los Angeles — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-28",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3435,
-        "minimo_visto": 3148,
-        "p10": 3161,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "cultural"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "e5c70634ded6",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Montreal",
-      "destino_metro": "YUL",
-      "destino_iata": "YUL",
-      "origem_iata": "GRU",
-      "pais_texto": "Canadá",
-      "pais_iso2": "CA",
-      "preco_brl": 3464,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet e WestJet",
-      "janela": "2027-01-28 a 2027-02-04",
-      "janela_inicio": "2027-01-28",
-      "janela_fim": "2027-02-04",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 855,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI3LTAxLTI4agcIARIDR1JVGhUSCjIwMjctMDItMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1MnA3",
-          "titulo": "Montreal — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-29",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 12,
-        "mediana": 3178,
-        "minimo_visto": 3020,
-        "p10": 3120,
-        "desvio_pct": 9,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "DEPENDE",
-        "dias": 180,
-        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "77aa6edfd059",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Veneza",
-      "destino_metro": "VCE",
-      "pais_iso2": "IT",
-      "preco_brl": 3482,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "ITA Airways",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18699",
-          "titulo": "Itália muito bom 🔥🇮🇹"
-        },
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIzagcIARIDR1JVGhUSCjIwMjYtMTItMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3X3Bm",
-          "titulo": "Veneza — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-27T14:58:04+00:00",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3742,
-        "minimo_visto": 3482,
-        "p10": 3487,
-        "desvio_pct": -7,
-        "raro": true
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "6dfe4acd17a6",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Lisboa",
-      "destino_metro": "LIS",
-      "pais_iso2": "PT",
-      "preco_brl": 3485,
-      "por_pessoa": true,
-      "ida_e_volta": false,
-      "com_taxas": false,
-      "tipo": "misto",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Latam",
-      "validade": "",
-      "observacao": "Classe executiva, o trecho mais taxas; ou 134 mil milhas",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18691",
-          "titulo": "Lisboa na classe executiva da Latam"
-        }
-      ],
-      "descoberto_em": "2026-07-26T14:32:26+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "tipo:misto"
-      }
-    },
-    {
-      "id": "cc858584dba3",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Veneza",
-      "destino_metro": "VCE",
-      "destino_iata": "VCE",
-      "origem_iata": "GRU",
-      "pais_texto": "Itália",
-      "pais_iso2": "IT",
-      "preco_brl": 3487,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "ITA",
-      "janela": "2026-11-23 a 2026-12-01",
-      "janela_inicio": "2026-11-23",
-      "janela_fim": "2026-12-01",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 830,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTIzagcIARIDR1JVGhUSCjIwMjYtMTItMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA3X3Bm",
-          "titulo": "Veneza — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-26",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3742,
-        "minimo_visto": 3482,
-        "p10": 3487,
-        "desvio_pct": -7,
-        "raro": true
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "gastronomico"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DICHIARAZIONE DI PRESENZA — CONFIRMADA NA POLIZIA DI STATO, pega quase todo casal em roteiro multi-pais. Quem entra na Italia vindo de OUTRO pais Schengen (voo Sao Paulo>Lisboa e depois Lisboa>Roma, ou trem da Franca) tem de declarar presenca ao questore da provincia 'entro otto giorni dall'ingresso in Italia'. Entrando direto de fora do Schengen, cumpre-se no controle de fronteira. Em HOTEL o hoteleiro cumpre por voce ('ha l'obbligo di segnalare all'autorità di P.S. le generalità delle persone alloggiate entro le 24 ore successive al loro arrivo') — em Airbnb/casa de amigo NAO: a obrigacao e SUA. Sancao: expulsao (salvo forca maior); permanencia irregular e punivel com multa de EUR 5.000 a 10.000. Guarde a copia do formulario. SEGUNDA, omitida antes: passaporte emitido nos ultimos 10 ANOS e valido +3 MESES alem da saida do Schengen.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "aab8e603a25a",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Europa",
-      "destino_metro": "",
-      "pais_iso2": null,
-      "preco_brl": 3495,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "Itália, Portugal, Espanha e mais; 10x sem juros",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18614",
-          "titulo": "Mega Promo Europa 🇪🇺"
-        }
-      ],
-      "descoberto_em": "2026-07-21T23:29:08+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "37d780d439fe",
-      "origem_texto": "Florianópolis",
-      "origem_metro": "FLN",
-      "destino_texto": "Lisboa",
-      "destino_metro": "LIS",
-      "pais_iso2": "PT",
-      "preco_brl": 3496,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Gol",
-      "validade": "setembro a novembro",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/portugal-com-a-gol-promocao-do-novo-voo-para-lisboa-tem-passagens-a-partir-de-r-3-064-ida-e-volta",
-          "titulo": "Portugal com a Gol muito bom! Promo do novo voo para Lisboa a partir de R$ 3.064 ida e volta saindo de várias cidades"
-        }
-      ],
-      "descoberto_em": "2026-07-23T12:03:15+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "posicionamento": {
-        "praca": "Florianópolis",
-        "praca_metro": "FLN",
-        "base_de_casa": 3693,
-        "base_origem": "Campinas",
-        "economia_por_pessoa": 197,
-        "economia_grupo": 394,
-        "trecho_domestico": "SAO->FLN"
-      },
-      "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_394"
-      }
     }
   ]
 }
