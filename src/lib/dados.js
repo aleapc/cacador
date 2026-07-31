@@ -50,6 +50,7 @@ export function estadoVazio() {
     versao: 3, qualidadeVersao: 2,
     favoritos: [], descartados: [], escapadasFavoritas: [], gosto: {},
     pessoas: {}, eventos: [], eventosVistos: [], ultimoCompartilhamento: null,
+    buscasSalvas: [], metricas: [],
     aparelho: { pessoaId: null, id: novoId('aparelho') },
     dupla: { id: null, status: 'solo', cidade: '', parceiroId: null },
     migracao: { precisaEscolherPessoa: false },
@@ -126,4 +127,9 @@ export function desvincular(e) {
 export function registrarEvento(e, { itemId, itemTipo, acao, motivos = [], nota = '' }) {
   const evento = { id: novoId('evento'), duplaId: e.dupla.id, pessoaId: e.aparelho.pessoaId, pessoaNome: pessoaLocal(e)?.nome ?? 'Alguém', itemId, itemTipo, acao, motivos, nota, criadoEm: agora() };
   return { ...e, eventos: [...e.eventos, evento] };
+}
+
+export function registrarMetrica(e, nome, dados = {}) {
+  const evento = { nome, dados, criadoEm: agora() };
+  return { ...e, metricas: [...(e.metricas ?? []).slice(-99), evento] };
 }

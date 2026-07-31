@@ -14,7 +14,7 @@ export default defineConfig({
       kit: { adapterFallback: '404.html' },
       manifest: {
         name: 'Viagem para Dois — achados para escapar juntos',
-        short_name: 'Viagem para Dois',
+        short_name: 'Viagem²',
         description: 'Achados de viagens e escapadas escolhidos para vocês dois',
         lang: 'pt-BR',
         theme_color: '#0B1220',
