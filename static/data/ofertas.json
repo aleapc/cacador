@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-31T16:56:16.151Z",
+  "gerado_em": "2026-07-31T18:42:12.413Z",
   "visto_ate": "2026-07-30T18:53:46+00:00",
   "ultimo_explore": "2026-07-31",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 3,
       "status": "ok"
     },
     {
@@ -36,6 +36,11 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18759",
+    "https://t.me/melhoresdestinos/18758",
+    "https://t.me/melhoresdestinos/18757",
+    "https://t.me/passageirodeprimeira/27960",
+    "https://t.me/passageirodeprimeira/27958",
     "https://t.me/passageirodeprimeira/27957",
     "https://t.me/passageirodeprimeira/27955",
     "https://t.me/melhoresdestinos/18754",
@@ -201,7 +206,7 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 2,
@@ -209,14 +214,14 @@
       "incompleta": 1,
       "categoria": 1
     },
-    "ineditas": 0,
-    "rotas_no_historico": 166,
+    "ineditas": 3,
+    "rotas_no_historico": 167,
     "com_baseline": 215,
-    "sem_tag": 98,
+    "sem_tag": 99,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 403,
         "casam_no_perfil": 169,
         "dessas_ja_alertadas_antes": 169,
         "novas_para_alertar": 0,
@@ -226,8 +231,9 @@
           "tipo": 21,
           "posicionamento_desligado": 50,
           "domestico": 49,
-          "origem": 53,
-          "janela_curta": 58
+          "origem": 54,
+          "janela_curta": 58,
+          "acima_do_teto": 2
         }
       }
     }
@@ -14904,6 +14910,59 @@
       }
     },
     {
+      "id": "50914b3e9389",
+      "origem_texto": "Rio",
+      "origem_metro": "RIO",
+      "destino_texto": "Boston",
+      "destino_metro": "BOS",
+      "pais_iso2": "US",
+      "preco_brl": 2553,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18758",
+          "titulo": "Bom preço! EUA 🇺🇸"
+        }
+      ],
+      "descoberto_em": "2026-07-31T18:18:24+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "cidade_grande",
+        "gastronomico"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:RIO"
+      }
+    },
+    {
       "id": "c8f83ecbcc3b",
       "origem_texto": "Rio de Janeiro",
       "origem_metro": "RIO",
@@ -23419,68 +23478,6 @@
         }
       ],
       "descoberto_em": "2026-07-23T12:03:15+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [
-        "cultural",
-        "gastronomico",
-        "cidade_grande"
-      ],
-      "continente": "europa",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "posicionamento": {
-        "praca": "Florianópolis",
-        "praca_metro": "FLN",
-        "base_de_casa": 3693,
-        "base_origem": "Campinas",
-        "economia_por_pessoa": 197,
-        "economia_grupo": 394,
-        "trecho_domestico": "SAO->FLN"
-      },
-      "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_394"
-      }
-    },
-    {
-      "id": "0cb19ef812e1",
-      "origem_texto": "Florianópolis",
-      "origem_metro": "FLN",
-      "destino_texto": "Lisboa",
-      "destino_metro": "LIS",
-      "pais_iso2": "PT",
-      "preco_brl": 3496,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Gol",
-      "validade": "setembro a novembro",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/portugal-com-a-gol-promocao-do-novo-voo-para-lisboa-tem-passagens-a-partir-de-r-3-064-ida-e-volta",
-          "titulo": "Portugal com a Gol muito bom! Promo do novo voo para Lisboa a partir de R$ 3.064 ida e volta saindo de várias cidades"
-        }
-      ],
-      "descoberto_em": "2026-07-22T23:49:05+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 1,
