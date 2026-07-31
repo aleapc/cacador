@@ -40,14 +40,14 @@ export const QUALIDADE_PADRAO = {
   hotelEstrelas: 4,
   avaliacaoMinima: 4.3,
   minimoAvaliacoes: 100,
-  aceitarSemClassificacao: false,
+  aceitarSemClassificacao: true,
   classeVoo: 'economica',
   escalasMaximas: 1,
 };
 
 export function estadoVazio() {
   return {
-    versao: 3,
+    versao: 3, qualidadeVersao: 2,
     favoritos: [], descartados: [], escapadasFavoritas: [], gosto: {},
     pessoas: {}, eventos: [], eventosVistos: [], ultimoCompartilhamento: null,
     aparelho: { pessoaId: null, id: novoId('aparelho') },
@@ -60,7 +60,8 @@ export function migrarEstado(salvo = {}) {
   if (salvo.versao === 3) {
     const base = estadoVazio();
     const pessoas = Object.fromEntries(Object.entries(salvo.pessoas ?? {}).map(([id, p]) => [id, {
-      qualidade: { ...QUALIDADE_PADRAO, ...(p.qualidade ?? {}) }, ...p, id,
+      ...p, id, qualidade: { ...QUALIDADE_PADRAO, ...(p.qualidade ?? {}),
+        aceitarSemClassificacao: salvo.qualidadeVersao >= 2 ? (p.qualidade?.aceitarSemClassificacao ?? true) : true },
     }]));
     return { ...base, ...salvo, pessoas, dupla: { ...base.dupla, ...(salvo.dupla ?? {}) }, aparelho: { ...base.aparelho, ...(salvo.aparelho ?? {}) } };
   }
