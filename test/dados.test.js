@@ -24,3 +24,4 @@ test('recupera a avaliação mais recente da pessoa neste aparelho', () => {
   assert.equal(ultimaAvaliacao(e, 'cidade-do-cabo').acao, 'gostei');
   assert.deepEqual(ultimaAvaliacao(e, 'cidade-do-cabo').motivos, ['Destino']);
 });
+
