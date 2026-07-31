@@ -9,7 +9,8 @@
     "preview": "vite preview --host",
     "cacar": "node scripts/cacar/run.mjs",
     "cacar:seco": "node scripts/cacar/run.mjs --seco",
-    "cacar:explore": "node scripts/cacar/run.mjs --explore"
+    "cacar:explore": "node scripts/cacar/run.mjs --explore",
+    "test": "node --test"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0"

@@ -35,7 +35,8 @@ async function consultar(cfg) {
   const saida = new Date(entrada); saida.setUTCDate(saida.getUTCDate() + cfg.noites)
   const p = new URLSearchParams({
     engine: 'google_hotels', q: cfg.busca, check_in_date: iso(entrada), check_out_date: iso(saida),
-    adults: '2', currency: 'BRL', gl: 'br', hl: 'pt-br', sort_by: '3', api_key: chave,
+    adults: '2', currency: 'BRL', gl: 'br', hl: 'pt-br', sort_by: '3',
+    rating: '8', hotel_class: '3,4,5', api_key: chave,
   })
   const r = await fetch(`https://serpapi.com/search.json?${p}`)
   if (!r.ok) throw new Error(`${cfg.destino}: HTTP ${r.status}`)
@@ -43,12 +44,14 @@ async function consultar(cfg) {
   if (j.error) throw new Error(`${cfg.destino}: ${j.error}`)
   const candidatos = (j.properties ?? []).filter((h) => h.rate_per_night?.extracted_lowest > 0)
   candidatos.sort((a, b) => (b.overall_rating ?? 0) - (a.overall_rating ?? 0) || a.rate_per_night.extracted_lowest - b.rate_per_night.extracted_lowest)
-  return candidatos.slice(0, 2).map((h) => ({
+  return candidatos.slice(0, 8).map((h) => ({
     id: `hotel:${cfg.destino.toLowerCase().normalize('NFD').replace(/[^a-z0-9]+/g,'-')}:${h.property_token ?? h.name.toLowerCase().replace(/\W+/g,'-')}`,
     destino: cfg.destino, nome: h.name, tipo: cfg.tipo, icone: cfg.icone, tags: cfg.tags,
     distancia: cfg.distancia, noites: cfg.noites, checkin: iso(entrada), checkout: iso(saida),
     preco_noite: h.rate_per_night.extracted_lowest, preco_total: h.rate_per_night.extracted_lowest * cfg.noites,
     avaliacao: h.overall_rating ?? null, avaliacoes: h.reviews ?? null,
+    estrelas: h.extracted_hotel_class ?? (Number.parseInt(h.hotel_class, 10) || null),
+    categoria: h.type ?? h.property_type ?? null,
     comodidades: (h.amenities ?? []).slice(0, 4), imagem: h.images?.[0]?.thumbnail ?? null,
     descricao: h.description ?? `Uma opção para ${cfg.noites === 1 ? 'uma noite' : 'o fim de semana'} a dois.`,
     fonte: 'Google Hotels', link: h.link ?? j.search_metadata?.google_hotels_url ?? `https://www.google.com/travel/hotels?q=${encodeURIComponent(cfg.busca)}`,

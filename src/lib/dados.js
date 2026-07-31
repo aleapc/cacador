@@ -1,8 +1,7 @@
-import { base } from '$app/paths';
-
 export async function carregar() {
-  const url = `${base}/data/ofertas.json`;
-  const urlEscapadas = `${base}/data/escapadas.json`;
+  const prefixo = (import.meta.env?.BASE_URL ?? '/').replace(/\/$/, '');
+  const url = `${prefixo}/data/ofertas.json`;
+  const urlEscapadas = `${prefixo}/data/escapadas.json`;
   const [r, re] = await Promise.all([
     fetch(url, { cache: 'no-cache' }),
     fetch(urlEscapadas, { cache: 'no-cache' }),
@@ -14,9 +13,7 @@ export async function carregar() {
   return { ...dados, escapadas: escapadas.escapadas ?? [], escapadas_meta: escapadas };
 }
 
-export const brl = (n) =>
-  'R$ ' + Number(n).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
-
+export const brl = (n) => 'R$ ' + Number(n).toLocaleString('pt-BR', { maximumFractionDigits: 0 });
 export const quando = (iso) => {
   if (!iso) return '';
   const dias = Math.round((Date.now() - new Date(iso)) / 86400000);
@@ -24,8 +21,6 @@ export const quando = (iso) => {
   if (dias === 1) return 'ontem';
   return `há ${dias} dias`;
 };
-
-// A janela vem como "2026-08-16 a 2026-08-24". Encurta pro celular.
 export const janelaCurta = (j) => {
   if (!j) return '';
   const m = j.match(/(\d{4})-(\d{2})-(\d{2}) a (\d{4})-(\d{2})-(\d{2})/);
@@ -35,57 +30,99 @@ export const janelaCurta = (j) => {
   return `${+d1}/${mes(m1)} → ${+d2}/${mes(m2)}`;
 };
 
-// Estado local do casal: favoritar e descartar.
-// Fica no aparelho — sem servidor, sem conta, sem login. O sync entre os dois
-// vem depois pelo padrão de código via WhatsApp, igual aos outros PWAs.
-const CHAVE = 'VIAGEM_PARA_DOIS_v2';
-const CHAVE_ANTIGA = 'CACADOR_v1';
+export const CHAVE = 'VIAGEM_PARA_DOIS_v3';
+const CHAVE_V2 = 'VIAGEM_PARA_DOIS_v2';
+const CHAVE_V1 = 'CACADOR_v1';
+const agora = () => new Date().toISOString();
+export const novoId = (prefixo = 'id') => `${prefixo}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 9)}`;
 
-const VAZIO = {
-  favoritos: [],
-  descartados: [],
-  gosto: {},
-  escapadasFavoritas: [],
-  casal: {
-    completo: false,
-    cidade: '',
-    pessoas: [
-      { id: 'p1', nome: '', cor: '#38BDF8' },
-      { id: 'p2', nome: '', cor: '#F472B6' },
-    ],
-  },
+export const QUALIDADE_PADRAO = {
+  hotelEstrelas: 4,
+  avaliacaoMinima: 4.3,
+  minimoAvaliacoes: 100,
+  aceitarSemClassificacao: false,
+  classeVoo: 'economica',
+  escalasMaximas: 1,
 };
 
-function normalizar(salvo = {}) {
-  const pessoas = salvo.casal?.pessoas?.length === 2
-    ? salvo.casal.pessoas
-    : VAZIO.casal.pessoas;
+export function estadoVazio() {
   return {
-    ...VAZIO,
-    ...salvo,
-    favoritos: salvo.favoritos ?? [],
-    descartados: salvo.descartados ?? [],
-    gosto: salvo.gosto ?? {},
-    escapadasFavoritas: salvo.escapadasFavoritas ?? [],
-    casal: { ...VAZIO.casal, ...(salvo.casal ?? {}), pessoas },
+    versao: 3,
+    favoritos: [], descartados: [], escapadasFavoritas: [], gosto: {},
+    pessoas: {}, eventos: [], eventosVistos: [], ultimoCompartilhamento: null,
+    aparelho: { pessoaId: null, id: novoId('aparelho') },
+    dupla: { id: null, status: 'solo', cidade: '', parceiroId: null },
+    migracao: { precisaEscolherPessoa: false },
+  };
+}
+
+export function migrarEstado(salvo = {}) {
+  if (salvo.versao === 3) {
+    const base = estadoVazio();
+    const pessoas = Object.fromEntries(Object.entries(salvo.pessoas ?? {}).map(([id, p]) => [id, {
+      qualidade: { ...QUALIDADE_PADRAO, ...(p.qualidade ?? {}) }, ...p, id,
+    }]));
+    return { ...base, ...salvo, pessoas, dupla: { ...base.dupla, ...(salvo.dupla ?? {}) }, aparelho: { ...base.aparelho, ...(salvo.aparelho ?? {}) } };
+  }
+  const pessoasAntigas = salvo.casal?.pessoas ?? [];
+  const estado = estadoVazio();
+  if (!pessoasAntigas.some((p) => p?.nome)) return estado;
+  const pessoas = {};
+  for (const [i, p] of pessoasAntigas.entries()) {
+    const id = p.id || `p${i + 1}`;
+    pessoas[id] = { id, nome: p.nome ?? '', cor: p.cor ?? (i ? '#F472B6' : '#38BDF8'), qualidade: { ...QUALIDADE_PADRAO }, atualizadoEm: agora() };
+  }
+  return {
+    ...estado, favoritos: salvo.favoritos ?? [], descartados: salvo.descartados ?? [],
+    escapadasFavoritas: salvo.escapadasFavoritas ?? [], gosto: salvo.gosto ?? {}, pessoas,
+    dupla: { id: novoId('dupla'), status: pessoasAntigas.length > 1 ? 'pareada' : 'solo', cidade: salvo.casal?.cidade ?? '', parceiroId: null },
+    migracao: { precisaEscolherPessoa: pessoasAntigas.length > 1 },
   };
 }
 
 export function lerEstado() {
   try {
     const atual = JSON.parse(localStorage.getItem(CHAVE));
-    if (atual) return normalizar(atual);
-    const antigo = JSON.parse(localStorage.getItem(CHAVE_ANTIGA));
-    return normalizar(antigo ?? {});
-  } catch {
-    return normalizar();
-  }
+    if (atual) return migrarEstado(atual);
+    const v2 = JSON.parse(localStorage.getItem(CHAVE_V2));
+    const v1 = JSON.parse(localStorage.getItem(CHAVE_V1));
+    const migrado = migrarEstado(v2 ?? v1 ?? {});
+    if (v2 || v1) gravarEstado(migrado);
+    return migrado;
+  } catch { return estadoVazio(); }
 }
 
 export function gravarEstado(e) {
-  try {
-    localStorage.setItem(CHAVE, JSON.stringify(e));
-  } catch {
-    /* modo privado do Safari: falha em silêncio, o app continua funcionando */
-  }
+  try { localStorage.setItem(CHAVE, JSON.stringify({ ...e, versao: 3 })); } catch { /* Safari privado */ }
+}
+
+export function pessoaLocal(e) { return e.pessoas?.[e.aparelho?.pessoaId] ?? null; }
+export function parceiro(e) { return e.pessoas?.[e.dupla?.parceiroId] ?? null; }
+
+export function criarPerfil(e, { nome, cidade }) {
+  const id = novoId('pessoa');
+  return {
+    ...e,
+    pessoas: { ...e.pessoas, [id]: { id, nome: nome.trim(), cor: '#38BDF8', qualidade: { ...QUALIDADE_PADRAO }, atualizadoEm: agora() } },
+    aparelho: { ...e.aparelho, pessoaId: id },
+    dupla: { ...e.dupla, cidade: cidade.trim(), status: 'solo' },
+    migracao: { precisaEscolherPessoa: false },
+  };
+}
+
+export function escolherPessoaMigrada(e, pessoaId) {
+  const outro = Object.keys(e.pessoas).find((id) => id !== pessoaId) ?? null;
+  return { ...e, aparelho: { ...e.aparelho, pessoaId }, dupla: { ...e.dupla, parceiroId: outro, status: outro ? 'pareada' : 'solo' }, migracao: { precisaEscolherPessoa: false } };
+}
+
+export function desvincular(e) {
+  const localId = e.aparelho.pessoaId;
+  return { ...e, pessoas: localId && e.pessoas[localId] ? { [localId]: e.pessoas[localId] } : {},
+    gosto: localId ? { [localId]: e.gosto[localId] ?? [] } : {}, eventosVistos: [],
+    dupla: { id: null, status: 'solo', cidade: e.dupla.cidade, parceiroId: null } };
+}
+
+export function registrarEvento(e, { itemId, itemTipo, acao, motivos = [], nota = '' }) {
+  const evento = { id: novoId('evento'), duplaId: e.dupla.id, pessoaId: e.aparelho.pessoaId, pessoaNome: pessoaLocal(e)?.nome ?? 'Alguém', itemId, itemTipo, acao, motivos, nota, criadoEm: agora() };
+  return { ...e, eventos: [...e.eventos, evento] };
 }
