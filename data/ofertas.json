@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-01T03:47:56.468Z",
-  "visto_ate": "2026-07-31T17:43:12+00:00",
+  "gerado_em": "2026-08-01T06:40:10.986Z",
+  "visto_ate": "2026-07-31T22:45:52+00:00",
   "ultimo_explore": "2026-08-01",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 1,
+      "lidas": 1,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -207,22 +207,22 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 1,
+    "materias_lidas": 1,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
-    "rotas_no_historico": 185,
+    "ineditas": 3,
+    "rotas_no_historico": 186,
     "com_baseline": 207,
-    "sem_tag": 106,
+    "sem_tag": 108,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 403,
         "casam_no_perfil": 165,
         "dessas_ja_alertadas_antes": 165,
         "novas_para_alertar": 0,
@@ -230,9 +230,9 @@
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
-          "posicionamento_desligado": 47,
-          "domestico": 51,
-          "origem": 65,
+          "posicionamento_desligado": 48,
+          "domestico": 52,
+          "origem": 66,
           "janela_curta": 52
         }
       }
@@ -1147,6 +1147,55 @@
       "match": false
     },
     {
+      "id": "4115a5e7e522",
+      "origem_texto": "São Paulo",
+      "origem_metro": "",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "",
+      "pais_iso2": "BR",
+      "preco_brl": 373,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/plantao-foertas-passagens-nacioanis-373",
+          "titulo": "Plantão de ofertas! Fim de semana tem passagens a partir de R$ 373 ida e volta com Azul, Gol e Latam para 53 destinos"
+        }
+      ],
+      "descoberto_em": "2026-07-31T22:45:52+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "d77c56052068",
       "origem_texto": "Vitória",
       "origem_metro": "VIX",
@@ -1664,6 +1713,59 @@
       "match": false
     },
     {
+      "id": "2a63a5309d0a",
+      "origem_texto": "Vitória",
+      "origem_metro": "VIX",
+      "destino_texto": "Belo Horizonte",
+      "destino_metro": "",
+      "pais_iso2": "BR",
+      "preco_brl": 445,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/plantao-foertas-passagens-nacioanis-373",
+          "titulo": "Plantão de ofertas! Fim de semana tem passagens a partir de R$ 373 ida e volta com Azul, Gol e Latam para 53 destinos"
+        }
+      ],
+      "descoberto_em": "2026-07-31T22:45:52+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Vitória",
+        "praca_metro": "VIX",
+        "base_de_casa": 1295,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 850,
+        "economia_grupo": 1700,
+        "trecho_domestico": "SAO->VIX"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1700"
+      }
+    },
+    {
       "id": "f64eb2e44431",
       "origem_texto": "Brasília",
       "origem_metro": "BSB",
@@ -1720,6 +1822,50 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "c9b96154255e",
+      "origem_texto": "Porto Alegre",
+      "origem_metro": "POA",
+      "destino_texto": "Curitiba",
+      "destino_metro": "CWB",
+      "pais_iso2": "BR",
+      "preco_brl": 457,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/plantao-foertas-passagens-nacioanis-373",
+          "titulo": "Plantão de ofertas! Fim de semana tem passagens a partir de R$ 373 ida e volta com Azul, Gol e Latam para 53 destinos"
+        }
+      ],
+      "descoberto_em": "2026-07-31T22:45:52+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:POA"
+      }
     },
     {
       "id": "a306284f0e08",
@@ -23071,200 +23217,6 @@
         "cidade_grande",
         "cultural",
         "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "50ffa6e127ce",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Quebec",
-      "destino_metro": "YQB",
-      "pais_texto": "Canadá",
-      "pais_iso2": "CA",
-      "preco_brl": 3243,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Air Canada",
-      "janela": "2026-11-15 a 2026-11-22",
-      "janela_inicio": "2026-11-15",
-      "janela_fim": "2026-11-22",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 860,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDR1JVGhUSCjIwMjYtMTEtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbXAy",
-          "titulo": "Quebec — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 14,
-        "mediana": 3589,
-        "minimo_visto": 3243,
-        "p10": 3406,
-        "desvio_pct": -10,
-        "raro": true
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "cidade_grande",
-        "esportes_inverno"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "DEPENDE",
-        "dias": 180,
-        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "5790dce40ce5",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Miami",
-      "destino_metro": "MIA",
-      "destino_iata": "MIA",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3258,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "American",
-      "janela": "2026-08-17 a 2026-08-24",
-      "janela_inicio": "2026-08-17",
-      "janela_fim": "2026-08-24",
-      "noites": 7,
-      "escalas": 0,
-      "duracao_min": 510,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE3agcIARIDR1JVGhUSCjIwMjYtMDgtMjRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmMnYw",
-          "titulo": "Miami — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-29",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 14,
-        "mediana": 2500,
-        "minimo_visto": 1189,
-        "p10": 2051,
-        "desvio_pct": 30,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "1a9e5ad03d08",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Los Angeles",
-      "destino_metro": "LAX",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3263,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "COPA",
-      "janela": "2026-08-20 a 2026-08-27",
-      "janela_inicio": "2026-08-20",
-      "janela_fim": "2026-08-27",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 1335,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAzMHFiM3Q",
-          "titulo": "Los Angeles — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 14,
-        "mediana": 3352,
-        "minimo_visto": 3145,
-        "p10": 3148,
-        "desvio_pct": -3,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cidade_grande",
-        "praia",
-        "cultural"
       ],
       "continente": "america_norte_central",
       "tem_tag": true,
