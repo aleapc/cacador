@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-01T17:13:23.618Z",
+  "gerado_em": "2026-08-01T18:10:21.157Z",
   "visto_ate": "2026-08-01T12:36:03+00:00",
   "ultimo_explore": "2026-08-01",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 5,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 3,
+      "novos": 0,
       "status": "ok"
     }
   ],
@@ -231,11 +231,8 @@
     "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 9,
-    "por_motivo_de_descarte": {
-      "incompleta": 8,
-      "categoria": 1
-    },
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
     "ineditas": 0,
     "rotas_no_historico": 189,
     "com_baseline": 197,
