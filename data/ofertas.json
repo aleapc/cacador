@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-01T11:34:07.667Z",
-  "visto_ate": "2026-07-31T22:45:52+00:00",
+  "gerado_em": "2026-08-01T13:53:10.295Z",
+  "visto_ate": "2026-08-01T12:36:03+00:00",
   "ultimo_explore": "2026-08-01",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 2,
+      "lidas": 2,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 3,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,19 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 4,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18765",
+    "https://t.me/melhoresdestinos/18763",
+    "https://t.me/melhoresdestinos/18762",
+    "https://t.me/passageirodeprimeira/27970",
+    "https://t.me/promopassagens/110459",
+    "https://t.me/promopassagens/110454",
+    "https://t.me/promopassagens/110447",
+    "https://t.me/promopassagens/110444",
     "https://t.me/melhoresdestinos/18761",
     "https://t.me/passageirodeprimeira/27966",
     "https://t.me/passageirodeprimeira/27963",
@@ -207,22 +215,24 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 2,
+    "materias_lidas": 2,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 8,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
-    "rotas_no_historico": 186,
+    "descartadas": 2,
+    "por_motivo_de_descarte": {
+      "incompleta": 2
+    },
+    "ineditas": 6,
+    "rotas_no_historico": 188,
     "com_baseline": 204,
-    "sem_tag": 108,
+    "sem_tag": 113,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 406,
         "casam_no_perfil": 162,
         "dessas_ja_alertadas_antes": 162,
         "novas_para_alertar": 0,
@@ -230,8 +240,8 @@
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
-          "posicionamento_desligado": 48,
-          "domestico": 52,
+          "posicionamento_desligado": 50,
+          "domestico": 56,
           "origem": 66,
           "janela_curta": 52
         }
@@ -666,6 +676,55 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "f3b30670fe6e",
+      "origem_texto": "São Paulo",
+      "origem_metro": "",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "",
+      "pais_iso2": "BR",
+      "preco_brl": 356,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/plantao-foertas-passagens-nacioanis-373",
+          "titulo": "Plantão de ofertas! Fim de semana tem passagens a partir de R$ 356 ida e volta com Azul, Gol e Latam para 53 destinos"
+        }
+      ],
+      "descoberto_em": "2026-08-01T11:33:02+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "af6ef3045e2a",
@@ -1389,6 +1448,59 @@
       }
     },
     {
+      "id": "1429666ab2d8",
+      "origem_texto": "Brasília",
+      "origem_metro": "BSB",
+      "destino_texto": "Belo Horizonte",
+      "destino_metro": "",
+      "pais_iso2": "BR",
+      "preco_brl": 408,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/plantao-foertas-passagens-nacioanis-373",
+          "titulo": "Plantão de ofertas! Fim de semana tem passagens a partir de R$ 356 ida e volta com Azul, Gol e Latam para 53 destinos"
+        }
+      ],
+      "descoberto_em": "2026-08-01T11:33:02+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Brasília",
+        "praca_metro": "BSB",
+        "base_de_casa": 1295,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 887,
+        "economia_grupo": 1774,
+        "trecho_domestico": "SAO->BSB"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1774"
+      }
+    },
+    {
       "id": "2bab2920893e",
       "origem_texto": "Uberlândia",
       "origem_metro": "UDI",
@@ -1435,6 +1547,52 @@
       "match": false,
       "perfis": {
         "ale-andreia": "origem:UDI"
+      }
+    },
+    {
+      "id": "b08d8a7b43ae",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Porto Alegre",
+      "destino_metro": "POA",
+      "pais_iso2": "BR",
+      "preco_brl": 419,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18765",
+          "titulo": "Natal Luz de Gramado"
+        }
+      ],
+      "descoberto_em": "2026-08-01T13:49:28+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
       }
     },
     {
@@ -3308,6 +3466,110 @@
       "match": false,
       "perfis": {
         "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "93f25e191f50",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "São Luís",
+      "destino_metro": "SLZ",
+      "pais_iso2": "BR",
+      "preco_brl": 621,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Saindo de BH, São Paulo e mais cidades",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18762",
+          "titulo": "Lençóis Maranhenses"
+        }
+      ],
+      "descoberto_em": "2026-08-01T13:02:03+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "c4f8b6999d00",
+      "origem_texto": "Recife",
+      "origem_metro": "REC",
+      "destino_texto": "Fernando de Noronha",
+      "destino_metro": "FEN",
+      "pais_iso2": "BR",
+      "preco_brl": 622,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Azul",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-diretos-para-fernando-de-noronha-01ago26",
+          "titulo": "Voos diretos para Fernando de Noronha a partir de R$ 622 do Recife e R$ 1.262 de São Paulo!"
+        },
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18763",
+          "titulo": "Fernando de Noronha"
+        }
+      ],
+      "descoberto_em": "2026-08-01T12:36:03+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Recife",
+        "praca_metro": "REC",
+        "base_de_casa": 1262,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 640,
+        "economia_grupo": 1280,
+        "trecho_domestico": "SAO->REC"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1280"
       }
     },
     {
@@ -8202,6 +8464,55 @@
       },
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "28a9093fb921",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Fernando de Noronha",
+      "destino_metro": "FEN",
+      "pais_iso2": "BR",
+      "preco_brl": 1262,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Gol e Latam",
+      "validade": "",
+      "observacao": "voos diretos, taxas incluídas",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/voos-diretos-para-fernando-de-noronha-01ago26",
+          "titulo": "Voos diretos para Fernando de Noronha a partir de R$ 622 do Recife e R$ 1.262 de São Paulo!"
+        },
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18763",
+          "titulo": "Fernando de Noronha"
+        }
+      ],
+      "descoberto_em": "2026-08-01T12:36:03+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
       }
     },
     {
@@ -22855,383 +23166,6 @@
       "perfis": {
         "ale-andreia": "janela_curta:6n"
       }
-    },
-    {
-      "id": "de103c684a88",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Johanesburgo",
-      "destino_metro": "JNB",
-      "destino_iata": "JNB",
-      "origem_iata": "GRU",
-      "pais_texto": "África do Sul",
-      "pais_iso2": null,
-      "preco_brl": 3189,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-11-02 a 2026-11-10",
-      "janela_inicio": "2026-11-02",
-      "janela_fim": "2026-11-10",
-      "noites": 8,
-      "escalas": 0,
-      "duracao_min": 535,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTAyagcIARIDR1JVGhUSCjIwMjYtMTEtMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBnMjg0",
-          "titulo": "Johanesburgo — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-25",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3180,
-        "minimo_visto": 2808,
-        "p10": 3093,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "insight": {
-        "fonte": "google-price-insights",
-        "nivel": "low",
-        "tipico": 5950,
-        "faixa": [
-          4500,
-          7400
-        ],
-        "lowest": 3180,
-        "desvio_pct": -47,
-        "pontos_historico": 61
-      }
-    },
-    {
-      "id": "fd5d0c050ef9",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Johanesburgo",
-      "destino_metro": "JNB",
-      "destino_iata": "JNB",
-      "origem_iata": "GRU",
-      "pais_texto": "África do Sul",
-      "pais_iso2": null,
-      "preco_brl": 3197,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-11-02 a 2026-11-08",
-      "janela_inicio": "2026-11-02",
-      "janela_fim": "2026-11-08",
-      "noites": 6,
-      "escalas": 0,
-      "duracao_min": 535,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTAyagcIARIDR1JVGhUSCjIwMjYtMTEtMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBnMjg0",
-          "titulo": "Johanesburgo — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-28",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 11,
-        "mediana": 3180,
-        "minimo_visto": 2808,
-        "p10": 3093,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "86b66d8476e7",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Chicago",
-      "destino_metro": "ORD",
-      "pais_iso2": "US",
-      "preco_brl": 3203,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "agosto a novembro, além de saídas em 2027",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/bom-preco-passagens-aereas-chicago-2498",
-          "titulo": "Bom preço! Passagens aéreas para Chicago a partir de R$ 2.498 ida e volta saindo do Rio de Janeiro"
-        }
-      ],
-      "descoberto_em": "2026-07-23T13:45:26+00:00",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 14,
-        "mediana": 2641,
-        "minimo_visto": 2629,
-        "p10": 2633,
-        "desvio_pct": 21,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "74120a141ffa",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Montreal",
-      "destino_metro": "YUL",
-      "destino_iata": "YUL",
-      "origem_iata": "GRU",
-      "pais_texto": "Canadá",
-      "pais_iso2": "CA",
-      "preco_brl": 3203,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "American e Arajet",
-      "janela": "2026-11-05 a 2026-11-11",
-      "janela_inicio": "2026-11-05",
-      "janela_fim": "2026-11-11",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 855,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTA1agcIARIDR1JVGhUSCjIwMjYtMTEtMTFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA1MnA3",
-          "titulo": "Montreal — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-28",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 13,
-        "mediana": 3179,
-        "minimo_visto": 3020,
-        "p10": 3120,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "DEPENDE",
-        "dias": 180,
-        "pegadinha": "A mais mal-entendida do bloco. O brasileiro NÃO é isento de visto no Canadá — tem isenção PARCIAL E CONDICIONADA ('conditional eligibility'), criada em 01/05/2017. Só pode usar eTA em vez de visto quem cumprir UMA das duas condições: (a) teve visto de visitante canadense nos últimos 10 anos, OU (b) tem visto americano de não-imigrante VÁLIDO. Duas sutilezas letais: primeiro, o eTA só serve para chegar de AVIÃO — de carro, ônibus, trem, barco ou navio de cruzeiro (inclusive vindo dos EUA) exige-se visto consular, mesmo para quem se qualificaria. Segundo, o visto americano precisa estar válido no DIA EM QUE VOCÊ PEDE o eTA, mas não precisa estar válido na data da viagem — quem pede o eTA depois do visto americano vencer é reprovado.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "a71225b8446f",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Chicago",
-      "destino_metro": "ORD",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3215,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-24 a 2026-10-02",
-      "janela_inicio": "2026-09-24",
-      "janela_fim": "2026-10-02",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 830,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI0agcIARIDR1JVGhUSCjIwMjYtMTAtMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxX2Q0",
-          "titulo": "Chicago — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 14,
-        "mediana": 2641,
-        "minimo_visto": 2629,
-        "p10": 2633,
-        "desvio_pct": 22,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "efb93cd33b01",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Chicago",
-      "destino_metro": "ORD",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 3224,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-25 a 2026-10-02",
-      "janela_inicio": "2026-09-25",
-      "janela_fim": "2026-10-02",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 797,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxX2Q0",
-          "titulo": "Chicago — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 14,
-        "mediana": 2641,
-        "minimo_visto": 2629,
-        "p10": 2633,
-        "desvio_pct": 22,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
     }
   ]
 }
