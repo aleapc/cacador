@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-03T21:21:03.862Z",
+  "gerado_em": "2026-08-03T23:18:40.727Z",
   "visto_ate": "2026-08-03T12:09:54+00:00",
   "ultimo_explore": "2026-08-03",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,16 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 3,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18787",
+    "https://t.me/passageirodeprimeira/28004",
+    "https://t.me/promopassagens/110553",
+    "https://t.me/promopassagens/110551",
+    "https://t.me/promopassagens/110550",
     "https://t.me/passageirodeprimeira/28002",
     "https://t.me/promopassagens/110546",
     "https://t.me/melhoresdestinos/18786",
@@ -251,21 +256,21 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
+    "descartadas": 3,
     "por_motivo_de_descarte": {
-      "incompleta": 1
+      "incompleta": 3
     },
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 193,
     "com_baseline": 188,
     "sem_tag": 112,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 401,
         "casam_no_perfil": 148,
         "dessas_ja_alertadas_antes": 148,
         "novas_para_alertar": 0,
@@ -276,12 +281,15 @@
           "posicionamento_desligado": 49,
           "domestico": 66,
           "origem": 72,
-          "janela_curta": 45
+          "janela_curta": 45,
+          "acima_do_teto": 1
         }
       }
     }
   },
-  "avisos": [],
+  "avisos": [
+    "descartou 3 de 5 — schema ou categoria descalibrados?"
+  ],
   "perfis": [
     {
       "id": "ale-andreia",
