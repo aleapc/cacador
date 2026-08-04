@@ -1,12 +1,12 @@
 {
-  "gerado_em": "2026-08-04T12:17:39.558Z",
-  "visto_ate": "2026-08-04T11:50:28+00:00",
+  "gerado_em": "2026-08-04T14:41:35.145Z",
+  "visto_ate": "2026-08-04T13:29:21+00:00",
   "ultimo_explore": "2026-08-04",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 2,
-      "lidas": 2,
+      "candidatos": 1,
+      "lidas": 1,
       "status": "ok"
     },
     {
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 2,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -36,6 +36,7 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18791",
     "https://t.me/melhoresdestinos/18789",
     "https://t.me/melhoresdestinos/18788",
     "https://t.me/canalpontospravoar/26905",
@@ -256,26 +257,24 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 2,
-    "materias_lidas": 2,
+    "candidatos_do_slug": 1,
+    "materias_lidas": 1,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 6,
+    "ofertas_extraidas": 5,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "incompleta": 1
-    },
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
     "ineditas": 5,
-    "rotas_no_historico": 195,
-    "com_baseline": 187,
-    "sem_tag": 113,
+    "rotas_no_historico": 197,
+    "com_baseline": 183,
+    "sem_tag": 116,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 405,
-        "casam_no_perfil": 155,
-        "dessas_ja_alertadas_antes": 150,
+        "total_avaliadas": 404,
+        "casam_no_perfil": 154,
+        "dessas_ja_alertadas_antes": 149,
         "novas_para_alertar": 5,
         "alertados": 5,
         "cortadas_pelo_teto": 0,
@@ -7202,6 +7201,106 @@
       }
     },
     {
+      "id": "cca78a2d43a7",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Santiago",
+      "destino_metro": "SCL",
+      "pais_iso2": "CL",
+      "preco_brl": 910,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "outubro e novembro",
+      "observacao": "Menor preço em outubro e novembro",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/queda-de-precos-passagens-baratas-para-santiago-atacama-ou-patagonia-04ago26",
+          "titulo": "Queda de preços! Passagens baratas para Santiago, Atacama ou Patagônia a partir de R$ 910 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-04T13:29:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico",
+        "montanha"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "c12bda5d3af2",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Santiago",
+      "destino_metro": "SCL",
+      "pais_iso2": "CL",
+      "preco_brl": 910,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18791",
+          "titulo": "Queda de preço!"
+        }
+      ],
+      "descoberto_em": "2026-08-04T13:31:06+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico",
+        "montanha"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "d9f51f201801",
       "origem_texto": "Curitiba",
       "origem_metro": "CWB",
@@ -7287,55 +7386,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "origem:NVT"
-      }
-    },
-    {
-      "id": "c29feccbc0ed",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Santiago",
-      "destino_metro": "SCL",
-      "pais_iso2": "CL",
-      "preco_brl": 940,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "outubro e novembro",
-      "observacao": "Menor preço em outubro e novembro",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/queda-de-precos-passagens-baratas-para-santiago-atacama-ou-patagonia-04ago26",
-          "titulo": "Queda de preços! Passagens baratas para Santiago, Atacama ou Patagônia a partir de R$ 940 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-08-04T11:50:28+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico",
-        "montanha"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
       }
     },
     {
@@ -9679,6 +9729,50 @@
       }
     },
     {
+      "id": "5e61530cef64",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Calama",
+      "destino_metro": "CJC",
+      "pais_iso2": "CL",
+      "preco_brl": 1269,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "outubro e novembro",
+      "observacao": "Deserto do Atacama",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/queda-de-precos-passagens-baratas-para-santiago-atacama-ou-patagonia-04ago26",
+          "titulo": "Queda de preços! Passagens baratas para Santiago, Atacama ou Patagônia a partir de R$ 910 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-04T13:29:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "c5489fc3629a",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -10313,6 +10407,94 @@
       "match": false,
       "perfis": {
         "ale-andreia": "tipo:misto"
+      }
+    },
+    {
+      "id": "372442bdf077",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Puerto Montt",
+      "destino_metro": "PMC",
+      "pais_iso2": "CL",
+      "preco_brl": 1408,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "outubro e novembro",
+      "observacao": "Patagônia",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/queda-de-precos-passagens-baratas-para-santiago-atacama-ou-patagonia-04ago26",
+          "titulo": "Queda de preços! Passagens baratas para Santiago, Atacama ou Patagônia a partir de R$ 910 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-04T13:29:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "52cf4cc58da8",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Punta Arenas",
+      "destino_metro": "PUQ",
+      "pais_iso2": "CL",
+      "preco_brl": 1408,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "outubro e novembro",
+      "observacao": "Patagônia",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/queda-de-precos-passagens-baratas-para-santiago-atacama-ou-patagonia-04ago26",
+          "titulo": "Queda de preços! Passagens baratas para Santiago, Atacama ou Patagônia a partir de R$ 910 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-04T13:29:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
       }
     },
     {
@@ -22552,263 +22734,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "da2083c5d211",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Ushuaia",
-      "destino_metro": "USH",
-      "pais_texto": "Argentina",
-      "pais_iso2": "AR",
-      "preco_brl": 2724,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Aerolineas Argentinas",
-      "janela": "2026-08-31 a 2026-09-09",
-      "janela_inicio": "2026-08-31",
-      "janela_fim": "2026-09-09",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 670,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTMxagcIARIDR1JVGhUSCjIwMjYtMDktMDlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxemRucw",
-          "titulo": "Ushuaia — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-20",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 17,
-        "mediana": 2495,
-        "minimo_visto": 2275,
-        "p10": 2277,
-        "desvio_pct": 9,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_inverno"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "821ed06a737d",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Nova Iorque",
-      "destino_metro": "NYC",
-      "destino_iata": "EWR",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2731,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-10-01 a 2026-10-08",
-      "janela_inicio": "2026-10-01",
-      "janela_fim": "2026-10-08",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 760,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTAxagcIARIDR1JVGhUSCjIwMjYtMTAtMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAyXzI4Ng",
-          "titulo": "Nova Iorque — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 17,
-        "mediana": 2769,
-        "minimo_visto": 2645,
-        "p10": 2657,
-        "desvio_pct": -1,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "feb1dc7bc59c",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Nova Iorque",
-      "destino_metro": "NYC",
-      "destino_iata": "EWR",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2736,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-10-01 a 2026-10-08",
-      "janela_inicio": "2026-10-01",
-      "janela_fim": "2026-10-08",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 760,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTAxagcIARIDR1JVGhUSCjIwMjYtMTAtMDhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAyXzI4Ng",
-          "titulo": "Nova Iorque — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-01",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 17,
-        "mediana": 2769,
-        "minimo_visto": 2645,
-        "p10": 2657,
-        "desvio_pct": -1,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "f4c35ed82303",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Nova Iorque",
-      "destino_metro": "NYC",
-      "destino_iata": "EWR",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2736,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-24 a 2026-10-01",
-      "janela_inicio": "2026-09-24",
-      "janela_fim": "2026-10-01",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 760,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI0agcIARIDR1JVGhUSCjIwMjYtMTAtMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAyXzI4Ng",
-          "titulo": "Nova Iorque — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-31",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 17,
-        "mediana": 2769,
-        "minimo_visto": 2645,
-        "p10": 2657,
-        "desvio_pct": -1,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
       }
     }
   ]
