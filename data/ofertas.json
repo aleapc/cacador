@@ -1,18 +1,18 @@
 {
-  "gerado_em": "2026-08-04T03:35:23.141Z",
+  "gerado_em": "2026-08-04T06:39:21.050Z",
   "visto_ate": "2026-08-03T16:53:21+00:00",
   "ultimo_explore": "2026-08-04",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 3,
-      "lidas": 3,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
-      "destinos": 90,
-      "status": "ok"
+      "destinos": 0,
+      "status": "nao_rodou"
     },
     {
       "nome": "tg:melhoresdestinos",
@@ -26,7 +26,7 @@
     },
     {
       "nome": "tg:canalpontospravoar",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -254,34 +254,33 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 3,
-    "materias_lidas": 3,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 9,
-    "explore_destinos": 90,
-    "explore_status": "ok",
+    "ofertas_extraidas": 0,
+    "explore_destinos": 0,
+    "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 71,
+    "ineditas": 0,
     "rotas_no_historico": 194,
-    "com_baseline": 251,
-    "sem_tag": 114,
+    "com_baseline": 186,
+    "sem_tag": 111,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 471,
-        "casam_no_perfil": 168,
-        "dessas_ja_alertadas_antes": 148,
-        "novas_para_alertar": 20,
-        "alertados": 5,
-        "cortadas_pelo_teto": 15,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 150,
+        "dessas_ja_alertadas_antes": 150,
+        "novas_para_alertar": 0,
+        "alertados": 0,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
           "posicionamento_desligado": 50,
           "domestico": 68,
-          "origem": 74,
-          "janela_curta": 65,
-          "acima_do_teto": 26
+          "origem": 72,
+          "janela_curta": 40
         }
       }
     }
@@ -18060,6 +18059,65 @@
       }
     },
     {
+      "id": "85f3d5b6470c",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Orlando",
+      "destino_metro": "MCO",
+      "pais_iso2": "US",
+      "preco_brl": 2494,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Férias de fim de ano",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18783",
+          "titulo": "Diversão na Flórida"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110527",
+          "titulo": "🛩 Passagens Baratas Para Orlando A Partir De R$ 2.120 Ou Nas Férias De Fim De Ano Por R$ 2.494!"
+        }
+      ],
+      "descoberto_em": "2026-08-03T16:23:31+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "217d2ae9c0cf",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -18161,65 +18219,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "origem:RIO"
-      }
-    },
-    {
-      "id": "85f3d5b6470c",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Orlando",
-      "destino_metro": "MCO",
-      "pais_iso2": "US",
-      "preco_brl": 2494,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "Férias de fim de ano",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18783",
-          "titulo": "Diversão na Flórida"
-        },
-        {
-          "nome": "tg:promopassagens",
-          "link": "https://t.me/promopassagens/110527",
-          "titulo": "🛩 Passagens Baratas Para Orlando A Partir De R$ 2.120 Ou Nas Férias De Fim De Ano Por R$ 2.494!"
-        }
-      ],
-      "descoberto_em": "2026-08-03T16:23:31+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
       }
     },
     {
