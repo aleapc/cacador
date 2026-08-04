@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-04T17:02:51.917Z",
+  "gerado_em": "2026-08-04T18:51:06.724Z",
   "visto_ate": "2026-08-04T13:29:21+00:00",
   "ultimo_explore": "2026-08-04",
   "fontes": [
@@ -16,26 +16,31 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 2,
+      "novos": 0,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
       "nome": "tg:canalpontospravoar",
-      "novos": 0,
+      "novos": 2,
       "status": "ok"
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 2,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/passageirodeprimeira/28019",
+    "https://t.me/canalpontospravoar/26922",
+    "https://t.me/canalpontospravoar/26918",
+    "https://t.me/promopassagens/110588",
+    "https://t.me/promopassagens/110584",
     "https://t.me/melhoresdestinos/18798",
     "https://t.me/melhoresdestinos/18795",
     "https://t.me/promopassagens/110579",
@@ -263,25 +268,26 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 1,
+    "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
+    "descartadas": 2,
     "por_motivo_de_descarte": {
+      "categoria": 1,
       "incompleta": 1
     },
-    "ineditas": 1,
+    "ineditas": 0,
     "rotas_no_historico": 197,
     "com_baseline": 179,
-    "sem_tag": 117,
+    "sem_tag": 116,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
-        "casam_no_perfil": 151,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 150,
         "dessas_ja_alertadas_antes": 150,
-        "novas_para_alertar": 1,
-        "alertados": 1,
+        "novas_para_alertar": 0,
+        "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
