@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-05T14:33:06.137Z",
+  "gerado_em": "2026-08-05T16:52:13.327Z",
   "visto_ate": "2026-08-04T18:38:19+00:00",
   "ultimo_explore": "2026-08-05",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 3,
       "status": "ok"
     },
     {
@@ -31,11 +31,16 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 2,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18818",
+    "https://t.me/melhoresdestinos/18817",
+    "https://t.me/melhoresdestinos/18816",
+    "https://t.me/promopassagens/110627",
+    "https://t.me/promopassagens/110624",
     "https://t.me/melhoresdestinos/18810",
     "https://t.me/melhoresdestinos/18809",
     "https://t.me/melhoresdestinos/18808",
@@ -282,23 +287,25 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "descartadas": 3,
+    "por_motivo_de_descarte": {
+      "incompleta": 3
+    },
+    "ineditas": 1,
     "rotas_no_historico": 197,
     "com_baseline": 180,
     "sem_tag": 115,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 149,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 150,
         "dessas_ja_alertadas_antes": 149,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
@@ -310,7 +317,9 @@
       }
     }
   },
-  "avisos": [],
+  "avisos": [
+    "descartou 3 de 4 — schema ou categoria descalibrados?"
+  ],
   "perfis": [
     {
       "id": "ale-andreia",
@@ -8603,6 +8612,56 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "f5eecfc02a5b",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1212,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "final do ano",
+      "observacao": "No final do ano a partir de R$ 1.400",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18816",
+          "titulo": "Argentina"
+        }
+      ],
+      "descoberto_em": "2026-08-05T14:49:23+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "2058c9df681b",
@@ -22699,72 +22758,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "a88c4bb2fbc9",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Chicago",
-      "destino_metro": "ORD",
-      "destino_iata": "ORD",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2661,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-13 a 2026-09-19",
-      "janela_inicio": "2026-09-13",
-      "janela_fim": "2026-09-19",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1202,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTEzagcIARIDR1JVGhUSCjIwMjYtMDktMTlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxX2Q0",
-          "titulo": "Chicago — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-28",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 18,
-        "mediana": 2646,
-        "minimo_visto": 2629,
-        "p10": 2633,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       }
     }
   ]
