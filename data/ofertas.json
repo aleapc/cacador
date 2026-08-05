@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-05T16:52:13.327Z",
-  "visto_ate": "2026-08-04T18:38:19+00:00",
+  "gerado_em": "2026-08-05T18:48:48.528Z",
+  "visto_ate": "2026-08-05T14:46:20+00:00",
   "ultimo_explore": "2026-08-05",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 1,
+      "lidas": 1,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 3,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -26,16 +26,20 @@
     },
     {
       "nome": "tg:canalpontospravoar",
-      "novos": 0,
-      "status": "vazio"
+      "novos": 2,
+      "status": "ok"
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 2,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18820",
+    "https://t.me/canalpontospravoar/26947",
+    "https://t.me/canalpontospravoar/26943",
+    "https://t.me/promopassagens/110632",
     "https://t.me/melhoresdestinos/18818",
     "https://t.me/melhoresdestinos/18817",
     "https://t.me/melhoresdestinos/18816",
@@ -284,42 +288,38 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 1,
+    "materias_lidas": 1,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 1,
+    "ofertas_extraidas": 5,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 3,
-    "por_motivo_de_descarte": {
-      "incompleta": 3
-    },
-    "ineditas": 1,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 5,
     "rotas_no_historico": 197,
-    "com_baseline": 180,
+    "com_baseline": 179,
     "sem_tag": 115,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
-        "casam_no_perfil": 150,
-        "dessas_ja_alertadas_antes": 149,
-        "novas_para_alertar": 1,
-        "alertados": 1,
+        "total_avaliadas": 405,
+        "casam_no_perfil": 153,
+        "dessas_ja_alertadas_antes": 150,
+        "novas_para_alertar": 3,
+        "alertados": 3,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
-          "posicionamento_desligado": 50,
+          "posicionamento_desligado": 52,
           "domestico": 70,
           "origem": 71,
-          "janela_curta": 40
+          "janela_curta": 39
         }
       }
     }
   },
-  "avisos": [
-    "descartou 3 de 4 — schema ou categoria descalibrados?"
-  ],
+  "avisos": [],
   "perfis": [
     {
       "id": "ale-andreia",
@@ -8614,6 +8614,120 @@
       "match": false
     },
     {
+      "id": "9bf1dca7dbac",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1212,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Menor valor",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/argentina-passagens-para-buenos-aires-05ago26",
+          "titulo": "Argentina! Passagens para Buenos Aires por R$ 1.212 ou no final do ano a partir de R$ 1.400"
+        }
+      ],
+      "descoberto_em": "2026-08-05T14:46:20+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Florianópolis",
+        "praca_metro": "FLN",
+        "base_de_casa": 1295,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 83,
+        "economia_grupo": 166,
+        "trecho_domestico": "SAO->FLN"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_166"
+      }
+    },
+    {
+      "id": "3e57b730ce32",
+      "origem_texto": "Rio de Janeiro",
+      "origem_metro": "RIO",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1212,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Menor valor",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/argentina-passagens-para-buenos-aires-05ago26",
+          "titulo": "Argentina! Passagens para Buenos Aires por R$ 1.212 ou no final do ano a partir de R$ 1.400"
+        }
+      ],
+      "descoberto_em": "2026-08-05T14:46:20+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Rio de Janeiro",
+        "praca_metro": "RIO",
+        "base_de_casa": 1295,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 83,
+        "economia_grupo": 166,
+        "trecho_domestico": "SAO->RIO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_166"
+      }
+    },
+    {
       "id": "f5eecfc02a5b",
       "origem_texto": "",
       "origem_metro": "",
@@ -10228,6 +10342,54 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "cef485dde0d5",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1372,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/argentina-passagens-para-buenos-aires-05ago26",
+          "titulo": "Argentina! Passagens para Buenos Aires por R$ 1.212 ou no final do ano a partir de R$ 1.400"
+        }
+      ],
+      "descoberto_em": "2026-08-05T14:46:20+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "6b5425e3a31a",
@@ -22571,194 +22733,6 @@
         "andreia": false
       },
       "match": false
-    },
-    {
-      "id": "cd4d137bc878",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Parque Nacional Torres del Paine",
-      "destino_metro": "PNT",
-      "destino_iata": "PNT",
-      "origem_iata": "GRU",
-      "pais_texto": "Chile",
-      "pais_iso2": "CL",
-      "preco_brl": 2658,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-09-27 a 2026-10-03",
-      "janela_inicio": "2026-09-27",
-      "janela_fim": "2026-10-03",
-      "noites": 6,
-      "escalas": 2,
-      "duracao_min": 698,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI3agcIARIDR1JVGhUSCjIwMjYtMTAtMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAycDkyc3Q",
-          "titulo": "Parque Nacional Torres del Paine — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-30",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 18,
-        "mediana": 2608,
-        "minimo_visto": 2420,
-        "p10": 2524,
-        "desvio_pct": 2,
-        "raro": false
-      },
-      "tipos": [
-        "natureza",
-        "montanha",
-        "aventura"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "70590c4d9d6c",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Chicago",
-      "destino_metro": "ORD",
-      "destino_iata": "ORD",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2660,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-13 a 2026-09-21",
-      "janela_inicio": "2026-09-13",
-      "janela_fim": "2026-09-21",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 1202,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTEzagcIARIDR1JVGhUSCjIwMjYtMDktMjFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxX2Q0",
-          "titulo": "Chicago — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-30",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 18,
-        "mediana": 2646,
-        "minimo_visto": 2629,
-        "p10": 2633,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "35d0401b2e04",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Parque Nacional Torres del Paine",
-      "destino_metro": "PNT",
-      "destino_iata": "PNT",
-      "origem_iata": "GRU",
-      "pais_texto": "Chile",
-      "pais_iso2": "CL",
-      "preco_brl": 2661,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-10-01 a 2026-10-09",
-      "janela_inicio": "2026-10-01",
-      "janela_fim": "2026-10-09",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 710,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTAxagcIARIDR1JVGhUSCjIwMjYtMTAtMDlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAycDkyc3Q",
-          "titulo": "Parque Nacional Torres del Paine — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-31",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 18,
-        "mediana": 2608,
-        "minimo_visto": 2420,
-        "p10": 2524,
-        "desvio_pct": 2,
-        "raro": false
-      },
-      "tipos": [
-        "natureza",
-        "montanha",
-        "aventura"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
     }
   ]
 }
