@@ -1,22 +1,22 @@
 {
-  "gerado_em": "2026-08-06T00:10:01.092Z",
-  "visto_ate": "2026-08-05T14:46:20+00:00",
+  "gerado_em": "2026-08-06T03:34:30.267Z",
+  "visto_ate": "2026-08-05T22:51:09+00:00",
   "ultimo_explore": "2026-08-06",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
-    },
-    {
-      "nome": "google-explore",
-      "destinos": 90,
+      "candidatos": 2,
+      "lidas": 2,
       "status": "ok"
     },
     {
+      "nome": "google-explore",
+      "destinos": 0,
+      "status": "nao_rodou"
+    },
+    {
       "nome": "tg:melhoresdestinos",
-      "novos": 2,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,11 +31,12 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
-      "status": "vazio"
+      "novos": 1,
+      "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/promopassagens/110653",
     "https://t.me/melhoresdestinos/18824",
     "https://t.me/melhoresdestinos/18823",
     "https://t.me/melhoresdestinos/18820",
@@ -290,36 +291,33 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 2,
+    "materias_lidas": 2,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
-    "explore_destinos": 90,
-    "explore_status": "ok",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "incompleta": 1
-    },
-    "ineditas": 64,
+    "ofertas_extraidas": 3,
+    "explore_destinos": 0,
+    "explore_status": "nao_rodou",
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 3,
     "rotas_no_historico": 198,
-    "com_baseline": 237,
-    "sem_tag": 116,
+    "com_baseline": 175,
+    "sem_tag": 115,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 464,
-        "casam_no_perfil": 164,
-        "dessas_ja_alertadas_antes": 149,
-        "novas_para_alertar": 15,
-        "alertados": 5,
-        "cortadas_pelo_teto": 10,
+        "total_avaliadas": 403,
+        "casam_no_perfil": 149,
+        "dessas_ja_alertadas_antes": 148,
+        "novas_para_alertar": 1,
+        "alertados": 1,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
-          "posicionamento_desligado": 52,
+          "posicionamento_desligado": 54,
           "domestico": 72,
           "origem": 71,
-          "janela_curta": 53,
-          "acima_do_teto": 32
+          "janela_curta": 37
         }
       }
     }
@@ -8742,63 +8740,6 @@
       "match": false
     },
     {
-      "id": "9bf1dca7dbac",
-      "origem_texto": "Florianópolis",
-      "origem_metro": "FLN",
-      "destino_texto": "Buenos Aires",
-      "destino_metro": "",
-      "pais_iso2": "AR",
-      "preco_brl": 1212,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "Menor valor",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/argentina-passagens-para-buenos-aires-05ago26",
-          "titulo": "Argentina! Passagens para Buenos Aires por R$ 1.212 ou no final do ano a partir de R$ 1.400"
-        }
-      ],
-      "descoberto_em": "2026-08-05T14:46:20+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "posicionamento": {
-        "praca": "Florianópolis",
-        "praca_metro": "FLN",
-        "base_de_casa": 1295,
-        "base_origem": "São Paulo",
-        "economia_por_pessoa": 83,
-        "economia_grupo": 166,
-        "trecho_domestico": "SAO->FLN"
-      },
-      "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_166"
-      }
-    },
-    {
       "id": "3e57b730ce32",
       "origem_texto": "Rio de Janeiro",
       "origem_metro": "RIO",
@@ -8850,6 +8791,63 @@
         "economia_por_pessoa": 83,
         "economia_grupo": 166,
         "trecho_domestico": "SAO->RIO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_166"
+      }
+    },
+    {
+      "id": "9bf1dca7dbac",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1212,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Menor valor",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/argentina-passagens-para-buenos-aires-05ago26",
+          "titulo": "Argentina! Passagens para Buenos Aires por R$ 1.212 ou no final do ano a partir de R$ 1.400"
+        }
+      ],
+      "descoberto_em": "2026-08-05T14:46:20+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Florianópolis",
+        "praca_metro": "FLN",
+        "base_de_casa": 1295,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 83,
+        "economia_grupo": 166,
+        "trecho_domestico": "SAO->FLN"
       },
       "perfis": {
         "ale-andreia": "posicionamento_desligado:diferenca_bruta_166"
