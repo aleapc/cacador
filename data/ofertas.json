@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-06T09:50:13.160Z",
+  "gerado_em": "2026-08-06T12:17:34.826Z",
   "visto_ate": "2026-08-05T22:51:09+00:00",
   "ultimo_explore": "2026-08-06",
   "fontes": [
@@ -16,13 +16,13 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
-      "status": "vazio"
+      "novos": 1,
+      "status": "ok"
     },
     {
       "nome": "tg:canalpontospravoar",
@@ -31,11 +31,14 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18825",
+    "https://t.me/passageirodeprimeira/28046",
+    "https://t.me/promopassagens/110654",
     "https://t.me/promopassagens/110653",
     "https://t.me/melhoresdestinos/18824",
     "https://t.me/melhoresdestinos/18823",
@@ -294,23 +297,25 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "descartadas": 2,
+    "por_motivo_de_descarte": {
+      "incompleta": 2
+    },
+    "ineditas": 1,
     "rotas_no_historico": 198,
     "com_baseline": 175,
     "sem_tag": 115,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 148,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 149,
         "dessas_ja_alertadas_antes": 148,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
@@ -322,7 +327,9 @@
       }
     }
   },
-  "avisos": [],
+  "avisos": [
+    "descartou 2 de 3 — schema ou categoria descalibrados?"
+  ],
   "perfis": [
     {
       "id": "ale-andreia",
@@ -14226,6 +14233,61 @@
       }
     },
     {
+      "id": "61480563d4a7",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 2010,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18825",
+          "titulo": "Flórida"
+        }
+      ],
+      "descoberto_em": "2026-08-06T11:02:46+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "d724fb07251f",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -22644,72 +22706,6 @@
         }
       ],
       "descoberto_em": "2026-07-27",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 19,
-        "mediana": 2647,
-        "minimo_visto": 2629,
-        "p10": 2633,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "5afa52d6a869",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Chicago",
-      "destino_metro": "ORD",
-      "destino_iata": "ORD",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2637,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-13 a 2026-09-19",
-      "janela_inicio": "2026-09-13",
-      "janela_fim": "2026-09-19",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1202,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTEzagcIARIDR1JVGhUSCjIwMjYtMDktMTlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxX2Q0",
-          "titulo": "Chicago — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
         "amostras": 19,
