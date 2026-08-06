@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-06T12:17:34.826Z",
-  "visto_ate": "2026-08-05T22:51:09+00:00",
+  "gerado_em": "2026-08-06T14:37:23.541Z",
+  "visto_ate": "2026-08-06T10:28:11+00:00",
   "ultimo_explore": "2026-08-06",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 1,
+      "lidas": 1,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,11 +31,12 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18828",
     "https://t.me/melhoresdestinos/18825",
     "https://t.me/passageirodeprimeira/28046",
     "https://t.me/promopassagens/110654",
@@ -294,26 +295,24 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 1,
+    "materias_lidas": 1,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 1,
+    "ofertas_extraidas": 5,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 2,
-    "por_motivo_de_descarte": {
-      "incompleta": 2
-    },
-    "ineditas": 1,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 3,
     "rotas_no_historico": 198,
-    "com_baseline": 175,
-    "sem_tag": 115,
+    "com_baseline": 174,
+    "sem_tag": 116,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
-        "casam_no_perfil": 149,
-        "dessas_ja_alertadas_antes": 148,
+        "total_avaliadas": 403,
+        "casam_no_perfil": 150,
+        "dessas_ja_alertadas_antes": 149,
         "novas_para_alertar": 1,
         "alertados": 1,
         "cortadas_pelo_teto": 0,
@@ -321,15 +320,13 @@
           "tipo": 20,
           "posicionamento_desligado": 52,
           "domestico": 72,
-          "origem": 71,
-          "janela_curta": 37
+          "origem": 73,
+          "janela_curta": 36
         }
       }
     }
   },
-  "avisos": [
-    "descartou 2 de 3 — schema ou categoria descalibrados?"
-  ],
+  "avisos": [],
   "perfis": [
     {
       "id": "ale-andreia",
@@ -13172,7 +13169,7 @@
       "descoberto_em": "2026-07-24T18:28:35+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "tipos": [
@@ -14087,7 +14084,7 @@
       "descoberto_em": "2026-07-16T13:18:58+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "posicionamento": {
@@ -14230,6 +14227,59 @@
       "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "46698b789533",
+      "origem_texto": "Manaus",
+      "origem_metro": "MAO",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 2010,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Menor valor",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/florida-passagens-aereas-miami-06ago26",
+          "titulo": "Flórida! Passagens aéreas para Miami a partir de R$ 2.010 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-06T10:28:11+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 3,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:MAO"
       }
     },
     {
@@ -17118,6 +17168,57 @@
       "match": false
     },
     {
+      "id": "d8291127f118",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Guatemala",
+      "destino_metro": "",
+      "pais_iso2": "GT",
+      "preco_brl": 2293,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18828",
+          "titulo": "América Central 🌋"
+        }
+      ],
+      "descoberto_em": "2026-08-06T12:31:09+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "A pegadinha do CA-4, que vale para Guatemala, El Salvador, Honduras e Nicarágua juntos: os 90 dias NÃO são por país, são 90 dias para a ZONA CA-4 INTEIRA. Sair da Guatemala e entrar em Honduras não zera o contador — o relógio continua correndo. Quem faz o roteiro Antigua → El Salvador → Honduras planejando '90 dias em cada' estoura o prazo e paga multa na saída. Para zerar é preciso sair da zona CA-4 (ex.: México, Belize ou Costa Rica) e, na prática, ficar fora por 72h. Houve reforma regulatória recente: o Reglamento de Visas Guatemaltecas (Acuerdo IGM-015-2025), publicado em 08/07/2025, entrou em vigor em 08/10/2025 — a classificação de países foi reeditada.",
+        "rotulo": "INFERENCIA"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "6f43e5879562",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -19568,6 +19669,11 @@
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/florida-passagens-aereas-miami-06ago26",
+          "titulo": "Flórida! Passagens aéreas para Miami a partir de R$ 2.010 ida e volta"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE1agcIARIDR1JVGhUSCjIwMjYtMTAtMjFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmMnYw",
@@ -22602,133 +22708,6 @@
       "tem_tag": true,
       "sem_visto": null,
       "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "16a6f79b4dba",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Parque Nacional Torres del Paine",
-      "destino_metro": "PNT",
-      "destino_iata": "PNT",
-      "origem_iata": "GRU",
-      "pais_texto": "Chile",
-      "pais_iso2": "CL",
-      "preco_brl": 2637,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-09-26 a 2026-10-02",
-      "janela_inicio": "2026-09-26",
-      "janela_fim": "2026-10-02",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 780,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI2agcIARIDR1JVGhUSCjIwMjYtMTAtMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAycDkyc3Q",
-          "titulo": "Parque Nacional Torres del Paine — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-04",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 19,
-        "mediana": 2608,
-        "minimo_visto": 2420,
-        "p10": 2524,
-        "desvio_pct": 1,
-        "raro": false
-      },
-      "tipos": [
-        "natureza",
-        "montanha",
-        "aventura"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "6ec4d1cd6d0c",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Chicago",
-      "destino_metro": "ORD",
-      "destino_iata": "ORD",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2637,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-13 a 2026-09-19",
-      "janela_inicio": "2026-09-13",
-      "janela_fim": "2026-09-19",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1202,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTEzagcIARIDR1JVGhUSCjIwMjYtMDktMTlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzAxX2Q0",
-          "titulo": "Chicago — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-27",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 19,
-        "mediana": 2647,
-        "minimo_visto": 2629,
-        "p10": 2633,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
       "gosto": {
         "ale": false,
         "andreia": false
