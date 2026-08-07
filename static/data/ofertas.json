@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-07T19:14:02.883Z",
+  "gerado_em": "2026-08-07T19:59:04.214Z",
   "visto_ate": "2026-08-07T11:58:04+00:00",
   "ultimo_explore": "2026-08-07",
   "fontes": [
@@ -21,13 +21,13 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
       "nome": "tg:canalpontospravoar",
       "novos": 0,
-      "status": "ok"
+      "status": "vazio"
     },
     {
       "nome": "tg:promopassagens",
@@ -36,6 +36,9 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18856",
+    "https://t.me/melhoresdestinos/18855",
+    "https://t.me/promopassagens/110726",
     "https://t.me/melhoresdestinos/18854",
     "https://t.me/melhoresdestinos/18853",
     "https://t.me/passageirodeprimeira/28081",
@@ -327,20 +330,20 @@
     "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 3,
+    "descartadas": 1,
     "por_motivo_de_descarte": {
-      "incompleta": 3
+      "incompleta": 1
     },
     "ineditas": 1,
     "rotas_no_historico": 200,
     "com_baseline": 168,
-    "sem_tag": 119,
+    "sem_tag": 120,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
-        "casam_no_perfil": 151,
-        "dessas_ja_alertadas_antes": 150,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 150,
+        "dessas_ja_alertadas_antes": 149,
         "novas_para_alertar": 1,
         "alertados": 1,
         "cortadas_pelo_teto": 0,
@@ -354,9 +357,7 @@
       }
     }
   },
-  "avisos": [
-    "descartou 3 de 4 — schema ou categoria descalibrados?"
-  ],
+  "avisos": [],
   "perfis": [
     {
       "id": "ale-andreia",
@@ -13136,6 +13137,52 @@
       }
     },
     {
+      "id": "0111524950d6",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Caribe",
+      "destino_metro": "",
+      "pais_iso2": null,
+      "preco_brl": 1760,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "A partir de R$ 1.760 para Colômbia, Aruba, Punta Cana e outros",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18856",
+          "titulo": "Caribe 🏖️"
+        }
+      ],
+      "descoberto_em": "2026-08-07T19:55:12+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "52a8d2cc91fd",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -13717,56 +13764,6 @@
         "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
         "rotulo": "FATO_COM_FONTE"
       },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "c2c1d86ce608",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Buenos Aires",
-      "destino_metro": "",
-      "pais_iso2": "AR",
-      "preco_brl": 1812,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "Roteiro 2 em 1 incluindo Mendoza, Bariloche e outros destinos",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18850",
-          "titulo": "Argentina 2 em 1 🇦🇷"
-        }
-      ],
-      "descoberto_em": "2026-08-07T14:48:41+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
       "gosto": {
         "ale": false,
         "andreia": false
