@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-07T16:08:09.130Z",
+  "gerado_em": "2026-08-07T17:06:01.910Z",
   "visto_ate": "2026-08-07T11:58:04+00:00",
   "ultimo_explore": "2026-08-07",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -36,6 +36,7 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18852",
     "https://t.me/melhoresdestinos/18850",
     "https://t.me/melhoresdestinos/18848",
     "https://t.me/melhoresdestinos/18845",
@@ -319,19 +320,19 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 200,
     "com_baseline": 169,
-    "sem_tag": 118,
+    "sem_tag": 119,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 401,
         "casam_no_perfil": 151,
         "dessas_ja_alertadas_antes": 151,
         "novas_para_alertar": 0,
@@ -341,7 +342,7 @@
           "tipo": 21,
           "posicionamento_desligado": 52,
           "domestico": 76,
-          "origem": 71,
+          "origem": 72,
           "janela_curta": 29
         }
       }
@@ -18491,6 +18492,55 @@
       }
     },
     {
+      "id": "d88da93e57a3",
+      "origem_texto": "Recife",
+      "origem_metro": "REC",
+      "destino_texto": "Cabo Verde",
+      "destino_metro": "",
+      "pais_iso2": "CV",
+      "preco_brl": 2369,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Voos diretos",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18852",
+          "titulo": "Cabo Verde 🇨🇻"
+        }
+      ],
+      "descoberto_em": "2026-08-07T16:36:03+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 30,
+        "pegadinha": "A TSA DOBRA SE VOCÊ NÃO FIZER ONLINE. Quem não usa a plataforma oficial paga 'taxa de regularização imediata' no balcão da polícia de fronteira: 6.800 CVE (~€64) em vez de 3.400 CVE (~€31). Além disso a Embaixada de Cabo Verde no Brasil lista, para apresentar NA CHEGADA: comprovante de pagamento, foto 3x4 colorida, passaporte, SEGURO DE VIAGEM VÁLIDO, comprovante de meios de subsistência, reserva de hotel ou carta-convite e certificado de vacinação. É uma isenção de visto com checklist de visto. Atenção ao prazo: são 30 dias, não 90.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:REC"
+      }
+    },
+    {
       "id": "43bf8bf06952",
       "origem_texto": "Florianópolis",
       "origem_metro": "FLN",
@@ -22602,67 +22652,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "253803cecf72",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Parque Nacional Torres del Paine",
-      "destino_metro": "PNT",
-      "destino_iata": "PNT",
-      "origem_iata": "GRU",
-      "pais_texto": "Chile",
-      "pais_iso2": "CL",
-      "preco_brl": 2604,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-09-26 a 2026-10-03",
-      "janela_inicio": "2026-09-26",
-      "janela_fim": "2026-10-03",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 778,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI2agcIARIDR1JVGhUSCjIwMjYtMTAtMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBECoOCAMSCi9tLzAycDkyc3Q",
-          "titulo": "Parque Nacional Torres del Paine — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-25",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2623,
-        "minimo_visto": 2420,
-        "p10": 2524,
-        "desvio_pct": -1,
-        "raro": false
-      },
-      "tipos": [
-        "natureza",
-        "montanha",
-        "aventura"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
       }
     }
   ]
