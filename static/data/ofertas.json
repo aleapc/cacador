@@ -1,37 +1,37 @@
 {
-  "gerado_em": "2026-08-07T00:45:33.605Z",
+  "gerado_em": "2026-08-07T04:03:34.129Z",
   "visto_ate": "2026-08-06T18:15:02+00:00",
   "ultimo_explore": "2026-08-07",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 2,
-      "lidas": 2,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
-      "destinos": 90,
-      "status": "ok"
+      "destinos": 0,
+      "status": "nao_rodou"
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 7,
+      "novos": 0,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 2,
+      "novos": 0,
       "status": "ok"
     },
     {
       "nome": "tg:canalpontospravoar",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
@@ -306,37 +306,33 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 2,
-    "materias_lidas": 2,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 13,
-    "explore_destinos": 90,
-    "explore_status": "ok",
-    "descartadas": 6,
-    "por_motivo_de_descarte": {
-      "incompleta": 4,
-      "categoria": 2
-    },
-    "ineditas": 76,
+    "ofertas_extraidas": 0,
+    "explore_destinos": 0,
+    "explore_status": "nao_rodou",
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 0,
     "rotas_no_historico": 200,
-    "com_baseline": 239,
-    "sem_tag": 122,
+    "com_baseline": 172,
+    "sem_tag": 117,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 476,
-        "casam_no_perfil": 175,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 150,
         "dessas_ja_alertadas_antes": 150,
-        "novas_para_alertar": 25,
-        "alertados": 5,
-        "cortadas_pelo_teto": 20,
+        "novas_para_alertar": 0,
+        "alertados": 0,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 20,
-          "posicionamento_desligado": 54,
+          "posicionamento_desligado": 52,
           "domestico": 76,
-          "origem": 72,
-          "janela_curta": 47,
-          "acima_do_teto": 32
+          "origem": 71,
+          "janela_curta": 31
         }
       }
     }
