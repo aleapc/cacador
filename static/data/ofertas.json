@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-07T20:57:10.037Z",
+  "gerado_em": "2026-08-07T21:54:24.023Z",
   "visto_ate": "2026-08-07T11:58:04+00:00",
   "ultimo_explore": "2026-08-07",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 2,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,11 +31,16 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 5,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/promopassagens/110736",
+    "https://t.me/promopassagens/110735",
+    "https://t.me/promopassagens/110734",
+    "https://t.me/promopassagens/110733",
+    "https://t.me/promopassagens/110732",
     "https://t.me/melhoresdestinos/18858",
     "https://t.me/melhoresdestinos/18857",
     "https://t.me/melhoresdestinos/18856",
@@ -329,25 +334,25 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 1,
     "por_motivo_de_descarte": {
       "incompleta": 1
     },
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 200,
     "com_baseline": 168,
     "sem_tag": 120,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 150,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 151,
         "dessas_ja_alertadas_antes": 150,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 21,
@@ -18517,12 +18522,17 @@
       "flags": [],
       "fontes": [
         {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110736",
+          "titulo": "🚞 Cabo Verde! Voos Diretos Saindo Do Recife A Partir De R$ 2.369 Ida E Volta"
+        },
+        {
           "nome": "tg:melhoresdestinos",
           "link": "https://t.me/melhoresdestinos/18852",
           "titulo": "Cabo Verde 🇨🇻"
         }
       ],
-      "descoberto_em": "2026-08-07T16:36:03+00:00",
+      "descoberto_em": "2026-08-07T21:31:19+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
