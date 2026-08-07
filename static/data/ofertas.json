@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-07T13:37:49.513Z",
+  "gerado_em": "2026-08-07T15:08:02.997Z",
   "visto_ate": "2026-08-07T11:58:04+00:00",
   "ultimo_explore": "2026-08-07",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 2,
-      "lidas": 2,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 4,
+      "novos": 2,
       "status": "ok"
     },
     {
@@ -31,11 +31,13 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18850",
+    "https://t.me/melhoresdestinos/18848",
     "https://t.me/melhoresdestinos/18845",
     "https://t.me/melhoresdestinos/18844",
     "https://t.me/melhoresdestinos/18843",
@@ -314,36 +316,33 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 2,
-    "materias_lidas": 2,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 6,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 4,
-    "por_motivo_de_descarte": {
-      "incompleta": 3,
-      "categoria": 1
-    },
-    "ineditas": 5,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 2,
     "rotas_no_historico": 200,
-    "com_baseline": 172,
-    "sem_tag": 121,
+    "com_baseline": 170,
+    "sem_tag": 119,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 405,
-        "casam_no_perfil": 153,
-        "dessas_ja_alertadas_antes": 150,
-        "novas_para_alertar": 3,
-        "alertados": 3,
+        "total_avaliadas": 402,
+        "casam_no_perfil": 152,
+        "dessas_ja_alertadas_antes": 151,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 21,
           "posicionamento_desligado": 52,
           "domestico": 76,
           "origem": 71,
-          "janela_curta": 31,
+          "janela_curta": 29,
           "acima_do_teto": 1
         }
       }
@@ -13720,6 +13719,56 @@
       }
     },
     {
+      "id": "c2c1d86ce608",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1812,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Roteiro 2 em 1 incluindo Mendoza, Bariloche e outros destinos",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18850",
+          "titulo": "Argentina 2 em 1 🇦🇷"
+        }
+      ],
+      "descoberto_em": "2026-08-07T14:48:41+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "07f78c4192dd",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -22616,65 +22665,6 @@
       "perfis": {
         "ale-andreia": "casa"
       }
-    },
-    {
-      "id": "3c33ce054de1",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Ushuaia",
-      "destino_metro": "USH",
-      "pais_texto": "Argentina",
-      "pais_iso2": "AR",
-      "preco_brl": 2606,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Aerolineas Argentinas",
-      "janela": "2026-09-14 a 2026-09-21",
-      "janela_inicio": "2026-09-14",
-      "janela_fim": "2026-09-21",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 670,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE0agcIARIDR1JVGhUSCjIwMjYtMDktMjFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxemRucw",
-          "titulo": "Ushuaia — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2500,
-        "minimo_visto": 2275,
-        "p10": 2277,
-        "desvio_pct": 4,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_inverno"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
     }
   ]
 }
