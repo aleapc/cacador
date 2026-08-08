@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-08T15:44:22.762Z",
-  "visto_ate": "2026-08-08T13:48:43+00:00",
+  "gerado_em": "2026-08-08T16:50:38.315Z",
+  "visto_ate": "2026-08-08T14:53:01+00:00",
   "ultimo_explore": "2026-08-08",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 2,
+      "lidas": 2,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 3,
+      "novos": 0,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,11 +31,12 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/promopassagens/110756",
     "https://t.me/melhoresdestinos/18868",
     "https://t.me/melhoresdestinos/18867",
     "https://t.me/melhoresdestinos/18865",
@@ -341,34 +342,34 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 2,
+    "materias_lidas": 2,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 2,
+    "ofertas_extraidas": 11,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 2,
+    "descartadas": 1,
     "por_motivo_de_descarte": {
-      "incompleta": 2
+      "incompleta": 1
     },
-    "ineditas": 2,
-    "rotas_no_historico": 207,
+    "ineditas": 10,
+    "rotas_no_historico": 214,
     "com_baseline": 159,
-    "sem_tag": 132,
+    "sem_tag": 141,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 402,
-        "casam_no_perfil": 141,
-        "dessas_ja_alertadas_antes": 141,
+        "total_avaliadas": 410,
+        "casam_no_perfil": 139,
+        "dessas_ja_alertadas_antes": 139,
         "novas_para_alertar": 0,
         "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 21,
-          "posicionamento_desligado": 52,
-          "domestico": 83,
-          "origem": 76,
+          "posicionamento_desligado": 53,
+          "domestico": 85,
+          "origem": 83,
           "janela_curta": 29
         }
       }
@@ -2868,6 +2869,50 @@
       }
     },
     {
+      "id": "7bd944da2e3e",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Cabo Frio",
+      "destino_metro": "CFB",
+      "pais_iso2": "BR",
+      "preco_brl": 494,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam",
+      "validade": "dezembro a maio",
+      "observacao": "voos diretos",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/buzios-passagens-aereas-cabo-frio-494",
+          "titulo": "Búzios e Arraial do Cabo! Voos para Cabo Frio por R$ 494 ida e volta e datas no verão"
+        }
+      ],
+      "descoberto_em": "2026-08-08T14:18:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "ebb68ffb34da",
       "origem_texto": "",
       "origem_metro": "",
@@ -3767,7 +3812,7 @@
       "descoberto_em": "2026-07-25T13:58:24+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [],
@@ -3783,14 +3828,14 @@
       "posicionamento": {
         "praca": "Vitória",
         "praca_metro": "VIX",
-        "base_de_casa": 812,
-        "base_origem": "São Paulo",
-        "economia_por_pessoa": 219,
-        "economia_grupo": 438,
+        "base_de_casa": 695,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 102,
+        "economia_grupo": 204,
         "trecho_domestico": "SAO->VIX"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_438"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_204"
       }
     },
     {
@@ -4346,7 +4391,7 @@
     },
     {
       "id": "1a32783bb9eb",
-      "origem_texto": "",
+      "origem_texto": "Belo Horizonte",
       "origem_metro": "",
       "destino_texto": "Recife",
       "destino_metro": "REC",
@@ -4359,18 +4404,21 @@
       "bagagem_despachada": "nao_dito",
       "companhia": "",
       "validade": "",
-      "observacao": "",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
+      "observacao": "Menor valor",
+      "flags": [],
       "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernambuco-passagens-aereas-recife-622",
+          "titulo": "Pernambuco! Passagens aéreas para Recife a partir de R$ 622 ida e volta"
+        },
         {
           "nome": "tg:melhoresdestinos",
           "link": "https://t.me/melhoresdestinos/18868",
           "titulo": "Pernambuco 🌴"
         }
       ],
-      "descoberto_em": "2026-08-08T15:37:24+00:00",
+      "descoberto_em": "2026-08-08T14:53:01+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
@@ -5029,14 +5077,14 @@
       "posicionamento": {
         "praca": "Salvador",
         "praca_metro": "SSA",
-        "base_de_casa": 812,
-        "base_origem": "São Paulo",
-        "economia_por_pessoa": 169,
-        "economia_grupo": 338,
+        "base_de_casa": 695,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 52,
+        "economia_grupo": 104,
         "trecho_domestico": "SAO->SSA"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_338"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_104"
       }
     },
     {
@@ -5217,6 +5265,59 @@
       }
     },
     {
+      "id": "fb696dfca4bd",
+      "origem_texto": "Fortaleza",
+      "origem_metro": "FOR",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 651,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernambuco-passagens-aereas-recife-622",
+          "titulo": "Pernambuco! Passagens aéreas para Recife a partir de R$ 622 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-08T14:53:01+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Fortaleza",
+        "praca_metro": "FOR",
+        "base_de_casa": 695,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 44,
+        "economia_grupo": 88,
+        "trecho_domestico": "SAO->FOR"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_88"
+      }
+    },
+    {
       "id": "3f75a807644e",
       "origem_texto": "Belo Horizonte",
       "origem_metro": "CNF",
@@ -5259,14 +5360,14 @@
       "posicionamento": {
         "praca": "Belo Horizonte",
         "praca_metro": "CNF",
-        "base_de_casa": 812,
-        "base_origem": "São Paulo",
-        "economia_por_pessoa": 160,
-        "economia_grupo": 320,
+        "base_de_casa": 695,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 43,
+        "economia_grupo": 86,
         "trecho_domestico": "SAO->CNF"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_320"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_86"
       }
     },
     {
@@ -5360,14 +5461,14 @@
       "posicionamento": {
         "praca": "Brasília",
         "praca_metro": "BSB",
-        "base_de_casa": 812,
-        "base_origem": "São Paulo",
-        "economia_por_pessoa": 155,
-        "economia_grupo": 310,
+        "base_de_casa": 695,
+        "base_origem": "Campinas",
+        "economia_por_pessoa": 38,
+        "economia_grupo": 76,
         "trecho_domestico": "SAO->BSB"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_310"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_76"
       }
     },
     {
@@ -5758,6 +5859,138 @@
       }
     },
     {
+      "id": "d4cfb2076442",
+      "origem_texto": "Campinas",
+      "origem_metro": "SAO",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 695,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernambuco-passagens-aereas-recife-622",
+          "titulo": "Pernambuco! Passagens aéreas para Recife a partir de R$ 622 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-08T14:53:01+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "567ff14762e7",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 705,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernambuco-passagens-aereas-recife-622",
+          "titulo": "Pernambuco! Passagens aéreas para Recife a partir de R$ 622 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-08T14:53:01+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:FLN"
+      }
+    },
+    {
+      "id": "6cebf1a9d1cb",
+      "origem_texto": "Navegantes",
+      "origem_metro": "NVT",
+      "destino_texto": "Cabo Frio",
+      "destino_metro": "CFB",
+      "pais_iso2": "BR",
+      "preco_brl": 714,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "dezembro a maio",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/buzios-passagens-aereas-cabo-frio-494",
+          "titulo": "Búzios e Arraial do Cabo! Voos para Cabo Frio por R$ 494 ida e volta e datas no verão"
+        }
+      ],
+      "descoberto_em": "2026-08-08T14:18:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:NVT"
+      }
+    },
+    {
       "id": "f928037ca830",
       "origem_texto": "Curitiba",
       "origem_metro": "CWB",
@@ -5828,7 +6061,7 @@
       "descoberto_em": "2026-07-25T13:58:24+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [],
@@ -5964,6 +6197,138 @@
       },
       "perfis": {
         "ale-andreia": "posicionamento_desligado:diferenca_bruta_182"
+      }
+    },
+    {
+      "id": "6851a896e7c8",
+      "origem_texto": "São José do Rio Preto",
+      "origem_metro": "SJP",
+      "destino_texto": "Cabo Frio",
+      "destino_metro": "CFB",
+      "pais_iso2": "BR",
+      "preco_brl": 723,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "dezembro a maio",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/buzios-passagens-aereas-cabo-frio-494",
+          "titulo": "Búzios e Arraial do Cabo! Voos para Cabo Frio por R$ 494 ida e volta e datas no verão"
+        }
+      ],
+      "descoberto_em": "2026-08-08T14:18:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:SJP"
+      }
+    },
+    {
+      "id": "be24b6913d83",
+      "origem_texto": "Goiânia",
+      "origem_metro": "GYN",
+      "destino_texto": "Cabo Frio",
+      "destino_metro": "CFB",
+      "pais_iso2": "BR",
+      "preco_brl": 728,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "dezembro a maio",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/buzios-passagens-aereas-cabo-frio-494",
+          "titulo": "Búzios e Arraial do Cabo! Voos para Cabo Frio por R$ 494 ida e volta e datas no verão"
+        }
+      ],
+      "descoberto_em": "2026-08-08T14:18:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:GYN"
+      }
+    },
+    {
+      "id": "fc188fdd65e5",
+      "origem_texto": "Vitória",
+      "origem_metro": "VIX",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 737,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/pernambuco-passagens-aereas-recife-622",
+          "titulo": "Pernambuco! Passagens aéreas para Recife a partir de R$ 622 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-08T14:53:01+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 2,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:VIX"
       }
     },
     {
@@ -6730,7 +7095,7 @@
       "descoberto_em": "2026-07-25T13:58:24+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 1,
+        "amostras": 2,
         "precisa": 7
       },
       "tipos": [],
@@ -7205,6 +7570,50 @@
       }
     },
     {
+      "id": "dcd9076074c7",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "Cabo Frio",
+      "destino_metro": "CFB",
+      "pais_iso2": "BR",
+      "preco_brl": 866,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "dezembro a maio",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/buzios-passagens-aereas-cabo-frio-494",
+          "titulo": "Búzios e Arraial do Cabo! Voos para Cabo Frio por R$ 494 ida e volta e datas no verão"
+        }
+      ],
+      "descoberto_em": "2026-08-08T14:18:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:FLN"
+      }
+    },
+    {
       "id": "741dec49d998",
       "origem_texto": "Curitiba",
       "origem_metro": "CWB",
@@ -7291,6 +7700,50 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "fb4bb85cf854",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "Cabo Frio",
+      "destino_metro": "CFB",
+      "pais_iso2": "BR",
+      "preco_brl": 870,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "dezembro a maio",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/buzios-passagens-aereas-cabo-frio-494",
+          "titulo": "Búzios e Arraial do Cabo! Voos para Cabo Frio por R$ 494 ida e volta e datas no verão"
+        }
+      ],
+      "descoberto_em": "2026-08-08T14:18:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CWB"
+      }
     },
     {
       "id": "5e5d71b9e32b",
@@ -21895,631 +22348,6 @@
         "andreia": false
       },
       "match": false
-    },
-    {
-      "id": "db9f77c42845",
-      "origem_texto": "Rio de Janeiro",
-      "origem_metro": "RIO",
-      "destino_texto": "Chicago",
-      "destino_metro": "ORD",
-      "pais_iso2": "US",
-      "preco_brl": 2498,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18646",
-          "titulo": "Bom preço! Chicago 🇺🇸"
-        },
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/bom-preco-passagens-aereas-chicago-2498",
-          "titulo": "Bom preço! Passagens aéreas para Chicago a partir de R$ 2.498 ida e volta saindo do Rio de Janeiro"
-        }
-      ],
-      "descoberto_em": "2026-07-23T14:37:48+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "posicionamento": {
-        "praca": "Rio de Janeiro",
-        "praca_metro": "RIO",
-        "base_de_casa": 3203,
-        "base_origem": "São Paulo",
-        "economia_por_pessoa": 705,
-        "economia_grupo": 1410,
-        "trecho_domestico": "SAO->RIO"
-      },
-      "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1410"
-      }
-    },
-    {
-      "id": "3e730b242887",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "SFB",
-      "destino_iata": "SFB",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2500,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-08-07 a 2026-08-16",
-      "janela_inicio": "2026-08-07",
-      "janela_fim": "2026-08-16",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 800,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA3agcIARIDR1JVGhUSCjIwMjYtMDgtMTZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
-          "titulo": "Orlando — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-31",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 19,
-        "mediana": 2379,
-        "minimo_visto": 2094,
-        "p10": 2105,
-        "desvio_pct": 5,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "85e9cc76a148",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Europa",
-      "destino_metro": "",
-      "pais_iso2": null,
-      "preco_brl": 2500,
-      "por_pessoa": true,
-      "ida_e_volta": false,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "menos de R$ 2.500",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "tg:promopassagens",
-          "link": "https://t.me/promopassagens/110164",
-          "titulo": "🚢 De Orlando Por R$ 1.254 À Europa Por Menos De R$ 2.500: As Passagens Que Viraram Desejo Dos Brasileiros Em 2026"
-        }
-      ],
-      "descoberto_em": "2026-07-24T16:31:09+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "14a26100b39a",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Miami",
-      "destino_metro": "MIA",
-      "destino_iata": "MIA",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2502,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-11-15 a 2026-11-23",
-      "janela_inicio": "2026-11-15",
-      "janela_fim": "2026-11-23",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 702,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/florida-passagens-aereas-miami-06ago26",
-          "titulo": "Flórida! Passagens aéreas para Miami a partir de R$ 2.010 ida e volta"
-        },
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTExLTE1agcIARIDR1JVGhUSCjIwMjYtMTEtMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmMnYw",
-          "titulo": "Miami — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-08",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 21,
-        "mediana": 2496,
-        "minimo_visto": 1189,
-        "p10": 2051,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "197d807df6d5",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Ushuaia",
-      "destino_metro": "USH",
-      "destino_iata": "USH",
-      "origem_iata": "GRU",
-      "pais_texto": "Argentina",
-      "pais_iso2": "AR",
-      "preco_brl": 2502,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Aerolineas Argentinas",
-      "janela": "2026-09-25 a 2026-10-03",
-      "janela_inicio": "2026-09-25",
-      "janela_fim": "2026-10-03",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 605,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxemRucw",
-          "titulo": "Ushuaia — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-07",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 21,
-        "mediana": 2497,
-        "minimo_visto": 2275,
-        "p10": 2277,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_inverno"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "aa29b40443f1",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Miami",
-      "destino_metro": "MIA",
-      "destino_iata": "MIA",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2502,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-25 a 2026-10-04",
-      "janela_inicio": "2026-09-25",
-      "janela_fim": "2026-10-04",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 810,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmMnYw",
-          "titulo": "Miami — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 21,
-        "mediana": 2496,
-        "minimo_visto": 1189,
-        "p10": 2051,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "c124647b2b8c",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "SFB",
-      "destino_iata": "SFB",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2503,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-27 a 2026-10-06",
-      "janela_inicio": "2026-09-27",
-      "janela_fim": "2026-10-06",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 747,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI3agcIARIDR1JVGhUSCjIwMjYtMTAtMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
-          "titulo": "Orlando — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-04",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 19,
-        "mediana": 2379,
-        "minimo_visto": 2094,
-        "p10": 2105,
-        "desvio_pct": 5,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "60f254e054fb",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "SFB",
-      "destino_iata": "SFB",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2504,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-08-23 a 2026-09-01",
-      "janela_inicio": "2026-08-23",
-      "janela_fim": "2026-09-01",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 687,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIzagcIARIDR1JVGhUSCjIwMjYtMDktMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
-          "titulo": "Orlando — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-24",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 19,
-        "mediana": 2379,
-        "minimo_visto": 2094,
-        "p10": 2105,
-        "desvio_pct": 5,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "19426a952223",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Ushuaia",
-      "destino_metro": "USH",
-      "destino_iata": "USH",
-      "origem_iata": "GRU",
-      "pais_texto": "Argentina",
-      "pais_iso2": "AR",
-      "preco_brl": 2505,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Aerolineas Argentinas",
-      "janela": "2026-09-11 a 2026-09-17",
-      "janela_inicio": "2026-09-11",
-      "janela_fim": "2026-09-17",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1160,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTExagcIARIDR1JVGhUSCjIwMjYtMDktMTdyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxemRucw",
-          "titulo": "Ushuaia — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-31",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 21,
-        "mediana": 2497,
-        "minimo_visto": 2275,
-        "p10": 2277,
-        "desvio_pct": 0,
-        "raro": false
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_inverno"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "d75defa347c8",
-      "origem_texto": "Rio de Janeiro",
-      "origem_metro": "RIO",
-      "destino_texto": "Tampa",
-      "destino_metro": "TPA",
-      "pais_iso2": "US",
-      "preco_brl": 2508,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "Semana da Black Friday 2026 (27/11) e Cyber Monday (30/11)",
-      "observacao": "Menor preço",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-black-friday-eua-2026",
-          "titulo": "Black Friday EUA 2026! Muito bom: voos para Miami ou Orlando nos dias de promoção a partir de R$ 2.508 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-07-28T13:47:43+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "posicionamento": {
-        "praca": "Rio de Janeiro",
-        "praca_metro": "RIO",
-        "base_de_casa": 2513,
-        "base_origem": "São Paulo",
-        "economia_por_pessoa": 5,
-        "economia_grupo": 10,
-        "trecho_domestico": "SAO->RIO"
-      },
-      "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_10"
-      }
     }
   ]
 }
