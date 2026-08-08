@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-08T14:49:06.675Z",
+  "gerado_em": "2026-08-08T15:44:22.762Z",
   "visto_ate": "2026-08-08T13:48:43+00:00",
   "ultimo_explore": "2026-08-08",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 2,
+      "novos": 3,
       "status": "ok"
     },
     {
@@ -31,11 +31,15 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18868",
+    "https://t.me/melhoresdestinos/18867",
+    "https://t.me/melhoresdestinos/18865",
+    "https://t.me/passageirodeprimeira/28097",
     "https://t.me/melhoresdestinos/18863",
     "https://t.me/melhoresdestinos/18862",
     "https://t.me/passageirodeprimeira/28095",
@@ -340,21 +344,21 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 1,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
+    "descartadas": 2,
     "por_motivo_de_descarte": {
-      "incompleta": 1
+      "incompleta": 2
     },
-    "ineditas": 1,
+    "ineditas": 2,
     "rotas_no_historico": 207,
-    "com_baseline": 160,
-    "sem_tag": 130,
+    "com_baseline": 159,
+    "sem_tag": 132,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
+        "total_avaliadas": 402,
         "casam_no_perfil": 141,
         "dessas_ja_alertadas_antes": 141,
         "novas_para_alertar": 0,
@@ -363,9 +367,9 @@
         "rejeitados": {
           "tipo": 21,
           "posicionamento_desligado": 52,
-          "domestico": 81,
+          "domestico": 83,
           "origem": 76,
-          "janela_curta": 30
+          "janela_curta": 29
         }
       }
     }
@@ -2864,6 +2868,52 @@
       }
     },
     {
+      "id": "ebb68ffb34da",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Cabo Frio",
+      "destino_metro": "CFB",
+      "pais_iso2": "BR",
+      "preco_brl": 494,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "datas no verão",
+      "observacao": "datas no verão",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18865",
+          "titulo": "Búzios e Arraial do Cabo ☀️"
+        }
+      ],
+      "descoberto_em": "2026-08-08T14:49:03+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "d7737aee1a1b",
       "origem_texto": "",
       "origem_metro": "",
@@ -4275,6 +4325,52 @@
         }
       ],
       "descoberto_em": "2026-08-01T13:02:03+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "1a32783bb9eb",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Recife",
+      "destino_metro": "REC",
+      "pais_iso2": "BR",
+      "preco_brl": 622,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18868",
+          "titulo": "Pernambuco 🌴"
+        }
+      ],
+      "descoberto_em": "2026-08-08T15:37:24+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
@@ -22423,110 +22519,6 @@
       },
       "perfis": {
         "ale-andreia": "posicionamento_desligado:diferenca_bruta_10"
-      }
-    },
-    {
-      "id": "7d8c6f16dddf",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Miami",
-      "destino_metro": "MIA",
-      "pais_iso2": "US",
-      "preco_brl": 2508,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "novembro",
-      "observacao": "",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18713",
-          "titulo": "Black Friday EUA 2026 🇺🇸🛍️"
-        }
-      ],
-      "descoberto_em": "2026-07-28T13:41:17+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "9470810a21f1",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Tampa",
-      "destino_metro": "TPA",
-      "pais_iso2": "US",
-      "preco_brl": 2513,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "Semana da Black Friday 2026 (27/11) e Cyber Monday (30/11)",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-black-friday-eua-2026",
-          "titulo": "Black Friday EUA 2026! Muito bom: voos para Miami ou Orlando nos dias de promoção a partir de R$ 2.508 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-07-28T13:47:43+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
       }
     }
   ]
