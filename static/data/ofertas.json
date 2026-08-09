@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-09T21:46:35.605Z",
+  "gerado_em": "2026-08-09T22:49:00.312Z",
   "visto_ate": "2026-08-09T14:27:12+00:00",
   "ultimo_explore": "2026-08-09",
   "fontes": [
@@ -36,6 +36,9 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18878",
+    "https://t.me/melhoresdestinos/18877",
+    "https://t.me/melhoresdestinos/18876",
     "https://t.me/melhoresdestinos/18875",
     "https://t.me/melhoresdestinos/18874",
     "https://t.me/melhoresdestinos/18873",
@@ -354,9 +357,9 @@
     "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 3,
+    "descartadas": 4,
     "por_motivo_de_descarte": {
-      "incompleta": 3
+      "incompleta": 4
     },
     "ineditas": 0,
     "rotas_no_historico": 214,
