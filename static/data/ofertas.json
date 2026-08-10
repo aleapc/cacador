@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-08-09T23:44:44.879Z",
+  "gerado_em": "2026-08-10T02:33:07.510Z",
   "visto_ate": "2026-08-09T14:27:12+00:00",
-  "ultimo_explore": "2026-08-09",
+  "ultimo_explore": "2026-08-10",
   "fontes": [
     {
       "nome": "melhores-destinos",
@@ -11,8 +11,8 @@
     },
     {
       "nome": "google-explore",
-      "destinos": 0,
-      "status": "nao_rodou"
+      "destinos": 90,
+      "status": "ok"
     },
     {
       "nome": "tg:melhoresdestinos",
@@ -355,29 +355,30 @@
     "materias_lidas": 0,
     "extracoes_falhas": 0,
     "ofertas_extraidas": 0,
-    "explore_destinos": 0,
-    "explore_status": "nao_rodou",
+    "explore_destinos": 90,
+    "explore_status": "ok",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 66,
     "rotas_no_historico": 214,
-    "com_baseline": 149,
-    "sem_tag": 149,
+    "com_baseline": 215,
+    "sem_tag": 150,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 123,
+        "total_avaliadas": 466,
+        "casam_no_perfil": 140,
         "dessas_ja_alertadas_antes": 123,
-        "novas_para_alertar": 0,
-        "alertados": 0,
-        "cortadas_pelo_teto": 0,
+        "novas_para_alertar": 17,
+        "alertados": 5,
+        "cortadas_pelo_teto": 12,
         "rejeitados": {
           "tipo": 21,
           "posicionamento_desligado": 52,
-          "domestico": 90,
+          "domestico": 92,
           "origem": 88,
-          "janela_curta": 26
+          "janela_curta": 44,
+          "acima_do_teto": 29
         }
       }
     }
@@ -784,11 +785,11 @@
       "descoberto_em": "2026-08-02T11:27:16+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -42,
+        "desvio_pct": -40,
         "raro": true
       },
       "tipos": [
@@ -890,11 +891,11 @@
       "descoberto_em": "2026-07-21T15:57:15+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -40,
+        "desvio_pct": -38,
         "raro": true
       },
       "perfis": {
@@ -952,11 +953,11 @@
       "descoberto_em": "2026-08-03",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -40,
+        "desvio_pct": -38,
         "raro": true
       },
       "tipos": [
@@ -1422,11 +1423,11 @@
       "descoberto_em": "2026-08-01",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -37,
+        "desvio_pct": -36,
         "raro": false
       },
       "tipos": [
@@ -2071,11 +2072,11 @@
       "descoberto_em": "2026-07-25T14:04:21+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -28,
+        "desvio_pct": -26,
         "raro": false
       },
       "tipos": [
@@ -2131,11 +2132,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -27,
+        "desvio_pct": -25,
         "raro": false
       },
       "perfis": {
@@ -2240,11 +2241,11 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -25,
+        "desvio_pct": -23,
         "raro": false
       },
       "perfis": {
@@ -2708,11 +2709,11 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -17,
+        "desvio_pct": -15,
         "raro": false
       },
       "perfis": {
@@ -3179,11 +3180,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -9,
+        "desvio_pct": -7,
         "raro": false
       },
       "perfis": {
@@ -3283,11 +3284,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": -38,
+        "desvio_pct": -39,
         "raro": true
       },
       "perfis": {
@@ -3344,11 +3345,11 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -7,
+        "desvio_pct": -4,
         "raro": false
       },
       "tipos": [
@@ -3549,11 +3550,11 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -6,
+        "desvio_pct": -4,
         "raro": false
       },
       "tipos": [
@@ -3670,6 +3671,68 @@
       }
     },
     {
+      "id": "87b9352ed192",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "destino_iata": "GIG",
+      "origem_iata": "GRU",
+      "pais_texto": "Brasil",
+      "pais_iso2": "BR",
+      "preco_brl": 568,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-09-14 a 2026-09-23",
+      "janela_inicio": "2026-09-14",
+      "janela_fim": "2026-09-23",
+      "noites": 9,
+      "escalas": 0,
+      "duracao_min": 60,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE0agcIARIDR1JVGhUSCjIwMjYtMDktMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
+          "titulo": "Rio de Janeiro — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-08-10",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 23,
+        "mediana": 574,
+        "minimo_visto": 342,
+        "p10": 356,
+        "desvio_pct": -1,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "dd82eedb3dcb",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -3705,11 +3768,11 @@
       "descoberto_em": "2026-08-09",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -4,
+        "desvio_pct": -1,
         "raro": false
       },
       "tipos": [
@@ -3811,11 +3874,11 @@
       "descoberto_em": "2026-08-08",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": -3,
+        "desvio_pct": 0,
         "raro": false
       },
       "tipos": [
@@ -4086,11 +4149,11 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 2,
+        "desvio_pct": 5,
         "raro": false
       },
       "tipos": [
@@ -4148,11 +4211,11 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 2,
+        "desvio_pct": 5,
         "raro": false
       },
       "tipos": [
@@ -4210,11 +4273,11 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 4,
+        "desvio_pct": 7,
         "raro": false
       },
       "tipos": [
@@ -4325,11 +4388,11 @@
       "descoberto_em": "2026-08-05",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 5,
+        "desvio_pct": 8,
         "raro": false
       },
       "tipos": [
@@ -4387,11 +4450,11 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": -30,
+        "desvio_pct": -31,
         "raro": true
       },
       "tipos": [
@@ -4742,11 +4805,11 @@
       "descoberto_em": "2026-07-31",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 6,
+        "desvio_pct": 8,
         "raro": false
       },
       "tipos": [
@@ -4802,11 +4865,11 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": -29,
+        "desvio_pct": -30,
         "raro": true
       },
       "perfis": {
@@ -4863,11 +4926,11 @@
       "descoberto_em": "2026-08-04",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 7,
+        "desvio_pct": 9,
         "raro": false
       },
       "tipos": [
@@ -4925,11 +4988,11 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 7,
+        "desvio_pct": 9,
         "raro": false
       },
       "tipos": [
@@ -5333,11 +5396,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 10,
+        "desvio_pct": 12,
         "raro": false
       },
       "tipos": [
@@ -5395,11 +5458,11 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 10,
+        "desvio_pct": 12,
         "raro": false
       },
       "tipos": [
@@ -5761,11 +5824,11 @@
       "descoberto_em": "2026-08-06",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 12,
+        "desvio_pct": 15,
         "raro": false
       },
       "tipos": [
@@ -5980,11 +6043,11 @@
       "descoberto_em": "2026-08-07",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 15,
+        "desvio_pct": 18,
         "raro": false
       },
       "tipos": [
@@ -6042,11 +6105,11 @@
       "descoberto_em": "2026-07-30",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 589,
+        "amostras": 23,
+        "mediana": 574,
         "minimo_visto": 342,
         "p10": 356,
-        "desvio_pct": 15,
+        "desvio_pct": 18,
         "raro": false
       },
       "tipos": [
@@ -6463,8 +6526,8 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
         "desvio_pct": -19,
@@ -7136,8 +7199,8 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
         "desvio_pct": -14,
@@ -7253,11 +7316,11 @@
       "descoberto_em": "2026-08-03",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": -12,
+        "desvio_pct": -13,
         "raro": false
       },
       "tipos": [
@@ -7314,11 +7377,11 @@
       "descoberto_em": "2026-08-02",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": -12,
+        "desvio_pct": -13,
         "raro": false
       },
       "tipos": [
@@ -7375,8 +7438,8 @@
       "descoberto_em": "2026-08-01",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
         "desvio_pct": -12,
@@ -7754,8 +7817,8 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
         "desvio_pct": -5,
@@ -7868,8 +7931,8 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
         "desvio_pct": -4,
@@ -8387,8 +8450,8 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
         "desvio_pct": -1,
@@ -8624,11 +8687,11 @@
       "descoberto_em": "2026-07-30",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": 1,
+        "desvio_pct": 0,
         "raro": false
       },
       "tipos": [
@@ -8773,11 +8836,11 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": 1,
+        "desvio_pct": 0,
         "raro": false
       },
       "tipos": [
@@ -8933,8 +8996,8 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
         "desvio_pct": 2,
@@ -9270,11 +9333,11 @@
       "descoberto_em": "2026-08-05",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": 7,
+        "desvio_pct": 6,
         "raro": false
       },
       "tipos": [
@@ -9375,8 +9438,8 @@
       "descoberto_em": "2026-07-31",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
         "desvio_pct": 8,
@@ -9436,11 +9499,11 @@
       "descoberto_em": "2026-08-04",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": 9,
+        "desvio_pct": 8,
         "raro": false
       },
       "tipos": [
@@ -9729,8 +9792,69 @@
       "descoberto_em": "2026-08-06",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
+        "minimo_visto": 545,
+        "p10": 625,
+        "desvio_pct": 12,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "987e13501d14",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Salvador",
+      "destino_metro": "SSA",
+      "destino_iata": "SSA",
+      "origem_iata": "GRU",
+      "pais_texto": "Brasil",
+      "pais_iso2": "BR",
+      "preco_brl": 1009,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-08-27 a 2026-09-02",
+      "janela_inicio": "2026-08-27",
+      "janela_fim": "2026-09-02",
+      "noites": 6,
+      "escalas": 0,
+      "duracao_min": 140,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI3agcIARIDR1JVGhUSCjIwMjYtMDktMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzA5d3dsag",
+          "titulo": "Salvador — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-08-10",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
         "desvio_pct": 13,
@@ -9790,11 +9914,11 @@
       "descoberto_em": "2026-08-09",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": 14,
+        "desvio_pct": 13,
         "raro": false
       },
       "tipos": [
@@ -9851,11 +9975,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": 15,
+        "desvio_pct": 14,
         "raro": false
       },
       "tipos": [
@@ -9910,11 +10034,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
-        "desvio_pct": 15,
+        "desvio_pct": 14,
         "raro": false
       },
       "perfis": {
@@ -10027,8 +10151,8 @@
       "descoberto_em": "2026-08-08",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
         "desvio_pct": 17,
@@ -10088,8 +10212,8 @@
       "descoberto_em": "2026-08-07",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 885,
+        "amostras": 23,
+        "mediana": 891,
         "minimo_visto": 545,
         "p10": 625,
         "desvio_pct": 17,
@@ -10523,7 +10647,7 @@
       "descoberto_em": "2026-07-27T15:45:34+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
+        "amostras": 23,
         "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
@@ -10854,11 +10978,11 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
-        "desvio_pct": 0,
+        "desvio_pct": -1,
         "raro": true
       },
       "tipos": [
@@ -10915,11 +11039,11 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
-        "desvio_pct": 0,
+        "desvio_pct": -1,
         "raro": true
       },
       "tipos": [
@@ -10976,11 +11100,11 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
-        "desvio_pct": 0,
+        "desvio_pct": -1,
         "raro": true
       },
       "tipos": [
@@ -11049,11 +11173,11 @@
       "descoberto_em": "2026-08-05",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
-        "desvio_pct": 0,
+        "desvio_pct": -1,
         "raro": false
       },
       "tipos": [
@@ -11110,11 +11234,11 @@
       "descoberto_em": "2026-08-04",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
-        "desvio_pct": 0,
+        "desvio_pct": -1,
         "raro": false
       },
       "tipos": [
@@ -11276,8 +11400,8 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 0,
@@ -11337,8 +11461,8 @@
       "descoberto_em": "2026-08-03",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 0,
@@ -11398,8 +11522,8 @@
       "descoberto_em": "2026-08-02",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 0,
@@ -11459,8 +11583,8 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 0,
@@ -11520,8 +11644,8 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 0,
@@ -11593,8 +11717,8 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 0,
@@ -11666,8 +11790,8 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 0,
@@ -11727,8 +11851,8 @@
       "descoberto_em": "2026-07-30",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 0,
@@ -11786,8 +11910,8 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 0,
@@ -11845,8 +11969,8 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 0,
@@ -11906,11 +12030,11 @@
       "descoberto_em": "2026-07-31",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
-        "desvio_pct": 1,
+        "desvio_pct": 0,
         "raro": false
       },
       "tipos": [
@@ -12311,11 +12435,11 @@
       "descoberto_em": "2026-08-01T22:25:23+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
-        "desvio_pct": 7,
+        "desvio_pct": 6,
         "raro": false
       },
       "tipos": [
@@ -12385,6 +12509,67 @@
       "match": false
     },
     {
+      "id": "65f59ea48b08",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "BUE",
+      "destino_iata": "EZE",
+      "origem_iata": "GRU",
+      "pais_texto": "Argentina",
+      "pais_iso2": "AR",
+      "preco_brl": 1354,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Ethiopian",
+      "janela": "2026-09-24 a 2026-10-03",
+      "janela_inicio": "2026-09-24",
+      "janela_fim": "2026-10-03",
+      "noites": 9,
+      "escalas": 0,
+      "duracao_min": 175,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI0agcIARIDR1JVGhUSCjIwMjYtMTAtMDNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxbHk1bQ",
+          "titulo": "Buenos Aires — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-08-10",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 23,
+        "mediana": 1224,
+        "minimo_visto": 1216,
+        "p10": 1216,
+        "desvio_pct": 11,
+        "raro": false
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "ff3ae93b1b03",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -12420,8 +12605,8 @@
       "descoberto_em": "2026-08-09",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 11,
@@ -12529,11 +12714,11 @@
       "descoberto_em": "2026-08-01",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
-        "desvio_pct": 13,
+        "desvio_pct": 12,
         "raro": false
       },
       "tipos": [
@@ -12588,8 +12773,8 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 13,
@@ -12649,8 +12834,8 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 13,
@@ -13662,8 +13847,8 @@
       "descoberto_em": "2026-08-08",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 29,
@@ -13723,8 +13908,8 @@
       "descoberto_em": "2026-08-06",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 29,
@@ -13830,11 +14015,11 @@
       "descoberto_em": "2026-08-07",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
-        "desvio_pct": 30,
+        "desvio_pct": 29,
         "raro": false
       },
       "tipos": [
@@ -14145,8 +14330,8 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1222,
+        "amostras": 23,
+        "mediana": 1224,
         "minimo_visto": 1216,
         "p10": 1216,
         "desvio_pct": 35,
@@ -14307,8 +14492,8 @@
       "descoberto_em": "2026-07-16T00:19:03+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": -2,
@@ -14373,11 +14558,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": -1,
+        "desvio_pct": -2,
         "raro": true
       },
       "tipos": [
@@ -14439,8 +14624,8 @@
       "descoberto_em": "2026-07-31",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": -1,
@@ -14503,8 +14688,8 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": -1,
@@ -14567,8 +14752,8 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": -1,
@@ -14779,8 +14964,8 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": -1,
@@ -14845,8 +15030,8 @@
       "descoberto_em": "2026-08-03",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": -1,
@@ -14911,8 +15096,8 @@
       "descoberto_em": "2026-08-02",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": -1,
@@ -15071,8 +15256,8 @@
       "descoberto_em": "2026-08-04",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": -1,
@@ -15233,8 +15418,8 @@
       "descoberto_em": "2026-07-28",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 0,
@@ -15299,8 +15484,8 @@
       "descoberto_em": "2026-08-07",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 0,
@@ -15365,8 +15550,8 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 0,
@@ -15431,8 +15616,8 @@
       "descoberto_em": "2026-08-05",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 0,
@@ -15653,8 +15838,8 @@
       "descoberto_em": "2026-07-21T13:26:13+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
         "desvio_pct": -12,
@@ -15846,7 +16031,7 @@
           2250,
           3700
         ],
-        "lowest": 2386,
+        "lowest": 2387,
         "desvio_pct": -20,
         "pontos_historico": 61
       },
@@ -16001,11 +16186,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": -9,
+        "desvio_pct": -8,
         "raro": true
       },
       "perfis": {
@@ -16075,11 +16260,11 @@
       "descoberto_em": "2026-08-05",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": -9,
+        "desvio_pct": -8,
         "raro": true
       },
       "tipos": [
@@ -16185,11 +16370,11 @@
       "descoberto_em": "2026-08-06",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": -8,
+        "desvio_pct": -7,
         "raro": false
       },
       "tipos": [
@@ -16247,11 +16432,73 @@
       "descoberto_em": "2026-08-07",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": -8,
+        "desvio_pct": -7,
+        "raro": false
+      },
+      "tipos": [
+        "cultural",
+        "montanha",
+        "aventura",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "847a68ebc2b5",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Machu Picchu",
+      "destino_metro": "CUZ",
+      "destino_iata": "CUZ",
+      "origem_iata": "GRU",
+      "pais_texto": "Peru",
+      "pais_iso2": "PE",
+      "preco_brl": 1920,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-08-24 a 2026-08-31",
+      "janela_inicio": "2026-08-24",
+      "janela_fim": "2026-08-31",
+      "noites": 7,
+      "escalas": 1,
+      "duracao_min": 640,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI0agcIARIDR1JVGhUSCjIwMjYtMDgtMzFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBrcmZ5",
+          "titulo": "Machu Picchu — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-08-10",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 21,
+        "mediana": 2066,
+        "minimo_visto": 1827,
+        "p10": 1901,
+        "desvio_pct": -7,
         "raro": false
       },
       "tipos": [
@@ -16309,11 +16556,11 @@
       "descoberto_em": "2026-08-09",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": -8,
+        "desvio_pct": -7,
         "raro": false
       },
       "tipos": [
@@ -16369,11 +16616,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": -8,
+        "desvio_pct": -7,
         "raro": false
       },
       "perfis": {
@@ -16441,8 +16688,8 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
         "desvio_pct": -7,
@@ -16518,8 +16765,8 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 9,
@@ -16694,11 +16941,11 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": -7,
+        "desvio_pct": -6,
         "raro": false
       },
       "tipos": [
@@ -16963,11 +17210,11 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
-        "desvio_pct": 14,
+        "desvio_pct": 13,
         "raro": false
       },
       "perfis": {
@@ -17029,8 +17276,8 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 14,
@@ -17095,8 +17342,74 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
+        "minimo_visto": 1748,
+        "p10": 1750,
+        "desvio_pct": 14,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "AUTORIZACAO_ELETRONICA",
+        "dias": 180,
+        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "janela_curta:6n"
+      }
+    },
+    {
+      "id": "2f951723144b",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Cancún",
+      "destino_metro": "CUN",
+      "destino_iata": "CUN",
+      "origem_iata": "GRU",
+      "pais_texto": "México",
+      "pais_iso2": "MX",
+      "preco_brl": 2025,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-08-20 a 2026-08-26",
+      "janela_inicio": "2026-08-20",
+      "janela_fim": "2026-08-26",
+      "noites": 6,
+      "escalas": 1,
+      "duracao_min": 755,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
+          "titulo": "Cancún — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-08-10",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 14,
@@ -17161,8 +17474,8 @@
       "descoberto_em": "2026-08-09",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 14,
@@ -17225,11 +17538,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": -3,
+        "desvio_pct": -2,
         "raro": false
       },
       "perfis": {
@@ -17299,8 +17612,8 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 14,
@@ -17365,8 +17678,8 @@
       "descoberto_em": "2026-08-08",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 15,
@@ -17431,7 +17744,7 @@
       "descoberto_em": "2026-08-03",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
+        "amostras": 23,
         "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
@@ -17495,7 +17808,7 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
+        "amostras": 23,
         "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
@@ -17571,7 +17884,7 @@
       "descoberto_em": "2026-07-20",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
+        "amostras": 23,
         "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
@@ -17714,11 +18027,11 @@
       "descoberto_em": "2026-08-04",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": -1,
+        "desvio_pct": 0,
         "raro": false
       },
       "tipos": [
@@ -17774,8 +18087,8 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
         "desvio_pct": 0,
@@ -17846,11 +18159,11 @@
       "descoberto_em": "2026-07-21",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": -11,
+        "p10": 2105,
+        "desvio_pct": -10,
         "raro": true
       },
       "perfis": {
@@ -17959,11 +18272,11 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": 1,
+        "desvio_pct": 2,
         "raro": false
       },
       "tipos": [
@@ -17976,6 +18289,71 @@
       "tem_tag": true,
       "sem_visto": null,
       "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "6549d1def911",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Orlando",
+      "destino_metro": "SFB",
+      "destino_iata": "SFB",
+      "origem_iata": "GRU",
+      "pais_texto": "Estados Unidos",
+      "pais_iso2": "US",
+      "preco_brl": 2104,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Arajet",
+      "janela": "2026-09-25 a 2026-10-04",
+      "janela_inicio": "2026-09-25",
+      "janela_fim": "2026-10-04",
+      "noites": 9,
+      "escalas": 1,
+      "duracao_min": 800,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
+          "titulo": "Orlando — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-08-10",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 21,
+        "mediana": 2329,
+        "minimo_visto": 2094,
+        "p10": 2105,
+        "desvio_pct": -10,
+        "raro": true
+      },
+      "tipos": [
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
       "gosto": {
         "ale": false,
         "andreia": false
@@ -18021,11 +18399,11 @@
       "descoberto_em": "2026-08-08",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": -11,
+        "p10": 2105,
+        "desvio_pct": -10,
         "raro": true
       },
       "tipos": [
@@ -18086,11 +18464,11 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": 2,
+        "desvio_pct": 3,
         "raro": false
       },
       "tipos": [
@@ -18321,7 +18699,7 @@
       "descoberto_em": "2026-08-04",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
+        "amostras": 23,
         "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
@@ -18621,8 +18999,8 @@
           2750,
           5900
         ],
-        "lowest": 2431,
-        "desvio_pct": -44,
+        "lowest": 2371,
+        "desvio_pct": -45,
         "pontos_historico": 61
       },
       "perfis": {
@@ -18665,7 +19043,7 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
+        "amostras": 23,
         "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
@@ -18731,8 +19109,8 @@
       "descoberto_em": "2026-08-01",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 21,
@@ -18845,12 +19223,12 @@
       "descoberto_em": "2026-07-23",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": -8,
-        "raro": true
+        "p10": 2105,
+        "desvio_pct": -7,
+        "raro": false
       },
       "tipos": [
         "cidade_grande",
@@ -18910,12 +19288,12 @@
       "descoberto_em": "2026-07-22",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": -8,
-        "raro": true
+        "p10": 2105,
+        "desvio_pct": -7,
+        "raro": false
       },
       "tipos": [
         "cidade_grande",
@@ -18975,7 +19353,7 @@
       "descoberto_em": "2026-08-05",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
+        "amostras": 23,
         "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
@@ -19136,8 +19514,8 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 24,
@@ -19250,11 +19628,11 @@
       "descoberto_em": "2026-08-03",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": -6,
+        "p10": 2105,
+        "desvio_pct": -5,
         "raro": false
       },
       "tipos": [
@@ -19315,11 +19693,11 @@
       "descoberto_em": "2026-08-02",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": -6,
+        "p10": 2105,
+        "desvio_pct": -5,
         "raro": false
       },
       "tipos": [
@@ -19380,11 +19758,11 @@
       "descoberto_em": "2026-08-01",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": -6,
+        "p10": 2105,
+        "desvio_pct": -5,
         "raro": false
       },
       "tipos": [
@@ -19634,11 +20012,11 @@
       "descoberto_em": "2026-08-09",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": -5,
+        "p10": 2105,
+        "desvio_pct": -4,
         "raro": false
       },
       "tipos": [
@@ -19748,11 +20126,11 @@
       "descoberto_em": "2026-08-07",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": -4,
+        "p10": 2105,
+        "desvio_pct": -3,
         "raro": false
       },
       "tipos": [
@@ -19813,11 +20191,11 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": 8,
+        "desvio_pct": 9,
         "raro": false
       },
       "tipos": [
@@ -19875,8 +20253,8 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 2497,
+        "amostras": 23,
+        "mediana": 2496,
         "minimo_visto": 2275,
         "p10": 2277,
         "desvio_pct": -9,
@@ -19936,8 +20314,8 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 2497,
+        "amostras": 23,
+        "mediana": 2496,
         "minimo_visto": 2275,
         "p10": 2277,
         "desvio_pct": -9,
@@ -19997,8 +20375,8 @@
       "descoberto_em": "2026-07-26",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 2497,
+        "amostras": 23,
+        "mediana": 2496,
         "minimo_visto": 2275,
         "p10": 2277,
         "desvio_pct": -9,
@@ -20058,8 +20436,8 @@
       "descoberto_em": "2026-08-04",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 2497,
+        "amostras": 23,
+        "mediana": 2496,
         "minimo_visto": 2275,
         "p10": 2277,
         "desvio_pct": -9,
@@ -20119,8 +20497,8 @@
       "descoberto_em": "2026-08-01",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 2497,
+        "amostras": 23,
+        "mediana": 2496,
         "minimo_visto": 2275,
         "p10": 2277,
         "desvio_pct": -9,
@@ -20180,8 +20558,8 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 2497,
+        "amostras": 23,
+        "mediana": 2496,
         "minimo_visto": 2275,
         "p10": 2277,
         "desvio_pct": -9,
@@ -20501,11 +20879,11 @@
       "descoberto_em": "2026-08-06",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": -1,
+        "p10": 2105,
+        "desvio_pct": 0,
         "raro": false
       },
       "tipos": [
@@ -20605,8 +20983,8 @@
       "descoberto_em": "2026-08-03T16:15:28+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 2633,
+        "amostras": 8,
+        "mediana": 2630,
         "minimo_visto": 2343,
         "p10": 2343,
         "desvio_pct": -11,
@@ -20809,8 +21187,8 @@
       "descoberto_em": "2026-07-11T14:31:23+00:00",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 7,
-        "mediana": 2633,
+        "amostras": 8,
+        "mediana": 2630,
         "minimo_visto": 2343,
         "p10": 2343,
         "desvio_pct": -11,
@@ -20874,8 +21252,8 @@
       "descoberto_em": "2026-08-02",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 2497,
+        "amostras": 23,
+        "mediana": 2496,
         "minimo_visto": 2275,
         "p10": 2277,
         "desvio_pct": -6,
@@ -21133,11 +21511,11 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": 1,
+        "p10": 2105,
+        "desvio_pct": 2,
         "raro": false
       },
       "perfis": {
@@ -21198,8 +21576,8 @@
       "descoberto_em": "2026-07-30",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
+        "amostras": 23,
+        "mediana": 1776,
         "minimo_visto": 1748,
         "p10": 1750,
         "desvio_pct": 35,
@@ -21318,7 +21696,7 @@
       "descoberto_em": "2026-07-27",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
+        "amostras": 23,
         "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
@@ -21382,7 +21760,7 @@
       "descoberto_em": "2026-07-17",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 22,
+        "amostras": 23,
         "mediana": 2497,
         "minimo_visto": 1189,
         "p10": 2051,
@@ -21448,10 +21826,10 @@
       "descoberto_em": "2026-07-29",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 21,
+        "amostras": 22,
         "mediana": 2608,
         "minimo_visto": 2420,
-        "p10": 2524,
+        "p10": 2469,
         "desvio_pct": -7,
         "raro": true
       },
@@ -21653,11 +22031,11 @@
       "descoberto_em": "2026-07-25",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
+        "amostras": 21,
+        "mediana": 2329,
         "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": 3,
+        "p10": 2105,
+        "desvio_pct": 4,
         "raro": false
       },
       "tipos": [
@@ -21718,11 +22096,11 @@
       "descoberto_em": "2026-08-01",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
-        "desvio_pct": 17,
+        "desvio_pct": 18,
         "raro": false
       },
       "tipos": [
@@ -21828,371 +22206,8 @@
       "descoberto_em": "2026-08-03",
       "baseline": {
         "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
-        "minimo_visto": 1827,
-        "p10": 1901,
-        "desvio_pct": 17,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "montanha",
-        "aventura",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "79f147f07a88",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Machu Picchu",
-      "destino_metro": "CUZ",
-      "destino_iata": "CUZ",
-      "origem_iata": "GRU",
-      "pais_texto": "Peru",
-      "pais_iso2": "PE",
-      "preco_brl": 2446,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-08-24 a 2026-09-02",
-      "janela_inicio": "2026-08-24",
-      "janela_fim": "2026-09-02",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 560,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI0agcIARIDR1JVGhUSCjIwMjYtMDktMDJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBrcmZ5",
-          "titulo": "Machu Picchu — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-02",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
-        "minimo_visto": 1827,
-        "p10": 1901,
-        "desvio_pct": 17,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "montanha",
-        "aventura",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "c88a4f90f8d9",
-      "origem_texto": "Navegantes",
-      "origem_metro": "NVT",
-      "destino_texto": "Cartagena das Índias",
-      "destino_metro": "CTG",
-      "pais_iso2": "CO",
-      "preco_brl": 2446,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
-          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-07-31T14:41:57+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cultural",
-        "descanso"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:NVT"
-      }
-    },
-    {
-      "id": "cb7b89a067b2",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cancún",
-      "destino_metro": "CUN",
-      "destino_iata": "CUN",
-      "origem_iata": "GRU",
-      "pais_texto": "México",
-      "pais_iso2": "MX",
-      "preco_brl": 2446,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca e Arajet",
-      "janela": "2026-10-04 a 2026-10-12",
-      "janela_inicio": "2026-10-04",
-      "janela_fim": "2026-10-12",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 705,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTA0agcIARIDR1JVGhUSCjIwMjYtMTAtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
-          "titulo": "Cancún — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 22,
-        "mediana": 1774,
-        "minimo_visto": 1748,
-        "p10": 1750,
-        "desvio_pct": 38,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "esportes_verao"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "AUTORIZACAO_ELETRONICA",
-        "dias": 180,
-        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "4dfc881ecadd",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "SFB",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2448,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-25 a 2026-10-04",
-      "janela_inicio": "2026-09-25",
-      "janela_fim": "2026-10-04",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 800,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
-          "titulo": "Orlando — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2354,
-        "minimo_visto": 2094,
-        "p10": 2155,
-        "desvio_pct": 4,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "09b825c58cd1",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Machu Picchu",
-      "destino_metro": "CUZ",
-      "destino_iata": "CUZ",
-      "origem_iata": "GRU",
-      "pais_texto": "Peru",
-      "pais_iso2": "PE",
-      "preco_brl": 2457,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-10-17 a 2026-10-26",
-      "janela_inicio": "2026-10-17",
-      "janela_fim": "2026-10-26",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 780,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE3agcIARIDR1JVGhUSCjIwMjYtMTAtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBrcmZ5",
-          "titulo": "Machu Picchu — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-29",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
-        "minimo_visto": 1827,
-        "p10": 1901,
-        "desvio_pct": 18,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "montanha",
-        "aventura",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "48515b7572ec",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Machu Picchu",
-      "destino_metro": "CUZ",
-      "destino_iata": "CUZ",
-      "origem_iata": "GRU",
-      "pais_texto": "Peru",
-      "pais_iso2": "PE",
-      "preco_brl": 2465,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-09-14 a 2026-09-23",
-      "janela_inicio": "2026-09-14",
-      "janela_fim": "2026-09-23",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 665,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTE0agcIARIDR1JVGhUSCjIwMjYtMDktMjNyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBrcmZ5",
-          "titulo": "Machu Picchu — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-30",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 20,
-        "mediana": 2082,
+        "amostras": 21,
+        "mediana": 2066,
         "minimo_visto": 1827,
         "p10": 1901,
         "desvio_pct": 18,
