@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-10T18:02:16.535Z",
+  "gerado_em": "2026-08-10T19:14:57.612Z",
   "visto_ate": "2026-08-10T13:11:10+00:00",
   "ultimo_explore": "2026-08-10",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 2,
-      "lidas": 2,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 2,
       "status": "ok"
     },
     {
@@ -36,6 +36,8 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18897",
+    "https://t.me/melhoresdestinos/18895",
     "https://t.me/melhoresdestinos/18894",
     "https://t.me/melhoresdestinos/18893",
     "https://t.me/passageirodeprimeira/28125",
@@ -362,33 +364,34 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 2,
-    "materias_lidas": 2,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 4,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 3,
+    "ineditas": 2,
     "rotas_no_historico": 215,
-    "com_baseline": 150,
-    "sem_tag": 149,
+    "com_baseline": 149,
+    "sem_tag": 151,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 403,
-        "casam_no_perfil": 121,
+        "total_avaliadas": 402,
+        "casam_no_perfil": 120,
         "dessas_ja_alertadas_antes": 120,
-        "novas_para_alertar": 1,
-        "alertados": 1,
+        "novas_para_alertar": 0,
+        "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 23,
-          "posicionamento_desligado": 52,
+          "posicionamento_desligado": 53,
           "domestico": 92,
-          "origem": 88,
-          "janela_curta": 27
+          "origem": 86,
+          "janela_curta": 27,
+          "acima_do_teto": 1
         }
       }
     }
@@ -7525,6 +7528,59 @@
       "match": false,
       "perfis": {
         "ale-andreia": "origem:RIO"
+      }
+    },
+    {
+      "id": "71c86a52ea25",
+      "origem_texto": "Rio",
+      "origem_metro": "RIO",
+      "destino_texto": "Argentina e Uruguai",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 794,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "JetSMART",
+      "validade": "",
+      "observacao": "a partir de, saindo do Rio, Floripa e Nordeste",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18897",
+          "titulo": "Voos baratos 🇦🇷🇺🇾"
+        }
+      ],
+      "descoberto_em": "2026-08-10T19:00:37+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Rio",
+        "praca_metro": "RIO",
+        "base_de_casa": 1295,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 501,
+        "economia_grupo": 1002,
+        "trecho_domestico": "SAO->RIO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1002"
       }
     },
     {
@@ -22164,71 +22220,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "origem:BEL"
-      }
-    },
-    {
-      "id": "d5ce2145452d",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "SFB",
-      "destino_iata": "SFB",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2431,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-27 a 2026-10-04",
-      "janela_inicio": "2026-09-27",
-      "janela_fim": "2026-10-04",
-      "noites": 7,
-      "escalas": 1,
-      "duracao_min": 747,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI3agcIARIDR1JVGhUSCjIwMjYtMTAtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
-          "titulo": "Orlando — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-25",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 21,
-        "mediana": 2329,
-        "minimo_visto": 2094,
-        "p10": 2105,
-        "desvio_pct": 4,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
       }
     }
   ]
