@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-10T21:00:52.687Z",
+  "gerado_em": "2026-08-10T21:56:48.021Z",
   "visto_ate": "2026-08-10T15:31:59+00:00",
   "ultimo_explore": "2026-08-10",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,16 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 4,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/passageirodeprimeira/28134",
+    "https://t.me/promopassagens/110838",
+    "https://t.me/promopassagens/110834",
+    "https://t.me/promopassagens/110833",
+    "https://t.me/promopassagens/110832",
     "https://t.me/melhoresdestinos/18901",
     "https://t.me/melhoresdestinos/18898",
     "https://t.me/promopassagens/110826",
@@ -370,28 +375,28 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
+    "descartadas": 3,
     "por_motivo_de_descarte": {
-      "incompleta": 1
+      "incompleta": 3
     },
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 217,
     "com_baseline": 148,
     "sem_tag": 150,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 401,
         "casam_no_perfil": 119,
         "dessas_ja_alertadas_antes": 119,
         "novas_para_alertar": 0,
         "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 23,
+          "tipo": 24,
           "posicionamento_desligado": 53,
           "domestico": 92,
           "origem": 86,
@@ -400,7 +405,9 @@
       }
     }
   },
-  "avisos": [],
+  "avisos": [
+    "descartou 3 de 5 — schema ou categoria descalibrados?"
+  ],
   "perfis": [
     {
       "id": "ale-andreia",
@@ -9780,6 +9787,67 @@
       "match": false,
       "perfis": {
         "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "8ba45fd272fc",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 979,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "62 mil milhas Smiles ou R$ 979 + taxas",
+      "flags": [
+        "preco_abaixo_da_faixa",
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/28134",
+          "titulo": "Voe para Miami a partir de 62 mil milhas Smiles ou R$ 979 + taxas"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110832",
+          "titulo": "🚢 Voe Para Miami A Partir De 62 Mil Milhas Smiles Ou R$ 979 + Taxas"
+        }
+      ],
+      "descoberto_em": "2026-08-10T21:02:16+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
       }
     },
     {
@@ -22164,54 +22232,6 @@
         "praia",
         "descanso",
         "esportes_verao"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:BEL"
-      }
-    },
-    {
-      "id": "67c3e6c7c839",
-      "origem_texto": "Belém",
-      "origem_metro": "BEL",
-      "destino_texto": "Cartagena das Índias",
-      "destino_metro": "CTG",
-      "pais_iso2": "CO",
-      "preco_brl": 2430,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
-          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-07-31T14:41:57+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cultural",
-        "descanso"
       ],
       "continente": "america_sul",
       "tem_tag": true,
