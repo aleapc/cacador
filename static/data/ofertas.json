@@ -1,18 +1,18 @@
 {
-  "gerado_em": "2026-08-10T02:33:07.510Z",
-  "visto_ate": "2026-08-09T14:27:12+00:00",
+  "gerado_em": "2026-08-10T04:52:34.457Z",
+  "visto_ate": "2026-08-09T21:42:32+00:00",
   "ultimo_explore": "2026-08-10",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 1,
+      "lidas": 1,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
-      "destinos": 90,
-      "status": "ok"
+      "destinos": 0,
+      "status": "nao_rodou"
     },
     {
       "nome": "tg:melhoresdestinos",
@@ -351,39 +351,42 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 1,
+    "materias_lidas": 1,
     "extracoes_falhas": 0,
     "ofertas_extraidas": 0,
-    "explore_destinos": 90,
-    "explore_status": "ok",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 66,
+    "explore_destinos": 0,
+    "explore_status": "nao_rodou",
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 0,
     "rotas_no_historico": 214,
-    "com_baseline": 215,
-    "sem_tag": 150,
+    "com_baseline": 150,
+    "sem_tag": 149,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 466,
-        "casam_no_perfil": 140,
-        "dessas_ja_alertadas_antes": 123,
-        "novas_para_alertar": 17,
-        "alertados": 5,
-        "cortadas_pelo_teto": 12,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 121,
+        "dessas_ja_alertadas_antes": 121,
+        "novas_para_alertar": 0,
+        "alertados": 0,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 21,
           "posicionamento_desligado": 52,
           "domestico": 92,
-          "origem": 88,
-          "janela_curta": 44,
-          "acima_do_teto": 29
+          "origem": 87,
+          "janela_curta": 27
         }
       }
     }
   },
-  "avisos": [],
+  "avisos": [
+    "leu matéria e extraiu ZERO oferta — extrator ou prompt quebrado?"
+  ],
   "perfis": [
     {
       "id": "ale-andreia",
