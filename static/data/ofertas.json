@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-10T17:07:18.041Z",
-  "visto_ate": "2026-08-09T21:42:32+00:00",
+  "gerado_em": "2026-08-10T18:02:16.535Z",
+  "visto_ate": "2026-08-10T13:11:10+00:00",
   "ultimo_explore": "2026-08-10",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 2,
+      "lidas": 2,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -362,32 +362,32 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 2,
+    "materias_lidas": 2,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 4,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 3,
     "rotas_no_historico": 215,
-    "com_baseline": 149,
+    "com_baseline": 150,
     "sem_tag": 149,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 120,
+        "total_avaliadas": 403,
+        "casam_no_perfil": 121,
         "dessas_ja_alertadas_antes": 120,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 23,
           "posicionamento_desligado": 52,
           "domestico": 92,
-          "origem": 86,
+          "origem": 88,
           "janela_curta": 27
         }
       }
@@ -21186,19 +21186,24 @@
       "ida_e_volta": true,
       "com_taxas": false,
       "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
+      "bagagem_despachada": "nao_inclui",
       "companhia": "",
-      "validade": "",
-      "observacao": "",
+      "validade": "Datas para julho do próximo ano",
+      "observacao": "Menores tarifas só com bagagem de mão",
       "flags": [],
       "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-de-ida-e-volta-para-orlando-10go26",
+          "titulo": "Passagens de ida e volta para Orlando a partir de R$ 2.349 saindo de São Paulo e mais cidade!"
+        },
         {
           "nome": "tg:melhoresdestinos",
           "link": "https://t.me/melhoresdestinos/18893",
           "titulo": "Estados Unidos"
         }
       ],
-      "descoberto_em": "2026-08-10T15:39:10+00:00",
+      "descoberto_em": "2026-08-10T13:11:10+00:00",
       "baseline": {
         "tem_baseline": true,
         "amostras": 8,
