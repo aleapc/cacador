@@ -1,18 +1,18 @@
 {
-  "gerado_em": "2026-08-11T02:26:37.959Z",
+  "gerado_em": "2026-08-11T04:38:35.294Z",
   "visto_ate": "2026-08-10T18:35:50+00:00",
   "ultimo_explore": "2026-08-11",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 3,
-      "lidas": 3,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
-      "destinos": 91,
-      "status": "ok"
+      "destinos": 0,
+      "status": "nao_rodou"
     },
     {
       "nome": "tg:melhoresdestinos",
@@ -374,36 +374,33 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 3,
-    "materias_lidas": 3,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 12,
-    "explore_destinos": 91,
-    "explore_status": "ok",
-    "descartadas": 3,
-    "por_motivo_de_descarte": {
-      "incompleta": 3
-    },
-    "ineditas": 78,
+    "ofertas_extraidas": 0,
+    "explore_destinos": 0,
+    "explore_status": "nao_rodou",
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 0,
     "rotas_no_historico": 221,
-    "com_baseline": 208,
-    "sem_tag": 162,
+    "com_baseline": 147,
+    "sem_tag": 151,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 478,
-        "casam_no_perfil": 137,
-        "dessas_ja_alertadas_antes": 119,
-        "novas_para_alertar": 18,
-        "alertados": 5,
-        "cortadas_pelo_teto": 13,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 113,
+        "dessas_ja_alertadas_antes": 113,
+        "novas_para_alertar": 0,
+        "alertados": 0,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 24,
           "posicionamento_desligado": 55,
           "domestico": 94,
-          "origem": 92,
-          "janela_curta": 43,
-          "acima_do_teto": 33
+          "origem": 83,
+          "janela_curta": 31
         }
       }
     }
