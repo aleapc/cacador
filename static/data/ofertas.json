@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-11T22:03:29.923Z",
+  "gerado_em": "2026-08-11T23:01:34.418Z",
   "visto_ate": "2026-08-11T13:14:31+00:00",
   "ultimo_explore": "2026-08-11",
   "fontes": [
@@ -31,11 +31,13 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 5,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/passageirodeprimeira/28157",
+    "https://t.me/promopassagens/110893",
     "https://t.me/passageirodeprimeira/28155",
     "https://t.me/promopassagens/110890",
     "https://t.me/promopassagens/110889",
@@ -401,28 +403,26 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 4,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "categoria": 1
-    },
-    "ineditas": 2,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 1,
     "rotas_no_historico": 227,
-    "com_baseline": 145,
+    "com_baseline": 143,
     "sem_tag": 155,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 402,
-        "casam_no_perfil": 114,
-        "dessas_ja_alertadas_antes": 113,
-        "novas_para_alertar": 1,
-        "alertados": 1,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 112,
+        "dessas_ja_alertadas_antes": 112,
+        "novas_para_alertar": 0,
+        "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 29,
+          "tipo": 30,
           "posicionamento_desligado": 55,
           "domestico": 94,
           "origem": 80,
@@ -2425,6 +2425,61 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "4f6f0ddaea0d",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 455,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "29 mil milhas Smiles ou R$ 455 + taxas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/28157",
+          "titulo": "Boa oportunidade! Voe para Buenos Aires a partir de 29 mil milhas Smiles ou R$ 455 + taxas"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110893",
+          "titulo": "✈️ Boa Oportunidade! Voe Para Buenos Aires A Partir De 29 Mil Milhas Smiles Ou R$ 455 + Taxas"
+        }
+      ],
+      "descoberto_em": "2026-08-11T22:32:09+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
     },
     {
       "id": "c9b96154255e",
@@ -13038,6 +13093,50 @@
       }
     },
     {
+      "id": "5e61530cef64",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Calama",
+      "destino_metro": "CJC",
+      "pais_iso2": "CL",
+      "preco_brl": 1269,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "outubro e novembro",
+      "observacao": "Deserto do Atacama",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/queda-de-precos-passagens-baratas-para-santiago-atacama-ou-patagonia-04ago26",
+          "titulo": "Queda de preços! Passagens baratas para Santiago, Atacama ou Patagônia a partir de R$ 910 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-04T13:29:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "90dadd603346",
       "origem_texto": "",
       "origem_metro": "",
@@ -13095,50 +13194,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "tipo:misto"
-      }
-    },
-    {
-      "id": "5e61530cef64",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Calama",
-      "destino_metro": "CJC",
-      "pais_iso2": "CL",
-      "preco_brl": 1269,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "outubro e novembro",
-      "observacao": "Deserto do Atacama",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/queda-de-precos-passagens-baratas-para-santiago-atacama-ou-patagonia-04ago26",
-          "titulo": "Queda de preços! Passagens baratas para Santiago, Atacama ou Patagônia a partir de R$ 910 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-08-04T13:29:21+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
       }
     },
     {
@@ -22209,54 +22264,6 @@
         }
       ],
       "descoberto_em": "2026-07-26T13:30:53+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "esportes_verao"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:CNF"
-      }
-    },
-    {
-      "id": "6364ed5777f8",
-      "origem_texto": "Belo Horizonte",
-      "origem_metro": "CNF",
-      "destino_texto": "San Andrés",
-      "destino_metro": "ADZ",
-      "pais_iso2": "CO",
-      "preco_brl": 2305,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
-          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.631 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-07-24T11:52:00+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 2,
