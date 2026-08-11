@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-11T18:05:45.156Z",
+  "gerado_em": "2026-08-11T19:18:11.498Z",
   "visto_ate": "2026-08-11T13:14:31+00:00",
   "ultimo_explore": "2026-08-11",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 2,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,15 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18916",
+    "https://t.me/melhoresdestinos/18915",
+    "https://t.me/passageirodeprimeira/28149",
+    "https://t.me/promopassagens/110870",
     "https://t.me/melhoresdestinos/18913",
     "https://t.me/promopassagens/110867",
     "https://t.me/canalpontospravoar/27052",
@@ -387,26 +391,28 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "categoria": 1
+    },
+    "ineditas": 2,
     "rotas_no_historico": 227,
     "com_baseline": 146,
-    "sem_tag": 152,
+    "sem_tag": 153,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 402,
         "casam_no_perfil": 113,
         "dessas_ja_alertadas_antes": 113,
         "novas_para_alertar": 0,
         "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 25,
+          "tipo": 27,
           "posicionamento_desligado": 55,
           "domestico": 94,
           "origem": 82,
@@ -7938,6 +7944,57 @@
       }
     },
     {
+      "id": "94080ef63b80",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Punta Cana",
+      "destino_metro": "PUJ",
+      "pais_iso2": "DO",
+      "preco_brl": 831,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Voos diretos; ou 53 mil milhas Smiles o trecho mais taxas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18916",
+          "titulo": "Caribe!"
+        }
+      ],
+      "descoberto_em": "2026-08-11T19:05:10+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 30,
+        "pegadinha": "Duas. (1) O brasileiro NÃO tem visto dispensado de forma genérica — está na categoria 'pode entrar SÓ com Tarjeta de Turista, EXCLUSIVAMENTE para fins turísticos'. Qualquer outro propósito (trabalho, atividade lucrativa) derruba a base legal da entrada: atividade lucrativa com Tarjeta de Turista é punida com expulsão imediata. (2) A estadia da Tarjeta de Turista é de 30 DIAS, não 60 nem 90 — muita fonte de viagem repete '60 dias' e está errada. Passar disso exige prorrogação e pagamento de taxa por excesso de estadia na saída. Cuidado com sites cobrando pelo E-Ticket, que é gratuito no portal oficial.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
       "id": "fa4d0f7c83df",
       "origem_texto": "Vitória",
       "origem_metro": "VIX",
@@ -10715,6 +10772,68 @@
         "economia_por_pessoa": 181,
         "economia_grupo": 362,
         "trecho_domestico": "SAO->IGU"
+      }
+    },
+    {
+      "id": "fd302362af95",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Cidade do Cabo",
+      "destino_metro": "CPT",
+      "pais_iso2": "ZA",
+      "preco_brl": 1081,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "A partir de 68 mil milhas Smiles ou R$ 1.081 + taxas",
+      "flags": [
+        "preco_abaixo_da_faixa",
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/28149",
+          "titulo": "Muito barato! Voe para a Cidade do Cabo a partir de 68 mil milhas Smiles ou R$ 1.081 + taxas"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110870",
+          "titulo": "🗺 Muito Barato! Voe Para A Cidade Do Cabo A Partir De 68 Mil Milhas Smiles Ou R$ 1.081 + Taxas"
+        }
+      ],
+      "descoberto_em": "2026-08-11T18:09:48+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "natureza",
+        "cultural",
+        "praia",
+        "aventura"
+      ],
+      "continente": "africa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "DUPLA PEGADINHA, AMBAS CONFIRMADAS NESTA AUDITORIA. (1) FEBRE AMARELA: o Brasil é país de risco para a África do Sul. Sem o certificado internacional (CIVP) a fonte oficial prevê 'refusal of entry, or quarantine until your certificate becomes valid' — quarentena de até 6 dias. Vacina no mínimo 10 dias antes. (2) DECLARAÇÃO ONLINE: obrigatória desde 01/07/2026 para ENTRADA E SAÍDA, por ar, terra, mar e trilho — inclui o voo de volta, não é só chegada. Em itinerário com escalas, conta-se 24h antes do último trecho com destino direto à África do Sul. Só trânsito aéreo/marítimo sem sair da área de trânsito é isento. Passaporte: 2 páginas em branco e validade de 30 dias além da saída.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
       }
     },
     {
@@ -22156,114 +22275,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "8c1b35dcb2fe",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "MCO",
-      "pais_iso2": "US",
-      "preco_brl": 2343,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-baratas-para-orlando-03ago26",
-          "titulo": "Passagens baratas para Orlando a partir de R$ 2.120 ou nas férias de fim de ano por R$ 2.494!"
-        }
-      ],
-      "descoberto_em": "2026-08-03T16:15:28+00:00",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2627,
-        "minimo_visto": 2343,
-        "p10": 2343,
-        "desvio_pct": -11,
-        "raro": true
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "9c5eb59c9821",
-      "origem_texto": "Rio de Janeiro",
-      "origem_metro": "RIO",
-      "destino_texto": "Orlando",
-      "destino_metro": "MCO",
-      "pais_iso2": "US",
-      "preco_brl": 2343,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-baratas-para-orlando-03ago26",
-          "titulo": "Passagens baratas para Orlando a partir de R$ 2.120 ou nas férias de fim de ano por R$ 2.494!"
-        }
-      ],
-      "descoberto_em": "2026-08-03T16:15:28+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 3,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:RIO"
       }
     }
   ]
