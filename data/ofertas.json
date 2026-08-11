@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-11T19:18:11.498Z",
+  "gerado_em": "2026-08-11T21:02:46.115Z",
   "visto_ate": "2026-08-11T13:14:31+00:00",
   "ultimo_explore": "2026-08-11",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 2,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,15 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 2,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18917",
+    "https://t.me/passageirodeprimeira/28152",
+    "https://t.me/promopassagens/110879",
+    "https://t.me/promopassagens/110877",
     "https://t.me/melhoresdestinos/18916",
     "https://t.me/melhoresdestinos/18915",
     "https://t.me/passageirodeprimeira/28149",
@@ -400,22 +404,22 @@
     },
     "ineditas": 2,
     "rotas_no_historico": 227,
-    "com_baseline": 146,
-    "sem_tag": 153,
+    "com_baseline": 145,
+    "sem_tag": 155,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
         "total_avaliadas": 402,
         "casam_no_perfil": 113,
-        "dessas_ja_alertadas_antes": 113,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "dessas_ja_alertadas_antes": 112,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 27,
+          "tipo": 28,
           "posicionamento_desligado": 55,
           "domestico": 94,
-          "origem": 82,
+          "origem": 81,
           "janela_curta": 31
         }
       }
@@ -8039,6 +8043,62 @@
       }
     },
     {
+      "id": "75b74a439b56",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Curaçao",
+      "destino_metro": "CUR",
+      "pais_iso2": "CW",
+      "preco_brl": 841,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Azul",
+      "validade": "",
+      "observacao": "R$ 841 + taxas o trecho ou 74 mil pontos Azul Fidelidade",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/28152",
+          "titulo": "Viaje para Curaçao a partir de 74 mil pontos Azul Fidelidade ou R$ 841 + taxas o trecho"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110879",
+          "titulo": "🚢 Viaje Para Curaçao A Partir De 74 Mil Pontos Azul Fidelidade Ou R$ 841 + Taxas O Trecho"
+        }
+      ],
+      "descoberto_em": "2026-08-11T20:12:16+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "Mesma família da pegadinha de Aruba, e é a que mais pega brasileiro nas 'Ilhas ABC': certificado de febre amarela é exigido de quem chega de país classificado como área de risco de transmissão — e o Brasil é. Como muita gente faz Aruba + Curaçao + Bonaire na mesma viagem e Aruba exige o ICVP de forma explícita e confirmada para procedentes do Brasil, o certificado deve ser tratado como item de mala para o roteiro ABC inteiro. Segunda: o DI Card é OBRIGATÓRIO e digital, prazo de 48h antes — não é entregue no avião. Terceira: prova de passagem de saída (onward travel) e passaporte válido por 6 meses além da estadia pretendida.",
+        "rotulo": "INFERENCIA"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
       "id": "a943f76025dd",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -15474,6 +15534,52 @@
       "match": false
     },
     {
+      "id": "1f076c9f7e30",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Santiago + Buenos Aires ou Montevidéu",
+      "destino_metro": "",
+      "pais_iso2": "CL",
+      "preco_brl": 1743,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Passagens 2 em 1",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18917",
+          "titulo": "América do Sul 2x1"
+        }
+      ],
+      "descoberto_em": "2026-08-11T19:50:21+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "7909666cde53",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -22166,115 +22272,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "0c8548eb1836",
-      "origem_texto": "Florianópolis",
-      "origem_metro": "FLN",
-      "destino_texto": "Cartagena das Índias",
-      "destino_metro": "CTG",
-      "pais_iso2": "CO",
-      "preco_brl": 2333,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
-          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-08-02T02:30:10+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cultural",
-        "descanso"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:FLN"
-      }
-    },
-    {
-      "id": "65e39a6e77b5",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Ushuaia",
-      "destino_metro": "USH",
-      "destino_iata": "USH",
-      "origem_iata": "GRU",
-      "pais_texto": "Argentina",
-      "pais_iso2": "AR",
-      "preco_brl": 2336,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Aerolineas Argentinas",
-      "janela": "2026-10-15 a 2026-10-21",
-      "janela_inicio": "2026-10-15",
-      "janela_fim": "2026-10-21",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 670,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE1agcIARIDR1JVGhUSCjIwMjYtMTAtMjFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxemRucw",
-          "titulo": "Ushuaia — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-11",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 24,
-        "mediana": 2496,
-        "minimo_visto": 2275,
-        "p10": 2277,
-        "desvio_pct": -6,
-        "raro": false
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_inverno"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       }
     }
   ]
