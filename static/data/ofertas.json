@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-11T11:55:28.408Z",
+  "gerado_em": "2026-08-11T13:40:52.296Z",
   "visto_ate": "2026-08-10T18:35:50+00:00",
   "ultimo_explore": "2026-08-11",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 4,
       "status": "ok"
     },
     {
@@ -36,6 +36,10 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18908",
+    "https://t.me/melhoresdestinos/18907",
+    "https://t.me/melhoresdestinos/18905",
+    "https://t.me/melhoresdestinos/18904",
     "https://t.me/melhoresdestinos/18902",
     "https://t.me/promopassagens/110842",
     "https://t.me/passageirodeprimeira/28134",
@@ -377,26 +381,28 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 3,
     "rotas_no_historico": 221,
     "com_baseline": 147,
-    "sem_tag": 151,
+    "sem_tag": 152,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 113,
+        "total_avaliadas": 403,
+        "casam_no_perfil": 115,
         "dessas_ja_alertadas_antes": 113,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 2,
+        "alertados": 2,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 24,
+          "tipo": 25,
           "posicionamento_desligado": 55,
           "domestico": 94,
           "origem": 83,
@@ -12791,6 +12797,58 @@
       }
     },
     {
+      "id": "da1267fab1eb",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Joanesburgo",
+      "destino_metro": "JNB",
+      "pais_iso2": "ZA",
+      "preco_brl": 1265,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": true,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Voos diretos; ou 80 mil milhas Smiles o trecho mais taxas",
+      "flags": [
+        "preco_abaixo_da_faixa",
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18907",
+          "titulo": "África do Sul!"
+        }
+      ],
+      "descoberto_em": "2026-08-11T13:06:50+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "DUPLA PEGADINHA, AMBAS CONFIRMADAS NESTA AUDITORIA. (1) FEBRE AMARELA: o Brasil é país de risco para a África do Sul. Sem o certificado internacional (CIVP) a fonte oficial prevê 'refusal of entry, or quarantine until your certificate becomes valid' — quarentena de até 6 dias. Vacina no mínimo 10 dias antes. (2) DECLARAÇÃO ONLINE: obrigatória desde 01/07/2026 para ENTRADA E SAÍDA, por ar, terra, mar e trilho — inclui o voo de volta, não é só chegada. Em itinerário com escalas, conta-se 24h antes do último trecho com destino direto à África do Sul. Só trânsito aéreo/marítimo sem sair da área de trânsito é isento. Passaporte: 2 páginas em branco e validade de 30 dias além da saída.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
       "id": "5e61530cef64",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -18962,6 +19020,61 @@
       }
     },
     {
+      "id": "53ee3e1b6bad",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Cancún",
+      "destino_metro": "CUN",
+      "pais_iso2": "MX",
+      "preco_brl": 2093,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18908",
+          "titulo": "México 🇲🇽"
+        }
+      ],
+      "descoberto_em": "2026-08-11T13:22:52+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "descanso",
+        "esportes_verao"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "AUTORIZACAO_ELETRONICA",
+        "dias": 180,
+        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "13220f510323",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -22142,115 +22255,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "origem:RIO"
-      }
-    },
-    {
-      "id": "023a7108d9e6",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "MCO",
-      "pais_iso2": "US",
-      "preco_brl": 2349,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_inclui",
-      "companhia": "",
-      "validade": "Datas para julho do próximo ano",
-      "observacao": "Menores tarifas só com bagagem de mão, exceto low cost Arajet",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-de-ida-e-volta-para-orlando-10go26",
-          "titulo": "Passagens de ida e volta para Orlando a partir de R$ 2.349 saindo de São Paulo e mais cidades!"
-        },
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18893",
-          "titulo": "Estados Unidos"
-        }
-      ],
-      "descoberto_em": "2026-08-10T18:35:34+00:00",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 9,
-        "mediana": 2627,
-        "minimo_visto": 2343,
-        "p10": 2343,
-        "desvio_pct": -11,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "3a6c03b45381",
-      "origem_texto": "Belo Horizonte",
-      "origem_metro": "CNF",
-      "destino_texto": "Cartagena das Índias",
-      "destino_metro": "CTG",
-      "pais_iso2": "CO",
-      "preco_brl": 2352,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
-          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-08-02T02:30:10+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cultural",
-        "descanso"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:CNF"
       }
     }
   ]
