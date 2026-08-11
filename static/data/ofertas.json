@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-11T23:01:34.418Z",
+  "gerado_em": "2026-08-11T23:58:12.287Z",
   "visto_ate": "2026-08-11T13:14:31+00:00",
   "ultimo_explore": "2026-08-11",
   "fontes": [
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
@@ -403,19 +403,19 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 2,
+    "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 1,
+    "ineditas": 0,
     "rotas_no_historico": 227,
     "com_baseline": 143,
     "sem_tag": 155,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
+        "total_avaliadas": 400,
         "casam_no_perfil": 112,
         "dessas_ja_alertadas_antes": 112,
         "novas_para_alertar": 0,
@@ -425,7 +425,7 @@
           "tipo": 30,
           "posicionamento_desligado": 55,
           "domestico": 94,
-          "origem": 80,
+          "origem": 79,
           "janela_curta": 30
         }
       }
