@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-11T13:40:52.296Z",
-  "visto_ate": "2026-08-10T18:35:50+00:00",
+  "gerado_em": "2026-08-11T15:16:09.666Z",
+  "visto_ate": "2026-08-11T13:14:31+00:00",
   "ultimo_explore": "2026-08-11",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 2,
+      "lidas": 2,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 4,
+      "novos": 2,
       "status": "ok"
     },
     {
@@ -36,6 +36,8 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18912",
+    "https://t.me/melhoresdestinos/18911",
     "https://t.me/melhoresdestinos/18908",
     "https://t.me/melhoresdestinos/18907",
     "https://t.me/melhoresdestinos/18905",
@@ -378,24 +380,22 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 2,
+    "materias_lidas": 2,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 3,
+    "ofertas_extraidas": 12,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "incompleta": 1
-    },
-    "ineditas": 3,
-    "rotas_no_historico": 221,
-    "com_baseline": 147,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 10,
+    "rotas_no_historico": 227,
+    "com_baseline": 148,
     "sem_tag": 152,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 403,
+        "total_avaliadas": 410,
         "casam_no_perfil": 115,
         "dessas_ja_alertadas_antes": 113,
         "novas_para_alertar": 2,
@@ -405,8 +405,9 @@
           "tipo": 25,
           "posicionamento_desligado": 55,
           "domestico": 94,
-          "origem": 83,
-          "janela_curta": 31
+          "origem": 89,
+          "janela_curta": 31,
+          "acima_do_teto": 1
         }
       }
     }
@@ -18980,6 +18981,11 @@
       "observacao": "",
       "flags": [],
       "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/mexico-passagens-baratascancun-2093",
+          "titulo": "México! Passagens baratas para Cancún a partir de R$ 2.093 ida e volta"
+        },
         {
           "nome": "google-explore",
           "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
