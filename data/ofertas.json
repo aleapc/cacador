@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-12T13:44:45.377Z",
-  "visto_ate": "2026-08-11T19:48:32+00:00",
+  "gerado_em": "2026-08-12T15:13:35.436Z",
+  "visto_ate": "2026-08-12T15:07:34+00:00",
   "ultimo_explore": "2026-08-12",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 3,
+      "lidas": 3,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -31,11 +31,15 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 2,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18926",
+    "https://t.me/melhoresdestinos/18925",
+    "https://t.me/passageirodeprimeira/28163",
+    "https://t.me/promopassagens/110905",
     "https://t.me/melhoresdestinos/18924",
     "https://t.me/melhoresdestinos/18923",
     "https://t.me/passageirodeprimeira/28161",
@@ -409,35 +413,36 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 3,
+    "materias_lidas": 3,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 2,
+    "ofertas_extraidas": 13,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 1,
     "por_motivo_de_descarte": {
       "incompleta": 1
     },
-    "ineditas": 2,
+    "ineditas": 10,
     "rotas_no_historico": 228,
-    "com_baseline": 145,
+    "com_baseline": 148,
     "sem_tag": 154,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 402,
-        "casam_no_perfil": 110,
+        "total_avaliadas": 410,
+        "casam_no_perfil": 111,
         "dessas_ja_alertadas_antes": 108,
-        "novas_para_alertar": 2,
-        "alertados": 2,
+        "novas_para_alertar": 3,
+        "alertados": 3,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 30,
-          "posicionamento_desligado": 55,
+          "tipo": 31,
+          "posicionamento_desligado": 57,
           "domestico": 96,
-          "origem": 79,
-          "janela_curta": 32
+          "origem": 80,
+          "janela_curta": 32,
+          "acima_do_teto": 3
         }
       }
     }
@@ -8866,6 +8871,67 @@
       }
     },
     {
+      "id": "eaf172836509",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Lisboa",
+      "destino_metro": "LIS",
+      "pais_iso2": "PT",
+      "preco_brl": 871,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "A partir de 76 mil pontos ou R$ 871 + taxas",
+      "flags": [
+        "preco_abaixo_da_faixa",
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/28163",
+          "titulo": "Muito barato! Voe para Lisboa a partir de 76 mil pontos ou R$ 871,64 + taxas"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/110905",
+          "titulo": "🧭 Muito Barato! Voe Para Lisboa A Partir De 76 Mil Pontos Ou R$ 871 + Taxas"
+        }
+      ],
+      "descoberto_em": "2026-08-12T14:00:53+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cultural",
+        "gastronomico",
+        "cidade_grande"
+      ],
+      "continente": "europa",
+      "tem_tag": true,
+      "sem_visto": true,
+      "visto": {
+        "exige": "NAO",
+        "dias": 90,
+        "pegadinha": "PASSAPORTE — A PEGADINHA QUE O DATASET ANTERIOR OMITIU EM TODO O SCHENGEN: o passaporte tem de ter sido EMITIDO NOS ULTIMOS 10 ANOS *e* ser valido por pelo menos 3 MESES ALEM da data prevista de saida do Schengen (art. 6(1)(a) do Codigo de Fronteiras Schengen; texto oficial do portal Your Europe: 'Your passport should be valid for at least 3 months after the date you intend to leave the EU and it must have been issued within the last 10 years'). As DUAS condicoes valem no dia da ENTRADA. Nao ha waiver para a regra dos 10 anos. Isso barra brasileiro no portao. Segundo: meios de subsistencia — EUR 75 por entrada + EUR 40 por dia de permanencia; alternativa legal = termo de responsabilidade de nacional ou residente legal. Terceiro: isento de visto NAO e isento de comprovar dinheiro, hospedagem e passagem de saida (art. 6 do CFS autoriza o agente a exigir tudo e negar entrada). Quarto: EES 100% operacional desde 10/04/2026 — biometria facial + digitais, fim do carimbo manual, overstay detectado automaticamente.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
       "id": "b94c095ff65e",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -12765,6 +12831,63 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "cfdbbe98194b",
+      "origem_texto": "Florianópolis",
+      "origem_metro": "FLN",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1228,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Menor preço saindo de Florianópolis, São Paulo, Rio de Janeiro e mais 28 cidades",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/argentina-selecao-das-passagens-mais-baratas-para-buenos-aires-12ago26",
+          "titulo": "Argentina! Seleção das passagens mais baratas para Buenos Aires a partir de R$ 1.228"
+        }
+      ],
+      "descoberto_em": "2026-08-12T10:21:09+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Florianópolis",
+        "praca_metro": "FLN",
+        "base_de_casa": 1295,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 67,
+        "economia_grupo": 134,
+        "trecho_domestico": "SAO->FLN"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_134"
       }
     },
     {
@@ -17370,7 +17493,7 @@
       "descoberto_em": "2026-07-24T20:04:44+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 2,
+        "amostras": 3,
         "precisa": 7
       },
       "tipos": [
@@ -22185,128 +22308,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "ce83da758291",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Ushuaia",
-      "destino_metro": "USH",
-      "destino_iata": "USH",
-      "origem_iata": "GRU",
-      "pais_texto": "Argentina",
-      "pais_iso2": "AR",
-      "preco_brl": 2279,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Aerolineas Argentinas",
-      "janela": "2026-10-12 a 2026-10-18",
-      "janela_inicio": "2026-10-12",
-      "janela_fim": "2026-10-18",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1130,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTEyagcIARIDR1JVGhUSCjIwMjYtMTAtMThyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxemRucw",
-          "titulo": "Ushuaia — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-04",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 25,
-        "mediana": 2495,
-        "minimo_visto": 2275,
-        "p10": 2277,
-        "desvio_pct": -9,
-        "raro": false
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_inverno"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "147ee68ef5b0",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Ushuaia",
-      "destino_metro": "USH",
-      "destino_iata": "USH",
-      "origem_iata": "GRU",
-      "pais_texto": "Argentina",
-      "pais_iso2": "AR",
-      "preco_brl": 2280,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Aerolineas Argentinas",
-      "janela": "2026-10-16 a 2026-10-22",
-      "janela_inicio": "2026-10-16",
-      "janela_fim": "2026-10-22",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 680,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE2agcIARIDR1JVGhUSCjIwMjYtMTAtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxemRucw",
-          "titulo": "Ushuaia — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-01",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 25,
-        "mediana": 2495,
-        "minimo_visto": 2275,
-        "p10": 2277,
-        "desvio_pct": -9,
-        "raro": false
-      },
-      "tipos": [
-        "natureza",
-        "aventura",
-        "esportes_inverno"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       }
     }
   ]
