@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-12T15:13:35.436Z",
+  "gerado_em": "2026-08-12T16:08:30.263Z",
   "visto_ate": "2026-08-12T15:07:34+00:00",
   "ultimo_explore": "2026-08-12",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 3,
-      "lidas": 3,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 2,
+      "novos": 0,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
@@ -413,36 +413,33 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 3,
-    "materias_lidas": 3,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 13,
+    "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "incompleta": 1
-    },
-    "ineditas": 10,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 0,
     "rotas_no_historico": 228,
-    "com_baseline": 148,
-    "sem_tag": 154,
+    "com_baseline": 143,
+    "sem_tag": 153,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 410,
-        "casam_no_perfil": 111,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 108,
         "dessas_ja_alertadas_antes": 108,
-        "novas_para_alertar": 3,
-        "alertados": 3,
+        "novas_para_alertar": 0,
+        "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 31,
-          "posicionamento_desligado": 57,
+          "posicionamento_desligado": 56,
           "domestico": 96,
-          "origem": 80,
-          "janela_curta": 32,
-          "acima_do_teto": 3
+          "origem": 79,
+          "janela_curta": 30
         }
       }
     }
