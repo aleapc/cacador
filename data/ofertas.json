@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-13T19:18:16.481Z",
+  "gerado_em": "2026-08-13T21:01:26.149Z",
   "visto_ate": "2026-08-13T17:03:16+00:00",
   "ultimo_explore": "2026-08-13",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 1,
-      "lidas": 1,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -16,13 +16,13 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 3,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
       "novos": 0,
-      "status": "ok"
+      "status": "vazio"
     },
     {
       "nome": "tg:canalpontospravoar",
@@ -31,11 +31,15 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
-      "status": "vazio"
+      "novos": 1,
+      "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18953",
+    "https://t.me/melhoresdestinos/18952",
+    "https://t.me/melhoresdestinos/18950",
+    "https://t.me/promopassagens/110971",
     "https://t.me/melhoresdestinos/18948",
     "https://t.me/melhoresdestinos/18946",
     "https://t.me/melhoresdestinos/18940",
@@ -438,22 +442,24 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 1,
-    "materias_lidas": 1,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 4,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 4,
+    "descartadas": 2,
+    "por_motivo_de_descarte": {
+      "incompleta": 2
+    },
+    "ineditas": 1,
     "rotas_no_historico": 232,
-    "com_baseline": 143,
+    "com_baseline": 142,
     "sem_tag": 153,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 404,
+        "total_avaliadas": 401,
         "casam_no_perfil": 107,
         "dessas_ja_alertadas_antes": 107,
         "novas_para_alertar": 0,
@@ -461,16 +467,18 @@
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 31,
-          "posicionamento_desligado": 60,
+          "posicionamento_desligado": 59,
           "domestico": 98,
-          "origem": 78,
+          "origem": 76,
           "janela_curta": 29,
           "acima_do_teto": 1
         }
       }
     }
   },
-  "avisos": [],
+  "avisos": [
+    "descartou 2 de 3 — schema ou categoria descalibrados?"
+  ],
   "perfis": [
     {
       "id": "ale-andreia",
