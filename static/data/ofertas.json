@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-13T16:08:59.226Z",
+  "gerado_em": "2026-08-13T17:10:44.127Z",
   "visto_ate": "2026-08-13T13:31:10+00:00",
   "ultimo_explore": "2026-08-13",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 1,
-      "lidas": 1,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -32,10 +32,11 @@
     {
       "nome": "tg:promopassagens",
       "novos": 0,
-      "status": "ok"
+      "status": "vazio"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18948",
     "https://t.me/melhoresdestinos/18946",
     "https://t.me/melhoresdestinos/18940",
     "https://t.me/passageirodeprimeira/28178",
@@ -437,32 +438,32 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 1,
-    "materias_lidas": 1,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 4,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 4,
-    "rotas_no_historico": 229,
-    "com_baseline": 143,
+    "ineditas": 1,
+    "rotas_no_historico": 230,
+    "com_baseline": 142,
     "sem_tag": 153,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 404,
-        "casam_no_perfil": 109,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 107,
         "dessas_ja_alertadas_antes": 107,
-        "novas_para_alertar": 2,
-        "alertados": 2,
+        "novas_para_alertar": 0,
+        "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 31,
           "posicionamento_desligado": 59,
           "domestico": 98,
-          "origem": 78,
+          "origem": 77,
           "janela_curta": 29
         }
       }
