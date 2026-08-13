@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-13T15:13:29.525Z",
-  "visto_ate": "2026-08-12T23:01:27+00:00",
+  "gerado_em": "2026-08-13T16:08:59.226Z",
+  "visto_ate": "2026-08-13T13:31:10+00:00",
   "ultimo_explore": "2026-08-13",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 1,
+      "lidas": 1,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -27,7 +27,7 @@
     {
       "nome": "tg:canalpontospravoar",
       "novos": 0,
-      "status": "ok"
+      "status": "vazio"
     },
     {
       "nome": "tg:promopassagens",
@@ -437,34 +437,33 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 1,
+    "materias_lidas": 1,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 1,
+    "ofertas_extraidas": 4,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 1,
-    "rotas_no_historico": 228,
-    "com_baseline": 142,
+    "ineditas": 4,
+    "rotas_no_historico": 229,
+    "com_baseline": 143,
     "sem_tag": 153,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
-        "casam_no_perfil": 107,
+        "total_avaliadas": 404,
+        "casam_no_perfil": 109,
         "dessas_ja_alertadas_antes": 107,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 2,
+        "alertados": 2,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 31,
-          "posicionamento_desligado": 56,
+          "posicionamento_desligado": 59,
           "domestico": 98,
-          "origem": 79,
-          "janela_curta": 29,
-          "acima_do_teto": 1
+          "origem": 78,
+          "janela_curta": 29
         }
       }
     }
@@ -17479,7 +17478,7 @@
       "descoberto_em": "2026-07-24T18:28:35+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 4,
+        "amostras": 5,
         "precisa": 7
       },
       "tipos": [
@@ -17504,14 +17503,14 @@
       "posicionamento": {
         "praca": "Manaus",
         "praca_metro": "MAO",
-        "base_de_casa": 2694,
+        "base_de_casa": 2873,
         "base_origem": "São Paulo",
-        "economia_por_pessoa": 911,
-        "economia_grupo": 1822,
+        "economia_por_pessoa": 1090,
+        "economia_grupo": 2180,
         "trecho_domestico": "SAO->MAO"
       },
       "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1822"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_2180"
       }
     },
     {
@@ -17615,6 +17614,68 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "2a99ca8033a7",
+      "origem_texto": "Manaus",
+      "origem_metro": "MAO",
+      "destino_texto": "Miami",
+      "destino_metro": "MIA",
+      "pais_iso2": "US",
+      "preco_brl": 1814,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "festas de final de ano, janeiro ou Carnaval",
+      "observacao": "menor valor",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-para-miami-13ago26",
+          "titulo": "Passagens para Miami a partir de R$ 1.814 ou nas férias de fim de ano por R$ 2.482!"
+        }
+      ],
+      "descoberto_em": "2026-08-13T13:31:10+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 5,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "posicionamento": {
+        "praca": "Manaus",
+        "praca_metro": "MAO",
+        "base_de_casa": 2873,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 1059,
+        "economia_grupo": 2118,
+        "trecho_domestico": "SAO->MAO"
+      },
+      "perfis": {
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_2118"
       }
     },
     {
@@ -18732,7 +18793,7 @@
       "descoberto_em": "2026-07-16T13:18:58+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 4,
+        "amostras": 5,
         "precisa": 7
       },
       "posicionamento": {
@@ -19084,7 +19145,7 @@
       "descoberto_em": "2026-08-08T10:41:34+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 4,
+        "amostras": 5,
         "precisa": 7
       },
       "tipos": [
@@ -19107,7 +19168,16 @@
       },
       "match": false,
       "perfis": {
-        "ale-andreia": "origem:MAO"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1726"
+      },
+      "posicionamento": {
+        "praca": "Manaus",
+        "praca_metro": "MAO",
+        "base_de_casa": 2873,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 863,
+        "economia_grupo": 1726,
+        "trecho_domestico": "SAO->MAO"
       }
     },
     {
@@ -19137,7 +19207,7 @@
       "descoberto_em": "2026-08-06T10:28:11+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 4,
+        "amostras": 5,
         "precisa": 7
       },
       "tipos": [
@@ -19160,7 +19230,16 @@
       },
       "match": false,
       "perfis": {
-        "ale-andreia": "origem:MAO"
+        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1726"
+      },
+      "posicionamento": {
+        "praca": "Manaus",
+        "praca_metro": "MAO",
+        "base_de_casa": 2873,
+        "base_origem": "São Paulo",
+        "economia_por_pessoa": 863,
+        "economia_grupo": 1726,
+        "trecho_domestico": "SAO->MAO"
       }
     },
     {
@@ -22273,55 +22352,6 @@
       "perfis": {
         "ale-andreia": "casa"
       }
-    },
-    {
-      "id": "c44bfa0077dd",
-      "origem_texto": "Brasília",
-      "origem_metro": "BSB",
-      "destino_texto": "Cusco",
-      "destino_metro": "CUZ",
-      "pais_iso2": "PE",
-      "preco_brl": 2239,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Latam",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/peru-em-oferta-passagens-latam-lima-custo-1516",
-          "titulo": "Peru em oferta! Passagens da Latam para Lima ou Cusco a partir de R$ 1.516, em 10x sem juros"
-        }
-      ],
-      "descoberto_em": "2026-07-21T13:26:13+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "origem:BSB"
-      },
-      "tipos": [
-        "cultural",
-        "montanha",
-        "aventura",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
     }
   ]
 }
