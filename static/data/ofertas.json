@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-14T22:38:56.801Z",
+  "gerado_em": "2026-08-14T23:35:43.518Z",
   "visto_ate": "2026-08-14T11:59:23+00:00",
   "ultimo_explore": "2026-08-14",
   "fontes": [
@@ -31,7 +31,7 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 2,
+      "novos": 0,
       "status": "ok"
     }
   ],
@@ -472,19 +472,19 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 1,
+    "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 1,
+    "ineditas": 0,
     "rotas_no_historico": 233,
     "com_baseline": 143,
-    "sem_tag": 155,
+    "sem_tag": 154,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
+        "total_avaliadas": 400,
         "casam_no_perfil": 105,
         "dessas_ja_alertadas_antes": 105,
         "novas_para_alertar": 0,
@@ -495,8 +495,7 @@
           "posicionamento_desligado": 59,
           "domestico": 100,
           "origem": 73,
-          "janela_curta": 30,
-          "acima_do_teto": 1
+          "janela_curta": 30
         }
       }
     }
