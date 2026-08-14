@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-14T20:44:06.261Z",
+  "gerado_em": "2026-08-14T21:38:37.686Z",
   "visto_ate": "2026-08-14T11:59:23+00:00",
   "ultimo_explore": "2026-08-14",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,11 +31,14 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 2,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18972",
+    "https://t.me/promopassagens/111022",
+    "https://t.me/promopassagens/111018",
     "https://t.me/passageirodeprimeira/28221",
     "https://t.me/melhoresdestinos/18971",
     "https://t.me/passageirodeprimeira/28217",
@@ -470,18 +473,20 @@
     "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 1,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 0,
     "rotas_no_historico": 233,
-    "com_baseline": 144,
+    "com_baseline": 143,
     "sem_tag": 154,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
-        "casam_no_perfil": 106,
-        "dessas_ja_alertadas_antes": 106,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 105,
+        "dessas_ja_alertadas_antes": 105,
         "novas_para_alertar": 0,
         "alertados": 0,
         "cortadas_pelo_teto": 0,
@@ -9231,12 +9236,17 @@
       ],
       "fontes": [
         {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/111018",
+          "titulo": "🧳 Muito Bom! Voe Para Havana A Partir De 74 Mil Pontos Azul Fidelidade Ou R$ 880 + Taxas"
+        },
+        {
           "nome": "tg:passageirodeprimeira",
           "link": "https://t.me/passageirodeprimeira/28221",
           "titulo": "Muito bom! Voe para Havana a partir de 74 mil pontos Azul Fidelidade ou R$ 880 + taxas"
         }
       ],
-      "descoberto_em": "2026-08-14T20:32:06+00:00",
+      "descoberto_em": "2026-08-14T20:45:40+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
