@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-14T13:40:12.342Z",
+  "gerado_em": "2026-08-14T15:06:35.792Z",
   "visto_ate": "2026-08-13T23:27:24+00:00",
   "ultimo_explore": "2026-08-14",
   "fontes": [
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,15 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 2,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18963",
+    "https://t.me/passageirodeprimeira/28210",
+    "https://t.me/promopassagens/110996",
+    "https://t.me/promopassagens/110995",
     "https://t.me/melhoresdestinos/18961",
     "https://t.me/melhoresdestinos/18960",
     "https://t.me/passageirodeprimeira/28206",
@@ -459,12 +463,15 @@
     "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
+    "descartadas": 3,
+    "por_motivo_de_descarte": {
+      "categoria": 2,
+      "incompleta": 1
+    },
     "ineditas": 1,
     "rotas_no_historico": 233,
-    "com_baseline": 145,
-    "sem_tag": 153,
+    "com_baseline": 146,
+    "sem_tag": 152,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
@@ -484,7 +491,9 @@
       }
     }
   },
-  "avisos": [],
+  "avisos": [
+    "descartou 3 de 4 — schema ou categoria descalibrados?"
+  ],
   "perfis": [
     {
       "id": "ale-andreia",
