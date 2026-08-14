@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-14T19:55:10.300Z",
+  "gerado_em": "2026-08-14T20:44:06.261Z",
   "visto_ate": "2026-08-14T11:59:23+00:00",
   "ultimo_explore": "2026-08-14",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -36,6 +36,7 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/passageirodeprimeira/28221",
     "https://t.me/melhoresdestinos/18971",
     "https://t.me/passageirodeprimeira/28217",
     "https://t.me/promopassagens/111011",
@@ -485,12 +486,11 @@
         "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 32,
+          "tipo": 33,
           "posicionamento_desligado": 59,
           "domestico": 100,
           "origem": 73,
-          "janela_curta": 30,
-          "acima_do_teto": 1
+          "janela_curta": 30
         }
       }
     }
@@ -9208,6 +9208,57 @@
       "match": false,
       "perfis": {
         "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "09b482ecceb9",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Havana",
+      "destino_metro": "HAV",
+      "pais_iso2": "CU",
+      "preco_brl": 880,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Azul",
+      "validade": "",
+      "observacao": "A partir de 74 mil pontos Azul Fidelidade ou R$ 880 + taxas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/28221",
+          "titulo": "Muito bom! Voe para Havana a partir de 74 mil pontos Azul Fidelidade ou R$ 880 + taxas"
+        }
+      ],
+      "descoberto_em": "2026-08-14T20:32:06+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": false,
+      "visto": {
+        "exige": "AUTORIZACAO_ELETRONICA",
+        "dias": 90,
+        "pegadinha": "Três coisas barram brasileiro em Cuba. (1) SEGURO VIAGEM COM COBERTURA MÉDICA É OBRIGATÓRIO POR LEI desde maio/2010 — não é recomendação; sem apólice aceita você é impedido na imigração de Havana e obrigado a comprar seguro cubano no aeroporto. Cobertura mínima usualmente citada: US$10.000. (2) Formulário digital D'Viajeros (dviajeros.mitrans.gob.cu) obrigatório antes da chegada, preferencialmente até 72h antes do voo, gera QR Code pedido no desembarque. (3) A troca do cartão de turista de papel pela e-Visa é recente — quem comprou 'cartão de turista' com agência pode chegar com documento morto.",
+        "rotulo": "INFERENCIA"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
       }
     },
     {
@@ -22307,71 +22358,6 @@
         }
       ],
       "descoberto_em": "2026-08-03",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 24,
-        "mediana": 2354,
-        "minimo_visto": 2094,
-        "p10": 2105,
-        "desvio_pct": -6,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "7ef20e6e65df",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "SFB",
-      "destino_iata": "SFB",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2211,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-09-25 a 2026-10-04",
-      "janela_inicio": "2026-09-25",
-      "janela_fim": "2026-10-04",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 800,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA5LTI1agcIARIDR1JVGhUSCjIwMjYtMTAtMDRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
-          "titulo": "Orlando — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-02",
       "baseline": {
         "tem_baseline": true,
         "amostras": 24,
