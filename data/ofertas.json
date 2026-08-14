@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-14T17:09:45.847Z",
+  "gerado_em": "2026-08-14T18:05:02.543Z",
   "visto_ate": "2026-08-14T11:59:23+00:00",
   "ultimo_explore": "2026-08-14",
   "fontes": [
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,13 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/passageirodeprimeira/28215",
+    "https://t.me/promopassagens/111007",
     "https://t.me/melhoresdestinos/18965",
     "https://t.me/melhoresdestinos/18963",
     "https://t.me/passageirodeprimeira/28210",
@@ -464,8 +466,10 @@
     "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "categoria": 1
+    },
     "ineditas": 0,
     "rotas_no_historico": 233,
     "com_baseline": 144,
