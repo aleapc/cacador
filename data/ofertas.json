@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-15T14:37:17.223Z",
+  "gerado_em": "2026-08-15T15:33:38.033Z",
   "visto_ate": "2026-08-15T04:47:43+00:00",
   "ultimo_explore": "2026-08-15",
   "fontes": [
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
@@ -482,10 +482,8 @@
     "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 2,
-    "por_motivo_de_descarte": {
-      "incompleta": 2
-    },
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
     "ineditas": 0,
     "rotas_no_historico": 233,
     "com_baseline": 142,
