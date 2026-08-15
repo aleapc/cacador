@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-15T06:56:13.681Z",
+  "gerado_em": "2026-08-15T07:42:56.432Z",
   "visto_ate": "2026-08-15T04:47:43+00:00",
   "ultimo_explore": "2026-08-15",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 4,
-      "lidas": 4,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -469,26 +469,24 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 4,
-    "materias_lidas": 4,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 6,
+    "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "incompleta": 1
-    },
-    "ineditas": 6,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 0,
     "rotas_no_historico": 233,
-    "com_baseline": 145,
-    "sem_tag": 159,
+    "com_baseline": 142,
+    "sem_tag": 157,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 406,
-        "casam_no_perfil": 105,
-        "dessas_ja_alertadas_antes": 105,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 102,
+        "dessas_ja_alertadas_antes": 102,
         "novas_para_alertar": 0,
         "alertados": 0,
         "cortadas_pelo_teto": 0,
@@ -496,9 +494,8 @@
           "tipo": 33,
           "posicionamento_desligado": 59,
           "domestico": 107,
-          "origem": 71,
-          "janela_curta": 30,
-          "acima_do_teto": 1
+          "origem": 70,
+          "janela_curta": 29
         }
       }
     }
@@ -2533,52 +2530,6 @@
       }
     },
     {
-      "id": "8218cf58f966",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Navegantes",
-      "destino_metro": "NVT",
-      "pais_iso2": "BR",
-      "preco_brl": 442,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Latam, Azul e Gol",
-      "validade": "Somente hoje e amanhã; datas até Natal Luz de Gramado",
-      "observacao": "",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/sul-do-brasil-passagens-15ago26",
-          "titulo": "Sul do Brasil! Passagens para Porto Alegre, Curitiba, Floripa e outras cidades a partir de R$ 339 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-08-15T04:21:18+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "domestico"
-      }
-    },
-    {
       "id": "8e4fe09d0e8d",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -2637,6 +2588,52 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "8218cf58f966",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Navegantes",
+      "destino_metro": "NVT",
+      "pais_iso2": "BR",
+      "preco_brl": 442,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam, Azul e Gol",
+      "validade": "Somente hoje e amanhã; datas até Natal Luz de Gramado",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/sul-do-brasil-passagens-15ago26",
+          "titulo": "Sul do Brasil! Passagens para Porto Alegre, Curitiba, Floripa e outras cidades a partir de R$ 339 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-15T04:21:18+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "2a63a5309d0a",
