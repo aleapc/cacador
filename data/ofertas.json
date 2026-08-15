@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-15T13:02:38.279Z",
+  "gerado_em": "2026-08-15T13:42:31.285Z",
   "visto_ate": "2026-08-15T04:47:43+00:00",
   "ultimo_explore": "2026-08-15",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 2,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,11 +31,13 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18974",
+    "https://t.me/melhoresdestinos/18973",
     "https://t.me/passageirodeprimeira/28224",
     "https://t.me/promopassagens/111035",
     "https://t.me/promopassagens/111034",
@@ -475,19 +477,19 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 4,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 233,
     "com_baseline": 142,
-    "sem_tag": 157,
+    "sem_tag": 158,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 401,
         "casam_no_perfil": 102,
         "dessas_ja_alertadas_antes": 102,
         "novas_para_alertar": 0,
@@ -496,7 +498,7 @@
         "rejeitados": {
           "tipo": 33,
           "posicionamento_desligado": 59,
-          "domestico": 107,
+          "domestico": 108,
           "origem": 70,
           "janela_curta": 29
         }
@@ -874,11 +876,11 @@
       "match": false
     },
     {
-      "id": "a5195a1c9ce1",
+      "id": "f7e99a81167d",
       "origem_texto": "",
       "origem_metro": "",
-      "destino_texto": "Curitiba",
-      "destino_metro": "CWB",
+      "destino_texto": "Porto Alegre",
+      "destino_metro": "POA",
       "pais_iso2": "BR",
       "preco_brl": 339,
       "por_pessoa": true,
@@ -886,20 +888,25 @@
       "com_taxas": false,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
-      "companhia": "Latam, Azul e Gol",
-      "validade": "Somente hoje e amanhã; datas até Natal Luz de Gramado",
-      "observacao": "",
+      "companhia": "",
+      "validade": "",
+      "observacao": "a partir de",
       "flags": [
         "origem_nao_atribuida"
       ],
       "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18973",
+          "titulo": "Sul do Brasil"
+        },
         {
           "nome": "melhores-destinos",
           "link": "https://www.melhoresdestinos.com.br/promocao/sul-do-brasil-passagens-15ago26",
           "titulo": "Sul do Brasil! Passagens para Porto Alegre, Curitiba, Floripa e outras cidades a partir de R$ 339 ida e volta"
         }
       ],
-      "descoberto_em": "2026-08-15T04:21:18+00:00",
+      "descoberto_em": "2026-08-15T13:02:40+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
@@ -920,11 +927,11 @@
       }
     },
     {
-      "id": "f7e99a81167d",
+      "id": "a5195a1c9ce1",
       "origem_texto": "",
       "origem_metro": "",
-      "destino_texto": "Porto Alegre",
-      "destino_metro": "POA",
+      "destino_texto": "Curitiba",
+      "destino_metro": "CWB",
       "pais_iso2": "BR",
       "preco_brl": 339,
       "por_pessoa": true,
@@ -932,20 +939,71 @@
       "com_taxas": false,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
-      "companhia": "Latam, Azul e Gol",
-      "validade": "Somente hoje e amanhã; datas até Natal Luz de Gramado",
-      "observacao": "",
+      "companhia": "",
+      "validade": "",
+      "observacao": "a partir de",
       "flags": [
         "origem_nao_atribuida"
       ],
       "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18973",
+          "titulo": "Sul do Brasil"
+        },
         {
           "nome": "melhores-destinos",
           "link": "https://www.melhoresdestinos.com.br/promocao/sul-do-brasil-passagens-15ago26",
           "titulo": "Sul do Brasil! Passagens para Porto Alegre, Curitiba, Floripa e outras cidades a partir de R$ 339 ida e volta"
         }
       ],
-      "descoberto_em": "2026-08-15T04:21:18+00:00",
+      "descoberto_em": "2026-08-15T13:02:40+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "d5e51753cb15",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Florianópolis",
+      "destino_metro": "FLN",
+      "pais_iso2": "BR",
+      "preco_brl": 339,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "a partir de",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18973",
+          "titulo": "Sul do Brasil"
+        }
+      ],
+      "descoberto_em": "2026-08-15T13:02:40+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
@@ -1452,20 +1510,25 @@
       "com_taxas": false,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
-      "companhia": "Latam, Azul e Gol",
-      "validade": "Compras somente neste fim de semana",
-      "observacao": "A partir de R$ 358",
+      "companhia": "",
+      "validade": "Só neste fim de semana",
+      "observacao": "a partir de R$ 358",
       "flags": [
         "origem_nao_atribuida"
       ],
       "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18974",
+          "titulo": "Só neste fim de semana"
+        },
         {
           "nome": "melhores-destinos",
           "link": "https://www.melhoresdestinos.com.br/promocao/so-neste-fim-de-semana-sudeste-com-passagens-para-o-rio-sampa-bh-e-mais-cidades-a-partir-de-r-358-ida-e-volta",
           "titulo": "Só neste fim de semana! Sudeste com passagens para o Rio, Sampa, BH e mais cidades a partir de R$ 358 ida e volta"
         }
       ],
-      "descoberto_em": "2026-08-15T04:47:43+00:00",
+      "descoberto_em": "2026-08-15T13:18:50+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
@@ -22302,54 +22365,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "44aa0594c76b",
-      "origem_texto": "Brasília",
-      "origem_metro": "BSB",
-      "destino_texto": "Cartagena das Índias",
-      "destino_metro": "CTG",
-      "pais_iso2": "CO",
-      "preco_brl": 2151,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
-          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-07-31T14:41:57+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 3,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cultural",
-        "descanso"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:BSB"
       }
     }
   ]
