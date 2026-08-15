@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-15T05:38:51.462Z",
-  "visto_ate": "2026-08-14T11:59:23+00:00",
+  "gerado_em": "2026-08-15T06:56:13.681Z",
+  "visto_ate": "2026-08-15T04:47:43+00:00",
   "ultimo_explore": "2026-08-15",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 4,
+      "lidas": 4,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -469,22 +469,24 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 4,
+    "materias_lidas": 4,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 6,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 6,
     "rotas_no_historico": 233,
     "com_baseline": 145,
-    "sem_tag": 154,
+    "sem_tag": 159,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 406,
         "casam_no_perfil": 105,
         "dessas_ja_alertadas_antes": 105,
         "novas_para_alertar": 0,
@@ -493,9 +495,10 @@
         "rejeitados": {
           "tipo": 33,
           "posicionamento_desligado": 59,
-          "domestico": 102,
+          "domestico": 107,
           "origem": 71,
-          "janela_curta": 30
+          "janela_curta": 30,
+          "acima_do_teto": 1
         }
       }
     }
@@ -869,6 +872,98 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "a5195a1c9ce1",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Curitiba",
+      "destino_metro": "CWB",
+      "pais_iso2": "BR",
+      "preco_brl": 339,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam, Azul e Gol",
+      "validade": "Somente hoje e amanhã; datas até Natal Luz de Gramado",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/sul-do-brasil-passagens-15ago26",
+          "titulo": "Sul do Brasil! Passagens para Porto Alegre, Curitiba, Floripa e outras cidades a partir de R$ 339 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-15T04:21:18+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "f7e99a81167d",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Porto Alegre",
+      "destino_metro": "POA",
+      "pais_iso2": "BR",
+      "preco_brl": 339,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam, Azul e Gol",
+      "validade": "Somente hoje e amanhã; datas até Natal Luz de Gramado",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/sul-do-brasil-passagens-15ago26",
+          "titulo": "Sul do Brasil! Passagens para Porto Alegre, Curitiba, Floripa e outras cidades a partir de R$ 339 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-15T04:21:18+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "8d8d188cf02b",
@@ -1320,6 +1415,57 @@
         }
       ],
       "descoberto_em": "2026-07-25T14:18:15+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "7f2117cd7965",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "",
+      "pais_iso2": "BR",
+      "preco_brl": 358,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam, Azul e Gol",
+      "validade": "Compras somente neste fim de semana",
+      "observacao": "A partir de R$ 358",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/so-neste-fim-de-semana-sudeste-com-passagens-para-o-rio-sampa-bh-e-mais-cidades-a-partir-de-r-358-ida-e-volta",
+          "titulo": "Só neste fim de semana! Sudeste com passagens para o Rio, Sampa, BH e mais cidades a partir de R$ 358 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-15T04:47:43+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
@@ -2387,6 +2533,52 @@
       }
     },
     {
+      "id": "8218cf58f966",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Navegantes",
+      "destino_metro": "NVT",
+      "pais_iso2": "BR",
+      "preco_brl": 442,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam, Azul e Gol",
+      "validade": "Somente hoje e amanhã; datas até Natal Luz de Gramado",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/sul-do-brasil-passagens-15ago26",
+          "titulo": "Sul do Brasil! Passagens para Porto Alegre, Curitiba, Floripa e outras cidades a partir de R$ 339 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-15T04:21:18+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "8e4fe09d0e8d",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -2556,6 +2748,52 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "de63ab31f8f3",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Florianópolis",
+      "destino_metro": "FLN",
+      "pais_iso2": "BR",
+      "preco_brl": 455,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Latam, Azul e Gol",
+      "validade": "Somente hoje e amanhã; datas até Natal Luz de Gramado",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/sul-do-brasil-passagens-15ago26",
+          "titulo": "Sul do Brasil! Passagens para Porto Alegre, Curitiba, Floripa e outras cidades a partir de R$ 339 ida e volta"
+        }
+      ],
+      "descoberto_em": "2026-08-15T04:21:18+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "4f6f0ddaea0d",
@@ -22112,316 +22350,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "origem:BSB"
-      }
-    },
-    {
-      "id": "79a3dcedeae2",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "SFB",
-      "destino_iata": "SFB",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2155,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-08-28 a 2026-09-06",
-      "janela_inicio": "2026-08-28",
-      "janela_fim": "2026-09-06",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 800,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI4agcIARIDR1JVGhUSCjIwMjYtMDktMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
-          "titulo": "Orlando — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-23",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 25,
-        "mediana": 2379,
-        "minimo_visto": 2094,
-        "p10": 2105,
-        "desvio_pct": -9,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "0de42a12b49b",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "SFB",
-      "destino_iata": "SFB",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2155,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-08-28 a 2026-09-06",
-      "janela_inicio": "2026-08-28",
-      "janela_fim": "2026-09-06",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 800,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTI4agcIARIDR1JVGhUSCjIwMjYtMDktMDZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
-          "titulo": "Orlando — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 25,
-        "mediana": 2379,
-        "minimo_visto": 2094,
-        "p10": 2105,
-        "desvio_pct": -9,
-        "raro": false
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "9dcb290257cd",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Miami",
-      "destino_metro": "MIA",
-      "destino_iata": "MIA",
-      "origem_iata": "GRU",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2164,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-10-12 a 2026-10-21",
-      "janela_inicio": "2026-10-12",
-      "janela_fim": "2026-10-21",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 708,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTEyagcIARIDR1JVGhUSCjIwMjYtMTAtMjFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBmMnYw",
-          "titulo": "Miami — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-05",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 28,
-        "mediana": 2510,
-        "minimo_visto": 1189,
-        "p10": 2051,
-        "desvio_pct": -14,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "f56230719cdf",
-      "origem_texto": "Curitiba",
-      "origem_metro": "CWB",
-      "destino_texto": "Cusco",
-      "destino_metro": "CUZ",
-      "pais_iso2": "PE",
-      "preco_brl": 2164,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Latam",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/peru-em-oferta-passagens-latam-lima-custo-1516",
-          "titulo": "Peru em oferta! Passagens da Latam para Lima ou Cusco a partir de R$ 1.516, em 10x sem juros"
-        }
-      ],
-      "descoberto_em": "2026-07-21T13:26:13+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "origem:CWB"
-      },
-      "tipos": [
-        "cultural",
-        "montanha",
-        "aventura",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "ec6290580d84",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Lima",
-      "destino_metro": "LIM",
-      "destino_iata": "LIM",
-      "origem_iata": "GRU",
-      "pais_texto": "Peru",
-      "pais_iso2": null,
-      "preco_brl": 2181,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca e COPA",
-      "janela": "2026-08-22 a 2026-08-28",
-      "janela_inicio": "2026-08-22",
-      "janela_fim": "2026-08-28",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 1240,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIyagcIARIDR1JVGhUSCjIwMjYtMDgtMjhyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBscGZo",
-          "titulo": "Lima — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-11",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      },
-      "insight": {
-        "fonte": "google-price-insights",
-        "nivel": "typical",
-        "tipico": 1925,
-        "faixa": [
-          1550,
-          2300
-        ],
-        "lowest": 2109,
-        "desvio_pct": 10,
-        "pontos_historico": 61
       }
     }
   ]
