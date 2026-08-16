@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-16T14:36:45.348Z",
+  "gerado_em": "2026-08-16T15:34:24.333Z",
   "visto_ate": "2026-08-15T20:16:23+00:00",
   "ultimo_explore": "2026-08-16",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -36,6 +36,7 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18979",
     "https://t.me/melhoresdestinos/18976",
     "https://t.me/passageirodeprimeira/28226",
     "https://t.me/promopassagens/111040",
@@ -483,8 +484,10 @@
     "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
     "ineditas": 0,
     "rotas_no_historico": 240,
     "com_baseline": 144,
