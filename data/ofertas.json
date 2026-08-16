@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-16T16:41:17.407Z",
+  "gerado_em": "2026-08-16T17:32:51.503Z",
   "visto_ate": "2026-08-16T09:32:45+00:00",
   "ultimo_explore": "2026-08-16",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 1,
-      "lidas": 1,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
@@ -480,36 +480,33 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 1,
-    "materias_lidas": 1,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 9,
+    "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "incompleta": 1
-    },
-    "ineditas": 8,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 0,
     "rotas_no_historico": 240,
-    "com_baseline": 147,
-    "sem_tag": 158,
+    "com_baseline": 144,
+    "sem_tag": 157,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 408,
-        "casam_no_perfil": 107,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 101,
         "dessas_ja_alertadas_antes": 101,
-        "novas_para_alertar": 6,
-        "alertados": 5,
-        "cortadas_pelo_teto": 1,
+        "novas_para_alertar": 0,
+        "alertados": 0,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
           "posicionamento_desligado": 59,
           "domestico": 110,
-          "origem": 69,
-          "janela_curta": 29,
-          "acima_do_teto": 1
+          "origem": 68,
+          "janela_curta": 29
         }
       }
     }
