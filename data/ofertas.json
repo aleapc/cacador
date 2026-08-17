@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-17T14:43:16.961Z",
+  "gerado_em": "2026-08-17T15:37:23.111Z",
   "visto_ate": "2026-08-16T09:32:45+00:00",
   "ultimo_explore": "2026-08-17",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 2,
+      "novos": 1,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,11 +31,12 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 2,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18994",
     "https://t.me/melhoresdestinos/18992",
     "https://t.me/melhoresdestinos/18991",
     "https://t.me/passageirodeprimeira/28249",
@@ -494,23 +495,23 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 4,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 3,
+    "ineditas": 1,
     "rotas_no_historico": 240,
-    "com_baseline": 148,
-    "sem_tag": 157,
+    "com_baseline": 147,
+    "sem_tag": 158,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 403,
-        "casam_no_perfil": 105,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 103,
         "dessas_ja_alertadas_antes": 102,
-        "novas_para_alertar": 3,
-        "alertados": 3,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
@@ -20353,6 +20354,52 @@
       }
     },
     {
+      "id": "8369753afec2",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Salar de Uyuni",
+      "destino_metro": "",
+      "pais_iso2": "BO",
+      "preco_brl": 1979,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18994",
+          "titulo": "Salar de Uyuni 🇧🇴"
+        }
+      ],
+      "descoberto_em": "2026-08-17T15:11:19+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "02937af53980",
       "origem_texto": "Manaus",
       "origem_metro": "MAO",
@@ -22347,65 +22394,6 @@
       },
       "perfis": {
         "ale-andreia": "posicionamento_desligado:diferenca_bruta_576"
-      }
-    },
-    {
-      "id": "b2621de4d2d9",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Orlando",
-      "destino_metro": "MCO",
-      "pais_iso2": "US",
-      "preco_brl": 2120,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18783",
-          "titulo": "Diversão na Flórida"
-        },
-        {
-          "nome": "tg:promopassagens",
-          "link": "https://t.me/promopassagens/110527",
-          "titulo": "🛩 Passagens Baratas Para Orlando A Partir De R$ 2.120 Ou Nas Férias De Fim De Ano Por R$ 2.494!"
-        }
-      ],
-      "descoberto_em": "2026-08-03T16:23:31+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
       }
     }
   ]
