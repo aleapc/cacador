@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-17T16:44:30.765Z",
-  "visto_ate": "2026-08-16T09:32:45+00:00",
+  "gerado_em": "2026-08-17T17:42:48.402Z",
+  "visto_ate": "2026-08-17T14:18:30+00:00",
   "ultimo_explore": "2026-08-17",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 1,
+      "lidas": 1,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
@@ -494,32 +494,30 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 1,
+    "materias_lidas": 1,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 2,
-    "por_motivo_de_descarte": {
-      "incompleta": 2
-    },
-    "ineditas": 0,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 3,
     "rotas_no_historico": 240,
     "com_baseline": 147,
-    "sem_tag": 158,
+    "sem_tag": 161,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 102,
+        "total_avaliadas": 403,
+        "casam_no_perfil": 104,
         "dessas_ja_alertadas_antes": 102,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 2,
+        "alertados": 2,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
-          "posicionamento_desligado": 58,
+          "posicionamento_desligado": 59,
           "domestico": 112,
           "origem": 67,
           "janela_curta": 28
