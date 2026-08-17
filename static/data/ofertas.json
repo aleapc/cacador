@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-17T20:42:24.190Z",
-  "visto_ate": "2026-08-17T14:18:30+00:00",
+  "gerado_em": "2026-08-17T21:38:37.940Z",
+  "visto_ate": "2026-08-17T18:02:26+00:00",
   "ultimo_explore": "2026-08-17",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 1,
+      "lidas": 1,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -36,6 +36,7 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18998",
     "https://t.me/promopassagens/111116",
     "https://t.me/melhoresdestinos/18997",
     "https://t.me/melhoresdestinos/18996",
@@ -497,26 +498,26 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 1,
+    "materias_lidas": 1,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 240,
     "com_baseline": 147,
-    "sem_tag": 160,
+    "sem_tag": 161,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 103,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 104,
         "dessas_ja_alertadas_antes": 103,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
@@ -17208,16 +17209,21 @@
       "bagagem_despachada": "nao_dito",
       "companhia": "",
       "validade": "",
-      "observacao": "",
+      "observacao": "menor preço saindo de Manaus",
       "flags": [],
       "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-caribe-colombiano-17-08-26",
+          "titulo": "Caribe colombiano! Voos para San Andrés ou Cartagena a partir de apenas R$ 1.698 de Manaus ou R$ 1.812 de São Paulo e mais cidades!"
+        },
         {
           "nome": "tg:melhoresdestinos",
           "link": "https://t.me/melhoresdestinos/18996",
           "titulo": "Caribe Colombiano"
         }
       ],
-      "descoberto_em": "2026-08-17T18:04:42+00:00",
+      "descoberto_em": "2026-08-17T18:02:26+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
@@ -18869,16 +18875,21 @@
       "bagagem_despachada": "nao_dito",
       "companhia": "",
       "validade": "",
-      "observacao": "",
+      "observacao": "saindo de São Paulo e outras cidades",
       "flags": [],
       "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-caribe-colombiano-17-08-26",
+          "titulo": "Caribe colombiano! Voos para San Andrés ou Cartagena a partir de apenas R$ 1.698 de Manaus ou R$ 1.812 de São Paulo e mais cidades!"
+        },
         {
           "nome": "tg:melhoresdestinos",
           "link": "https://t.me/melhoresdestinos/18996",
           "titulo": "Caribe Colombiano"
         }
       ],
-      "descoberto_em": "2026-08-17T18:04:42+00:00",
+      "descoberto_em": "2026-08-17T18:02:26+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
