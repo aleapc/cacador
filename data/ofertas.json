@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-17T17:42:48.402Z",
+  "gerado_em": "2026-08-17T18:55:46.392Z",
   "visto_ate": "2026-08-17T14:18:30+00:00",
   "ultimo_explore": "2026-08-17",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 1,
-      "lidas": 1,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 2,
       "status": "ok"
     },
     {
@@ -27,7 +27,7 @@
     {
       "nome": "tg:canalpontospravoar",
       "novos": 0,
-      "status": "ok"
+      "status": "vazio"
     },
     {
       "nome": "tg:promopassagens",
@@ -36,6 +36,8 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/18997",
+    "https://t.me/melhoresdestinos/18996",
     "https://t.me/passageirodeprimeira/28253",
     "https://t.me/promopassagens/111105",
     "https://t.me/melhoresdestinos/18994",
@@ -494,32 +496,32 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 1,
-    "materias_lidas": 1,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 3,
+    "ofertas_extraidas": 4,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 3,
+    "ineditas": 4,
     "rotas_no_historico": 240,
     "com_baseline": 147,
-    "sem_tag": 161,
+    "sem_tag": 160,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 403,
-        "casam_no_perfil": 104,
+        "total_avaliadas": 404,
+        "casam_no_perfil": 105,
         "dessas_ja_alertadas_antes": 102,
-        "novas_para_alertar": 2,
-        "alertados": 2,
+        "novas_para_alertar": 3,
+        "alertados": 3,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
-          "posicionamento_desligado": 59,
+          "posicionamento_desligado": 58,
           "domestico": 112,
-          "origem": 67,
+          "origem": 68,
           "janela_curta": 28
         }
       }
@@ -17191,6 +17193,50 @@
       }
     },
     {
+      "id": "10494198bab2",
+      "origem_texto": "Manaus",
+      "origem_metro": "MAO",
+      "destino_texto": "San Andrés ou Cartagena",
+      "destino_metro": "",
+      "pais_iso2": "CO",
+      "preco_brl": 1698,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18996",
+          "titulo": "Caribe Colombiano"
+        }
+      ],
+      "descoberto_em": "2026-08-17T18:04:42+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:MAO"
+      }
+    },
+    {
       "id": "49c425f7e1d5",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -18798,6 +18844,50 @@
         "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
         "rotulo": "FATO_COM_FONTE"
       },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "9c78489e4452",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "San Andrés ou Cartagena",
+      "destino_metro": "",
+      "pais_iso2": "CO",
+      "preco_brl": 1812,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/18996",
+          "titulo": "Caribe Colombiano"
+        }
+      ],
+      "descoberto_em": "2026-08-17T18:04:42+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
       "gosto": {
         "ale": false,
         "andreia": false
@@ -22282,120 +22372,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "b9124ec12284",
-      "origem_texto": "Manaus",
-      "origem_metro": "MAO",
-      "destino_texto": "Orlando ou Tampa",
-      "destino_metro": "",
-      "pais_iso2": "US",
-      "preco_brl": 2120,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_inclui",
-      "companhia": "",
-      "validade": "",
-      "observacao": "Menor valor; somente bagagem de mão, exceto low cost",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-baratas-para-orlando-03ago26",
-          "titulo": "Diversáo na Flórida! Passagens baratas para Orlando a partir 2.618 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-08-09T12:06:20+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso",
-        "praia"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:MAO"
-      }
-    },
-    {
-      "id": "c24e48e015c2",
-      "origem_texto": "Manaus",
-      "origem_metro": "MAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "MCO",
-      "pais_iso2": "US",
-      "preco_brl": 2120,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_inclui",
-      "companhia": "",
-      "validade": "",
-      "observacao": "Menor valor; só bagagem de mão",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-baratas-para-orlando-03ago26",
-          "titulo": "Passagens baratas para Orlando a partir de R$ 2.120 ou nas férias de fim de ano por R$ 2.494!"
-        }
-      ],
-      "descoberto_em": "2026-08-03T16:15:28+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "posicionamento": {
-        "praca": "Manaus",
-        "praca_metro": "MAO",
-        "base_de_casa": 2408,
-        "base_origem": "São Paulo",
-        "economia_por_pessoa": 288,
-        "economia_grupo": 576,
-        "trecho_domestico": "SAO->MAO"
-      },
-      "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_576"
       }
     }
   ]
