@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-17T09:55:54.821Z",
+  "gerado_em": "2026-08-17T10:47:37.761Z",
   "visto_ate": "2026-08-16T09:32:45+00:00",
   "ultimo_explore": "2026-08-17",
   "fontes": [
@@ -26,8 +26,8 @@
     },
     {
       "nome": "tg:canalpontospravoar",
-      "novos": 0,
-      "status": "vazio"
+      "novos": 1,
+      "status": "ok"
     },
     {
       "nome": "tg:promopassagens",
@@ -36,6 +36,7 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/canalpontospravoar/27149",
     "https://t.me/promopassagens/111077",
     "https://t.me/promopassagens/111076",
     "https://t.me/melhoresdestinos/18980",
