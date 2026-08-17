@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-17T19:40:50.876Z",
+  "gerado_em": "2026-08-17T20:42:24.190Z",
   "visto_ate": "2026-08-17T14:18:30+00:00",
   "ultimo_explore": "2026-08-17",
   "fontes": [
@@ -31,7 +31,7 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
