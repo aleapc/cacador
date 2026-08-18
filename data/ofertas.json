@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-18T22:40:20.888Z",
+  "gerado_em": "2026-08-18T23:34:56.410Z",
   "visto_ate": "2026-08-18T19:51:24+00:00",
   "ultimo_explore": "2026-08-18",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 3,
-      "lidas": 3,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 2,
+      "novos": 0,
       "status": "ok"
     }
   ],
@@ -529,36 +529,33 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 3,
-    "materias_lidas": 3,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 7,
+    "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 2,
-    "por_motivo_de_descarte": {
-      "incompleta": 2
-    },
-    "ineditas": 6,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 0,
     "rotas_no_historico": 259,
     "com_baseline": 129,
-    "sem_tag": 176,
+    "sem_tag": 171,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 406,
-        "casam_no_perfil": 91,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 90,
         "dessas_ja_alertadas_antes": 90,
-        "novas_para_alertar": 1,
-        "alertados": 1,
+        "novas_para_alertar": 0,
+        "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
-          "posicionamento_desligado": 62,
+          "posicionamento_desligado": 61,
           "domestico": 121,
-          "origem": 78,
-          "janela_curta": 19,
-          "acima_do_teto": 2
+          "origem": 76,
+          "janela_curta": 19
         }
       }
     }
