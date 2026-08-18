@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-18T01:49:47.299Z",
+  "gerado_em": "2026-08-18T03:07:28.615Z",
   "visto_ate": "2026-08-17T18:02:26+00:00",
   "ultimo_explore": "2026-08-18",
   "fontes": [
@@ -11,8 +11,8 @@
     },
     {
       "nome": "google-explore",
-      "destinos": 92,
-      "status": "ok"
+      "destinos": 0,
+      "status": "nao_rodou"
     },
     {
       "nome": "tg:melhoresdestinos",
@@ -505,30 +505,29 @@
     "materias_lidas": 0,
     "extracoes_falhas": 0,
     "ofertas_extraidas": 0,
-    "explore_destinos": 92,
-    "explore_status": "ok",
+    "explore_destinos": 0,
+    "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 69,
+    "ineditas": 0,
     "rotas_no_historico": 242,
-    "com_baseline": 209,
-    "sem_tag": 169,
+    "com_baseline": 147,
+    "sem_tag": 160,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 469,
-        "casam_no_perfil": 117,
-        "dessas_ja_alertadas_antes": 103,
-        "novas_para_alertar": 14,
-        "alertados": 5,
-        "cortadas_pelo_teto": 9,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 101,
+        "dessas_ja_alertadas_antes": 101,
+        "novas_para_alertar": 0,
+        "alertados": 0,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
           "posicionamento_desligado": 57,
           "domestico": 114,
           "origem": 67,
-          "janela_curta": 49,
-          "acima_do_teto": 32
+          "janela_curta": 28
         }
       }
     }
