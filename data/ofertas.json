@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-18T13:55:16.602Z",
+  "gerado_em": "2026-08-18T14:51:20.090Z",
   "visto_ate": "2026-08-17T22:03:49+00:00",
   "ultimo_explore": "2026-08-18",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 3,
       "status": "ok"
     },
     {
@@ -31,11 +31,15 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/19011",
+    "https://t.me/melhoresdestinos/19010",
+    "https://t.me/melhoresdestinos/19009",
+    "https://t.me/passageirodeprimeira/28270",
     "https://t.me/passageirodeprimeira/28266",
     "https://t.me/promopassagens/111134",
     "https://t.me/melhoresdestinos/19006",
@@ -511,32 +515,33 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 2,
     "por_motivo_de_descarte": {
-      "categoria": 2
+      "incompleta": 2
     },
-    "ineditas": 0,
+    "ineditas": 3,
     "rotas_no_historico": 245,
     "com_baseline": 147,
-    "sem_tag": 160,
+    "sem_tag": 161,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 101,
+        "total_avaliadas": 403,
+        "casam_no_perfil": 103,
         "dessas_ja_alertadas_antes": 101,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 2,
+        "alertados": 2,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
           "posicionamento_desligado": 57,
           "domestico": 114,
           "origem": 67,
-          "janela_curta": 28
+          "janela_curta": 28,
+          "acima_do_teto": 1
         }
       }
     }
@@ -14361,6 +14366,56 @@
       }
     },
     {
+      "id": "bd8a39f5bb93",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "BUE",
+      "pais_iso2": "AR",
+      "preco_brl": 1234,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/19009",
+          "titulo": "Argentina"
+        }
+      ],
+      "descoberto_em": "2026-08-18T14:04:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "465d062a3123",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -16382,6 +16437,56 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "aaf39a491cb0",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "BUE",
+      "pais_iso2": "AR",
+      "preco_brl": 1528,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "no fim de ano",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/19009",
+          "titulo": "Argentina"
+        }
+      ],
+      "descoberto_em": "2026-08-18T14:04:22+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "ede06d851e34",
@@ -22282,117 +22387,6 @@
       "perfis": {
         "ale-andreia": "casa"
       }
-    },
-    {
-      "id": "13220f510323",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Orlando",
-      "destino_metro": "SFB",
-      "pais_texto": "Estados Unidos",
-      "pais_iso2": "US",
-      "preco_brl": 2094,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-08-23 a 2026-09-01",
-      "janela_inicio": "2026-08-23",
-      "janela_fim": "2026-09-01",
-      "noites": 9,
-      "escalas": 1,
-      "duracao_min": 687,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIzagcIARIDR1JVGhUSCjIwMjYtMDktMDFyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBwbHkw",
-          "titulo": "Orlando — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-21",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 28,
-        "mediana": 2449,
-        "minimo_visto": 2094,
-        "p10": 2105,
-        "desvio_pct": -14,
-        "raro": true
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "9986cb640b4f",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cartagena",
-      "destino_metro": "CTG",
-      "pais_iso2": "CO",
-      "preco_brl": 2095,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-bem-barato-passagens-bogota-cartagena-16jul26",
-          "titulo": "Colômbia bem barato! Passagens para Bogotá, Cartagena ou San Andrés a partir de R$ 1.393 saindo do Rio e mais cidades"
-        }
-      ],
-      "descoberto_em": "2026-07-16T08:49:56+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 4,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "praia",
-        "cultural",
-        "descanso"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
     }
   ]
 }
