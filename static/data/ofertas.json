@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-19T10:44:44.937Z",
+  "gerado_em": "2026-08-19T11:37:32.834Z",
   "visto_ate": "2026-08-18T19:51:24+00:00",
   "ultimo_explore": "2026-08-19",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -36,6 +36,7 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/19022",
     "https://t.me/passageirodeprimeira/28282",
     "https://t.me/promopassagens/111167",
     "https://t.me/promopassagens/111166",
@@ -532,23 +533,23 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 259,
     "com_baseline": 131,
     "sem_tag": 170,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 89,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 90,
         "dessas_ja_alertadas_antes": 89,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
@@ -16601,6 +16602,57 @@
       }
     },
     {
+      "id": "a4c4deb1fed5",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Santiago",
+      "destino_metro": "SCL",
+      "pais_iso2": "CL",
+      "preco_brl": 1362,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "A partir de R$ 1.362, destino Santiago, Atacama ou Patagônia",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/19022",
+          "titulo": "Chile"
+        }
+      ],
+      "descoberto_em": "2026-08-19T11:01:38+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico",
+        "montanha"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "cef485dde0d5",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -21951,72 +22003,6 @@
       "tem_tag": true,
       "sem_visto": null,
       "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "e6ee9e8e789d",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cancún",
-      "destino_metro": "CUN",
-      "destino_iata": "CUN",
-      "origem_iata": "GRU",
-      "pais_texto": "México",
-      "pais_iso2": "MX",
-      "preco_brl": 1954,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-08-20 a 2026-08-26",
-      "janela_inicio": "2026-08-20",
-      "janela_fim": "2026-08-26",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 755,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
-          "titulo": "Cancún — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-12",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 32,
-        "mediana": 2020,
-        "minimo_visto": 1748,
-        "p10": 1750,
-        "desvio_pct": -3,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "esportes_verao"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "AUTORIZACAO_ELETRONICA",
-        "dias": 180,
-        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
       "gosto": {
         "ale": false,
         "andreia": false
