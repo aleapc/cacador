@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-19T16:45:27.364Z",
-  "visto_ate": "2026-08-18T19:51:24+00:00",
+  "gerado_em": "2026-08-19T17:39:05.287Z",
+  "visto_ate": "2026-08-19T10:47:23+00:00",
   "ultimo_explore": "2026-08-19",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 2,
+      "lidas": 2,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 2,
+      "novos": 0,
       "status": "ok"
     }
   ],
@@ -541,33 +541,34 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 2,
+    "materias_lidas": 2,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 10,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 10,
     "rotas_no_historico": 259,
     "com_baseline": 130,
-    "sem_tag": 170,
+    "sem_tag": 179,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 90,
+        "total_avaliadas": 410,
+        "casam_no_perfil": 95,
         "dessas_ja_alertadas_antes": 90,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 5,
+        "alertados": 5,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
           "posicionamento_desligado": 61,
           "domestico": 123,
-          "origem": 76,
-          "janela_curta": 17
+          "origem": 80,
+          "janela_curta": 17,
+          "acima_do_teto": 1
         }
       }
     }
@@ -11562,7 +11563,7 @@
       "descoberto_em": "2026-08-04T13:29:21+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 3,
+        "amostras": 4,
         "precisa": 7
       },
       "tipos": [
@@ -15910,7 +15911,7 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 3,
+        "amostras": 4,
         "precisa": 7
       },
       "tipos": [
@@ -16598,6 +16599,55 @@
         "cidade_grande",
         "cultural",
         "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "dbbabf8ead61",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Santiago",
+      "destino_metro": "SCL",
+      "pais_iso2": "CL",
+      "preco_brl": 1362,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Também saindo de Rio de Janeiro, Florianópolis e mais cidades",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/chile-passagens-de-ida-e-volta-para-santiago-19ago26",
+          "titulo": "Chile! Passagens de ida e volta para Santiago, Atacama ou Patagônia a partir de R$ 1.362"
+        }
+      ],
+      "descoberto_em": "2026-08-19T10:05:09+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico",
+        "montanha"
       ],
       "continente": "america_sul",
       "tem_tag": true,
@@ -17658,7 +17708,7 @@
       "descoberto_em": "2026-08-10T18:35:50+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 3,
+        "amostras": 4,
         "precisa": 7
       },
       "tipos": [
@@ -20607,6 +20657,52 @@
       }
     },
     {
+      "id": "6453315ee766",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Calama (Deserto do Atacama)",
+      "destino_metro": "CJC",
+      "pais_iso2": "CL",
+      "preco_brl": 1803,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/chile-passagens-de-ida-e-volta-para-santiago-19ago26",
+          "titulo": "Chile! Passagens de ida e volta para Santiago, Atacama ou Patagônia a partir de R$ 1.362"
+        }
+      ],
+      "descoberto_em": "2026-08-19T10:05:09+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "9c78489e4452",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -20873,6 +20969,98 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "ab726d1ed89c",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Puerto Montt",
+      "destino_metro": "PMC",
+      "pais_iso2": "CL",
+      "preco_brl": 1831,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Patagônia",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/chile-passagens-de-ida-e-volta-para-santiago-19ago26",
+          "titulo": "Chile! Passagens de ida e volta para Santiago, Atacama ou Patagônia a partir de R$ 1.362"
+        }
+      ],
+      "descoberto_em": "2026-08-19T10:05:09+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
+      "id": "686e90313315",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Punta Arenas",
+      "destino_metro": "PUQ",
+      "pais_iso2": "CL",
+      "preco_brl": 1831,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Patagônia",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/chile-passagens-de-ida-e-volta-para-santiago-19ago26",
+          "titulo": "Chile! Passagens de ida e volta para Santiago, Atacama ou Patagônia a partir de R$ 1.362"
+        }
+      ],
+      "descoberto_em": "2026-08-19T10:05:09+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
     },
     {
       "id": "60e7b7b1952e",
@@ -21780,247 +21968,6 @@
         "lowest": 2103,
         "desvio_pct": -21,
         "pontos_historico": 61
-      }
-    },
-    {
-      "id": "8fa44e399e8e",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cancún",
-      "destino_metro": "CUN",
-      "pais_texto": "México",
-      "pais_iso2": "MX",
-      "preco_brl": 1927,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-08-16 a 2026-08-24",
-      "janela_inicio": "2026-08-16",
-      "janela_fim": "2026-08-24",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 684,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTAyagcIARIDR1JVGhUSCjIwMjYtMDgtMTByBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
-          "titulo": "Cancún — Google Flights"
-        },
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-caribe-cancun-15-07-26",
-          "titulo": "Caribe barato 🔥 Voos low-cost de São Paulo para Cancún a partir de R$ 2.054 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-07-17",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 32,
-        "mediana": 2020,
-        "minimo_visto": 1748,
-        "p10": 1750,
-        "desvio_pct": -5,
-        "raro": false
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "esportes_verao"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "AUTORIZACAO_ELETRONICA",
-        "dias": 180,
-        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "a6dccf1aa9f8",
-      "origem_texto": "Manaus",
-      "origem_metro": "MAO",
-      "destino_texto": "Miami",
-      "destino_metro": "MIA",
-      "pais_iso2": "US",
-      "preco_brl": 1928,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "Menor preço, taxas inclusas",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-estados-unidos-miami-16-07-26",
-          "titulo": "Miami 🦩 Voos a partir de R$ 1.745 ida e volta saindo de Manaus ou R$ 2.809 de São Paulo e mais cidades!"
-        }
-      ],
-      "descoberto_em": "2026-07-16T13:18:58+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 5,
-        "precisa": 7
-      },
-      "posicionamento": {
-        "praca": "Manaus",
-        "praca_metro": "MAO",
-        "base_de_casa": 2766,
-        "base_origem": "São Paulo",
-        "economia_por_pessoa": 838,
-        "economia_grupo": 1676,
-        "trecho_domestico": "SAO->MAO"
-      },
-      "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1676"
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "5a9012855a61",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "San Andrés",
-      "destino_metro": "ADZ",
-      "pais_iso2": "CO",
-      "preco_brl": 1941,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/san-andres-passagens-aereas-1631",
-          "titulo": "San Andrés! Passagens aéreas para o caribe colombiano a partir de R$ 1.631 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-07-24T11:52:00+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 3,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "esportes_verao"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "2890e89bf1ec",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Machu Picchu",
-      "destino_metro": "CUZ",
-      "destino_iata": "CUZ",
-      "origem_iata": "GRU",
-      "pais_texto": "Peru",
-      "pais_iso2": "PE",
-      "preco_brl": 1945,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Avianca",
-      "janela": "2026-08-06 a 2026-08-12",
-      "janela_inicio": "2026-08-06",
-      "janela_fim": "2026-08-12",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 660,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTA2agcIARIDR1JVGhUSCjIwMjYtMDgtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzBrcmZ5",
-          "titulo": "Machu Picchu — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-27",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 27,
-        "mediana": 2255,
-        "minimo_visto": 1827,
-        "p10": 1901,
-        "desvio_pct": -14,
-        "raro": false
-      },
-      "tipos": [
-        "cultural",
-        "montanha",
-        "aventura",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
       }
     }
   ]
