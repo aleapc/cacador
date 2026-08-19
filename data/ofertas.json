@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-19T22:39:18.941Z",
-  "visto_ate": "2026-08-19T10:47:23+00:00",
+  "gerado_em": "2026-08-19T23:35:09.954Z",
+  "visto_ate": "2026-08-19T21:26:25+00:00",
   "ultimo_explore": "2026-08-19",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 2,
+      "lidas": 2,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -31,11 +31,12 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/19036",
     "https://t.me/melhoresdestinos/19035",
     "https://t.me/promopassagens/111209",
     "https://t.me/melhoresdestinos/19034",
@@ -547,26 +548,28 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 2,
+    "materias_lidas": 2,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 1,
     "rotas_no_historico": 259,
-    "com_baseline": 127,
+    "com_baseline": 128,
     "sem_tag": 173,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 92,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 93,
         "dessas_ja_alertadas_antes": 92,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
@@ -21233,21 +21236,26 @@
       "preco_brl": 1839,
       "por_pessoa": true,
       "ida_e_volta": true,
-      "com_taxas": false,
+      "com_taxas": true,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
       "companhia": "",
       "validade": "",
-      "observacao": "",
+      "observacao": "Menor preço",
       "flags": [],
       "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-miami-19-08-26",
+          "titulo": "Miami 🦩 Voos a partir de R$ 1.839 ida e volta saindo de Manaus ou R$ 2.765 de São Paulo e mais cidades!"
+        },
         {
           "nome": "tg:melhoresdestinos",
           "link": "https://t.me/melhoresdestinos/19031",
           "titulo": "Miami 🦩"
         }
       ],
-      "descoberto_em": "2026-08-19T18:40:24+00:00",
+      "descoberto_em": "2026-08-19T18:37:03+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 6,
