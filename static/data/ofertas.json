@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-20T20:44:49.721Z",
+  "gerado_em": "2026-08-20T21:42:11.083Z",
   "visto_ate": "2026-08-20T10:23:19+00:00",
   "ultimo_explore": "2026-08-20",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,13 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/passageirodeprimeira/28315",
+    "https://t.me/promopassagens/111246",
     "https://t.me/melhoresdestinos/19047",
     "https://t.me/passageirodeprimeira/28309",
     "https://t.me/promopassagens/111234",
@@ -565,12 +567,14 @@
     "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
     "ineditas": 1,
     "rotas_no_historico": 263,
     "com_baseline": 125,
-    "sem_tag": 177,
+    "sem_tag": 176,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
@@ -581,12 +585,11 @@
         "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 33,
+          "tipo": 34,
           "posicionamento_desligado": 61,
           "domestico": 125,
           "origem": 78,
-          "janela_curta": 13,
-          "acima_do_teto": 1
+          "janela_curta": 13
         }
       }
     }
@@ -4211,6 +4214,57 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "fc26795389d3",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Santiago",
+      "destino_metro": "SCL",
+      "pais_iso2": "CL",
+      "preco_brl": 483,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Azul",
+      "validade": "",
+      "observacao": "ou 41 mil pontos Azul + taxas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/28315",
+          "titulo": "Voe para Santiago a partir de R$ 483 ou 41 mil pontos Azul + taxas"
+        }
+      ],
+      "descoberto_em": "2026-08-20T21:33:00+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico",
+        "montanha"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
     },
     {
       "id": "18b18c28853b",
@@ -21776,61 +21830,6 @@
       "baseline": {
         "tem_baseline": false,
         "amostras": 3,
-        "precisa": 7
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "asia",
-      "tem_tag": true,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 90,
-        "pegadinha": "DUAS ARMADILHAS, E A SEGUNDA É URGENTE. (1) A isenção vale SOMENTE para passaporte eletrônico (com chip) em conformidade com ICAO. A MOFA usa linguagem dura para o Brasil: quem não tem ePassport 'will be refused to enter Japan' — é recusa, não exame rigoroso. (2) PRAZO DO ACORDO: o regime entrou em vigor em 30/09/2023 e há relato consistente e especializado (incluindo a firma global de imigração Fragomen) de que foi firmado por um período INICIAL DE TRÊS ANOS, ou seja, vencendo por volta de 30/09/2026 — daqui a ~2 meses. NÃO encontrei confirmação NEM desmentido em fonte primária japonesa, e não há notícia de prorrogação. Quem viajar a partir de setembro/2026 NÃO pode assumir que a isenção continua: reconfirme na MOFA ou no consulado japonês antes de comprar passagem. Também exigidos na prática: passagem de volta, comprovante de hospedagem e de recursos. Não é permitido trabalhar.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "tipo:misto"
-      }
-    },
-    {
-      "id": "c3cc07d68c2c",
-      "origem_texto": "Rio",
-      "origem_metro": "RIO",
-      "destino_texto": "Tóquio",
-      "destino_metro": "",
-      "pais_iso2": "JP",
-      "preco_brl": 1834,
-      "por_pessoa": true,
-      "ida_e_volta": false,
-      "com_taxas": false,
-      "tipo": "misto",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Azul",
-      "validade": "",
-      "observacao": "Ou 157 mil pontos Azul o trecho, mais taxas",
-      "flags": [
-        "preco_abaixo_da_faixa"
-      ],
-      "fontes": [
-        {
-          "nome": "tg:promopassagens",
-          "link": "https://t.me/promopassagens/110182",
-          "titulo": "💺 Japão! Voos Rio-Tóquio Por R$ 1.834 Ou 157 Mil Pontos Azul O Trecho Mais Taxas"
-        }
-      ],
-      "descoberto_em": "2026-07-24T20:15:39+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
         "precisa": 7
       },
       "tipos": [
