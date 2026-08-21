@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-21T15:46:57.087Z",
+  "gerado_em": "2026-08-21T16:50:12.579Z",
   "visto_ate": "2026-08-21T10:54:13+00:00",
   "ultimo_explore": "2026-08-21",
   "fontes": [
@@ -21,7 +21,7 @@
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,13 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/passageirodeprimeira/28323",
+    "https://t.me/promopassagens/111278",
     "https://t.me/melhoresdestinos/19057",
     "https://t.me/melhoresdestinos/19055",
     "https://t.me/melhoresdestinos/19054",
@@ -575,26 +577,26 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 2,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 1,
     "rotas_no_historico": 263,
     "com_baseline": 127,
     "sem_tag": 175,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 401,
         "casam_no_perfil": 88,
         "dessas_ja_alertadas_antes": 88,
         "novas_para_alertar": 0,
         "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 33,
+          "tipo": 34,
           "posicionamento_desligado": 61,
           "domestico": 127,
           "origem": 78,
@@ -13101,6 +13103,65 @@
       }
     },
     {
+      "id": "e63d921a7c8f",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Orlando",
+      "destino_metro": "MCO",
+      "pais_iso2": "US",
+      "preco_brl": 1032,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Azul",
+      "validade": "",
+      "observacao": "ou 87 mil pontos Azul + taxas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/28323",
+          "titulo": "Voe para Orlando a partir de R$ 1.032 ou 87 mil pontos Azul + taxas"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/111278",
+          "titulo": "🏝 Voe Para Orlando A Partir De R$ 1.032 Ou 87 Mil Pontos Azul + Taxas"
+        }
+      ],
+      "descoberto_em": "2026-08-21T16:11:56+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "descanso"
+      ],
+      "continente": "america_norte_central",
+      "tem_tag": true,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
       "id": "2da22d9eee28",
       "origem_texto": "",
       "origem_metro": "",
@@ -21849,55 +21910,6 @@
         "exige": "SIM",
         "dias": 0,
         "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "20cc9df0cc3e",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Punta Cana",
-      "destino_metro": "PUJ",
-      "pais_iso2": "DO",
-      "preco_brl": 1822,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "datas no verão",
-      "observacao": "voo direto low cost",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18927",
-          "titulo": "Caribe direto e barato 🏖️🔥"
-        }
-      ],
-      "descoberto_em": "2026-08-12T17:45:44+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": true,
-      "visto": {
-        "exige": "NAO",
-        "dias": 30,
-        "pegadinha": "Duas. (1) O brasileiro NÃO tem visto dispensado de forma genérica — está na categoria 'pode entrar SÓ com Tarjeta de Turista, EXCLUSIVAMENTE para fins turísticos'. Qualquer outro propósito (trabalho, atividade lucrativa) derruba a base legal da entrada: atividade lucrativa com Tarjeta de Turista é punida com expulsão imediata. (2) A estadia da Tarjeta de Turista é de 30 DIAS, não 60 nem 90 — muita fonte de viagem repete '60 dias' e está errada. Passar disso exige prorrogação e pagamento de taxa por excesso de estadia na saída. Cuidado com sites cobrando pelo E-Ticket, que é gratuito no portal oficial.",
         "rotulo": "FATO_COM_FONTE"
       },
       "gosto": {
