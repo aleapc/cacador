@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-21T13:09:11.233Z",
-  "visto_ate": "2026-08-20T20:18:53+00:00",
+  "gerado_em": "2026-08-21T13:57:19.940Z",
+  "visto_ate": "2026-08-21T10:54:13+00:00",
   "ultimo_explore": "2026-08-21",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 1,
+      "lidas": 1,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 2,
       "status": "ok"
     },
     {
@@ -31,11 +31,13 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 1,
+      "novos": 0,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/19054",
+    "https://t.me/melhoresdestinos/19053",
     "https://t.me/promopassagens/111259",
     "https://t.me/melhoresdestinos/19050",
     "https://t.me/passageirodeprimeira/28317",
@@ -568,32 +570,34 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 1,
+    "materias_lidas": 1,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 1,
+    "ofertas_extraidas": 6,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 0,
-    "por_motivo_de_descarte": {},
-    "ineditas": 1,
+    "descartadas": 1,
+    "por_motivo_de_descarte": {
+      "incompleta": 1
+    },
+    "ineditas": 6,
     "rotas_no_historico": 263,
     "com_baseline": 127,
-    "sem_tag": 176,
+    "sem_tag": 179,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 401,
-        "casam_no_perfil": 89,
+        "total_avaliadas": 406,
+        "casam_no_perfil": 93,
         "dessas_ja_alertadas_antes": 88,
-        "novas_para_alertar": 1,
-        "alertados": 1,
+        "novas_para_alertar": 5,
+        "alertados": 5,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 33,
           "posicionamento_desligado": 61,
           "domestico": 127,
-          "origem": 78,
+          "origem": 79,
           "janela_curta": 13
         }
       }
