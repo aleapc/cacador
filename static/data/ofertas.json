@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-21T14:52:28.666Z",
+  "gerado_em": "2026-08-21T15:46:57.087Z",
   "visto_ate": "2026-08-21T10:54:13+00:00",
   "ultimo_explore": "2026-08-21",
   "fontes": [
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 2,
+      "novos": 0,
       "status": "ok"
     },
     {
@@ -578,10 +578,8 @@
     "ofertas_extraidas": 0,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "incompleta": 1
-    },
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
     "ineditas": 0,
     "rotas_no_historico": 263,
     "com_baseline": 127,
