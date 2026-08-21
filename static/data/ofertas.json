@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-21T10:45:34.061Z",
+  "gerado_em": "2026-08-21T11:39:14.428Z",
   "visto_ate": "2026-08-20T20:18:53+00:00",
   "ultimo_explore": "2026-08-21",
   "fontes": [
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,14 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/19050",
+    "https://t.me/passageirodeprimeira/28317",
+    "https://t.me/promopassagens/111257",
     "https://t.me/promopassagens/111255",
     "https://t.me/promopassagens/111253",
     "https://t.me/promopassagens/111247",
@@ -567,26 +570,26 @@
     "candidatos_do_slug": 0,
     "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 3,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
+    "ineditas": 2,
     "rotas_no_historico": 263,
     "com_baseline": 128,
-    "sem_tag": 174,
+    "sem_tag": 176,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 89,
+        "total_avaliadas": 402,
+        "casam_no_perfil": 90,
         "dessas_ja_alertadas_antes": 89,
-        "novas_para_alertar": 0,
-        "alertados": 0,
+        "novas_para_alertar": 1,
+        "alertados": 1,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
-          "tipo": 32,
+          "tipo": 33,
           "posicionamento_desligado": 61,
           "domestico": 127,
           "origem": 78,
@@ -13093,6 +13096,62 @@
       }
     },
     {
+      "id": "2da22d9eee28",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Washington",
+      "destino_metro": "",
+      "pais_iso2": "US",
+      "preco_brl": 1032,
+      "por_pessoa": true,
+      "ida_e_volta": false,
+      "com_taxas": false,
+      "tipo": "misto",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "Azul",
+      "validade": "",
+      "observacao": "a partir de R$ 1.032 ou 87 mil pontos Azul + taxas",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:passageirodeprimeira",
+          "link": "https://t.me/passageirodeprimeira/28317",
+          "titulo": "Trecho para Washington a partir de R$ 1.032 ou 87 mil pontos Azul + taxas"
+        },
+        {
+          "nome": "tg:promopassagens",
+          "link": "https://t.me/promopassagens/111257",
+          "titulo": "🚞 Trecho Para Washington A Partir De R$ 1.032 Ou 87 Mil Pontos Azul + Taxas"
+        }
+      ],
+      "descoberto_em": "2026-08-21T11:02:55+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": false,
+      "visto": {
+        "exige": "SIM",
+        "dias": 0,
+        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
+        "rotulo": "FATO_COM_FONTE"
+      },
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "tipo:misto"
+      }
+    },
+    {
       "id": "0d0710783d29",
       "origem_texto": "Porto Alegre",
       "origem_metro": "POA",
@@ -21844,59 +21903,6 @@
       "perfis": {
         "ale-andreia": "casa"
       }
-    },
-    {
-      "id": "07f78c4192dd",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cusco",
-      "destino_metro": "CUZ",
-      "pais_iso2": "PE",
-      "preco_brl": 1827,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Latam",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/peru-em-oferta-passagens-latam-lima-custo-1516",
-          "titulo": "Peru em oferta! Passagens da Latam para Lima ou Cusco a partir de R$ 1.516, em 10x sem juros"
-        }
-      ],
-      "descoberto_em": "2026-07-21T13:26:13+00:00",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 27,
-        "mediana": 2255,
-        "minimo_visto": 1827,
-        "p10": 1901,
-        "desvio_pct": -19,
-        "raro": true
-      },
-      "perfis": {
-        "ale-andreia": "casa"
-      },
-      "tipos": [
-        "cultural",
-        "montanha",
-        "aventura",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
     }
   ]
 }
