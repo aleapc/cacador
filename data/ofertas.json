@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-22T12:59:24.236Z",
+  "gerado_em": "2026-08-22T13:43:28.149Z",
   "visto_ate": "2026-08-22T11:40:16+00:00",
   "ultimo_explore": "2026-08-22",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 2,
-      "lidas": 2,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
@@ -16,12 +16,12 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 2,
+      "novos": 1,
       "status": "ok"
     },
     {
       "nome": "tg:passageirodeprimeira",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     },
     {
@@ -31,11 +31,14 @@
     },
     {
       "nome": "tg:promopassagens",
-      "novos": 0,
+      "novos": 1,
       "status": "ok"
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/19071",
+    "https://t.me/passageirodeprimeira/28337",
+    "https://t.me/promopassagens/111316",
     "https://t.me/melhoresdestinos/19070",
     "https://t.me/melhoresdestinos/19069",
     "https://t.me/melhoresdestinos/19068",
@@ -593,33 +596,33 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 2,
-    "materias_lidas": 2,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 9,
+    "ofertas_extraidas": 1,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 8,
+    "ineditas": 1,
     "rotas_no_historico": 267,
-    "com_baseline": 130,
-    "sem_tag": 178,
+    "com_baseline": 127,
+    "sem_tag": 177,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 408,
-        "casam_no_perfil": 86,
-        "dessas_ja_alertadas_antes": 86,
+        "total_avaliadas": 401,
+        "casam_no_perfil": 82,
+        "dessas_ja_alertadas_antes": 82,
         "novas_para_alertar": 0,
         "alertados": 0,
         "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 34,
-          "posicionamento_desligado": 60,
-          "domestico": 133,
-          "origem": 82,
-          "janela_curta": 13
+          "posicionamento_desligado": 59,
+          "domestico": 134,
+          "origem": 81,
+          "janela_curta": 11
         }
       }
     }
@@ -3528,6 +3531,52 @@
       "match": false
     },
     {
+      "id": "138c454b5baa",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Brasília",
+      "destino_metro": "BSB",
+      "pais_iso2": "BR",
+      "preco_brl": 432,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Saindo de 45 cidades brasileiras",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/19071",
+          "titulo": "Chapada dos Veadeiros"
+        }
+      ],
+      "descoberto_em": "2026-08-22T13:02:02+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "a83edc128d2f",
       "origem_texto": "Curitiba",
       "origem_metro": "CWB",
@@ -3621,60 +3670,6 @@
       }
     },
     {
-      "id": "2c87ee4812b5",
-      "origem_texto": "Belo Horizonte",
-      "origem_metro": "",
-      "destino_texto": "Rio de Janeiro",
-      "destino_metro": "RIO",
-      "pais_iso2": "BR",
-      "preco_brl": 442,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-22-08-26",
-          "titulo": "Passagens aéreas para o Rio de Janeiro a partir de R$ 442 ida e volta saindo de 48 cidades brasileiras!"
-        },
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/19069",
-          "titulo": "Rio de Janeiro"
-        }
-      ],
-      "descoberto_em": "2026-08-22T11:40:16+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "cultural",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "domestico"
-      }
-    },
-    {
       "id": "8e4fe09d0e8d",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -3733,6 +3728,60 @@
         "andreia": false
       },
       "match": false
+    },
+    {
+      "id": "2c87ee4812b5",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 442,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-22-08-26",
+          "titulo": "Passagens aéreas para o Rio de Janeiro a partir de R$ 442 ida e volta saindo de 48 cidades brasileiras!"
+        },
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/19069",
+          "titulo": "Rio de Janeiro"
+        }
+      ],
+      "descoberto_em": "2026-08-22T11:40:16+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
     },
     {
       "id": "8218cf58f966",
@@ -8291,68 +8340,6 @@
       }
     },
     {
-      "id": "30eea3b61ed6",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Rio de Janeiro",
-      "destino_metro": "RIO",
-      "destino_iata": "GIG",
-      "origem_iata": "GRU",
-      "pais_texto": "Brasil",
-      "pais_iso2": "BR",
-      "preco_brl": 680,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-10-22 a 2026-10-29",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-29",
-      "noites": 7,
-      "escalas": 0,
-      "duracao_min": 60,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
-          "titulo": "Rio de Janeiro — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 35,
-        "mediana": 574,
-        "minimo_visto": 321,
-        "p10": 356,
-        "desvio_pct": 18,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "cultural",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "domestico"
-      }
-    },
-    {
       "id": "e1a729569918",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -8386,6 +8373,68 @@
         }
       ],
       "descoberto_em": "2026-08-18",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 35,
+        "mediana": 574,
+        "minimo_visto": 321,
+        "p10": 356,
+        "desvio_pct": 18,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "30eea3b61ed6",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "destino_iata": "GIG",
+      "origem_iata": "GRU",
+      "pais_texto": "Brasil",
+      "pais_iso2": "BR",
+      "preco_brl": 680,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-10-22 a 2026-10-29",
+      "janela_inicio": "2026-10-22",
+      "janela_fim": "2026-10-29",
+      "noites": 7,
+      "escalas": 0,
+      "duracao_min": 60,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
+          "titulo": "Rio de Janeiro — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-08-22",
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
@@ -21801,72 +21850,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "origem:RIO"
-      }
-    },
-    {
-      "id": "6248b130402a",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cancún",
-      "destino_metro": "CUN",
-      "destino_iata": "CUN",
-      "origem_iata": "GRU",
-      "pais_texto": "México",
-      "pais_iso2": "MX",
-      "preco_brl": 1769,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-08-16 a 2026-08-24",
-      "janela_inicio": "2026-08-16",
-      "janela_fim": "2026-08-24",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 684,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTE2agcIARIDR1JVGhUSCjIwMjYtMDgtMjRyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
-          "titulo": "Cancún — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-28",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 35,
-        "mediana": 2025,
-        "minimo_visto": 1748,
-        "p10": 1750,
-        "desvio_pct": -13,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "esportes_verao"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "AUTORIZACAO_ELETRONICA",
-        "dias": 180,
-        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
       }
     }
   ]
