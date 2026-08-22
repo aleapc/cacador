@@ -1,18 +1,18 @@
 {
-  "gerado_em": "2026-08-22T01:48:48.791Z",
+  "gerado_em": "2026-08-22T03:06:30.295Z",
   "visto_ate": "2026-08-21T21:48:10+00:00",
   "ultimo_explore": "2026-08-22",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 1,
-      "lidas": 1,
-      "status": "ok"
+      "candidatos": 0,
+      "lidas": 0,
+      "status": "vazio"
     },
     {
       "nome": "google-explore",
-      "destinos": 89,
-      "status": "ok"
+      "destinos": 0,
+      "status": "nao_rodou"
     },
     {
       "nome": "tg:melhoresdestinos",
@@ -590,41 +590,38 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 1,
-    "materias_lidas": 1,
+    "candidatos_do_slug": 0,
+    "materias_lidas": 0,
     "extracoes_falhas": 0,
     "ofertas_extraidas": 0,
-    "explore_destinos": 89,
-    "explore_status": "ok",
+    "explore_destinos": 0,
+    "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 65,
+    "ineditas": 0,
     "rotas_no_historico": 263,
-    "com_baseline": 192,
-    "sem_tag": 175,
+    "com_baseline": 129,
+    "sem_tag": 174,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 465,
-        "casam_no_perfil": 102,
-        "dessas_ja_alertadas_antes": 87,
-        "novas_para_alertar": 15,
-        "alertados": 5,
-        "cortadas_pelo_teto": 10,
+        "total_avaliadas": 400,
+        "casam_no_perfil": 86,
+        "dessas_ja_alertadas_antes": 86,
+        "novas_para_alertar": 0,
+        "alertados": 0,
+        "cortadas_pelo_teto": 0,
         "rejeitados": {
           "tipo": 34,
-          "posicionamento_desligado": 61,
+          "posicionamento_desligado": 60,
           "domestico": 129,
           "origem": 78,
-          "janela_curta": 29,
-          "acima_do_teto": 32
+          "janela_curta": 13
         }
       }
     }
   },
-  "avisos": [
-    "leu matéria e extraiu ZERO oferta — extrator ou prompt quebrado?"
-  ],
+  "avisos": [],
   "perfis": [
     {
       "id": "ale-andreia",
@@ -7910,68 +7907,6 @@
       }
     },
     {
-      "id": "30eea3b61ed6",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Rio de Janeiro",
-      "destino_metro": "RIO",
-      "destino_iata": "GIG",
-      "origem_iata": "GRU",
-      "pais_texto": "Brasil",
-      "pais_iso2": "BR",
-      "preco_brl": 680,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-10-22 a 2026-10-29",
-      "janela_inicio": "2026-10-22",
-      "janela_fim": "2026-10-29",
-      "noites": 7,
-      "escalas": 0,
-      "duracao_min": 60,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
-          "titulo": "Rio de Janeiro — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-22",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 35,
-        "mediana": 603,
-        "minimo_visto": 321,
-        "p10": 356,
-        "desvio_pct": 13,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "cultural",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "domestico"
-      }
-    },
-    {
       "id": "e1a729569918",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -8005,6 +7940,68 @@
         }
       ],
       "descoberto_em": "2026-08-18",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 35,
+        "mediana": 603,
+        "minimo_visto": 321,
+        "p10": 356,
+        "desvio_pct": 13,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "30eea3b61ed6",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "destino_iata": "GIG",
+      "origem_iata": "GRU",
+      "pais_texto": "Brasil",
+      "pais_iso2": "BR",
+      "preco_brl": 680,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-10-22 a 2026-10-29",
+      "janela_inicio": "2026-10-22",
+      "janela_fim": "2026-10-29",
+      "noites": 7,
+      "escalas": 0,
+      "duracao_min": 60,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTIyagcIARIDR1JVGhUSCjIwMjYtMTAtMjlyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
+          "titulo": "Rio de Janeiro — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-08-22",
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
