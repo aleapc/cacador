@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-22T18:47:30.146Z",
-  "visto_ate": "2026-08-22T11:40:16+00:00",
+  "gerado_em": "2026-08-22T19:34:12.034Z",
+  "visto_ate": "2026-08-22T17:03:48+00:00",
   "ultimo_explore": "2026-08-22",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 10,
+      "lidas": 10,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -596,33 +596,34 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 10,
+    "materias_lidas": 10,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 21,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
     "descartadas": 0,
     "por_motivo_de_descarte": {},
-    "ineditas": 0,
-    "rotas_no_historico": 267,
-    "com_baseline": 126,
-    "sem_tag": 177,
+    "ineditas": 18,
+    "rotas_no_historico": 268,
+    "com_baseline": 129,
+    "sem_tag": 184,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
-        "casam_no_perfil": 81,
+        "total_avaliadas": 418,
+        "casam_no_perfil": 95,
         "dessas_ja_alertadas_antes": 81,
-        "novas_para_alertar": 0,
-        "alertados": 0,
-        "cortadas_pelo_teto": 0,
+        "novas_para_alertar": 14,
+        "alertados": 5,
+        "cortadas_pelo_teto": 9,
         "rejeitados": {
           "tipo": 34,
-          "posicionamento_desligado": 59,
+          "posicionamento_desligado": 61,
           "domestico": 134,
-          "origem": 81,
-          "janela_curta": 11
+          "origem": 82,
+          "janela_curta": 11,
+          "acima_do_teto": 1
         }
       }
     }
@@ -3383,6 +3384,55 @@
       }
     },
     {
+      "id": "6602e12af9b2",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Belo Horizonte",
+      "destino_metro": "CNF",
+      "pais_iso2": "BR",
+      "preco_brl": 426,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-belo-horizonte-22-08-26",
+          "titulo": "Passagens aéreas para Belo Horizonte a partir de R$ 426 ida e volta, saindo de São Paulo e mais cidades!"
+        },
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/19070",
+          "titulo": "Belo Horizonte"
+        }
+      ],
+      "descoberto_em": "2026-08-22T12:35:33+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "9b6bf9bdf473",
       "origem_texto": "Belo Horizonte",
       "origem_metro": "",
@@ -3410,50 +3460,6 @@
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "domestico"
-      }
-    },
-    {
-      "id": "6602e12af9b2",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Belo Horizonte",
-      "destino_metro": "CNF",
-      "pais_iso2": "BR",
-      "preco_brl": 426,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "saindo de São Paulo e mais cidades",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/19070",
-          "titulo": "Belo Horizonte"
-        }
-      ],
-      "descoberto_em": "2026-08-22T12:37:50+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 1,
         "precisa": 7
       },
       "tipos": [],
@@ -3540,7 +3546,7 @@
       "preco_brl": 432,
       "por_pessoa": true,
       "ida_e_volta": true,
-      "com_taxas": false,
+      "com_taxas": true,
       "tipo": "dinheiro",
       "bagagem_despachada": "nao_dito",
       "companhia": "",
@@ -3551,12 +3557,17 @@
       ],
       "fontes": [
         {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-brasilia-22-08-26",
+          "titulo": "Chapada dos Veadeiros! Voos para Brasília a partir de R$ 432 ida e volta, saindo de 45 cidades brasileiras!"
+        },
+        {
           "nome": "tg:melhoresdestinos",
           "link": "https://t.me/melhoresdestinos/19071",
           "titulo": "Chapada dos Veadeiros"
         }
       ],
-      "descoberto_em": "2026-08-22T13:02:02+00:00",
+      "descoberto_em": "2026-08-22T12:59:43+00:00",
       "baseline": {
         "tem_baseline": false,
         "amostras": 0,
@@ -12286,7 +12297,7 @@
       "descoberto_em": "2026-08-04T13:29:21+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 4,
+        "amostras": 5,
         "precisa": 7
       },
       "tipos": [
@@ -14558,6 +14569,55 @@
       }
     },
     {
+      "id": "d08595c807d1",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Santiago",
+      "destino_metro": "SCL",
+      "pais_iso2": "CL",
+      "preco_brl": 1141,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Também de Rio de Janeiro, Florianópolis e mais cidades",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/chile-passagens-de-ida-e-volta-para-santiago-19ago26",
+          "titulo": "Chile! Passagens de ida e volta para Santiago, Atacama ou Patagônia a partir de R$ 1.141!"
+        }
+      ],
+      "descoberto_em": "2026-08-22T14:50:54+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 5,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico",
+        "montanha"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
+      }
+    },
+    {
       "id": "bcffae3aa43e",
       "origem_texto": "",
       "origem_metro": "",
@@ -15040,6 +15100,56 @@
       "match": false,
       "perfis": {
         "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "2bd714c2f6c7",
+      "origem_texto": "",
+      "origem_metro": "",
+      "destino_texto": "Buenos Aires",
+      "destino_metro": "",
+      "pais_iso2": "AR",
+      "preco_brl": 1178,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "próximos meses, incluindo dezembro e janeiro",
+      "observacao": "Saindo de Florianópolis, Rio de Janeiro, São Paulo e mais 24 cidades",
+      "flags": [
+        "origem_nao_atribuida"
+      ],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/argentina-passagens-de-ida-e-volta-para-buenos-aires-18ago26",
+          "titulo": "Argentina! Passagens de ida e volta para Buenos Aires a partir de R$ 1.178 e no fim de ano por R$ 1.212!"
+        }
+      ],
+      "descoberto_em": "2026-08-22T14:49:07+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "cidade_grande",
+        "cultural",
+        "gastronomico"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "casa"
       }
     },
     {
@@ -17075,7 +17185,7 @@
       "descoberto_em": "2026-07-24",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 4,
+        "amostras": 5,
         "precisa": 7
       },
       "tipos": [
@@ -17865,7 +17975,7 @@
       "descoberto_em": "2026-08-19T10:05:09+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 4,
+        "amostras": 5,
         "precisa": 7
       },
       "tipos": [
@@ -19121,7 +19231,7 @@
       "descoberto_em": "2026-08-10T18:35:50+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 4,
+        "amostras": 5,
         "precisa": 7
       },
       "tipos": [
@@ -20555,6 +20665,50 @@
       "match": false
     },
     {
+      "id": "3b487f2f8aa2",
+      "origem_texto": "Manaus",
+      "origem_metro": "MAO",
+      "destino_texto": "San Andrés ou Cartagena",
+      "destino_metro": "",
+      "pais_iso2": "CO",
+      "preco_brl": 1679,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "Menor preço saindo de Manaus",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-caribe-colombiano-17-08-26",
+          "titulo": "Caribe colombiano! Voos para San Andrés ou Cartagena a partir de apenas R$ 1.679 de Manaus ou R$ 1.786 de São Paulo e mais cidades!"
+        }
+      ],
+      "descoberto_em": "2026-08-22T14:44:10+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:MAO"
+      }
+    },
+    {
       "id": "62d107a01123",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -21688,168 +21842,6 @@
       "match": false,
       "perfis": {
         "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "52a8d2cc91fd",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cancún",
-      "destino_metro": "CUN",
-      "destino_iata": "CUN",
-      "origem_iata": "GRU",
-      "pais_texto": "México",
-      "pais_iso2": "MX",
-      "preco_brl": 1762,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-10-04 a 2026-10-12",
-      "janela_inicio": "2026-10-04",
-      "janela_fim": "2026-10-12",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 684,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTA0agcIARIDR1JVGhUSCjIwMjYtMTAtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
-          "titulo": "Cancún — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-04",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 35,
-        "mediana": 2025,
-        "minimo_visto": 1748,
-        "p10": 1750,
-        "desvio_pct": -13,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "esportes_verao"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "AUTORIZACAO_ELETRONICA",
-        "dias": 180,
-        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "5a7c7552227c",
-      "origem_texto": "Rio de Janeiro",
-      "origem_metro": "RIO",
-      "destino_texto": "Cartagena das Índias",
-      "destino_metro": "CTG",
-      "pais_iso2": "CO",
-      "preco_brl": 1764,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Copa Airlines",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
-          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-08-02T02:30:10+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cultural",
-        "descanso"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:RIO"
-      }
-    },
-    {
-      "id": "7dc890a15c04",
-      "origem_texto": "Rio de Janeiro",
-      "origem_metro": "RIO",
-      "destino_texto": "Cartagena das Índias",
-      "destino_metro": "CTG",
-      "pais_iso2": "CO",
-      "preco_brl": 1766,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Copa Airlines",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-passagens-aereas-cartagena-1751",
-          "titulo": "Colômbia! Passagens para Cartagena das Índias a partir de R$ 1.751 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-07-31T14:41:57+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 2,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cultural",
-        "descanso"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "origem:RIO"
       }
     }
   ]
