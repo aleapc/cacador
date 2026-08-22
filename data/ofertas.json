@@ -1,13 +1,13 @@
 {
-  "gerado_em": "2026-08-22T11:33:52.044Z",
-  "visto_ate": "2026-08-21T21:48:10+00:00",
+  "gerado_em": "2026-08-22T12:59:24.236Z",
+  "visto_ate": "2026-08-22T11:40:16+00:00",
   "ultimo_explore": "2026-08-22",
   "fontes": [
     {
       "nome": "melhores-destinos",
-      "candidatos": 0,
-      "lidas": 0,
-      "status": "vazio"
+      "candidatos": 2,
+      "lidas": 2,
+      "status": "ok"
     },
     {
       "nome": "google-explore",
@@ -16,7 +16,7 @@
     },
     {
       "nome": "tg:melhoresdestinos",
-      "novos": 1,
+      "novos": 2,
       "status": "ok"
     },
     {
@@ -36,6 +36,8 @@
     }
   ],
   "telegram_vistos": [
+    "https://t.me/melhoresdestinos/19070",
+    "https://t.me/melhoresdestinos/19069",
     "https://t.me/melhoresdestinos/19068",
     "https://t.me/melhoresdestinos/19067",
     "https://t.me/melhoresdestinos/19066",
@@ -591,24 +593,22 @@
     "https://t.me/promopassagens/110057"
   ],
   "funil": {
-    "candidatos_do_slug": 0,
-    "materias_lidas": 0,
+    "candidatos_do_slug": 2,
+    "materias_lidas": 2,
     "extracoes_falhas": 0,
-    "ofertas_extraidas": 0,
+    "ofertas_extraidas": 9,
     "explore_destinos": 0,
     "explore_status": "nao_rodou",
-    "descartadas": 1,
-    "por_motivo_de_descarte": {
-      "incompleta": 1
-    },
-    "ineditas": 0,
-    "rotas_no_historico": 263,
-    "com_baseline": 129,
-    "sem_tag": 174,
+    "descartadas": 0,
+    "por_motivo_de_descarte": {},
+    "ineditas": 8,
+    "rotas_no_historico": 267,
+    "com_baseline": 130,
+    "sem_tag": 178,
     "agradam_os_dois": 0,
     "por_perfil": {
       "ale-andreia": {
-        "total_avaliadas": 400,
+        "total_avaliadas": 408,
         "casam_no_perfil": 86,
         "dessas_ja_alertadas_antes": 86,
         "novas_para_alertar": 0,
@@ -617,8 +617,8 @@
         "rejeitados": {
           "tipo": 34,
           "posicionamento_desligado": 60,
-          "domestico": 129,
-          "origem": 78,
+          "domestico": 133,
+          "origem": 82,
           "janela_curta": 13
         }
       }
@@ -1178,7 +1178,7 @@
       "descoberto_em": "2026-08-18T13:21:04+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 3,
+        "amostras": 4,
         "precisa": 7
       },
       "tipos": [
@@ -1294,7 +1294,7 @@
       "descoberto_em": "2026-08-18T13:23:03+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 3,
+        "amostras": 4,
         "precisa": 7
       },
       "tipos": [
@@ -1353,10 +1353,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -47,
+        "desvio_pct": -44,
         "raro": true
       },
       "tipos": [
@@ -1617,10 +1617,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -43,
+        "desvio_pct": -40,
         "raro": true
       },
       "tipos": [
@@ -1767,10 +1767,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -41,
+        "desvio_pct": -38,
         "raro": true
       },
       "perfis": {
@@ -1829,10 +1829,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -41,
+        "desvio_pct": -38,
         "raro": true
       },
       "tipos": [
@@ -2238,7 +2238,7 @@
       "descoberto_em": "2026-07-20T13:26:35+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 3,
+        "amostras": 4,
         "precisa": 7
       },
       "posicionamento": {
@@ -2346,10 +2346,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -39,
+        "desvio_pct": -36,
         "raro": false
       },
       "tipos": [
@@ -2408,10 +2408,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -39,
+        "desvio_pct": -36,
         "raro": false
       },
       "tipos": [
@@ -2616,7 +2616,7 @@
       "descoberto_em": "2026-07-25T14:04:21+00:00",
       "baseline": {
         "tem_baseline": false,
-        "amostras": 3,
+        "amostras": 4,
         "precisa": 7
       },
       "tipos": [
@@ -2827,6 +2827,50 @@
       }
     },
     {
+      "id": "9a0163e30327",
+      "origem_texto": "Ribeirão Preto",
+      "origem_metro": "RAO",
+      "destino_texto": "São Paulo",
+      "destino_metro": "SAO",
+      "pais_iso2": "BR",
+      "preco_brl": 394,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "somente neste fim de semana",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-sao-paulo-22-08-26",
+          "titulo": "Passagens aéreas para São Paulo a partir de R$ 394 ida e volta, somente neste fim de semana!"
+        }
+      ],
+      "descoberto_em": "2026-08-22T11:10:50+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:RAO"
+      }
+    },
+    {
       "id": "c2cf8bb962ba",
       "origem_texto": "Rio de Janeiro",
       "origem_metro": "RIO",
@@ -2907,10 +2951,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -34,
+        "desvio_pct": -30,
         "raro": false
       },
       "tipos": [
@@ -3310,10 +3354,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -30,
+        "desvio_pct": -26,
         "raro": false
       },
       "tipos": [
@@ -3324,6 +3368,94 @@
       ],
       "continente": "america_sul",
       "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "9b6bf9bdf473",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "",
+      "destino_texto": "São Paulo",
+      "destino_metro": "SAO",
+      "pais_iso2": "BR",
+      "preco_brl": 426,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "somente neste fim de semana",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-sao-paulo-22-08-26",
+          "titulo": "Passagens aéreas para São Paulo a partir de R$ 394 ida e volta, somente neste fim de semana!"
+        }
+      ],
+      "descoberto_em": "2026-08-22T11:10:50+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "6602e12af9b2",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Belo Horizonte",
+      "destino_metro": "CNF",
+      "pais_iso2": "BR",
+      "preco_brl": 426,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": false,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "saindo de São Paulo e mais cidades",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/19070",
+          "titulo": "Belo Horizonte"
+        }
+      ],
+      "descoberto_em": "2026-08-22T12:37:50+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
       "sem_visto": null,
       "visto": null,
       "gosto": {
@@ -3370,10 +3502,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -29,
+        "desvio_pct": -25,
         "raro": false
       },
       "perfis": {
@@ -3445,6 +3577,104 @@
       }
     },
     {
+      "id": "3a0c3cd64be7",
+      "origem_texto": "Curitiba",
+      "origem_metro": "CWB",
+      "destino_texto": "São Paulo",
+      "destino_metro": "SAO",
+      "pais_iso2": "BR",
+      "preco_brl": 441,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "somente neste fim de semana",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-sao-paulo-22-08-26",
+          "titulo": "Passagens aéreas para São Paulo a partir de R$ 394 ida e volta, somente neste fim de semana!"
+        }
+      ],
+      "descoberto_em": "2026-08-22T11:10:50+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [],
+      "continente": null,
+      "tem_tag": false,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:CWB"
+      }
+    },
+    {
+      "id": "2c87ee4812b5",
+      "origem_texto": "Belo Horizonte",
+      "origem_metro": "",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 442,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-22-08-26",
+          "titulo": "Passagens aéreas para o Rio de Janeiro a partir de R$ 442 ida e volta saindo de 48 cidades brasileiras!"
+        },
+        {
+          "nome": "tg:melhoresdestinos",
+          "link": "https://t.me/melhoresdestinos/19069",
+          "titulo": "Rio de Janeiro"
+        }
+      ],
+      "descoberto_em": "2026-08-22T11:40:16+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 0,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "8e4fe09d0e8d",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -3479,10 +3709,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -27,
+        "desvio_pct": -23,
         "raro": false
       },
       "perfis": {
@@ -3887,10 +4117,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -24,
+        "desvio_pct": -20,
         "raro": false
       },
       "tipos": [
@@ -3949,10 +4179,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -24,
+        "desvio_pct": -20,
         "raro": false
       },
       "tipos": [
@@ -4011,10 +4241,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -24,
+        "desvio_pct": -20,
         "raro": false
       },
       "tipos": [
@@ -4336,10 +4566,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -19,
+        "desvio_pct": -15,
         "raro": false
       },
       "perfis": {
@@ -4447,6 +4677,55 @@
       "match": false,
       "perfis": {
         "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "0bb50fcd2ce7",
+      "origem_texto": "Chapecó",
+      "origem_metro": "XAP",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 492,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-22-08-26",
+          "titulo": "Passagens aéreas para o Rio de Janeiro a partir de R$ 442 ida e volta saindo de 48 cidades brasileiras!"
+        }
+      ],
+      "descoberto_em": "2026-08-22T11:40:16+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 1,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:XAP"
       }
     },
     {
@@ -4817,6 +5096,108 @@
       }
     },
     {
+      "id": "5016c3226bdb",
+      "origem_texto": "Vitória",
+      "origem_metro": "VIX",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 529,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-22-08-26",
+          "titulo": "Passagens aéreas para o Rio de Janeiro a partir de R$ 442 ida e volta saindo de 48 cidades brasileiras!"
+        }
+      ],
+      "descoberto_em": "2026-08-22T11:40:16+00:00",
+      "baseline": {
+        "tem_baseline": false,
+        "amostras": 4,
+        "precisa": 7
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "origem:VIX"
+      }
+    },
+    {
+      "id": "3e12cc3fa750",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "pais_iso2": "BR",
+      "preco_brl": 534,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "",
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "melhores-destinos",
+          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-rio-de-janeiro-22-08-26",
+          "titulo": "Passagens aéreas para o Rio de Janeiro a partir de R$ 442 ida e volta saindo de 48 cidades brasileiras!"
+        }
+      ],
+      "descoberto_em": "2026-08-22T11:40:16+00:00",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 35,
+        "mediana": 574,
+        "minimo_visto": 321,
+        "p10": 356,
+        "desvio_pct": -7,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
       "id": "f89e49344d4d",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -4851,10 +5232,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -11,
+        "desvio_pct": -7,
         "raro": false
       },
       "perfis": {
@@ -5016,10 +5397,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -9,
+        "desvio_pct": -4,
         "raro": false
       },
       "tipos": [
@@ -5221,10 +5602,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -9,
+        "desvio_pct": -4,
         "raro": false
       },
       "tipos": [
@@ -5423,10 +5804,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -6,
+        "desvio_pct": -1,
         "raro": false
       },
       "tipos": [
@@ -5485,10 +5866,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -6,
+        "desvio_pct": -1,
         "raro": false
       },
       "tipos": [
@@ -5591,10 +5972,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": -5,
+        "desvio_pct": 0,
         "raro": false
       },
       "tipos": [
@@ -5866,10 +6247,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 0,
+        "desvio_pct": 5,
         "raro": false
       },
       "tipos": [
@@ -5928,10 +6309,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 0,
+        "desvio_pct": 5,
         "raro": false
       },
       "tipos": [
@@ -5990,10 +6371,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 2,
+        "desvio_pct": 7,
         "raro": false
       },
       "tipos": [
@@ -6105,10 +6486,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 3,
+        "desvio_pct": 8,
         "raro": false
       },
       "tipos": [
@@ -6522,10 +6903,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 3,
+        "desvio_pct": 8,
         "raro": false
       },
       "tipos": [
@@ -6643,10 +7024,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 4,
+        "desvio_pct": 9,
         "raro": false
       },
       "tipos": [
@@ -6705,10 +7086,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 4,
+        "desvio_pct": 9,
         "raro": false
       },
       "tipos": [
@@ -7113,10 +7494,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 7,
+        "desvio_pct": 12,
         "raro": false
       },
       "tipos": [
@@ -7175,10 +7556,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 7,
+        "desvio_pct": 12,
         "raro": false
       },
       "tipos": [
@@ -7541,10 +7922,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 10,
+        "desvio_pct": 15,
         "raro": false
       },
       "tipos": [
@@ -7663,10 +8044,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 11,
+        "desvio_pct": 17,
         "raro": false
       },
       "tipos": [
@@ -7778,10 +8159,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 12,
+        "desvio_pct": 18,
         "raro": false
       },
       "tipos": [
@@ -7840,10 +8221,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 12,
+        "desvio_pct": 18,
         "raro": false
       },
       "tipos": [
@@ -7910,68 +8291,6 @@
       }
     },
     {
-      "id": "e1a729569918",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Rio de Janeiro",
-      "destino_metro": "RIO",
-      "destino_iata": "GIG",
-      "origem_iata": "GRU",
-      "pais_texto": "Brasil",
-      "pais_iso2": "BR",
-      "preco_brl": 680,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "LATAM",
-      "janela": "2026-10-16 a 2026-10-22",
-      "janela_inicio": "2026-10-16",
-      "janela_fim": "2026-10-22",
-      "noites": 6,
-      "escalas": 0,
-      "duracao_min": 60,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE2agcIARIDR1JVGhUSCjIwMjYtMTAtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
-          "titulo": "Rio de Janeiro — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-18",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 35,
-        "mediana": 603,
-        "minimo_visto": 321,
-        "p10": 356,
-        "desvio_pct": 13,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "cultural",
-        "natureza"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "domestico"
-      }
-    },
-    {
       "id": "30eea3b61ed6",
       "origem_texto": "São Paulo",
       "origem_metro": "SAO",
@@ -8008,10 +8327,72 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 13,
+        "desvio_pct": 18,
+        "raro": false
+      },
+      "tipos": [
+        "praia",
+        "cidade_grande",
+        "cultural",
+        "natureza"
+      ],
+      "continente": "america_sul",
+      "tem_tag": true,
+      "sem_visto": null,
+      "visto": null,
+      "gosto": {
+        "ale": false,
+        "andreia": false
+      },
+      "match": false,
+      "perfis": {
+        "ale-andreia": "domestico"
+      }
+    },
+    {
+      "id": "e1a729569918",
+      "origem_texto": "São Paulo",
+      "origem_metro": "SAO",
+      "destino_texto": "Rio de Janeiro",
+      "destino_metro": "RIO",
+      "destino_iata": "GIG",
+      "origem_iata": "GRU",
+      "pais_texto": "Brasil",
+      "pais_iso2": "BR",
+      "preco_brl": 680,
+      "por_pessoa": true,
+      "ida_e_volta": true,
+      "com_taxas": true,
+      "tipo": "dinheiro",
+      "bagagem_despachada": "nao_dito",
+      "companhia": "LATAM",
+      "janela": "2026-10-16 a 2026-10-22",
+      "janela_inicio": "2026-10-16",
+      "janela_fim": "2026-10-22",
+      "noites": 6,
+      "escalas": 0,
+      "duracao_min": 60,
+      "validade": "",
+      "observacao": "",
+      "flags": [],
+      "fontes": [
+        {
+          "nome": "google-explore",
+          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTE2agcIARIDR1JVGhUSCjIwMjYtMTAtMjJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDioMCAMSCC9tLzA2Z21y",
+          "titulo": "Rio de Janeiro — Google Flights"
+        }
+      ],
+      "descoberto_em": "2026-08-18",
+      "baseline": {
+        "tem_baseline": true,
+        "amostras": 35,
+        "mediana": 574,
+        "minimo_visto": 321,
+        "p10": 356,
+        "desvio_pct": 18,
         "raro": false
       },
       "tipos": [
@@ -8070,10 +8451,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 13,
+        "desvio_pct": 18,
         "raro": false
       },
       "tipos": [
@@ -8132,10 +8513,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 13,
+        "desvio_pct": 18,
         "raro": false
       },
       "tipos": [
@@ -8194,10 +8575,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 13,
+        "desvio_pct": 18,
         "raro": false
       },
       "tipos": [
@@ -8522,10 +8903,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 17,
+        "desvio_pct": 23,
         "raro": false
       },
       "tipos": [
@@ -8584,10 +8965,10 @@
       "baseline": {
         "tem_baseline": true,
         "amostras": 35,
-        "mediana": 603,
+        "mediana": 574,
         "minimo_visto": 321,
         "p10": 356,
-        "desvio_pct": 18,
+        "desvio_pct": 24,
         "raro": false
       },
       "tipos": [
@@ -21479,464 +21860,6 @@
         "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
         "rotulo": "FATO_COM_FONTE"
       },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "8db4cfc1b7cc",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cancún",
-      "destino_metro": "CUN",
-      "destino_iata": "CUN",
-      "origem_iata": "GRU",
-      "pais_texto": "México",
-      "pais_iso2": "MX",
-      "preco_brl": 1770,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-08-20 a 2026-08-26",
-      "janela_inicio": "2026-08-20",
-      "janela_fim": "2026-08-26",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 755,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
-          "titulo": "Cancún — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-07",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 35,
-        "mediana": 2025,
-        "minimo_visto": 1748,
-        "p10": 1750,
-        "desvio_pct": -13,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "esportes_verao"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "AUTORIZACAO_ELETRONICA",
-        "dias": 180,
-        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "1dc1437cef7f",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cancún",
-      "destino_metro": "CUN",
-      "destino_iata": "CUN",
-      "origem_iata": "GRU",
-      "pais_texto": "México",
-      "pais_iso2": "MX",
-      "preco_brl": 1771,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-10-04 a 2026-10-12",
-      "janela_inicio": "2026-10-04",
-      "janela_fim": "2026-10-12",
-      "noites": 8,
-      "escalas": 1,
-      "duracao_min": 684,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTEwLTA0agcIARIDR1JVGhUSCjIwMjYtMTAtMTJyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
-          "titulo": "Cancún — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-07-29",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 35,
-        "mediana": 2025,
-        "minimo_visto": 1748,
-        "p10": 1750,
-        "desvio_pct": -13,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "esportes_verao"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "AUTORIZACAO_ELETRONICA",
-        "dias": 180,
-        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "9ead07c80046",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "Cancún",
-      "destino_metro": "CUN",
-      "destino_iata": "CUN",
-      "origem_iata": "GRU",
-      "pais_texto": "México",
-      "pais_iso2": "MX",
-      "preco_brl": 1776,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": true,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "Arajet",
-      "janela": "2026-08-20 a 2026-08-26",
-      "janela_inicio": "2026-08-20",
-      "janela_fim": "2026-08-26",
-      "noites": 6,
-      "escalas": 1,
-      "duracao_min": 755,
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "google-explore",
-          "link": "https://www.google.com/travel/explore?hl=pt-br&gl=br&curr=BRL&tfs=CBwQAxoVEgoyMDI2LTA4LTIwagcIARIDR1JVGhUSCjIwMjYtMDgtMjZyBwgBEgNHUlVAAUgBcAGCAQsI____________AZgBAbIBDyoNCAMSCS9tLzAxcTk4bQ",
-          "titulo": "Cancún — Google Flights"
-        }
-      ],
-      "descoberto_em": "2026-08-05",
-      "baseline": {
-        "tem_baseline": true,
-        "amostras": 35,
-        "mediana": 2025,
-        "minimo_visto": 1748,
-        "p10": 1750,
-        "desvio_pct": -12,
-        "raro": false
-      },
-      "tipos": [
-        "praia",
-        "descanso",
-        "esportes_verao"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "AUTORIZACAO_ELETRONICA",
-        "dias": 180,
-        "pegadinha": "O caso-mãe do dataset, quatro camadas. (1) O México exige visto de brasileiros desde agosto/2022 — quem viajou antes disso e acha que 'nunca precisou' é barrado. (2) A e-visa reaberta em 05/02/2026 é SÓ AÉREA e de ENTRADA ÚNICA: NÃO substitui nem reemplaza a visa consular, que continua necessária para entrada TERRESTRE ou MARÍTIMA e para múltiplas entradas. Quem cruza a fronteira dos EUA por terra ou chega de cruzeiro precisa da consular. (3) A ISENÇÃO que salva a maioria e está CONFIRMADA em fonte oficial: quem tem visto VÁLIDO E VIGENTE dos EUA, Canadá, Japão, Reino Unido ou Espaço Schengen entra no México SEM visto mexicano e SEM e-visa, como visitante sem atividade remunerada por até 180 dias, apresentando o documento na chegada. Vale também para residência permanente nesses países e nos da Aliança do Pacífico (Chile, Colômbia, Peru), e para portadores de APEC Business Travel Card aprovada pelo México. É por isso que casal com visto americano válido simplesmente embarca. (4) Ter e-visa NÃO garante entrada: o INM pode exigir passagem de volta, hospedagem, solvência ou carta-convite no balcão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "janela_curta:6n"
-      }
-    },
-    {
-      "id": "99b81936a8ef",
-      "origem_texto": "Manaus",
-      "origem_metro": "MAO",
-      "destino_texto": "Miami",
-      "destino_metro": "MIA",
-      "pais_iso2": "US",
-      "preco_brl": 1783,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "menor preço",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/florida-selecao-passagens-aereas-miami-fort-lauderdale-2694",
-          "titulo": "Flórida: seleção de passagens aéreas para Miami ou Fort Lauderdale a partir de R$ 2.694 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-07-24T18:28:35+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 6,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "posicionamento": {
-        "praca": "Manaus",
-        "praca_metro": "MAO",
-        "base_de_casa": 2765,
-        "base_origem": "São Paulo",
-        "economia_por_pessoa": 982,
-        "economia_grupo": 1964,
-        "trecho_domestico": "SAO->MAO"
-      },
-      "perfis": {
-        "ale-andreia": "posicionamento_desligado:diferenca_bruta_1964"
-      }
-    },
-    {
-      "id": "dcf7db34ace6",
-      "origem_texto": "Brasília",
-      "origem_metro": "BSB",
-      "destino_texto": "Bogotá",
-      "destino_metro": "BOG",
-      "pais_iso2": "CO",
-      "preco_brl": 1788,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/colombia-bem-barato-passagens-bogota-cartagena-16jul26",
-          "titulo": "Colômbia bem barato! Passagens para Bogotá, Cartagena ou San Andrés a partir de R$ 1.393 saindo do Rio e mais cidades"
-        }
-      ],
-      "descoberto_em": "2026-07-16T08:49:56+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "perfis": {
-        "ale-andreia": "origem:BSB"
-      },
-      "tipos": [
-        "cidade_grande",
-        "cultural",
-        "gastronomico"
-      ],
-      "continente": "america_sul",
-      "tem_tag": true,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false
-    },
-    {
-      "id": "62b099d180fa",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Miami",
-      "destino_metro": "MIA",
-      "pais_iso2": "US",
-      "preco_brl": 1795,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "A partir de; destinos na Flórida (Miami, Orlando, Tampa, Fort Lauderdale)",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-black-friday-eua-2026",
-          "titulo": "Muito bom: voos para Miami ou Orlando nos dias de promoção a partir de R$ 1.795 ida e volta"
-        }
-      ],
-      "descoberto_em": "2026-08-01T22:23:12+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [
-        "praia",
-        "cidade_grande",
-        "descanso"
-      ],
-      "continente": "america_norte_central",
-      "tem_tag": true,
-      "sem_visto": false,
-      "visto": {
-        "exige": "SIM",
-        "dias": 0,
-        "pegadinha": "(1) Muito brasileiro acredita que 'existe ESTA para o Brasil' — não existe; o Brasil esteve no VWP apenas entre 1994 e 2002 e nunca voltou. (2) Fila de entrevista em São Paulo/Rio na casa de 4–6 meses: quem compra passagem antes de ter o visto perde a viagem. (3) Custo: além dos US$185 da MRV, existe a 'Visa Integrity Fee' de US$250 criada pela lei de 04/07/2025 (One Big Beautiful Bill Act) — ver ressalva na nota, trate como NÃO VERIFICADO. (4) Visto não garante entrada: o oficial do CBP decide no portão.",
-        "rotulo": "FATO_COM_FONTE"
-      },
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "6453315ee766",
-      "origem_texto": "",
-      "origem_metro": "",
-      "destino_texto": "Calama (Deserto do Atacama)",
-      "destino_metro": "CJC",
-      "pais_iso2": "CL",
-      "preco_brl": 1803,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "",
-      "flags": [
-        "origem_nao_atribuida"
-      ],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/chile-passagens-de-ida-e-volta-para-santiago-19ago26",
-          "titulo": "Chile! Passagens de ida e volta para Santiago, Atacama ou Patagônia a partir de R$ 1.362"
-        }
-      ],
-      "descoberto_em": "2026-08-19T10:05:09+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
-      "gosto": {
-        "ale": false,
-        "andreia": false
-      },
-      "match": false,
-      "perfis": {
-        "ale-andreia": "casa"
-      }
-    },
-    {
-      "id": "9c78489e4452",
-      "origem_texto": "São Paulo",
-      "origem_metro": "SAO",
-      "destino_texto": "San Andrés ou Cartagena",
-      "destino_metro": "",
-      "pais_iso2": "CO",
-      "preco_brl": 1812,
-      "por_pessoa": true,
-      "ida_e_volta": true,
-      "com_taxas": false,
-      "tipo": "dinheiro",
-      "bagagem_despachada": "nao_dito",
-      "companhia": "",
-      "validade": "",
-      "observacao": "saindo de São Paulo e outras cidades",
-      "flags": [],
-      "fontes": [
-        {
-          "nome": "melhores-destinos",
-          "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-caribe-colombiano-17-08-26",
-          "titulo": "Caribe colombiano! Voos para San Andrés ou Cartagena a partir de apenas R$ 1.698 de Manaus ou R$ 1.812 de São Paulo e mais cidades!"
-        },
-        {
-          "nome": "tg:melhoresdestinos",
-          "link": "https://t.me/melhoresdestinos/18996",
-          "titulo": "Caribe Colombiano"
-        }
-      ],
-      "descoberto_em": "2026-08-17T18:02:26+00:00",
-      "baseline": {
-        "tem_baseline": false,
-        "amostras": 0,
-        "precisa": 7
-      },
-      "tipos": [],
-      "continente": null,
-      "tem_tag": false,
-      "sem_visto": null,
-      "visto": null,
       "gosto": {
         "ale": false,
         "andreia": false
